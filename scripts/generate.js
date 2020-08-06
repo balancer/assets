@@ -30,6 +30,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			name: metadata[network][address].name,
 			symbol: metadata[network][address].symbol,
 			precision: data.precision[network][address] || defaultPrecision,
+			hasIcon: data.trustwalletList.includes(address),
 		};
 	}
 	const uiTokens = {};
