@@ -12,7 +12,7 @@ async function run() {
 	const lists = await getLists();
 	const data = await getData();
 	const tokens = mergeTokenLists(lists);
-	const metadata = await getMetadata(tokens);
+	const metadata = await getMetadata(tokens, data.metadataOverwrite);
 	await generate(lists, data, metadata);
 }
 
@@ -100,6 +100,8 @@ async function getData() {
 	const color = JSON.parse(colorFile);
 	const configFile = await fs.readFileSync('data/config.json');
 	const config = JSON.parse(configFile);
+	const metadataOverwriteFile = await fs.readFileSync('data/metadataOverwrite.json');
+	const metadataOverwrite = JSON.parse(metadataOverwriteFile);
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
@@ -113,13 +115,14 @@ async function getData() {
 		color,
 		config,
 		precision,
+		metadataOverwrite,
 		trustwalletList,
 	};
 }
 
-async function getMetadata(tokens) {
-	const kovan = await getNetworkMetadata('kovan', tokens.kovan);
-	const homestead = await getNetworkMetadata('homestead', tokens.homestead);
+async function getMetadata(tokens, overwrite) {
+	const kovan = await getNetworkMetadata('kovan', tokens.kovan, overwrite.kovan);
+	const homestead = await getNetworkMetadata('homestead', tokens.homestead, overwrite.homestead);
 
 	return {
 		kovan,
@@ -127,7 +130,7 @@ async function getMetadata(tokens) {
 	};
 }
 
-async function getNetworkMetadata(network, tokens) {
+async function getNetworkMetadata(network, tokens, overwrite) {
 	const infuraKey = '93e3393c76ed4e1f940d0266e2fdbda2';
 
 	const providers = {
@@ -155,12 +158,8 @@ async function getNetworkMetadata(network, tokens) {
 	const [, response] = await multi.aggregate(calls);
 	for (let i = 0; i < tokens.length; i++) {
 		const address = tokens[i];
-		if (address === '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2') {
-			tokenMetadata[address] = {
-				decimals: 18,
-				symbol: 'MKR',
-				name: 'Maker',
-			};
+		if (address in overwrite) {
+			tokenMetadata[address] = overwrite[address];
 			continue;
 		}
 		const [decimals] = erc20Contract.decodeFunctionResult('decimals', response[3 * i]);

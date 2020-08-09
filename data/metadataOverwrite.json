@@ -1,0 +1,20 @@
+{
+	"kovan": {},
+	"homestead": {
+		"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+			"decimals": 18,
+			"symbol": "MKR",
+			"name": "Maker"
+		},
+		"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+			"decimals": 6,
+			"symbol": "USDC",
+			"name": "USD Coin"
+		},
+		"0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8": {
+			"decimals": 18,
+			"symbol": "yCRV",
+			"name": "Curve.fi Y Pool Token"
+		}
+	}
+}
