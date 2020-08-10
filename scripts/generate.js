@@ -87,7 +87,7 @@ async function getLists() {
 	const eligible = JSON.parse(eligibleFile);
 	const listedFile = await fs.readFileSync('lists/listed.json');
 	const listed = JSON.parse(listedFile);
-	const uiFile = await fs.readFileSync('lists/ui.json');
+	const uiFile = await fs.readFileSync('lists/ui-not-eligible.json');
 	const ui = JSON.parse(uiFile);
 	const untrustedFile = await fs.readFileSync('lists/untrusted.json');
 	const untrusted = JSON.parse(untrustedFile);
