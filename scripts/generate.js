@@ -9,11 +9,16 @@ const erc20 = require('../abi/ERC20.json');
 const defaultPrecision = 2;
 
 async function run() {
-	const lists = await getLists();
-	const data = await getData();
-	const tokens = mergeTokenLists(lists);
-	const metadata = await getMetadata(tokens, data.metadataOverwrite);
-	await generate(lists, data, metadata);
+	try {
+		const lists = await getLists();
+		const data = await getData();
+		const tokens = mergeTokenLists(lists);
+		const metadata = await getMetadata(tokens, data.metadataOverwrite);
+		await generate(lists, data, metadata);
+	} catch(e) {
+		console.error(e);
+		process.exit(1);
+	}
 }
 
 async function generate(lists, data, metadata) {
