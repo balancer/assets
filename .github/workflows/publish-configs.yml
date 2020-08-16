@@ -1,27 +1,72 @@
-name: Publish generated configs as artifacts
+name: Update token list
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  build:
-
+  generate:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 14.x
     - run: npm ci
     - run: npm run generate
-    - uses: actions/upload-artifact@v2
+    - name: Upload DEX Kovan config
+      uses: actions/upload-artifact@v2
       with:
-        name: Configs
-        path: generated
+        name: dex-kovan-data
+        path: generated/dex/kovan.json
+    - name: Upload DEX Homestead config
+      uses: actions/upload-artifact@v2
+      with:
+        name: pm-homestead-data
+        path: generated/pm/homestead.json
+    - name: Upload PM Kovan config
+      uses: actions/upload-artifact@v2
+      with:
+        name: pm-kovan-data
+        path: generated/pm/kovan.json
+    - name: Upload PM Homestead config
+      uses: actions/upload-artifact@v2
+      with:
+        name: dex-homestead-data
+        path: generated/dex/homestead.json
+  update-pm:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download Kovan config
+      uses: actions/download-artifact@v2
+      with:
+        name: pm-kovan-data
+    - name: Download Homestead config
+      uses: actions/download-artifact@v2
+      with:
+        name: pm-homestead-data
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PERSONAL_TOKEN }}
+        repository: balancer-labs/pool-management-vue
+        ref: list_update
+        path: pm
+        fetch-depth: 0
+    - name: Commit
+      run: |
+        cd pm
+        cp ../kovan.json src/config/kovan.json
+        cp ../homestead.json src/config/homestead.json
+        git config --global user.email "destinerx@gmail.com"
+        git config --global user.name "Timur Badretdinov"
+        git add .
+        git commit -m "Update token list"
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PERSONAL_TOKEN }}
+        repository: balancer-labs/pool-management-vue
+        branch: list_update
+        directory: pm
