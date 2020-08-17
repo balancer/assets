@@ -239,6 +239,11 @@ function getConfig(network, dapp) {
 			walletconnect: {
 				id: "walletconnect",
 				name: "WalletConnect",
+				options: {
+					rpc: {
+						[chainIdMap[network]]: `https://eth-${alchemyNetwork[network]}.alchemyapi.io/v2/${alchemyMap[dapp][network]}`,
+					},
+				},
 			},
 			portis: {
 				id: "portis",
