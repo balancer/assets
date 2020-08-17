@@ -173,7 +173,7 @@
 		"0x1bcCA39aE82e53dede8eC5500c3BCd76Cd1e0072": "ethbtc-price-action-candlestick-set",
 		"0xa12a696B9B11788076A6cb384CAc6986b82545E1": "eth-super-set",
 		"0x54e8371C1EC43e58fB53D4ef4eD463C17Ba8a6bE": "eth-26-ma-crossover-yield-ii",
-		"0xB647a1D7633c6C4d434e22eE9756b36F2b219525": "",
+		"0xB647a1D7633c6C4d434e22eE9756b36F2b219525": "eth-20-ma-crossover-yield-set-ii",
 		"0x98A25bA4c3793B9029652cBc1a8875cBe223dF13": "eth-momentum-trigger-set",
 		"0xB1CA7E6714263a64659A3a89E1C313af30fD660A": "eth-moonshot-x-yield-set",
 		"0x2Bf417FdA6E73B8Ea605DF0F33aD029F8d4b795A": "eth-moonshot-x-discretionary-yield-set",
@@ -187,7 +187,7 @@
 		"0xdBf5c7D8ac5007667617a15DB2c1B1D616c9D302": "flexeth-btc-set",
 		"0xF5c0E24ACA5217BcBAe662871caE1A86873F02db": "alligator-fractal-set",
 		"0x15822A64c8Cb27D7828C45E0aAFC3e6C5DeCd172": "fear-greed-sentiment-set-ii",
-		"0x5cD487CE4dB7091292F2E914F7B31445Bd4A5E1b": "",
+		"0x5cD487CE4dB7091292F2E914F7B31445Bd4A5E1b": "inverse-eth-29-day-ma-crossover-set",
 		"0xAC1565e473F69FAdA09661A6B4103FBbF801CeEE": "inverse-eth-29-day-ma-crossover-set",
 		"0xB32c960c46f28059C2B5F1C3eCC2b9DD77aB0aA0": "intelligent-btc-set-ii",
 		"0x89C0b027bD7cc2D17854B06F8322e29451192CE3": "intelligent-eth-set-ii",
@@ -230,6 +230,15 @@
 		"0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8": "curve-fi-ydai-yusdc-yusdt-ytusd",
 		"0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5": "yusd-synthetic-token-expiring-1-september-2020",
 		"0x221657776846890989a759BA2973e427DfF5C9bB": "augur",
-		"0x476c5E26a75bd202a9683ffD34359C0CC15be0fF": "serum"
+		"0x476c5E26a75bd202a9683ffD34359C0CC15be0fF": "serum",
+		"0xC0134b5B924c2FCA106eFB33C45446c466FBe03e": "aleph",
+		"0xBA50933C268F567BDC86E1aC131BE072C6B0b71a": "arpa-chain",
+		"0x954b890704693af242613edEf1B603825afcD708": "cardstack",
+		"0x13339fD07934CD674269726EdF3B5ccEE9DD93de": "curio",
+		"0xBD6467a31899590474cE1e84F70594c53D628e46": "kardiachain",
+		"0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e": "nectar-token",
+		"0x12f649A9E821F90BB143089a6e56846945892ffB": "howdoo",
+		"0xD533a949740bb3306d119CC777fa900bA034cd52": "curve-dao-token",
+		"0xD46bA6D942050d489DBd938a2C909A5d5039A161": "ampleforth"
 	}
 }
