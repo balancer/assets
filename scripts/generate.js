@@ -72,12 +72,12 @@ async function generateNetwork(network, lists, data, metadata) {
 		};
 	}
 	const dexData = {
-		...data.config[network],
+		...getConfig(network, 'dex'),
 		tokens: listedTokens,
 		untrusted,
 	};
 	const pmData = {
-		...data.config[network],
+		...getConfig(network, 'pm'),
 		tokens: uiTokens,
 		untrusted,
 	};
@@ -109,8 +109,6 @@ async function getData() {
 	const coingecko = JSON.parse(coingeckoFile);
 	const colorFile = await fs.readFileSync('data/color.json');
 	const color = JSON.parse(colorFile);
-	const configFile = await fs.readFileSync('data/config.json');
-	const config = JSON.parse(configFile);
 	const metadataOverwriteFile = await fs.readFileSync('data/metadataOverwrite.json');
 	const metadataOverwrite = JSON.parse(metadataOverwriteFile);
 	const precisionFile = await fs.readFileSync('data/precision.json');
@@ -124,7 +122,6 @@ async function getData() {
 	return {
 		coingecko,
 		color,
-		config,
 		precision,
 		metadataOverwrite,
 		trustwalletList,
@@ -205,23 +202,23 @@ function getConfig(network, dapp) {
 		},
 	};
 	const alchemyNetwork = {
-		homestead: mainnet,
-		kovan,
+		homestead: 'mainnet',
+		kovan: 'kovan',
 	};
 	const addressMap = {
 		kovan: {
 			bFactory: "0x8f7F78080219d4066A8036ccD30D588B416a40DB",
-			bActions: "0x1266F7220cCc4f1957b3f1EA713F3F434Fc3BDc7",
+			bActions: "0x02EFDB542B9390ae7C1620B29674e02F9c0d86CC",
 			dsProxyRegistry: "0x130767E0cf05469CF11Fa3fcf270dfC1f52b9072",
-			proxy: "0xD9c8ae0ecF77D0F7c1C28B4F6991A041963545d6",
+			proxy: "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
 			weth: "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
 			multicall: "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
 		},
 		homestead: {
 			bFactory: "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
-			bActions: "0x54b28bB7930976839C61f142746cADDBE819A742",
+			bActions: "0xde4A25A0b9589689945d842c5ba0CF4f0D4eB3ac",
 			dsProxyRegistry: "0x4678f0a6958e4D2Bc4F1BAF7Bc52E8F3564f3fE4",
-			proxy: "0x6317C5e82A06E1d8bf200d21F4510Ac2c038AC81",
+			proxy: "0x2633Dc6F65f293FdC47206beEf1FC9BD6C63edFF",
 			weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			multicall: "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
 		},
@@ -247,7 +244,7 @@ function getConfig(network, dapp) {
 				id: "portis",
 				name: "Portis",
 				options: {
-					network,
+					network: alchemyNetwork[network],
 					dappId,
 				},
 			},
@@ -255,7 +252,7 @@ function getConfig(network, dapp) {
 				id: "walletlink",
 				name: "Coinbase",
 				options: {
-					appName: "Balancer Pool Management",
+					appName: "Pool management - Balancer",
 					darkMode: true,
 					chainId: chainIdMap[network],
 					ethJsonrpcUrl:
