@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "node scripts/generate.js"
+    "generate": "node scripts/generate.js",
+    "get-ids": "node scripts/get-coingecko-ids.js"
   },
   "keywords": [],
   "author": "",
