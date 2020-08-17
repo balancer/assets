@@ -12,6 +12,7 @@ async function run() {
 	try {
 		const lists = await getLists();
 		const data = await getData();
+		validateInputs(lists);
 		const tokens = mergeTokenLists(lists);
 		const metadata = await getMetadata(tokens, data.metadataOverwrite);
 		await generate(lists, data, metadata);
@@ -307,6 +308,40 @@ function mergeTokenLists(lists) {
 		kovan,
 		homestead,
 	};
+}
+
+function validateInputs(lists, network) {
+	validateNetworkInputs(lists, 'kovan');
+	validateNetworkInputs(lists, 'homestead');
+}
+
+function validateNetworkInputs(lists, network) {
+	// Check that addresses are checksummed
+	validateAddressesChecksummed(lists.eligible[network]);
+	validateAddressesChecksummed(lists.listed[network]);
+	validateAddressesChecksummed(lists.ui[network]);
+	validateAddressesChecksummed(lists.untrusted[network]);
+	// Check that lists don't have duplicates
+	validateNoDuplicates(lists.eligible[network], lists.ui[network]);
+	validateNoDuplicates(lists.ui[network], lists.untrusted[network]);
+	validateNoDuplicates(lists.listed[network], lists.untrusted[network]);
+}
+
+function validateAddressesChecksummed(tokens) {
+	for (const address of tokens) {
+		const checksummedAddress = ethers.utils.getAddress(address);
+		if (address !== checksummedAddress) {
+			console.warn(`Address not checksummed: ${address} (should be ${checksummedAddress})`);
+		}
+	}
+}
+
+function validateNoDuplicates(listA, listB) {
+	for (const address of listA) {
+		if (listB.includes(address)) {
+			console.warn(`Duplicate address: ${address}`);
+		}
+	}
 }
 
 run();
