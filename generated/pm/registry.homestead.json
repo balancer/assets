@@ -2270,6 +2270,46 @@
       "color": "#5d6872",
       "hasIcon": true
     },
+    "0xD533a949740bb3306d119CC777fa900bA034cd52": {
+      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "id": "curve-dao-token",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c5ccb8",
+      "hasIcon": true
+    },
+    "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419": {
+      "address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
+      "id": "dia",
+      "name": "DIAToken",
+      "symbol": "DIA",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#7ca1c0",
+      "hasIcon": true
+    },
+    "0x6fe56C0bcdD471359019FcBC48863d6c3e9d4F41": {
+      "address": "0x6fe56C0bcdD471359019FcBC48863d6c3e9d4F41",
+      "id": "props-token",
+      "name": "Props Token",
+      "symbol": "PROPS",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a9a97",
+      "hasIcon": true
+    },
+    "0x40FD72257597aA14C7231A7B1aaa29Fce868F677": {
+      "address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+      "id": "sora",
+      "name": "Sora Token",
+      "symbol": "XOR",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#433455",
+      "hasIcon": true
+    },
     "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
       "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
       "id": "ampleforth",
@@ -2298,16 +2338,6 @@
       "decimals": 18,
       "precision": 4,
       "color": "#6e6962",
-      "hasIcon": true
-    },
-    "0xD533a949740bb3306d119CC777fa900bA034cd52": {
-      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
-      "id": "curve-dao-token",
-      "name": "Curve DAO Token",
-      "symbol": "CRV",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c5ccb8",
       "hasIcon": true
     }
   },
