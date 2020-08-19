@@ -73,18 +73,16 @@ async function generateNetwork(network, lists, data, metadata) {
 		};
 	}
 	const dexData = {
-		...getConfig(network, 'dex'),
 		tokens: listedTokens,
 		untrusted,
 	};
 	const pmData = {
-		...getConfig(network, 'pm'),
 		tokens: uiTokens,
 		untrusted,
 	};
-	const dexFileName = `generated/dex/${network}.json`;
+	const dexFileName = `generated/dex/registry.${network}.json`;
 	await fs.writeFileSync(dexFileName, JSON.stringify(dexData, null, 4));
-	const pmFileName = `generated/pm/${network}.json`;
+	const pmFileName = `generated/pm/registry.${network}.json`;
 	await fs.writeFileSync(pmFileName, JSON.stringify(pmData, null, 2));
 }
 
@@ -115,7 +113,7 @@ async function getData() {
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
-	const trustwalletListUrl 
+	const trustwalletListUrl
 		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/whitelist.json';
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
@@ -181,92 +179,6 @@ async function getNetworkMetadata(network, tokens, overwrite) {
 		};
 	}
 	return tokenMetadata;
-}
-
-function getConfig(network, dapp) {
-	const chainIdMap = {
-		kovan: 42,
-		homestead: 1,
-	};
-	const subgraphMap = {
-		kovan: 'https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-kovan',
-		homestead: 'https://api.thegraph.com/subgraphs/name/balancer-labs/balancer',
-	};
-	const alchemyMap = {
-		dex: {
-			kovan: 'Fa315qKOTy_ksUH1VS1zXAxuKo83s_Ko',
-			homestead: '9dfRcK-MHFPzMkZSjPFj4-T9jv31UZXd',
-		},
-		pm: {
-			kovan: 'C467LJc7Aa761LLxlcxXvhIG9HzDTtKw',
-			homestead: 'Q08AP-nlA-yUiQnIiAVlyWK4tbXjRMmD',
-		},
-	};
-	const alchemyNetwork = {
-		homestead: 'mainnet',
-		kovan: 'kovan',
-	};
-	const addressMap = {
-		kovan: {
-			bFactory: "0x8f7F78080219d4066A8036ccD30D588B416a40DB",
-			bActions: "0x02EFDB542B9390ae7C1620B29674e02F9c0d86CC",
-			dsProxyRegistry: "0x130767E0cf05469CF11Fa3fcf270dfC1f52b9072",
-			proxy: "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
-			weth: "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-			multicall: "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
-		},
-		homestead: {
-			bFactory: "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
-			bActions: "0xde4A25A0b9589689945d842c5ba0CF4f0D4eB3ac",
-			dsProxyRegistry: "0x4678f0a6958e4D2Bc4F1BAF7Bc52E8F3564f3fE4",
-			proxy: "0x2633Dc6F65f293FdC47206beEf1FC9BD6C63edFF",
-			weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-			multicall: "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
-		},
-	};
-	const dappId = '3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe';
-	return {
-		network,
-		chainId: chainIdMap[network],
-		defaultPrecision: 2,
-		subgraphUrl: subgraphMap[network],
-		alchemyWsUrl: `wss://eth-${alchemyNetwork[network]}.ws.alchemyapi.io/v2/${alchemyMap[dapp][network]}`,
-		addresses: addressMap[network],
-		connectors: {
-			injected: {
-				id: "injected",
-				name: "MetaMask",
-			},
-			walletconnect: {
-				id: "walletconnect",
-				name: "WalletConnect",
-				options: {
-					rpc: {
-						[chainIdMap[network]]: `https://eth-${alchemyNetwork[network]}.alchemyapi.io/v2/${alchemyMap[dapp][network]}`,
-					},
-				},
-			},
-			portis: {
-				id: "portis",
-				name: "Portis",
-				options: {
-					network: alchemyNetwork[network],
-					dappId,
-				},
-			},
-			walletlink: {
-				id: "walletlink",
-				name: "Coinbase",
-				options: {
-					appName: "Pool management - Balancer",
-					darkMode: true,
-					chainId: chainIdMap[network],
-					ethJsonrpcUrl:
-						`https://eth-${alchemyNetwork[network]}.alchemyapi.io/v2/${alchemyMap[dapp][network]}`,
-				},
-			},
-		},
-	};
 }
 
 function getColor(network, address, data) {

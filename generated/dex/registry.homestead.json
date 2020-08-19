@@ -1,0 +1,327 @@
+{
+    "tokens": {
+        "0xba100000625a3754423978a60c9317c58a424e3D": {
+            "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+            "name": "Balancer",
+            "symbol": "BAL",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+            "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "name": "Maker",
+            "symbol": "MKR",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd": {
+            "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
+            "name": "PieDAO BTC++",
+            "symbol": "BTC++",
+            "precision": 6,
+            "hasIcon": true
+        },
+        "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
+            "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+            "name": "Basic Attention Token",
+            "symbol": "BAT",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
+            "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+            "name": "Synthetix Network Token",
+            "symbol": "SNX",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x960b236A07cf122663c4303350609A66A7B288C0": {
+            "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+            "name": "Aragon Network Token",
+            "symbol": "ANT",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
+            "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+            "name": "0x Protocol Token",
+            "symbol": "ZRX",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
+            "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
+            "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
+            "name": "Compound USD Coin",
+            "symbol": "cUSDC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
+            "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
+            "name": "Compound Dai",
+            "symbol": "cDAI",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x3212b29E33587A00FB1C83346f5dBFA69A458923": {
+            "address": "0x3212b29E33587A00FB1C83346f5dBFA69A458923",
+            "name": "The Tokenized Bitcoin",
+            "symbol": "imBTC",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x5228a22e72ccC52d415EcFd199F99D0665E7733b": {
+            "address": "0x5228a22e72ccC52d415EcFd199F99D0665E7733b",
+            "name": "pTokens BTC",
+            "symbol": "pBTC",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6": {
+            "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6",
+            "name": "Synth sBTC",
+            "symbol": "sBTC",
+            "precision": 4,
+            "hasIcon": false
+        },
+        "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
+            "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+            "name": "Synth sUSD",
+            "symbol": "sUSD",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c": {
+            "address": "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c",
+            "name": "Digital Rand",
+            "symbol": "DZAR",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
+            "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+            "name": "UMA Voting Token v1",
+            "symbol": "UMA",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d": {
+            "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+            "name": "Pinakion",
+            "symbol": "PNK",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x27054b13b1B798B345b591a4d22e6562d47eA75a": {
+            "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
+            "name": "AirSwap Token",
+            "symbol": "AST",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
+            "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+            "name": "LoopringCoin V2",
+            "symbol": "LRC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x408e41876cCCDC0F92210600ef50372656052a38": {
+            "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+            "name": "Republic Token",
+            "symbol": "REN",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xB4EFd85c19999D84251304bDA99E90B92300Bd93": {
+            "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
+            "name": "Rocket Pool",
+            "symbol": "RPL",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
+            "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
+            "name": "EthLend Token",
+            "symbol": "LEND",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xdd974D5C2e2928deA5F71b9825b8b646686BD200": {
+            "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+            "name": "Kyber Network Crystal",
+            "symbol": "KNC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
+            "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+            "name": "Compound",
+            "symbol": "COMP",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41": {
+            "address": "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41",
+            "name": "OceanToken",
+            "symbol": "OCEAN",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
+            "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
+            "name": "mStable USD",
+            "symbol": "mUSD",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e": {
+            "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
+            "name": "PieDAO USD++ Pool",
+            "symbol": "USD++",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2": {
+            "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
+            "name": "Meta",
+            "symbol": "MTA",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE": {
+            "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
+            "name": "Wrapped NXM",
+            "symbol": "wNXM",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5": {
+            "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
+            "name": "yUSD Synthetic Token Expiring 1 September 2020",
+            "symbol": "yUSD-SEP20",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF": {
+            "address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
+            "name": "Serum",
+            "symbol": "SRM",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x56d811088235F11C8920698a204A5010a788f4b3": {
+            "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
+            "name": "bZx Protocol Token",
+            "symbol": "BZRX",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xD533a949740bb3306d119CC777fa900bA034cd52": {
+            "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+            "name": "Curve DAO Token",
+            "symbol": "CRV",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x221657776846890989a759BA2973e427DfF5C9bB": {
+            "address": "0x221657776846890989a759BA2973e427DfF5C9bB",
+            "name": "Reputation",
+            "symbol": "REPv2",
+            "precision": 4,
+            "hasIcon": true
+        }
+    },
+    "untrusted": [
+        "0x0b76544F6C413a555F309Bf76260d1E02377c02A",
+        "0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e",
+        "0x0F4CA92660Efad97a9a70CB0fe969c755439772C",
+        "0x13f25cd52b21650caa8225C9942337d914C9B030",
+        "0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af",
+        "0x1844b21593262668B7248d0f57a220CaaBA46ab9",
+        "0x1a7AC70bcb1571cB056c45710446da4d070cBb80",
+        "0x1C95b093d6C236d3EF7c796fE33f9CC6b8606714",
+        "0x26CE25148832C04f3d7F26F32478a9fe55197166",
+        "0x28c8d01FF633eA9Cd8fc6a451D7457889E698de6",
+        "0x2bDC0D42996017fCe214b21607a515DA41A9E0C5",
+        "0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3",
+        "0x2f85E502a988AF76f7ee6D83b7db8d6c0A823bf9",
+        "0x3543638eD4a9006E4840B105944271Bcea15605D",
+        "0x37E1160184F7dD29f00b78C050Bf13224780b0B0",
+        "0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB",
+        "0x38c6A68304cdEfb9BEc48BbFaABA5C5B47818bb2",
+        "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
+        "0x3B7f247f21BF3A07088C2D3423F64233d4B069F7",
+        "0x4270bb238f6DD8B1c3ca01f96CA65b2647c06D3C",
+        "0x4470BB87d77b963A013DB939BE332f927f2b992e",
+        "0x4689a4e169eB39cC9078C0940e21ff1Aa8A39B9C",
+        "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
+        "0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8",
+        "0x5E6b6d9aBAd9093fdc861Ea1600eBa1b355Cd940",
+        "0x622dFfCc4e83C64ba959530A5a5580687a57581b",
+        "0x6Ba460AB75Cd2c56343b3517ffeBA60748654D26",
+        "0x75572098dc462F976127f59F8c97dFa291f81d8b",
+        "0x7703C35CfFdC5CDa8D27aa3df2F9ba6964544b6e",
+        "0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05",
+        "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
+        "0x82622209cEf6EBf4b8BDB353a8FC7e0b8655D0b0",
+        "0x85eBa557C06c348395fD49e35d860F58a4F7c95a",
+        "0x8E766F57F7d16Ca50B4A0b90b88f6468A09b0439",
+        "0x95dAaaB98046846bF4B2853e23cba236fa394A31",
+        "0xa44E5137293E855B1b7bC7E2C6f8cD796fFCB037",
+        "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+        "0xb60Fde5D798236fBF1e2697B2A0645380921FccF",
+        "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "0xB97048628DB6B661D4C2aA833e95Dbe1A905B280",
+        "0xBA5F11b16B155792Cf3B2E6880E8706859A8AEB6",
+        "0xbbFF862d906E348E9946Bfb2132ecB157Da3D4b4",
+        "0xc58c0Fca06908E66540102356f2E91edCaEB8D81",
+        "0xc9859fccC876e6b4B3C749C5D29EA04F48aCb74F",
+        "0xCc34366E3842cA1BD36c1f324d15257960fCC801",
+        "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+        "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd",
+        "0xDc5864eDe28BD4405aa04d93E05A0531797D9D59",
+        "0xe3818504c1B32bF1557b16C238B2E01Fd3149C17",
+        "0xE6c2C240E1228980F322D76ed4C1F63078191BB5",
+        "0xeEEE2a622330E6d2036691e983DEe87330588603",
+        "0xF0FAC7104aAC544e4a7CE1A55ADF2B5a25c65bD1",
+        "0xF433089366899D83a9f26A773D59ec7eCF30355e",
+        "0xfAE4Ee59CDd86e3Be9e8b90b53AA866327D7c090"
+    ]
+}
