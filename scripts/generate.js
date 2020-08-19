@@ -114,7 +114,7 @@ async function getData() {
 	const precision = JSON.parse(precisionFile);
 
 	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/whitelist.json';
+		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json';
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
 
