@@ -23,12 +23,6 @@ async function run() {
 }
 
 async function generate(lists, data, metadata) {
-	const dirExists = await fs.existsSync('generated');
-	if (!dirExists) {
-		await fs.mkdirSync('generated');
-		await fs.mkdirSync('generated/pm');
-		await fs.mkdirSync('generated/dex');
-	}
 	await generateNetwork('kovan', lists, data, metadata);
 	await generateNetwork('homestead', lists, data, metadata);
 }
