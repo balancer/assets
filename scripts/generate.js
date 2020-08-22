@@ -40,7 +40,7 @@ async function generateNetwork(network, lists, data, metadata) {
 		};
 	}
 	const uiTokens = {};
-	for (const address of lists.eligible[network]) {
+	for (const address of Object.keys(lists.eligible[network])) {
 		const color = getColor(network, address, data);
 		uiTokens[address] = {
 			address,
@@ -223,12 +223,12 @@ function validateInputs(lists, network) {
 
 function validateNetworkInputs(lists, network) {
 	// Check that addresses are checksummed
-	validateAddressesChecksummed(lists.eligible[network]);
+	validateAddressesChecksummed(Object.keys(lists.eligible[network]));
 	validateAddressesChecksummed(lists.listed[network]);
 	validateAddressesChecksummed(lists.ui[network]);
 	validateAddressesChecksummed(lists.untrusted[network]);
 	// Check that lists don't have duplicates
-	validateNoDuplicates(lists.eligible[network], lists.ui[network]);
+	validateNoDuplicates(Object.keys(lists.eligible[network]), lists.ui[network]);
 	validateNoDuplicates(lists.ui[network], lists.untrusted[network]);
 	validateNoDuplicates(lists.listed[network], lists.untrusted[network]);
 }
