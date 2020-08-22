@@ -1168,7 +1168,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#8b5580",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xDF2C7238198Ad8B389666574f2d8bc411A4b7428": {
       "address": "0xDF2C7238198Ad8B389666574f2d8bc411A4b7428",
