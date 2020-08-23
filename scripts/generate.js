@@ -40,7 +40,7 @@ async function generateNetwork(network, lists, data, metadata) {
 		};
 	}
 	const uiTokens = {};
-	for (const address of lists.eligible[network]) {
+	for (const address of Object.keys(lists.eligible[network])) {
 		const color = getColor(network, address, data);
 		uiTokens[address] = {
 			address,
@@ -201,11 +201,26 @@ function mergeTokenLists(lists) {
 		}
 
 		const dataset = lists[datasetName];
-		for (const token of dataset.kovan) {
+
+		let dataset_kovan = [];
+		if (dataset.kovan instanceof Array) {
+			dataset_kovan = dataset.kovan;
+		} else {
+			dataset_kovan = Object.keys(dataset.kovan);
+		}
+
+		let dataset_homestead = [];
+		if (dataset.homestead instanceof Array) {
+			dataset_homestead = dataset.homestead;
+		} else {
+			dataset_homestead = Object.keys(dataset.homestead);
+		}
+
+		for (const token of dataset_kovan) {
 			kovan.push(token);
 		}
 
-		for (const token of dataset.homestead) {
+		for (const token of dataset_homestead) {
 			homestead.push(token);
 		}
 	}
@@ -223,12 +238,12 @@ function validateInputs(lists, network) {
 
 function validateNetworkInputs(lists, network) {
 	// Check that addresses are checksummed
-	validateAddressesChecksummed(lists.eligible[network]);
+	validateAddressesChecksummed(Object.keys(lists.eligible[network]));
 	validateAddressesChecksummed(lists.listed[network]);
 	validateAddressesChecksummed(lists.ui[network]);
 	validateAddressesChecksummed(lists.untrusted[network]);
 	// Check that lists don't have duplicates
-	validateNoDuplicates(lists.eligible[network], lists.ui[network]);
+	validateNoDuplicates(Object.keys(lists.eligible[network]), lists.ui[network]);
 	validateNoDuplicates(lists.ui[network], lists.untrusted[network]);
 	validateNoDuplicates(lists.listed[network], lists.untrusted[network]);
 }

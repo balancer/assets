@@ -73,7 +73,7 @@ async function getData() {
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
-	const trustwalletListUrl 
+	const trustwalletListUrl
 		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/whitelist.json';
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
@@ -98,11 +98,26 @@ function mergeTokenLists(lists) {
 		}
 
 		const dataset = lists[datasetName];
-		for (const token of dataset.kovan) {
+
+		let dataset_kovan = [];
+		if (dataset.kovan instanceof Array) {
+			dataset_kovan = dataset.kovan;
+		} else {
+			dataset_kovan = Object.keys(dataset.kovan);
+		}
+
+		let dataset_homestead = [];
+		if (dataset.homestead instanceof Array) {
+			dataset_homestead = dataset.homestead;
+		} else {
+			dataset_homestead = Object.keys(dataset.homestead);
+		}
+
+		for (const token of dataset_kovan) {
 			kovan.push(token);
 		}
 
-		for (const token of dataset.homestead) {
+		for (const token of dataset_homestead) {
 			homestead.push(token);
 		}
 	}
