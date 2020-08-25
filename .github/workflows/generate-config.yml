@@ -69,11 +69,15 @@ jobs:
       run: |
         cd branch
         cp ../dex/registry.kovan.json generated/dex/registry.kovan.json
-        cp ../pm/registry.homestead.json generated/pm/registry.homestead.json
-        cp ../pm/registry.kovan.json generated/pm/registry.kovan.json
         cp ../dex/registry.homestead.json generated/dex/registry.homestead.json
-        git config --global user.email "destinerx@gmail.com"
-        git config --global user.name "Timur Badretdinov"
-        git add .
-        git commit -m "Generate config"
-        git push
+        cp ../pm/registry.kovan.json generated/pm/registry.kovan.json
+        cp ../pm/registry.homestead.json generated/pm/registry.homestead.json
+        git config --global user.email "bot@balancer.finance"
+        git config --global user.name "Balancer Bot"
+        DIFF_LINES=$(git diff | wc -l)
+        if [ $DIFF_LINES -gt 0  ]
+        then
+          git add .
+          git commit -m "Generate config"
+          git push
+        fi
