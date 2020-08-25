@@ -76,10 +76,4 @@ jobs:
         git config --global user.name "Timur Badretdinov"
         git add .
         git commit -m "Generate config"
-    - name: Push
-      uses: ad-m/github-push-action@master
-      with:
-        repository: balancer-labs/assets
-        branch: generated
-        directory: branch
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        git push
