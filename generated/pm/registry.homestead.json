@@ -2339,6 +2339,16 @@
       "precision": 4,
       "color": "#6e6962",
       "hasIcon": true
+    },
+    "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
+      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
+      "id": "",
+      "name": "yUSD Synthetic Token Expiring 1 October 2020",
+      "symbol": "yUSD-OCT20",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c5ccb8",
+      "hasIcon": false
     }
   },
   "untrusted": [
