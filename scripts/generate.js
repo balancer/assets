@@ -29,7 +29,15 @@ async function generate(lists, data, metadata) {
 
 async function generateNetwork(network, lists, data, metadata) {
 	const untrusted = lists.untrusted[network];
-	const listedTokens = {};
+	const listedTokens = {
+		ether: {
+			address: 'ether',
+			name: 'Ether',
+			symbol: 'ETH',
+			precision: 4,
+			hasIcon: true,
+		},
+	};
 	for (const address of lists.listed[network]) {
 		listedTokens[address] = {
 			address,
