@@ -1,5 +1,12 @@
 {
     "tokens": {
+        "ether": {
+            "address": "ether",
+            "name": "Ether",
+            "symbol": "ETH",
+            "precision": 4,
+            "hasIcon": true
+        },
         "0x1528F3FCc26d13F7079325Fb78D9442607781c8C": {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
             "name": "Dai Stablecoin",
