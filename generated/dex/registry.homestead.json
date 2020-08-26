@@ -133,13 +133,6 @@
             "precision": 2,
             "hasIcon": true
         },
-        "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c": {
-            "address": "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c",
-            "name": "Digital Rand",
-            "symbol": "DZAR",
-            "precision": 2,
-            "hasIcon": true
-        },
         "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
             "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
             "name": "UMA Voting Token v1",
@@ -203,12 +196,12 @@
             "precision": 2,
             "hasIcon": true
         },
-        "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41": {
-            "address": "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41",
-            "name": "OceanToken",
+        "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e": {
+            "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
+            "name": "Ocean Token",
             "symbol": "OCEAN",
             "precision": 2,
-            "hasIcon": false
+            "hasIcon": true
         },
         "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
             "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
