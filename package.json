@@ -10,8 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "ethers": "^5.0.7"
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "ethers": "^5.0.9"
   }
 }
