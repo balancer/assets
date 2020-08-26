@@ -1,5 +1,12 @@
 {
     "tokens": {
+        "ether": {
+            "address": "ether",
+            "name": "Ether",
+            "symbol": "ETH",
+            "precision": 4,
+            "hasIcon": true
+        },
         "0xba100000625a3754423978a60c9317c58a424e3D": {
             "address": "0xba100000625a3754423978a60c9317c58a424e3D",
             "name": "Balancer",
