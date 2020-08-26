@@ -510,16 +510,6 @@
       "color": "#8b5580",
       "hasIcon": true
     },
-    "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c": {
-      "address": "0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c",
-      "id": "digital-rand",
-      "name": "Digital Rand",
-      "symbol": "DZAR",
-      "decimals": 6,
-      "precision": 2,
-      "color": "#666092",
-      "hasIcon": true
-    },
     "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d": {
       "address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
       "id": "kleros",
@@ -660,15 +650,15 @@
       "color": "#387080",
       "hasIcon": true
     },
-    "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41": {
-      "address": "0x985dd3D42De1e256d09e1c10F112bCCB8015AD41",
+    "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e": {
+      "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
       "id": "ocean-protocol",
-      "name": "OceanToken",
+      "name": "Ocean Token",
       "symbol": "OCEAN",
       "decimals": 18,
       "precision": 2,
-      "color": "#220730",
-      "hasIcon": false
+      "color": "#7e9e99",
+      "hasIcon": true
     },
     "0xCeD4E93198734dDaFf8492d525Bd258D49eb388E": {
       "address": "0xCeD4E93198734dDaFf8492d525Bd258D49eb388E",
@@ -1930,15 +1920,15 @@
       "color": "#9a9a97",
       "hasIcon": true
     },
-    "0x70861e862E1Ac0C96f853C8231826e469eAd37B1": {
-      "address": "0x70861e862E1Ac0C96f853C8231826e469eAd37B1",
+    "0x0A913beaD80F321E7Ac35285Ee10d9d922659cB7": {
+      "address": "0x0A913beaD80F321E7Ac35285Ee10d9d922659cB7",
       "id": "dos-network",
       "name": "DOS Network Token",
       "symbol": "DOS",
       "decimals": 18,
       "precision": 2,
-      "color": "#6f6776",
-      "hasIcon": false
+      "color": "#5d2e9a",
+      "hasIcon": true
     },
     "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6": {
       "address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
@@ -2160,14 +2150,14 @@
       "color": "#220730",
       "hasIcon": true
     },
-    "0x44b6e3e85561ce054aB13Affa0773358D795D36D": {
-      "address": "0x44b6e3e85561ce054aB13Affa0773358D795D36D",
-      "id": "",
-      "name": "ethArt",
-      "symbol": "ARTE",
+    "0x34612903Db071e888a4dADcaA416d3EE263a87b9": {
+      "address": "0x34612903Db071e888a4dADcaA416d3EE263a87b9",
+      "id": "ethart",
+      "name": "ethart",
+      "symbol": "arte",
       "decimals": 18,
       "precision": 2,
-      "color": "#5d2e9a",
+      "color": "#c5ccb8",
       "hasIcon": true
     },
     "0x954b890704693af242613edEf1B603825afcD708": {
@@ -2309,6 +2299,186 @@
       "precision": 2,
       "color": "#433455",
       "hasIcon": true
+    },
+    "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55": {
+      "address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+      "id": "band-protocol",
+      "name": "BandToken",
+      "symbol": "BAND",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9d9f7f",
+      "hasIcon": true
+    },
+    "0xF80D589b3Dbe130c270a69F1a69D050f268786Df": {
+      "address": "0xF80D589b3Dbe130c270a69F1a69D050f268786Df",
+      "id": "datamine",
+      "name": "Datamine",
+      "symbol": "DAM",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9d9f7f",
+      "hasIcon": true
+    },
+    "0x29E9fDF5933824ad21Bc6dbb8BF156EFA3735e32": {
+      "address": "0x29E9fDF5933824ad21Bc6dbb8BF156EFA3735e32",
+      "id": "meter-stable-mapped-by-meter-io",
+      "name": "Meter Stable mapped by Meter.io",
+      "symbol": "eMTR",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#628b8d",
+      "hasIcon": true
+    },
+    "0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F": {
+      "address": "0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F",
+      "id": "meter-governance-mapped-by-meter-io",
+      "name": "Meter Governance mapped by Meter.io",
+      "symbol": "eMTRG",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": true
+    },
+    "0x89E3aC6Dd69C15e9223BE7649025d6F68Dab1d6a": {
+      "address": "0x89E3aC6Dd69C15e9223BE7649025d6F68Dab1d6a",
+      "id": "evan",
+      "name": "EVAN",
+      "symbol": "EVAN",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#433455",
+      "hasIcon": false
+    },
+    "0x469eDA64aEd3A3Ad6f868c44564291aA415cB1d9": {
+      "address": "0x469eDA64aEd3A3Ad6f868c44564291aA415cB1d9",
+      "id": "flux",
+      "name": "FLUX",
+      "symbol": "FLUX",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0xb83Cd8d39462B761bb0092437d38b37812dd80A2": {
+      "address": "0xb83Cd8d39462B761bb0092437d38b37812dd80A2",
+      "id": "golden-ratio-token",
+      "name": "GoldenRatio",
+      "symbol": "GRT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d2e9a",
+      "hasIcon": true
+    },
+    "0x95172ccBe8344fecD73D0a30F54123652981BD6F": {
+      "address": "0x95172ccBe8344fecD73D0a30F54123652981BD6F",
+      "id": "meridian-network",
+      "name": "Meridian Network",
+      "symbol": "LOCK",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": true
+    },
+    "0x3166C570935a7D8554c8f4eA792ff965D2EFe1f2": {
+      "address": "0x3166C570935a7D8554c8f4eA792ff965D2EFe1f2",
+      "id": "q-dao-governance-token-v1-0",
+      "name": "Q DAO Governance token v1.0",
+      "symbol": "QDAO",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c38890",
+      "hasIcon": true
+    },
+    "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359": {
+      "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+      "id": "sai",
+      "name": "Sai Stablecoin v1.0",
+      "symbol": "SAI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#7e9e99",
+      "hasIcon": true
+    },
+    "0x5299d6F7472DCc137D7f3C4BcfBBB514BaBF341A": {
+      "address": "0x5299d6F7472DCc137D7f3C4BcfBBB514BaBF341A",
+      "id": "sxmr",
+      "name": "Synth sXMR",
+      "symbol": "sXMR",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": false
+    },
+    "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9": {
+      "address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+      "id": "swipe",
+      "name": "Swipe",
+      "symbol": "SXP",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": true
+    },
+    "0x1453Dbb8A29551ADe11D89825CA812e05317EAEB": {
+      "address": "0x1453Dbb8A29551ADe11D89825CA812e05317EAEB",
+      "id": "tendies",
+      "name": "Tendies Token",
+      "symbol": "TEND",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6eaa78",
+      "hasIcon": true
+    },
+    "0x4954Db6391F4feB5468b6B943D4935353596aEC9": {
+      "address": "0x4954Db6391F4feB5468b6B943D4935353596aEC9",
+      "id": "usdq",
+      "name": "USDQ Stablecoin by Q DAO v1.0",
+      "symbol": "USDQ",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#a593a5",
+      "hasIcon": true
+    },
+    "0x6b785a0322126826d8226d77e173d75DAfb84d11": {
+      "address": "0x6b785a0322126826d8226d77e173d75DAfb84d11",
+      "id": "bankroll-vault",
+      "name": "Bankroll Vault",
+      "symbol": "VLT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#8b5580",
+      "hasIcon": true
+    },
+    "0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A": {
+      "address": "0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A",
+      "id": "yam-v2",
+      "name": "YAMv2",
+      "symbol": "YAMv2",
+      "decimals": 24,
+      "precision": 2,
+      "color": "#628b8d",
+      "hasIcon": false
+    },
+    "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83": {
+      "address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83",
+      "id": "yfii-finance",
+      "name": "YFII.finance",
+      "symbol": "YFII",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c38890",
+      "hasIcon": true
+    },
+    "0xeca82185adCE47f39c684352B0439f030f860318": {
+      "address": "0xeca82185adCE47f39c684352B0439f030f860318",
+      "id": "perlin",
+      "name": "Perlin",
+      "symbol": "PERL",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": false
     },
     "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
       "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
