@@ -15,6 +15,11 @@
 			"decimals": 18,
 			"symbol": "yCRV",
 			"name": "Curve.fi Y Pool Token"
+		},
+		"0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359": {
+			"decimals": 18,
+			"symbol": "SAI",
+			"name": "Sai Stablecoin v1.0"
 		}
 	}
 }
