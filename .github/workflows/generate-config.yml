@@ -81,3 +81,10 @@ jobs:
           git commit -m "Generate config"
           git push
         fi
+    - name: Make PR to master
+      uses: thomaseizinger/create-pull-request@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        head: generated
+        title: "Update generated files"
+        body: "Please trigger Netlify build after merging this."
