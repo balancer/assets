@@ -66,6 +66,7 @@ jobs:
         path: branch
         fetch-depth: 0
     - name: Commit
+      id: commit
       run: |
         cd branch
         cp ../dex/registry.kovan.json generated/dex/registry.kovan.json
@@ -77,11 +78,13 @@ jobs:
         DIFF_LINES=$(git diff | wc -l)
         if [ $DIFF_LINES -gt 0  ]
         then
+          echo "::set-output name=status::commited"
           git add .
           git commit -m "Generate config"
           git push
         fi
     - name: Make PR to master
+      if: ${{ steps.commit.outputs.status }}
       uses: thomaseizinger/create-pull-request@master
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
