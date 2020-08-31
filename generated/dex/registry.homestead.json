@@ -229,7 +229,7 @@
             "name": "Wrapped NXM",
             "symbol": "wNXM",
             "precision": 2,
-            "hasIcon": false
+            "hasIcon": true
         },
         "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5": {
             "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
@@ -292,6 +292,111 @@
             "name": "Reputation",
             "symbol": "REPv2",
             "precision": 4,
+            "hasIcon": true
+        },
+        "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d": {
+            "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
+            "name": "Aave Interest bearing DAI",
+            "symbol": "aDAI",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8": {
+            "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
+            "name": "Aave Interest bearing USDT",
+            "symbol": "aUSDT",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E": {
+            "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
+            "name": "Aave Interest bearing USDC",
+            "symbol": "aUSDC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x625aE63000f46200499120B906716420bd059240": {
+            "address": "0x625aE63000f46200499120B906716420bd059240",
+            "name": "Aave Interest bearing SUSD",
+            "symbol": "aSUSD",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x4DA9b813057D04BAef4e5800E36083717b4a0341": {
+            "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
+            "name": "Aave Interest bearing TUSD",
+            "symbol": "aTUSD",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8": {
+            "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
+            "name": "Aave Interest bearing Binance USD",
+            "symbol": "aBUSD",
+            "precision": 2,
+            "hasIcon": false
+        },
+        "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00": {
+            "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
+            "name": "Aave Interest bearing BAT",
+            "symbol": "aBAT",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04": {
+            "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
+            "name": "Aave Interest bearing ETH",
+            "symbol": "aETH",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x9D91BE44C06d373a8a226E1f3b146956083803eB": {
+            "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
+            "name": "Aave Interest bearing KNC",
+            "symbol": "aKNC",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8": {
+            "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
+            "name": "Aave Interest bearing LEND",
+            "symbol": "aLEND",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84": {
+            "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
+            "name": "Aave Interest bearing LINK",
+            "symbol": "aLINK",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0x7deB5e830be29F91E298ba5FF1356BB7f8146998": {
+            "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
+            "name": "Aave Interest bearing MKR",
+            "symbol": "aMKR",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE": {
+            "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
+            "name": "Aave Interest bearing SNX",
+            "symbol": "aSNX",
+            "precision": 2,
+            "hasIcon": true
+        },
+        "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3": {
+            "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
+            "name": "Aave Interest bearing WBTC",
+            "symbol": "aWBTC",
+            "precision": 4,
+            "hasIcon": true
+        },
+        "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f": {
+            "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
+            "name": "Aave Interest bearing ZRX",
+            "symbol": "aZRX",
+            "precision": 2,
             "hasIcon": true
         }
     },
