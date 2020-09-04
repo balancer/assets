@@ -2480,6 +2480,126 @@
       "color": "#68aca9",
       "hasIcon": false
     },
+    "0x2ba592F78dB6436527729929AAf6c908497cB200": {
+      "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
+      "id": "cream",
+      "name": "Cream",
+      "symbol": "CREAM",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#8d6268",
+      "hasIcon": true
+    },
+    "0x26E43759551333e57F073bb0772F50329A957b30": {
+      "address": "0x26E43759551333e57F073bb0772F50329A957b30",
+      "id": "degenvc",
+      "name": "DegenVC",
+      "symbol": "DGVC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a9a97",
+      "hasIcon": true
+    },
+    "0x4730fB1463A6F1F44AEB45F6c5c422427f37F4D0": {
+      "address": "0x4730fB1463A6F1F44AEB45F6c5c422427f37F4D0",
+      "id": "the-4th-pillar",
+      "name": "The 4th Pillar Token",
+      "symbol": "FOUR",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0xDcfE18bc46f5A0Cd0d3Af0c2155d2bCB5AdE2fc5": {
+      "address": "0xDcfE18bc46f5A0Cd0d3Af0c2155d2bCB5AdE2fc5",
+      "id": "hue",
+      "name": "Hue",
+      "symbol": "HUE",
+      "decimals": 4,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": true
+    },
+    "0x0a50C93c762fDD6E56D86215C24AaAD43aB629aa": {
+      "address": "0x0a50C93c762fDD6E56D86215C24AaAD43aB629aa",
+      "id": "lgo-token",
+      "name": "LGO Token",
+      "symbol": "LGO",
+      "decimals": 8,
+      "precision": 2,
+      "color": "#9d9f7f",
+      "hasIcon": true
+    },
+    "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e": {
+      "address": "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e",
+      "id": "metronome",
+      "name": "Metronome",
+      "symbol": "MET",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#be955c",
+      "hasIcon": true
+    },
+    "0x7865af71cf0b288b4E7F654f4F7851EB46a2B7F8": {
+      "address": "0x7865af71cf0b288b4E7F654f4F7851EB46a2B7F8",
+      "id": "sentivate",
+      "name": "Sentivate",
+      "symbol": "SNTVT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d6872",
+      "hasIcon": true
+    },
+    "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5": {
+      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+      "id": "unifi",
+      "name": "UniFi",
+      "symbol": "UniFi",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#be955c",
+      "hasIcon": true
+    },
+    "0xB2279B6769CFBa691416F00609b16244c0cF4b20": {
+      "address": "0xB2279B6769CFBa691416F00609b16244c0cF4b20",
+      "id": "waifu-token",
+      "name": "Waifu",
+      "symbol": "WAIF",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": true
+    },
+    "0x45f24BaEef268BB6d63AEe5129015d69702BCDfa": {
+      "address": "0x45f24BaEef268BB6d63AEe5129015d69702BCDfa",
+      "id": "yfvalue",
+      "name": "YFValue",
+      "symbol": "YFV",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a9a97",
+      "hasIcon": false
+    },
+    "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
+      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
+      "id": "yusd-synthetic-token-expiring-1-october-2020",
+      "name": "yUSD Synthetic Token Expiring 1 October 2020",
+      "symbol": "yUSD-OCT20",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c5ccb8",
+      "hasIcon": false
+    },
+    "0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c": {
+      "address": "0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c",
+      "id": "yvault-lp-ycurve",
+      "name": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+      "symbol": "yyDAI+yUSDC+yUSDT+yTUSD",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": false
+    },
     "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
       "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
       "id": "ampleforth",
@@ -2509,16 +2629,6 @@
       "precision": 4,
       "color": "#6e6962",
       "hasIcon": true
-    },
-    "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
-      "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
-      "id": "",
-      "name": "yUSD Synthetic Token Expiring 1 October 2020",
-      "symbol": "yUSD-OCT20",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c5ccb8",
-      "hasIcon": false
     }
   },
   "untrusted": [
