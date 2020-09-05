@@ -2629,6 +2629,16 @@
       "precision": 4,
       "color": "#6e6962",
       "hasIcon": true
+    },
+    "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
+      "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
+      "id": "",
+      "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
+      "symbol": "uUSDrBTC-OCT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": false
     }
   },
   "untrusted": [

@@ -398,6 +398,13 @@
             "symbol": "aZRX",
             "precision": 2,
             "hasIcon": true
+        },
+        "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
+            "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
+            "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
+            "symbol": "uUSDrBTC-OCT",
+            "precision": 2,
+            "hasIcon": false
         }
     },
     "untrusted": [
