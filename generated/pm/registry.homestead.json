@@ -2599,46 +2599,6 @@
       "precision": 2,
       "color": "#220730",
       "hasIcon": false
-    },
-    "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
-      "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
-      "id": "ampleforth",
-      "name": "Ampleforth",
-      "symbol": "AMPL",
-      "decimals": 9,
-      "precision": 2,
-      "color": "#8d6268",
-      "hasIcon": true
-    },
-    "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
-      "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
-      "id": "prochain",
-      "name": "ProToken",
-      "symbol": "PRO",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9a9a97",
-      "hasIcon": true
-    },
-    "0x1985365e9f78359a9B6AD760e32412f4a445E862": {
-      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
-      "id": "",
-      "name": "Reputation",
-      "symbol": "REP",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#6e6962",
-      "hasIcon": true
-    },
-    "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
-      "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
-      "id": "",
-      "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
-      "symbol": "uUSDrBTC-OCT",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6f6776",
-      "hasIcon": false
     }
   },
   "untrusted": [
