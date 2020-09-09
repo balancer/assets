@@ -2599,6 +2599,196 @@
       "precision": 2,
       "color": "#220730",
       "hasIcon": false
+    },
+    "0x94d863173EE77439E4292284fF13fAD54b3BA182": {
+      "address": "0x94d863173EE77439E4292284fF13fAD54b3BA182",
+      "id": "akropolis-delphi",
+      "name": "Akropolis Delphi",
+      "symbol": "ADEL",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6eaa78",
+      "hasIcon": false
+    },
+    "0x8BA6DcC667d3FF64C1A2123cE72FF5F0199E5315": {
+      "address": "0x8BA6DcC667d3FF64C1A2123cE72FF5F0199E5315",
+      "id": "alex",
+      "name": "AlexMasmej",
+      "symbol": "ALEX",
+      "decimals": 4,
+      "precision": 2,
+      "color": "#6e6962",
+      "hasIcon": true
+    },
+    "0xbBe319b73744dB9d54F5D29df7D8256B7e43995C": {
+      "address": "0xbBe319b73744dB9d54F5D29df7D8256B7e43995C",
+      "id": "aragon-china",
+      "name": "Aragon China Token",
+      "symbol": "ANC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": false
+    },
+    "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667": {
+      "address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
+      "id": "celer-network",
+      "name": "CelerToken",
+      "symbol": "CELR",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a4f50",
+      "hasIcon": true
+    },
+    "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1": {
+      "address": "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
+      "id": "powerpool-concentrated-voting-power",
+      "name": "Concentrated Voting Power",
+      "symbol": "CVP",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": false
+    },
+    "0xa0246c9032bC3A600820415aE600c6388619A14D": {
+      "address": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+      "id": "harvest-finance",
+      "name": "FARM Reward Token",
+      "symbol": "FARM",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#387080",
+      "hasIcon": true
+    },
+    "0x1D287CC25dAD7cCaF76a26bc660c5F7C8E2a05BD": {
+      "address": "0x1D287CC25dAD7cCaF76a26bc660c5F7C8E2a05BD",
+      "id": "fetch-ai",
+      "name": "Fetch",
+      "symbol": "FET",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#416aa3",
+      "hasIcon": true
+    },
+    "0x916885426255235DA7a0BD90447986c00675f9EC": {
+      "address": "0x916885426255235DA7a0BD90447986c00675f9EC",
+      "id": "goaltime-n",
+      "name": "GoalTime N",
+      "symbol": "GTX",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c38890",
+      "hasIcon": true
+    },
+    "0xD5525D397898e5502075Ea5E830d8914f6F0affe": {
+      "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
+      "id": "meme",
+      "name": "MEME",
+      "symbol": "MEME",
+      "decimals": 8,
+      "precision": 2,
+      "color": "#c28d75",
+      "hasIcon": true
+    },
+    "0x8a6f3BF52A26a21531514E23016eEAe8Ba7e7018": {
+      "address": "0x8a6f3BF52A26a21531514E23016eEAe8Ba7e7018",
+      "id": "multiplier",
+      "name": "Multiplier",
+      "symbol": "MXX",
+      "decimals": 8,
+      "precision": 2,
+      "color": "#628b8d",
+      "hasIcon": false
+    },
+    "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740": {
+      "address": "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740",
+      "id": "autonio",
+      "name": "Autonio",
+      "symbol": "NIOX",
+      "decimals": 4,
+      "precision": 2,
+      "color": "#8d6268",
+      "hasIcon": true
+    },
+    "0xbC396689893D065F41bc2C6EcbeE5e0085233447": {
+      "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+      "id": "perpetual-protocol",
+      "name": "Perpetual",
+      "symbol": "PERP",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c5ccb8",
+      "hasIcon": false
+    },
+    "0x557B933a7C2c45672B610F8954A3deB39a51A8Ca": {
+      "address": "0x557B933a7C2c45672B610F8954A3deB39a51A8Ca",
+      "id": "revv",
+      "name": "REVV",
+      "symbol": "REVV",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": false
+    },
+    "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
+      "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+      "id": "sushi",
+      "name": "SushiToken",
+      "symbol": "SUSHI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": true
+    },
+    "0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433": {
+      "address": "0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433",
+      "id": "swerve",
+      "name": "Swerve DAO Token",
+      "symbol": "SWRV",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#93a167",
+      "hasIcon": true
+    },
+    "0x00D1793D7C3aAE506257Ba985b34C76AaF642557": {
+      "address": "0x00D1793D7C3aAE506257Ba985b34C76AaF642557",
+      "id": "tacos",
+      "name": "Tacos",
+      "symbol": "TACO",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c28d75",
+      "hasIcon": true
+    },
+    "0x208D174775dc39fe18B1b374972F77ddEc6c0F73": {
+      "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
+      "id": "uusdrbtc-synthetic-token-expiring-1-october-2020",
+      "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
+      "symbol": "uUSDrBTC-OCT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": false
+    },
+    "0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669": {
+      "address": "0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669",
+      "id": "yffi-finance",
+      "name": "yffi.finance",
+      "symbol": "YFFI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#7e9e99",
+      "hasIcon": false
+    },
+    "0x28cb7e841ee97947a86B06fA4090C8451f64c0be": {
+      "address": "0x28cb7e841ee97947a86B06fA4090C8451f64c0be",
+      "id": "yf-link",
+      "name": "YFLink",
+      "symbol": "YFL",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#387080",
+      "hasIcon": true
     }
   },
   "untrusted": [
