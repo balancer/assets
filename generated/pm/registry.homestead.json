@@ -2789,6 +2789,36 @@
       "precision": 2,
       "color": "#387080",
       "hasIcon": true
+    },
+    "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
+      "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
+      "id": "prochain",
+      "name": "ProToken",
+      "symbol": "PRO",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a9a97",
+      "hasIcon": true
+    },
+    "0x1985365e9f78359a9B6AD760e32412f4a445E862": {
+      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
+      "id": "",
+      "name": "Reputation",
+      "symbol": "REP",
+      "decimals": 18,
+      "precision": 4,
+      "color": "#6e6962",
+      "hasIcon": true
+    },
+    "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469": {
+      "address": "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469",
+      "id": "",
+      "name": "yieldfarming.insure",
+      "symbol": "SAFE",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": false
     }
   },
   "untrusted": [
