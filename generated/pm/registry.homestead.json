@@ -1722,7 +1722,7 @@
     },
     "0xAC1565e473F69FAdA09661A6B4103FBbF801CeEE": {
       "address": "0xAC1565e473F69FAdA09661A6B4103FBbF801CeEE",
-      "id": "inverse-eth-29-day-ma-crossover-set",
+      "id": "inverse-eth-50-day-ma-crossover-set",
       "name": "Inverse ETH 50 SMA Crossover",
       "symbol": "iETH50SMACO",
       "decimals": 18,
@@ -2482,7 +2482,7 @@
     },
     "0x2ba592F78dB6436527729929AAf6c908497cB200": {
       "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
-      "id": "cream",
+      "id": "cream-2",
       "name": "Cream",
       "symbol": "CREAM",
       "decimals": 18,
@@ -2812,7 +2812,7 @@
     },
     "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469": {
       "address": "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469",
-      "id": "",
+      "id": "yieldfarming-insure",
       "name": "yieldfarming.insure",
       "symbol": "SAFE",
       "decimals": 18,
