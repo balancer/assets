@@ -187,7 +187,7 @@
 		"0xF5c0E24ACA5217BcBAe662871caE1A86873F02db": "alligator-fractal-set",
 		"0x15822A64c8Cb27D7828C45E0aAFC3e6C5DeCd172": "fear-greed-sentiment-set-ii",
 		"0x5cD487CE4dB7091292F2E914F7B31445Bd4A5E1b": "inverse-eth-29-day-ma-crossover-set",
-		"0xAC1565e473F69FAdA09661A6B4103FBbF801CeEE": "inverse-eth-29-day-ma-crossover-set",
+		"0xAC1565e473F69FAdA09661A6B4103FBbF801CeEE": "inverse-eth-50-day-ma-crossover-set",
 		"0xB32c960c46f28059C2B5F1C3eCC2b9DD77aB0aA0": "intelligent-btc-set-ii",
 		"0x89C0b027bD7cc2D17854B06F8322e29451192CE3": "intelligent-eth-set-ii",
 		"0xBA8Ea15b647F54D9ff849670FcaAcF35Df21A457": "intelligent-ratio-set",
@@ -261,7 +261,7 @@
 		"0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A": "yam-v2",
 		"0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83": "yfii-finance",
 		"0xeca82185adCE47f39c684352B0439f030f860318": "perlin",
-		"0x2ba592F78dB6436527729929AAf6c908497cB200": "cream",
+		"0x2ba592F78dB6436527729929AAf6c908497cB200": "cream-2",
 		"0x26E43759551333e57F073bb0772F50329A957b30": "degenvc",
 		"0x4730fB1463A6F1F44AEB45F6c5c422427f37F4D0": "the-4th-pillar",
 		"0xDcfE18bc46f5A0Cd0d3Af0c2155d2bCB5AdE2fc5": "hue",
@@ -291,6 +291,7 @@
 		"0x00D1793D7C3aAE506257Ba985b34C76AaF642557": "tacos",
 		"0x208D174775dc39fe18B1b374972F77ddEc6c0F73": "uusdrbtc-synthetic-token-expiring-1-october-2020",
 		"0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669": "yffi-finance",
-		"0x28cb7e841ee97947a86B06fA4090C8451f64c0be": "yf-link"
+		"0x28cb7e841ee97947a86B06fA4090C8451f64c0be": "yf-link",
+		"0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469": "yieldfarming-insure"
 	}
 }
