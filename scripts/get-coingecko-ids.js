@@ -66,22 +66,19 @@ async function getData() {
 	const coingecko = JSON.parse(coingeckoFile);
 	const colorFile = await fs.readFileSync('data/color.json');
 	const color = JSON.parse(colorFile);
-	const configFile = await fs.readFileSync('data/config.json');
-	const config = JSON.parse(configFile);
 	const metadataOverwriteFile = await fs.readFileSync('data/metadataOverwrite.json');
 	const metadataOverwrite = JSON.parse(metadataOverwriteFile);
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
 	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/whitelist.json';
+		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json';
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
 
 	return {
 		coingecko,
 		color,
-		config,
 		precision,
 		metadataOverwrite,
 		trustwalletList,
