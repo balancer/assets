@@ -1130,14 +1130,14 @@
       "color": "#6f6776",
       "hasIcon": true
     },
-    "0x4a57E687b9126435a9B19E4A802113e266AdeBde": {
-      "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
-      "id": "flexacoin",
-      "name": "Flexacoin",
-      "symbol": "FXC",
+    "0xfF20817765cB7f73d4bde2e66e067E58D11095C2": {
+      "address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
+      "id": "amp-token",
+      "name": "Amp",
+      "symbol": "AMP",
       "decimals": 18,
       "precision": 2,
-      "color": "#9a9a97",
+      "color": "#a593a5",
       "hasIcon": true
     },
     "0xaF1250fa68D7DECD34fD75dE8742Bc03B29BD58e": {
@@ -2788,6 +2788,66 @@
       "decimals": 18,
       "precision": 2,
       "color": "#387080",
+      "hasIcon": true
+    },
+    "0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78": {
+      "address": "0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78",
+      "id": "boosted-finance",
+      "name": "Boosted Finance",
+      "symbol": "BOOST",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#be955c",
+      "hasIcon": false
+    },
+    "0x0cf58006B2400ebec3eB8C05b73170138a340563": {
+      "address": "0x0cf58006B2400ebec3eB8C05b73170138a340563",
+      "id": "good-boy-points",
+      "name": "Good Boy Points",
+      "symbol": "GBP",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d2e9a",
+      "hasIcon": false
+    },
+    "0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0": {
+      "address": "0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0",
+      "id": "growth-defi",
+      "name": "Growth",
+      "symbol": "GRO",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#7ca1c0",
+      "hasIcon": true
+    },
+    "0x0E29e5AbbB5FD88e28b2d355774e73BD47dE3bcd": {
+      "address": "0x0E29e5AbbB5FD88e28b2d355774e73BD47dE3bcd",
+      "id": "hakka-finance",
+      "name": "Hakka Finance",
+      "symbol": "HAKKA",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": true
+    },
+    "0xfc858154C0b2c4A3323046Fb505811F110EBdA57": {
+      "address": "0xfc858154C0b2c4A3323046Fb505811F110EBdA57",
+      "id": "noia-network",
+      "name": "NOIA Token",
+      "symbol": "NOIA",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#416aa3",
+      "hasIcon": true
+    },
+    "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5": {
+      "address": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
+      "id": "pickle-finance",
+      "name": "PickleToken",
+      "symbol": "PICKLE",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#433455",
       "hasIcon": true
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
