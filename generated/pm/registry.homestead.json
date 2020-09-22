@@ -2598,7 +2598,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#220730",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0x94d863173EE77439E4292284fF13fAD54b3BA182": {
       "address": "0x94d863173EE77439E4292284fF13fAD54b3BA182",
@@ -2879,6 +2879,36 @@
       "precision": 2,
       "color": "#68aca9",
       "hasIcon": false
+    },
+    "0xad32A8e6220741182940c5aBF610bDE99E737b2D": {
+      "address": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
+      "id": "",
+      "name": "PieDAO DOUGH v2",
+      "symbol": "DOUGH",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#8d6268",
+      "hasIcon": false
+    },
+    "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": {
+      "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
+      "id": "",
+      "name": "tBTC",
+      "symbol": "TBTC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c38890",
+      "hasIcon": false
+    },
+    "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6e6962",
+      "hasIcon": true
     }
   },
   "untrusted": [
