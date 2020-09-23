@@ -3010,6 +3010,46 @@
       "color": "#8d6268",
       "hasIcon": false
     },
+    "0x0000852600CEB001E08e00bC008be620d60031F2": {
+      "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
+      "id": "",
+      "name": "TrueHKD",
+      "symbol": "THKD",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#416aa3",
+      "hasIcon": true
+    },
+    "0x00000100F2A2bd000715001920eB70D229700085": {
+      "address": "0x00000100F2A2bd000715001920eB70D229700085",
+      "id": "",
+      "name": "TrueCAD",
+      "symbol": "TCAD",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9a9a97",
+      "hasIcon": true
+    },
+    "0x00006100F7090010005F1bd7aE6122c3C2CF0090": {
+      "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
+      "id": "",
+      "name": "TrueAUD",
+      "symbol": "TAUD",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#9d9f7f",
+      "hasIcon": true
+    },
+    "0x00000000441378008EA67F4284A57932B1c000a5": {
+      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
+      "id": "",
+      "name": "TrueGBP",
+      "symbol": "TGBP",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#666092",
+      "hasIcon": true
+    },
     "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": {
       "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
       "id": "",
