@@ -3059,6 +3059,26 @@
       "precision": 2,
       "color": "#c38890",
       "hasIcon": false
+    },
+    "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": {
+      "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
+      "id": "",
+      "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
+      "symbol": "uUSDwETH-DEC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d6872",
+      "hasIcon": false
+    },
+    "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce": {
+      "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
+      "id": "",
+      "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
+      "symbol": "uUSDrBTC-DEC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": false
     }
   },
   "untrusted": [
