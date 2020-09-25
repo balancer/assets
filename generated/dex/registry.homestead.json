@@ -454,6 +454,13 @@
             "symbol": "uUSDrBTC-DEC",
             "precision": 2,
             "hasIcon": false
+        },
+        "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
+            "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+            "name": "Gemini dollar",
+            "symbol": "GUSD",
+            "precision": 2,
+            "hasIcon": true
         }
     },
     "untrusted": [

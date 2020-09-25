@@ -3079,6 +3079,16 @@
       "precision": 2,
       "color": "#220730",
       "hasIcon": false
+    },
+    "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
+      "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+      "id": "gemini-dollar",
+      "name": "Gemini dollar",
+      "symbol": "GUSD",
+      "decimals": 2,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
     }
   },
   "untrusted": [
