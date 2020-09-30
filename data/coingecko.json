@@ -320,6 +320,7 @@
 		"0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": "tbtc",
 		"0x467Bccd9d29f223BcE8043b84E8C8B282827790F": "telcoin",
 		"0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce": "uusdrbtc-synthetic-token-expiring-31-december-2020",
-		"0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": "yusd-synthetic-token-expiring-31-december-2020"
+		"0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": "yusd-synthetic-token-expiring-31-december-2020",
+		"0x9355372396e3F6daF13359B7b607a3374cc638e0": "whale"
 	}
 }
