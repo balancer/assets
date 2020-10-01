@@ -170,16 +170,6 @@
       "color": "#6e6962",
       "hasIcon": false
     },
-    "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B": {
-      "address": "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
-      "id": "sdefi",
-      "name": "Synth sDEFI",
-      "symbol": "sDEFI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#8d6268",
-      "hasIcon": false
-    },
     "0x6A22e5e94388464181578Aa7A6B869e00fE27846": {
       "address": "0x6A22e5e94388464181578Aa7A6B869e00fE27846",
       "id": "sxag",
@@ -650,14 +640,14 @@
       "color": "#387080",
       "hasIcon": true
     },
-    "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e": {
-      "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
+    "0x967da4048cD07aB37855c090aAF366e4ce1b9F48": {
+      "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
       "id": "ocean-protocol",
       "name": "Ocean Token",
       "symbol": "OCEAN",
       "decimals": 18,
       "precision": 2,
-      "color": "#7e9e99",
+      "color": "#be955c",
       "hasIcon": true
     },
     "0xCeD4E93198734dDaFf8492d525Bd258D49eb388E": {
@@ -2048,7 +2038,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#8d6268",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
       "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
@@ -2138,7 +2128,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#220730",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a": {
       "address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
@@ -2728,7 +2718,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#666092",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
       "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
@@ -2948,7 +2938,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#c7bdf4",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xF2f9A7e93f845b3ce154EfbeB64fB9346FCCE509": {
       "address": "0xF2f9A7e93f845b3ce154EfbeB64fB9346FCCE509",
@@ -2960,14 +2950,14 @@
       "color": "#387080",
       "hasIcon": true
     },
-    "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469": {
-      "address": "0x1Aa61c196E76805fcBe394eA00e4fFCEd24FC469",
-      "id": "yieldfarming-insure",
-      "name": "yieldfarming.insure",
-      "symbol": "SAFE",
+    "0x250a3500f48666561386832f1F1f1019b89a2699": {
+      "address": "0x250a3500f48666561386832f1F1f1019b89a2699",
+      "id": "safe2",
+      "name": "SAFE2",
+      "symbol": "SAFE2",
       "decimals": 18,
       "precision": 2,
-      "color": "#68aca9",
+      "color": "#666092",
       "hasIcon": false
     },
     "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
@@ -2978,6 +2968,126 @@
       "decimals": 18,
       "precision": 2,
       "color": "#6e6962",
+      "hasIcon": true
+    },
+    "0x54C9EA2E9C9E8eD865Db4A4ce6711C2a0d5063Ba": {
+      "address": "0x54C9EA2E9C9E8eD865Db4A4ce6711C2a0d5063Ba",
+      "id": "bartertrade",
+      "name": "BarterTrade",
+      "symbol": "BART",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#628b8d",
+      "hasIcon": true
+    },
+    "0xB81D70802a816B5DacBA06D708B5acF19DcD436D": {
+      "address": "0xB81D70802a816B5DacBA06D708B5acF19DcD436D",
+      "id": "dextoken-governance",
+      "name": "Dextoken Governance",
+      "symbol": "DEXG",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0xad32A8e6220741182940c5aBF610bDE99E737b2D": {
+      "address": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
+      "id": "",
+      "name": "PieDAO DOUGH v2",
+      "symbol": "DOUGH",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#8d6268",
+      "hasIcon": false
+    },
+    "0xbCa3C97837A39099eC3082DF97e28CE91BE14472": {
+      "address": "0xbCa3C97837A39099eC3082DF97e28CE91BE14472",
+      "id": "dust-token",
+      "name": "Distant Universe Stardust Token",
+      "symbol": "DUST",
+      "decimals": 8,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
+      "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+      "id": "gemini-dollar",
+      "name": "Gemini dollar",
+      "symbol": "GUSD",
+      "decimals": 2,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0xDaFF85B6f5787b2d9eE11CCDf5e852816063326A": {
+      "address": "0xDaFF85B6f5787b2d9eE11CCDf5e852816063326A",
+      "id": "pxusd",
+      "name": "pxUSD Synthetic USD Expiring 1 November 2020",
+      "symbol": "pxUSD-OCT2020",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#433455",
+      "hasIcon": false
+    },
+    "0x8a6ACA71A218301c7081d4e96D64292D3B275ce0": {
+      "address": "0x8a6ACA71A218301c7081d4e96D64292D3B275ce0",
+      "id": "s-finance",
+      "name": "Stable Finance Governance Token",
+      "symbol": "SFG",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d2e9a",
+      "hasIcon": false
+    },
+    "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": {
+      "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
+      "id": "tbtc",
+      "name": "tBTC",
+      "symbol": "TBTC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c38890",
+      "hasIcon": false
+    },
+    "0x467Bccd9d29f223BcE8043b84E8C8B282827790F": {
+      "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+      "id": "telcoin",
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "decimals": 2,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": true
+    },
+    "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce": {
+      "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
+      "id": "uusdrbtc-synthetic-token-expiring-31-december-2020",
+      "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
+      "symbol": "uUSDrBTC-DEC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#220730",
+      "hasIcon": false
+    },
+    "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": {
+      "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
+      "id": "yusd-synthetic-token-expiring-31-december-2020",
+      "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
+      "symbol": "uUSDwETH-DEC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#5d6872",
+      "hasIcon": false
+    },
+    "0x9355372396e3F6daF13359B7b607a3374cc638e0": {
+      "address": "0x9355372396e3F6daF13359B7b607a3374cc638e0",
+      "id": "whale",
+      "name": "WHALE",
+      "symbol": "WHALE",
+      "decimals": 4,
+      "precision": 2,
+      "color": "#68aca9",
       "hasIcon": true
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
@@ -2999,16 +3109,6 @@
       "precision": 4,
       "color": "#6e6962",
       "hasIcon": true
-    },
-    "0xad32A8e6220741182940c5aBF610bDE99E737b2D": {
-      "address": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
-      "id": "",
-      "name": "PieDAO DOUGH v2",
-      "symbol": "DOUGH",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#8d6268",
-      "hasIcon": false
     },
     "0x0000852600CEB001E08e00bC008be620d60031F2": {
       "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
@@ -3050,44 +3150,14 @@
       "color": "#666092",
       "hasIcon": true
     },
-    "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": {
-      "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
+    "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0": {
+      "address": "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0",
       "id": "",
-      "name": "tBTC",
-      "symbol": "TBTC",
-      "decimals": 18,
+      "name": "GIVToken",
+      "symbol": "GIV",
+      "decimals": 8,
       "precision": 2,
-      "color": "#c38890",
-      "hasIcon": false
-    },
-    "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9": {
-      "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
-      "id": "",
-      "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
-      "symbol": "uUSDwETH-DEC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#5d6872",
-      "hasIcon": false
-    },
-    "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce": {
-      "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
-      "id": "",
-      "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
-      "symbol": "uUSDrBTC-DEC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#220730",
-      "hasIcon": false
-    },
-    "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
-      "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
-      "id": "gemini-dollar",
-      "name": "Gemini dollar",
-      "symbol": "GUSD",
-      "decimals": 2,
-      "precision": 2,
-      "color": "#6f6776",
+      "color": "#7e9e99",
       "hasIcon": true
     }
   },
@@ -3148,6 +3218,9 @@
     "0xF433089366899D83a9f26A773D59ec7eCF30355e",
     "0xfAE4Ee59CDd86e3Be9e8b90b53AA866327D7c090",
     "0x08A2E41FB99A7599725190B9C970Ad3893fa33CF",
-    "0x11eeF04c884E24d9B7B4760e7476D06ddF797f36"
+    "0x11eeF04c884E24d9B7B4760e7476D06ddF797f36",
+    "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
+    "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
+    "0xA9859874e1743A32409f75bB11549892138BBA1E"
   ]
 }
