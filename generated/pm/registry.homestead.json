@@ -2200,26 +2200,6 @@
       "color": "#c38890",
       "hasIcon": true
     },
-    "0x880873A96ce38c7fD39dc714592902B069BdE048": {
-      "address": "0x880873A96ce38c7fD39dc714592902B069BdE048",
-      "id": "",
-      "name": "PieDAO DEFI++",
-      "symbol": "DEFI++",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#7e9e99",
-      "hasIcon": false
-    },
-    "0x24D1917c1ae6C085e6b68B6c1A41B8f9dE5bd441": {
-      "address": "0x24D1917c1ae6C085e6b68B6c1A41B8f9dE5bd441",
-      "id": "",
-      "name": "PieDAO DEFI Large Cap",
-      "symbol": "DEFI+L",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9d9f7f",
-      "hasIcon": false
-    },
     "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C": {
       "address": "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C",
       "id": "",
