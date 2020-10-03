@@ -3139,6 +3139,16 @@
       "precision": 2,
       "color": "#7e9e99",
       "hasIcon": true
+    },
+    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "id": "",
+      "name": "Aave Token",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6f6776",
+      "hasIcon": false
     }
   },
   "untrusted": [
