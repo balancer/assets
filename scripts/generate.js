@@ -34,6 +34,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			address: 'ether',
 			name: 'Ether',
 			symbol: 'ETH',
+			decimals: 18,
 			precision: 4,
 			hasIcon: true,
 		},
@@ -43,6 +44,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			address,
 			name: metadata[network][address].name,
 			symbol: metadata[network][address].symbol,
+			decimals: metadata[network][address].decimals,
 			precision: data.precision[network][address] || defaultPrecision,
 			hasIcon: data.trustwalletList.includes(address),
 		};
