@@ -1998,7 +1998,7 @@
       "decimals": 8,
       "precision": 2,
       "color": "#5d2e9a",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe": {
       "address": "0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe",
