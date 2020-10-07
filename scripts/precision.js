@@ -6,45 +6,21 @@ const coingeckoClient = axios.create({
 	baseURL: 'https://api.coingecko.com/api/v3',
 });
 
-const ITEMS_PER_BATCH = 50; // 414 HTTP error handling
+const DEFAULT_PRECISION = 3;
 
 async function check() {
 	const data = await getData();
 	const coinIds = data.coingecko.homestead;
-	const addressPrices = await getPriceByAddresses(coinIds);
 	const symbolPrices = await getPriceBySymbols(coinIds);
-	comparePrices(coinIds, addressPrices, symbolPrices);
-}
-
-async function getPriceByAddresses(coinIds) {
-	const prices = {};
-	const addresses = Object.keys(coinIds);
-	for (let i = 0; i < addresses.length / ITEMS_PER_BATCH; i++) {
-		const addressSlice = addresses.slice(ITEMS_PER_BATCH * i, ITEMS_PER_BATCH * (i + 1));
-		const contractAddressesString = addressSlice.join(',');
-		const priceResponse = await coingeckoClient.get(`simple/token_price/ethereum`, {
-			params: {
-				contract_addresses: contractAddressesString,
-				vs_currencies: 'usd'
-			},
-		});
-		for (const address of addressSlice) {
-			const priceInfo = priceResponse.data[address.toLowerCase()];
-			if (!priceInfo) {
-				prices[address] = 0;
-			} else {
-				prices[address] = priceInfo.usd;
-			}
-		}
-	}
-	return prices;
+	const precision = getPrecision(symbolPrices);
+	console.log(precision);
 }
 
 async function getPriceBySymbols(coinIds) {
 	const prices = {};
 	const addresses = Object.keys(coinIds);
-	for (let i = 0; i < addresses.length / ITEMS_PER_BATCH; i++) {
-		const addressSlice = addresses.slice(ITEMS_PER_BATCH * i, ITEMS_PER_BATCH * (i + 1));
+	for (let i = 0; i < addresses.length / 50; i++) {
+		const addressSlice = addresses.slice(50 * i, 50 * (i + 1));
 		const idsString = addressSlice.map(address => coinIds[address]).join(',');
 		const priceResponse = await coingeckoClient.get(`simple/price`, {
 			params: {
@@ -62,15 +38,29 @@ async function getPriceBySymbols(coinIds) {
 	return prices;
 }
 
-function comparePrices(coinIds, addressPrices, symbolPrices) {
-	for (const address in coinIds) {
-		const addressPrice = addressPrices[address];
-		const symbolPrice = symbolPrices[address];
-		const diff = Math.abs(addressPrice - symbolPrice) / addressPrice;
-		if (diff > 0.01) {
-			console.log(`Price mismatch for ${address}: ${addressPrice} vs ${symbolPrice}`);
+function getPrecision(prices) {
+	const precisions = {};
+	for (const address in prices) {
+		const price = prices[address];
+		let precision;
+		if (price) {
+			if (price < 2) {
+				precision = 2;
+			} else if (price < 20) {
+				precision = 3;
+			} else if (price < 200) {
+				precision = 4;
+			} else if (price < 2000) {
+				precision = 5;
+			} else {
+				precision = 6;
+			}
+		} else {
+			precision = DEFAULT_PRECISION;
 		}
+		precisions[address] = precision;
 	}
+	return precisions;
 }
 
 async function getData() {
