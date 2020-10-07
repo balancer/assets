@@ -16,7 +16,7 @@
       "name": "Balancer",
       "symbol": "BAL",
       "decimals": 18,
-      "precision": 4,
+      "precision": 3,
       "color": "#fafafa",
       "hasIcon": true
     },
@@ -36,7 +36,7 @@
       "name": "Maker",
       "symbol": "MKR",
       "decimals": 18,
-      "precision": 4,
+      "precision": 5,
       "color": "#7e9e99",
       "hasIcon": true
     },
@@ -56,7 +56,7 @@
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 6,
       "color": "#68aca9",
       "hasIcon": true
     },
@@ -66,7 +66,7 @@
       "name": "UMA Voting Token v1",
       "symbol": "UMA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#a593a5",
       "hasIcon": true
     },
@@ -76,7 +76,7 @@
       "name": "ChainLink Token",
       "symbol": "LINK",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#387080",
       "hasIcon": true
     },
@@ -96,7 +96,7 @@
       "name": "Aragon Network Token",
       "symbol": "ANT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#c28d75",
       "hasIcon": true
     },
@@ -126,7 +126,7 @@
       "name": "Synthetix Network Token",
       "symbol": "SNX",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#8d6268",
       "hasIcon": true
     },
@@ -146,7 +146,7 @@
       "name": "Synth sBTC",
       "symbol": "sBTC",
       "decimals": 18,
-      "precision": 4,
+      "precision": 6,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -156,7 +156,7 @@
       "name": "Synth sETH",
       "symbol": "sETH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#557064",
       "hasIcon": true
     },
@@ -166,7 +166,7 @@
       "name": "Synth sXAU",
       "symbol": "sXAU",
       "decimals": 18,
-      "precision": 4,
+      "precision": 5,
       "color": "#6e6962",
       "hasIcon": false
     },
@@ -176,7 +176,7 @@
       "name": "Synth sXAG",
       "symbol": "sXAG",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#be955c",
       "hasIcon": false
     },
@@ -206,7 +206,7 @@
       "name": "Compound",
       "symbol": "COMP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#387080",
       "hasIcon": true
     },
@@ -236,7 +236,7 @@
       "name": "Compound Ether",
       "symbol": "cETH",
       "decimals": 8,
-      "precision": 4,
+      "precision": 3,
       "color": "#c28d75",
       "hasIcon": true
     },
@@ -286,7 +286,7 @@
       "name": "Compound Wrapped BTC",
       "symbol": "cWBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 5,
       "color": "#be955c",
       "hasIcon": false
     },
@@ -366,7 +366,7 @@
       "name": "Aave Interest bearing ETH",
       "symbol": "aETH",
       "decimals": 18,
-      "precision": 4,
+      "precision": 5,
       "color": "#8d6268",
       "hasIcon": true
     },
@@ -396,7 +396,7 @@
       "name": "Aave Interest bearing LINK",
       "symbol": "aLINK",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#387080",
       "hasIcon": true
     },
@@ -416,7 +416,7 @@
       "name": "Aave Interest bearing MKR",
       "symbol": "aMKR",
       "decimals": 18,
-      "precision": 4,
+      "precision": 5,
       "color": "#93a167",
       "hasIcon": true
     },
@@ -436,7 +436,7 @@
       "name": "Aave Interest bearing SNX",
       "symbol": "aSNX",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#557064",
       "hasIcon": true
     },
@@ -446,7 +446,7 @@
       "name": "Aave Interest bearing WBTC",
       "symbol": "aWBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 6,
       "color": "#9d9f7f",
       "hasIcon": true
     },
@@ -476,7 +476,7 @@
       "name": "renBTC",
       "symbol": "renBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 6,
       "color": "#9a9a97",
       "hasIcon": true
     },
@@ -486,7 +486,7 @@
       "name": "The Tokenized Bitcoin",
       "symbol": "imBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 6,
       "color": "#c38890",
       "hasIcon": true
     },
@@ -496,7 +496,7 @@
       "name": "pTokens BTC",
       "symbol": "pBTC",
       "decimals": 18,
-      "precision": 4,
+      "precision": 6,
       "color": "#8b5580",
       "hasIcon": true
     },
@@ -556,7 +556,7 @@
       "name": "Rocket Pool",
       "symbol": "RPL",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#a593a5",
       "hasIcon": true
     },
@@ -576,7 +576,7 @@
       "name": "Gnosis Token",
       "symbol": "GNO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c38890",
       "hasIcon": true
     },
@@ -596,7 +596,7 @@
       "name": "DXdao",
       "symbol": "DXD",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c5ccb8",
       "hasIcon": true
     },
@@ -616,7 +616,7 @@
       "name": "Numeraire",
       "symbol": "NMR",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6e6962",
       "hasIcon": true
     },
@@ -826,7 +826,7 @@
       "name": "Tellor Tributes",
       "symbol": "TRB",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#9a4f50",
       "hasIcon": true
     },
@@ -836,7 +836,7 @@
       "name": "Quant",
       "symbol": "QNT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#666092",
       "hasIcon": true
     },
@@ -866,7 +866,7 @@
       "name": "Melon Token",
       "symbol": "MLN",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8b5580",
       "hasIcon": true
     },
@@ -1006,7 +1006,7 @@
       "name": "Livepeer Token",
       "symbol": "LPT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#416aa3",
       "hasIcon": true
     },
@@ -1036,7 +1036,7 @@
       "name": "STAKE",
       "symbol": "STAKE",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#a593a5",
       "hasIcon": true
     },
@@ -1216,7 +1216,7 @@
       "name": "ETH/BTC RSI 70/30 Crossover",
       "symbol": "ETHBTCRSI7030",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -1226,7 +1226,7 @@
       "name": "ETH RSI 60/40 Yield",
       "symbol": "ETHRSIAPY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#93a167",
       "hasIcon": false
     },
@@ -1246,7 +1246,7 @@
       "name": "ETH RSI 60/40 Yield II",
       "symbol": "ETHRSIAPY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#93a167",
       "hasIcon": false
     },
@@ -1256,7 +1256,7 @@
       "name": "100 Waves",
       "symbol": "100W",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#5d6872",
       "hasIcon": false
     },
@@ -1266,7 +1266,7 @@
       "name": "100 Waves ETH/USD Ether Hoard",
       "symbol": "100WETH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -1276,7 +1276,7 @@
       "name": "100 Waves ETH/BTC Set",
       "symbol": "100WRatio",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9a9a97",
       "hasIcon": false
     },
@@ -1286,7 +1286,7 @@
       "name": "Asian ETH Sentiment Set",
       "symbol": "ASETH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c5ccb8",
       "hasIcon": false
     },
@@ -1296,7 +1296,7 @@
       "name": "BullBearBitcoin Set II",
       "symbol": "BBB",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8b5580",
       "hasIcon": false
     },
@@ -1306,7 +1306,7 @@
       "name": "BullBearEthereum Set II",
       "symbol": "BBE",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#c38890",
       "hasIcon": false
     },
@@ -1316,7 +1316,7 @@
       "name": "Bitcoin High Yield Set",
       "symbol": "BHY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#a593a5",
       "hasIcon": false
     },
@@ -1326,7 +1326,7 @@
       "name": "BTC AI Limit Loss",
       "symbol": "BLL",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#666092",
       "hasIcon": false
     },
@@ -1336,7 +1336,7 @@
       "name": "BTC Long-Only Alpha Portfolio",
       "symbol": "BLOAP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9a4f50",
       "hasIcon": false
     },
@@ -1346,7 +1346,7 @@
       "name": "BTC OnChain Beta Portfolio",
       "symbol": "BOCBP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c28d75",
       "hasIcon": false
     },
@@ -1356,7 +1356,7 @@
       "name": "Money Printer Go Brrr",
       "symbol": "BRRR",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#7ca1c0",
       "hasIcon": false
     },
@@ -1366,7 +1366,7 @@
       "name": "BTC Fund Active Trading Set",
       "symbol": "BTCFUND",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#416aa3",
       "hasIcon": false
     },
@@ -1376,7 +1376,7 @@
       "name": "BTC TA Set",
       "symbol": "BTCTA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8d6268",
       "hasIcon": false
     },
@@ -1386,7 +1386,7 @@
       "name": "BTC Network Demand Set",
       "symbol": "BYTE",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#be955c",
       "hasIcon": false
     },
@@ -1396,7 +1396,7 @@
       "name": "Chad Link Set",
       "symbol": "CHADLINK",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#68aca9",
       "hasIcon": false
     },
@@ -1406,7 +1406,7 @@
       "name": "CoindicatorBTC Set",
       "symbol": "COINBTC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#387080",
       "hasIcon": false
     },
@@ -1416,7 +1416,7 @@
       "name": "ETHBTC Long-Only Alpha Portfolio",
       "symbol": "EBLOAP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6e6962",
       "hasIcon": false
     },
@@ -1426,7 +1426,7 @@
       "name": "Ethereum High Yield Set",
       "symbol": "EHY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#93a167",
       "hasIcon": false
     },
@@ -1436,7 +1436,7 @@
       "name": "ETH AI Limit Loss",
       "symbol": "ELL",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6eaa78",
       "hasIcon": false
     },
@@ -1446,7 +1446,7 @@
       "name": "ETH Long-Only Alpha Portfolio",
       "symbol": "ELOAP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#557064",
       "hasIcon": false
     },
@@ -1456,7 +1456,7 @@
       "name": "ETH Trending Alpha LT",
       "symbol": "ETA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9d9f7f",
       "hasIcon": false
     },
@@ -1466,7 +1466,7 @@
       "name": "ETH Trending Alpha ST Set",
       "symbol": "ETAS",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#7e9e99",
       "hasIcon": false
     },
@@ -1476,7 +1476,7 @@
       "name": "ETH Maximalist Set",
       "symbol": "ETH10K",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#5d6872",
       "hasIcon": false
     },
@@ -1486,7 +1486,7 @@
       "name": "ETH 12 EMA Crossover Set",
       "symbol": "ETH12EMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -1496,7 +1496,7 @@
       "name": "ETH 20 SMA Crossover Set",
       "symbol": "ETH20SMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#9a9a97",
       "hasIcon": true
     },
@@ -1506,7 +1506,7 @@
       "name": "ETH 26 EMA Crossover Set",
       "symbol": "ETH26EMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#c5ccb8",
       "hasIcon": false
     },
@@ -1516,7 +1516,7 @@
       "name": "ETH 50 SMA Crossover Set",
       "symbol": "ETH50SMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#8b5580",
       "hasIcon": false
     },
@@ -1526,7 +1526,7 @@
       "name": "ETH/BTC Ratio 26 EMA Crossover",
       "symbol": "ETHBTC26EMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c38890",
       "hasIcon": false
     },
@@ -1536,7 +1536,7 @@
       "name": "ETH/BTC PA Candlestick",
       "symbol": "ETHBTCPA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#a593a5",
       "hasIcon": false
     },
@@ -1546,7 +1546,7 @@
       "name": "ETH Super Set",
       "symbol": "ETHDAIS",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#666092",
       "hasIcon": false
     },
@@ -1556,7 +1556,7 @@
       "name": "ETH 26 EMA Crossover Yield II",
       "symbol": "ETHEMAAPY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#9a4f50",
       "hasIcon": false
     },
@@ -1566,7 +1566,7 @@
       "name": "ETH 20 MA Crossover Yield II",
       "symbol": "ETHMACOAPY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#c28d75",
       "hasIcon": false
     },
@@ -1576,7 +1576,7 @@
       "name": "ETH Momentum Trigger Set",
       "symbol": "ETHMO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#7ca1c0",
       "hasIcon": false
     },
@@ -1586,7 +1586,7 @@
       "name": "ETH Moonshot X Yield Set",
       "symbol": "ETHMOONX",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#416aa3",
       "hasIcon": false
     },
@@ -1596,7 +1596,7 @@
       "name": "ETH Moonshot X Disc Yield Set",
       "symbol": "ETHMOONX2",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#8d6268",
       "hasIcon": false
     },
@@ -1606,7 +1606,7 @@
       "name": "ETH Price Action Candlestick Set",
       "symbol": "ETHPA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#be955c",
       "hasIcon": false
     },
@@ -1616,7 +1616,7 @@
       "name": "ETH RSI 60/40 Crossover Set",
       "symbol": "ETHRSI6040",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#68aca9",
       "hasIcon": false
     },
@@ -1626,7 +1626,7 @@
       "name": "ETH TA Set",
       "symbol": "ETHTA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#387080",
       "hasIcon": false
     },
@@ -1636,7 +1636,7 @@
       "name": "ETHUSD ADL 4H Set",
       "symbol": "ETHUSDADL4",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6e6962",
       "hasIcon": false
     },
@@ -1646,7 +1646,7 @@
       "name": "Fart Set",
       "symbol": "FART",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#93a167",
       "hasIcon": false
     },
@@ -1656,7 +1656,7 @@
       "name": "Flex BTC Set",
       "symbol": "FLEXBTC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6eaa78",
       "hasIcon": false
     },
@@ -1666,7 +1666,7 @@
       "name": "Flex ETH Set",
       "symbol": "FLEXETH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#557064",
       "hasIcon": false
     },
@@ -1676,7 +1676,7 @@
       "name": "FlexETH/BTC Set",
       "symbol": "FLEXETHBTC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9d9f7f",
       "hasIcon": false
     },
@@ -1686,7 +1686,7 @@
       "name": "Alligator + Fractal Set",
       "symbol": "GATOR",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#7e9e99",
       "hasIcon": false
     },
@@ -1696,7 +1696,7 @@
       "name": "Fear & Greed Sentiment Set II",
       "symbol": "GREED2",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#5d6872",
       "hasIcon": false
     },
@@ -1706,7 +1706,7 @@
       "name": "Inverse ETH 20 SMA Crossover",
       "symbol": "iETH20SMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -1716,7 +1716,7 @@
       "name": "Inverse ETH 50 SMA Crossover",
       "symbol": "iETH50SMACO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9a9a97",
       "hasIcon": false
     },
@@ -1726,7 +1726,7 @@
       "name": "Intelligent BTC Set",
       "symbol": "INTBTC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c5ccb8",
       "hasIcon": false
     },
@@ -1736,7 +1736,7 @@
       "name": "Intelligent ETH Set",
       "symbol": "INTETH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8b5580",
       "hasIcon": false
     },
@@ -1746,7 +1746,7 @@
       "name": "Intelligent Ratio Set",
       "symbol": "INTRATIO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#c38890",
       "hasIcon": false
     },
@@ -1756,7 +1756,7 @@
       "name": "LINK/ETH Growth Alpha Set",
       "symbol": "LEGA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#a593a5",
       "hasIcon": false
     },
@@ -1766,7 +1766,7 @@
       "name": "Long-Only Alpha Portfolio",
       "symbol": "LELOAP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#666092",
       "hasIcon": false
     },
@@ -1776,7 +1776,7 @@
       "name": "ETH/LINK PA Candlestick Set",
       "symbol": "LINKETHPA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#9a4f50",
       "hasIcon": false
     },
@@ -1786,7 +1786,7 @@
       "name": "LINK/ETH RSI Ratio Trading",
       "symbol": "LINKETHRSI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c28d75",
       "hasIcon": false
     },
@@ -1796,7 +1796,7 @@
       "name": "LINK Profit Taker Set",
       "symbol": "LINKPT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#7ca1c0",
       "hasIcon": false
     },
@@ -1806,7 +1806,7 @@
       "name": "LINK RSI Crossover Set",
       "symbol": "LINKRSICO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#416aa3",
       "hasIcon": false
     },
@@ -1816,7 +1816,7 @@
       "name": "Mountains and Valleys ETH/BTC",
       "symbol": "MAVC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8d6268",
       "hasIcon": false
     },
@@ -1826,7 +1826,7 @@
       "name": "Chainlink Trading Set",
       "symbol": "CTS",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#6f6776",
       "hasIcon": false
     },
@@ -1836,7 +1836,7 @@
       "name": "BTC RSI Crossover Yield Set",
       "symbol": "BTCRSIAPY",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9a9a97",
       "hasIcon": false
     },
@@ -1846,7 +1846,7 @@
       "name": "Set of Sets Trailblazer Fund",
       "symbol": "MQSS",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8b5580",
       "hasIcon": false
     },
@@ -1856,7 +1856,7 @@
       "name": "Holistic BTC Set",
       "symbol": "TCapBTCUSDC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c7bdf4",
       "hasIcon": false
     },
@@ -1866,7 +1866,7 @@
       "name": "Holistic ETH",
       "symbol": "TCapETHDAI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#9d9f7f",
       "hasIcon": false
     },
@@ -1876,7 +1876,7 @@
       "name": "ETH Smart Beta Set",
       "symbol": "ETHSB",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#387080",
       "hasIcon": false
     },
@@ -1986,7 +1986,7 @@
       "name": "Meta",
       "symbol": "MTA",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#7e9e99",
       "hasIcon": true
     },
@@ -2016,7 +2016,7 @@
       "name": "Rarible",
       "symbol": "RARI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#8b5580",
       "hasIcon": true
     },
@@ -2046,7 +2046,7 @@
       "name": "yearn.finance",
       "symbol": "YFI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 6,
       "color": "#a593a5",
       "hasIcon": true
     },
@@ -2056,7 +2056,7 @@
       "name": "Wrapped NXM",
       "symbol": "wNXM",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#c28d75",
       "hasIcon": true
     },
@@ -2066,7 +2066,7 @@
       "name": "0xBitcoin Token",
       "symbol": "0xBTC",
       "decimals": 8,
-      "precision": 4,
+      "precision": 2,
       "color": "#c7bdf4",
       "hasIcon": true
     },
@@ -2146,7 +2146,7 @@
       "name": "ethart",
       "symbol": "arte",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#c5ccb8",
       "hasIcon": true
     },
@@ -2206,7 +2206,7 @@
       "name": "PieDAO DEFI Small Cap",
       "symbol": "DEFI+S",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#68aca9",
       "hasIcon": false
     },
@@ -2216,7 +2216,7 @@
       "name": "Reputation",
       "symbol": "REPv2",
       "decimals": 18,
-      "precision": 4,
+      "precision": 3,
       "color": "#6e6962",
       "hasIcon": true
     },
@@ -2242,7 +2242,7 @@
     },
     "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419": {
       "address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
-      "id": "dia",
+      "id": "dia-data",
       "name": "DIAToken",
       "symbol": "DIA",
       "decimals": 18,
@@ -2252,7 +2252,7 @@
     },
     "0x6fe56C0bcdD471359019FcBC48863d6c3e9d4F41": {
       "address": "0x6fe56C0bcdD471359019FcBC48863d6c3e9d4F41",
-      "id": "props-token",
+      "id": "props",
       "name": "Props Token",
       "symbol": "PROPS",
       "decimals": 18,
@@ -2266,7 +2266,7 @@
       "name": "Sora Token",
       "symbol": "XOR",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#433455",
       "hasIcon": true
     },
@@ -2276,7 +2276,7 @@
       "name": "BandToken",
       "symbol": "BAND",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#9d9f7f",
       "hasIcon": true
     },
@@ -2292,7 +2292,7 @@
     },
     "0x29E9fDF5933824ad21Bc6dbb8BF156EFA3735e32": {
       "address": "0x29E9fDF5933824ad21Bc6dbb8BF156EFA3735e32",
-      "id": "meter-stable-mapped-by-meter-io",
+      "id": "mete-stable-mapped-by-meter-io",
       "name": "Meter Stable mapped by Meter.io",
       "symbol": "eMTR",
       "decimals": 18,
@@ -2336,7 +2336,7 @@
       "name": "GoldenRatio",
       "symbol": "GRT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#5d2e9a",
       "hasIcon": true
     },
@@ -2356,7 +2356,7 @@
       "name": "Q DAO Governance token v1.0",
       "symbol": "QDAO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#c38890",
       "hasIcon": true
     },
@@ -2376,7 +2376,7 @@
       "name": "Synth sXMR",
       "symbol": "sXMR",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#68aca9",
       "hasIcon": false
     },
@@ -2426,7 +2426,7 @@
       "name": "YAMv2",
       "symbol": "YAMv2",
       "decimals": 24,
-      "precision": 2,
+      "precision": 3,
       "color": "#628b8d",
       "hasIcon": false
     },
@@ -2436,7 +2436,7 @@
       "name": "YFII.finance",
       "symbol": "YFII",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#c38890",
       "hasIcon": true
     },
@@ -2456,7 +2456,7 @@
       "name": "Cream",
       "symbol": "CREAM",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#8d6268",
       "hasIcon": true
     },
@@ -2492,7 +2492,7 @@
     },
     "0x0a50C93c762fDD6E56D86215C24AaAD43aB629aa": {
       "address": "0x0a50C93c762fDD6E56D86215C24AaAD43aB629aa",
-      "id": "lgo-token",
+      "id": "legolas-exchange",
       "name": "LGO Token",
       "symbol": "LGO",
       "decimals": 8,
@@ -2542,11 +2542,11 @@
     },
     "0x45f24BaEef268BB6d63AEe5129015d69702BCDfa": {
       "address": "0x45f24BaEef268BB6d63AEe5129015d69702BCDfa",
-      "id": "yfvalue",
+      "id": "yfv-finance",
       "name": "YFValue",
       "symbol": "YFV",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#9a9a97",
       "hasIcon": false
     },
@@ -2592,11 +2592,11 @@
     },
     "0xbBe319b73744dB9d54F5D29df7D8256B7e43995C": {
       "address": "0xbBe319b73744dB9d54F5D29df7D8256B7e43995C",
-      "id": "aragon-china",
+      "id": "aragon-china-token",
       "name": "Aragon China Token",
       "symbol": "ANC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#68aca9",
       "hasIcon": false
     },
@@ -2612,7 +2612,7 @@
     },
     "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1": {
       "address": "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
-      "id": "powerpool-concentrated-voting-power",
+      "id": "concentrated-voting-power",
       "name": "Concentrated Voting Power",
       "symbol": "CVP",
       "decimals": 18,
@@ -2626,7 +2626,7 @@
       "name": "FARM Reward Token",
       "symbol": "FARM",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#387080",
       "hasIcon": true
     },
@@ -2652,11 +2652,11 @@
     },
     "0xD5525D397898e5502075Ea5E830d8914f6F0affe": {
       "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
-      "id": "meme",
+      "id": "degenerator",
       "name": "MEME",
       "symbol": "MEME",
       "decimals": 8,
-      "precision": 2,
+      "precision": 5,
       "color": "#c28d75",
       "hasIcon": true
     },
@@ -2712,7 +2712,7 @@
     },
     "0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433": {
       "address": "0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433",
-      "id": "swerve",
+      "id": "swerve-dao",
       "name": "Swerve DAO Token",
       "symbol": "SWRV",
       "decimals": 18,
@@ -2746,17 +2746,17 @@
       "name": "yffi.finance",
       "symbol": "YFFI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#7e9e99",
       "hasIcon": false
     },
     "0x28cb7e841ee97947a86B06fA4090C8451f64c0be": {
       "address": "0x28cb7e841ee97947a86B06fA4090C8451f64c0be",
-      "id": "yf-link",
+      "id": "yflink",
       "name": "YFLink",
       "symbol": "YFL",
       "decimals": 18,
-      "precision": 2,
+      "precision": 5,
       "color": "#387080",
       "hasIcon": true
     },
@@ -2766,7 +2766,7 @@
       "name": "Boosted Finance",
       "symbol": "BOOST",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#be955c",
       "hasIcon": false
     },
@@ -2786,7 +2786,7 @@
       "name": "Growth",
       "symbol": "GRO",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#7ca1c0",
       "hasIcon": true
     },
@@ -2816,7 +2816,7 @@
       "name": "PickleToken",
       "symbol": "PICKLE",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#433455",
       "hasIcon": true
     },
@@ -2846,7 +2846,7 @@
       "name": "DefiPulse Index",
       "symbol": "DPI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#93a167",
       "hasIcon": true
     },
@@ -2886,7 +2886,7 @@
       "name": "Hedget",
       "symbol": "HGET",
       "decimals": 6,
-      "precision": 2,
+      "precision": 3,
       "color": "#c28d75",
       "hasIcon": false
     },
@@ -2936,7 +2936,7 @@
       "name": "SAFE2",
       "symbol": "SAFE2",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#666092",
       "hasIcon": false
     },
@@ -2946,7 +2946,7 @@
       "name": "Uniswap",
       "symbol": "UNI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#6e6962",
       "hasIcon": true
     },
@@ -2966,7 +2966,7 @@
       "name": "Dextoken Governance",
       "symbol": "DEXG",
       "decimals": 18,
-      "precision": 2,
+      "precision": 4,
       "color": "#6f6776",
       "hasIcon": true
     },
@@ -2976,7 +2976,7 @@
       "name": "PieDAO DOUGH v2",
       "symbol": "DOUGH",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#8d6268",
       "hasIcon": false
     },
@@ -3006,7 +3006,7 @@
       "name": "pxUSD Synthetic USD Expiring 1 November 2020",
       "symbol": "pxUSD-OCT2020",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#433455",
       "hasIcon": false
     },
@@ -3026,7 +3026,7 @@
       "name": "tBTC",
       "symbol": "TBTC",
       "decimals": 18,
-      "precision": 2,
+      "precision": 6,
       "color": "#c38890",
       "hasIcon": false
     },
@@ -3066,7 +3066,7 @@
       "name": "WHALE",
       "symbol": "WHALE",
       "decimals": 4,
-      "precision": 2,
+      "precision": 3,
       "color": "#68aca9",
       "hasIcon": true
     },
@@ -3086,7 +3086,7 @@
       "name": "Reputation",
       "symbol": "REP",
       "decimals": 18,
-      "precision": 4,
+      "precision": 3,
       "color": "#6e6962",
       "hasIcon": true
     },
@@ -3096,7 +3096,7 @@
       "name": "TrueHKD",
       "symbol": "THKD",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#416aa3",
       "hasIcon": true
     },
@@ -3106,7 +3106,7 @@
       "name": "TrueCAD",
       "symbol": "TCAD",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#9a9a97",
       "hasIcon": true
     },
@@ -3116,7 +3116,7 @@
       "name": "TrueAUD",
       "symbol": "TAUD",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#9d9f7f",
       "hasIcon": true
     },
@@ -3126,7 +3126,7 @@
       "name": "TrueGBP",
       "symbol": "TGBP",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#666092",
       "hasIcon": true
     },
@@ -3136,7 +3136,7 @@
       "name": "GIVToken",
       "symbol": "GIV",
       "decimals": 8,
-      "precision": 2,
+      "precision": 3,
       "color": "#7e9e99",
       "hasIcon": true
     },
@@ -3146,7 +3146,7 @@
       "name": "Aave Token",
       "symbol": "AAVE",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#6f6776",
       "hasIcon": false
     }

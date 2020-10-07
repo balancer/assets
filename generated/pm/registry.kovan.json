@@ -16,7 +16,7 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#fab323",
       "hasIcon": false
     },
@@ -36,7 +36,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "precision": 2,
+      "precision": 3,
       "color": "#2875ca",
       "hasIcon": false
     },
@@ -66,7 +66,7 @@
       "name": "Basic Attention Token",
       "symbol": "BAT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#ff5700",
       "hasIcon": false
     },
@@ -76,7 +76,7 @@
       "name": "Synthetix",
       "symbol": "SNX",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#ffffff",
       "hasIcon": false
     },
@@ -86,7 +86,7 @@
       "name": "Aragon Network Token",
       "symbol": "ANT",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#e7983d",
       "hasIcon": false
     },
@@ -96,7 +96,7 @@
       "name": "0x Protocol Token",
       "symbol": "ZRX",
       "decimals": 18,
-      "precision": 2,
+      "precision": 3,
       "color": "#536dfe",
       "hasIcon": false
     }
