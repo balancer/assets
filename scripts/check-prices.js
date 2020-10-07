@@ -30,7 +30,11 @@ async function getPriceByAddresses(coinIds) {
 		});
 		for (const address of addressSlice) {
 			const priceInfo = priceResponse.data[address.toLowerCase()];
-			prices[address] = priceInfo.usd;
+			if (!priceInfo) {
+				prices[address] = 0;
+			} else {
+				prices[address] = priceInfo.usd;
+			}
 		}
 	}
 	return prices;
