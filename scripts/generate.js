@@ -6,7 +6,7 @@ const fs = require('fs');
 const multicall = require('../abi/Multicall.json');
 const erc20 = require('../abi/ERC20.json');
 
-const defaultPrecision = 2;
+const DEFAULT_PRECISION = 3;
 
 async function run() {
 	try {
@@ -45,7 +45,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			name: metadata[network][address].name,
 			symbol: metadata[network][address].symbol,
 			decimals: metadata[network][address].decimals,
-			precision: data.precision[network][address] || defaultPrecision,
+			precision: data.precision[network][address] || DEFAULT_PRECISION,
 			hasIcon: data.trustwalletList.includes(address),
 		};
 	}
@@ -58,7 +58,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			name: metadata[network][address].name,
 			symbol: metadata[network][address].symbol,
 			decimals: metadata[network][address].decimals,
-			precision: data.precision[network][address] || defaultPrecision,
+			precision: data.precision[network][address] || DEFAULT_PRECISION,
 			color: data.color[network][address] || color,
 			hasIcon: data.trustwalletList.includes(address),
 		};
@@ -71,7 +71,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			name: metadata[network][address].name,
 			symbol: metadata[network][address].symbol,
 			decimals: metadata[network][address].decimals,
-			precision: data.precision[network][address] || defaultPrecision,
+			precision: data.precision[network][address] || DEFAULT_PRECISION,
 			color: data.color[network][address] || color,
 			hasIcon: data.trustwalletList.includes(address),
 		};
