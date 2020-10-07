@@ -19,8 +19,8 @@ async function check() {
 async function getPriceByAddresses(coinIds) {
 	const prices = {};
 	const addresses = Object.keys(coinIds);
-	for (let i = 0; i < addresses.length / 50; i++) {
-		const addressSlice = addresses.slice(50 * i, 50 * (i + 1));
+	for (let i = 0; i < addresses.length / ITEMS_PER_BATCH; i++) {
+		const addressSlice = addresses.slice(ITEMS_PER_BATCH * i, ITEMS_PER_BATCH * (i + 1));
 		const contractAddressesString = addressSlice.join(',');
 		const priceResponse = await coingeckoClient.get(`simple/token_price/ethereum`, {
 			params: {
@@ -43,8 +43,8 @@ async function getPriceByAddresses(coinIds) {
 async function getPriceBySymbols(coinIds) {
 	const prices = {};
 	const addresses = Object.keys(coinIds);
-	for (let i = 0; i < addresses.length / 50; i++) {
-		const addressSlice = addresses.slice(50 * i, 50 * (i + 1));
+	for (let i = 0; i < addresses.length / ITEMS_PER_BATCH; i++) {
+		const addressSlice = addresses.slice(ITEMS_PER_BATCH * i, ITEMS_PER_BATCH * (i + 1));
 		const idsString = addressSlice.map(address => coinIds[address]).join(',');
 		const priceResponse = await coingeckoClient.get(`simple/price`, {
 			params: {
