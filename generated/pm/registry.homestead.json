@@ -80,15 +80,15 @@
       "color": "#387080",
       "hasIcon": true
     },
-    "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
-      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
-      "id": "ethlend",
-      "name": "EthLend Token",
-      "symbol": "LEND",
+    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "id": "aave",
+      "name": "Aave Token",
+      "symbol": "AAVE",
       "decimals": 18,
-      "precision": 2,
-      "color": "#c7bdf4",
-      "hasIcon": true
+      "precision": 3,
+      "color": "#6f6776",
+      "hasIcon": false
     },
     "0x960b236A07cf122663c4303350609A66A7B288C0": {
       "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
@@ -1188,7 +1188,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#9a4f50",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a": {
       "address": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a",
@@ -2120,15 +2120,15 @@
       "color": "#c5ccb8",
       "hasIcon": false
     },
-    "0xC0134b5B924c2FCA106eFB33C45446c466FBe03e": {
-      "address": "0xC0134b5B924c2FCA106eFB33C45446c466FBe03e",
+    "0x27702a26126e0B3702af63Ee09aC4d1A084EF628": {
+      "address": "0x27702a26126e0B3702af63Ee09aC4d1A084EF628",
       "id": "aleph",
-      "name": "aleph.im",
+      "name": "aleph.im v2",
       "symbol": "ALEPH",
       "decimals": 18,
-      "precision": 2,
-      "color": "#220730",
-      "hasIcon": false
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": true
     },
     "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a": {
       "address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
@@ -3070,6 +3070,126 @@
       "color": "#68aca9",
       "hasIcon": true
     },
+    "0xb052F8A33D8bb068414EaDE06AF6955199f9f010": {
+      "address": "0xb052F8A33D8bb068414EaDE06AF6955199f9f010",
+      "id": "ecoreal-estate",
+      "name": "EcoRealEstate",
+      "symbol": "ECOREAL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": true
+    },
+    "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0": {
+      "address": "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0",
+      "id": "givly-coin",
+      "name": "GIVToken",
+      "symbol": "GIV",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": true
+    },
+    "0xDea67845A51E24461D5fED8084E69B426AF3D5Db": {
+      "address": "0xDea67845A51E24461D5fED8084E69B426AF3D5Db",
+      "id": "hodltree",
+      "name": "HodlTree",
+      "symbol": "HTRE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false
+    },
+    "0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D": {
+      "address": "0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D",
+      "id": "kiwi-token",
+      "name": "KIWI Token",
+      "symbol": "KIWI",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": true
+    },
+    "0xfe5F141Bf94fE84bC28deD0AB966c16B17490657": {
+      "address": "0xfe5F141Bf94fE84bC28deD0AB966c16B17490657",
+      "id": "libra-credit",
+      "name": "LibraToken",
+      "symbol": "LBA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": true
+    },
+    "0x26cF82e4aE43D31eA51e72B663d26e26a75AF729": {
+      "address": "0x26cF82e4aE43D31eA51e72B663d26e26a75AF729",
+      "id": "moonbase",
+      "name": "Moonbase",
+      "symbol": "mbBASED",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false
+    },
+    "0x44Ea84a85616F8e9cD719Fc843DE31D852ad7240": {
+      "address": "0x44Ea84a85616F8e9cD719Fc843DE31D852ad7240",
+      "id": "no-trump-augur-prediction-token",
+      "name": "NO Donald Trump",
+      "symbol": "nTrump",
+      "decimals": 15,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false
+    },
+    "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf": {
+      "address": "0x459086F2376525BdCebA5bDDA135e4E9d3FeF5bf",
+      "id": "renbch",
+      "name": "renBCH",
+      "symbol": "renBCH",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": true
+    },
+    "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2": {
+      "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
+      "id": "renzec",
+      "name": "renZEC",
+      "symbol": "renZEC",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#7ca1c0",
+      "hasIcon": true
+    },
+    "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B": {
+      "address": "0x7e8539D1E5cB91d63E46B8e188403b3f262a949B",
+      "id": "somidax",
+      "name": "SOMIDAX",
+      "symbol": "SMDX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": false
+    },
+    "0xb1dC9124c395c1e97773ab855d66E879f053A289": {
+      "address": "0xb1dC9124c395c1e97773ab855d66E879f053A289",
+      "id": "yaxis",
+      "name": "yAxis",
+      "symbol": "YAX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false
+    },
+    "0x3af375d9f77Ddd4F16F86A5D51a9386b7B4493Fa": {
+      "address": "0x3af375d9f77Ddd4F16F86A5D51a9386b7B4493Fa",
+      "id": "yes-trump-augur-prediction-token",
+      "name": "YES Donald Trump",
+      "symbol": "yTrump",
+      "decimals": 15,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -3129,26 +3249,6 @@
       "precision": 3,
       "color": "#666092",
       "hasIcon": true
-    },
-    "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0": {
-      "address": "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0",
-      "id": "",
-      "name": "GIVToken",
-      "symbol": "GIV",
-      "decimals": 8,
-      "precision": 3,
-      "color": "#7e9e99",
-      "hasIcon": true
-    },
-    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
-      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-      "id": "",
-      "name": "Aave Token",
-      "symbol": "AAVE",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#6f6776",
-      "hasIcon": false
     }
   },
   "untrusted": [
