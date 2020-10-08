@@ -534,6 +534,14 @@
             "symbol": "AAVE",
             "decimals": 18,
             "precision": 3,
+            "hasIcon": true
+        },
+        "0x78F225869c08d478c34e5f645d07A87d3fe8eb78": {
+            "address": "0x78F225869c08d478c34e5f645d07A87d3fe8eb78",
+            "name": "PieDAO DEFI Large Cap",
+            "symbol": "DEFI+L",
+            "decimals": 18,
+            "precision": 3,
             "hasIcon": false
         }
     },
