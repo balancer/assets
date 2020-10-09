@@ -543,6 +543,14 @@
             "decimals": 18,
             "precision": 3,
             "hasIcon": false
+        },
+        "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
+            "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+            "name": "Ampleforth",
+            "symbol": "AMPL",
+            "decimals": 9,
+            "precision": 2,
+            "hasIcon": true
         }
     },
     "untrusted": [
