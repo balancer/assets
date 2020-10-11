@@ -2178,7 +2178,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#557064",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e": {
       "address": "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e",
@@ -2202,7 +2202,7 @@
     },
     "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C": {
       "address": "0xaD6A626aE2B43DCb1B39430Ce496d2FA0365BA9C",
-      "id": "",
+      "id": "piedao-defi-small-cap",
       "name": "PieDAO DEFI Small Cap",
       "symbol": "DEFI+S",
       "decimals": 18,
@@ -2838,7 +2838,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#93a167",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b": {
       "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
@@ -3249,6 +3249,16 @@
       "precision": 3,
       "color": "#666092",
       "hasIcon": true
+    },
+    "0x78F225869c08d478c34e5f645d07A87d3fe8eb78": {
+      "address": "0x78F225869c08d478c34e5f645d07A87d3fe8eb78",
+      "id": "piedao-defi-large-cap",
+      "name": "PieDAO DEFI Large Cap",
+      "symbol": "DEFI+L",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false
     }
   },
   "untrusted": [
