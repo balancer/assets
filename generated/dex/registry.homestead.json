@@ -551,6 +551,14 @@
             "decimals": 9,
             "precision": 2,
             "hasIcon": true
+        },
+        "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
+            "address": "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b",
+            "name": "Rally",
+            "symbol": "RLY",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false
         }
     },
     "untrusted": [
