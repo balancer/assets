@@ -2548,7 +2548,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#9a9a97",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
       "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
@@ -2638,7 +2638,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#416aa3",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0x916885426255235DA7a0BD90447986c00675f9EC": {
       "address": "0x916885426255235DA7a0BD90447986c00675f9EC",
@@ -2668,7 +2668,7 @@
       "decimals": 8,
       "precision": 2,
       "color": "#628b8d",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740": {
       "address": "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740",
@@ -2800,14 +2800,14 @@
       "color": "#666092",
       "hasIcon": true
     },
-    "0xfc858154C0b2c4A3323046Fb505811F110EBdA57": {
-      "address": "0xfc858154C0b2c4A3323046Fb505811F110EBdA57",
+    "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca": {
+      "address": "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
       "id": "noia-network",
       "name": "NOIA Token",
       "symbol": "NOIA",
       "decimals": 18,
-      "precision": 2,
-      "color": "#416aa3",
+      "precision": 3,
+      "color": "#9a4f50",
       "hasIcon": true
     },
     "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5": {
@@ -3190,6 +3190,76 @@
       "color": "#be955c",
       "hasIcon": false
     },
+    "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
+      "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+      "id": "ampleforth",
+      "name": "Ampleforth",
+      "symbol": "AMPL",
+      "decimals": 9,
+      "precision": 2,
+      "color": "#8d6268",
+      "hasIcon": true
+    },
+    "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3": {
+      "address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+      "id": "adex",
+      "name": "AdEx Network",
+      "symbol": "ADX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": true
+    },
+    "0x78F225869c08d478c34e5f645d07A87d3fe8eb78": {
+      "address": "0x78F225869c08d478c34e5f645d07A87d3fe8eb78",
+      "id": "piedao-defi-large-cap",
+      "name": "PieDAO DEFI Large Cap",
+      "symbol": "DEFI+L",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false
+    },
+    "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
+      "address": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
+      "id": "ftx-token",
+      "name": "FTT",
+      "symbol": "FTX Token",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": true
+    },
+    "0x584bC13c7D411c00c01A62e8019472dE68768430": {
+      "address": "0x584bC13c7D411c00c01A62e8019472dE68768430",
+      "id": "hegic",
+      "name": "Hegic",
+      "symbol": "HEGIC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false
+    },
+    "0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14": {
+      "address": "0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14",
+      "id": "mettalex",
+      "name": "Mettalex",
+      "symbol": "MTLX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": false
+    },
+    "0x2367012aB9c3da91290F71590D5ce217721eEfE4": {
+      "address": "0x2367012aB9c3da91290F71590D5ce217721eEfE4",
+      "id": "xsnx",
+      "name": "xSNX",
+      "symbol": "xSNXa",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -3249,16 +3319,6 @@
       "precision": 3,
       "color": "#666092",
       "hasIcon": true
-    },
-    "0x78F225869c08d478c34e5f645d07A87d3fe8eb78": {
-      "address": "0x78F225869c08d478c34e5f645d07A87d3fe8eb78",
-      "id": "piedao-defi-large-cap",
-      "name": "PieDAO DEFI Large Cap",
-      "symbol": "DEFI+L",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#5d2e9a",
-      "hasIcon": false
     }
   },
   "untrusted": [
