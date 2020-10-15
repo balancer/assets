@@ -2548,7 +2548,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#9a9a97",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4": {
       "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
@@ -2638,7 +2638,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#416aa3",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0x916885426255235DA7a0BD90447986c00675f9EC": {
       "address": "0x916885426255235DA7a0BD90447986c00675f9EC",
@@ -2668,7 +2668,7 @@
       "decimals": 8,
       "precision": 2,
       "color": "#628b8d",
-      "hasIcon": false
+      "hasIcon": true
     },
     "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740": {
       "address": "0xc813EA5e3b48BEbeedb796ab42A30C5599b01740",
@@ -2808,7 +2808,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#416aa3",
-      "hasIcon": true
+      "hasIcon": false
     },
     "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5": {
       "address": "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5",
