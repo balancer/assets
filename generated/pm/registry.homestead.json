@@ -2630,15 +2630,15 @@
       "color": "#387080",
       "hasIcon": true
     },
-    "0x1D287CC25dAD7cCaF76a26bc660c5F7C8E2a05BD": {
-      "address": "0x1D287CC25dAD7cCaF76a26bc660c5F7C8E2a05BD",
+    "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85": {
+      "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
       "id": "fetch-ai",
       "name": "Fetch",
       "symbol": "FET",
       "decimals": 18,
-      "precision": 2,
-      "color": "#416aa3",
-      "hasIcon": false
+      "precision": 3,
+      "color": "#6f6776",
+      "hasIcon": true
     },
     "0x916885426255235DA7a0BD90447986c00675f9EC": {
       "address": "0x916885426255235DA7a0BD90447986c00675f9EC",
@@ -3258,6 +3258,76 @@
       "decimals": 18,
       "precision": 3,
       "color": "#9d9f7f",
+      "hasIcon": false
+    },
+    "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
+      "address": "0x35A18000230DA775CAc24873d00Ff85BccdeD550",
+      "id": "compound-uniswap",
+      "name": "Compound Uniswap",
+      "symbol": "cUNI",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false
+    },
+    "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A": {
+      "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+      "id": "digixdao",
+      "name": "DigixDAO DGD Token",
+      "symbol": "DGD",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": true
+    },
+    "0x0954906da0Bf32d5479e25f46056d22f08464cab": {
+      "address": "0x0954906da0Bf32d5479e25f46056d22f08464cab",
+      "id": "index-cooperative",
+      "name": "Index",
+      "symbol": "INDEX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": true
+    },
+    "0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda": {
+      "address": "0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda",
+      "id": "open-predict-token",
+      "name": "Open Predict Token",
+      "symbol": "OPT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": true
+    },
+    "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
+      "address": "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b",
+      "id": "rally-2",
+      "name": "Rally",
+      "symbol": "RLY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": false
+    },
+    "0xABe580E7ee158dA464b51ee1a83Ac0289622e6be": {
+      "address": "0xABe580E7ee158dA464b51ee1a83Ac0289622e6be",
+      "id": "offshift",
+      "name": "Offshift",
+      "symbol": "XFT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": true
+    },
+    "0xB1e9157c2Fdcc5a856C8DA8b2d89b6C32b3c1229": {
+      "address": "0xB1e9157c2Fdcc5a856C8DA8b2d89b6C32b3c1229",
+      "id": "zenfuse",
+      "name": "Zenfuse Trading Platform Token",
+      "symbol": "ZEFU",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
       "hasIcon": false
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
