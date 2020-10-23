@@ -37,6 +37,7 @@ async function generateNetwork(network, lists, data, metadata) {
 			decimals: 18,
 			precision: 4,
 			hasIcon: true,
+			logoUrl: getLogoUrl(data.assets, 'ether'),
 		},
 	};
 	for (const address of lists.listed[network]) {
@@ -46,7 +47,8 @@ async function generateNetwork(network, lists, data, metadata) {
 			symbol: metadata[network][address].symbol,
 			decimals: metadata[network][address].decimals,
 			precision: data.precision[network][address] || DEFAULT_PRECISION,
-			hasIcon: data.trustwalletList.includes(address),
+			hasIcon: data.assets.trustwallet.includes(address),
+			logoUrl: getLogoUrl(data.assets, address),
 		};
 	}
 	const uiTokens = {};
@@ -60,7 +62,8 @@ async function generateNetwork(network, lists, data, metadata) {
 			decimals: metadata[network][address].decimals,
 			precision: data.precision[network][address] || DEFAULT_PRECISION,
 			color: data.color[network][address] || color,
-			hasIcon: data.trustwalletList.includes(address),
+			hasIcon: data.assets.trustwallet.includes(address),
+			logoUrl: getLogoUrl(data.assets, address),
 		};
 	}
 	for (const address of lists.ui[network]) {
@@ -73,7 +76,8 @@ async function generateNetwork(network, lists, data, metadata) {
 			decimals: metadata[network][address].decimals,
 			precision: data.precision[network][address] || DEFAULT_PRECISION,
 			color: data.color[network][address] || color,
-			hasIcon: data.trustwalletList.includes(address),
+			hasIcon: data.assets.trustwallet.includes(address),
+			logoUrl: getLogoUrl(data.assets, address),
 		};
 	}
 	const dexData = {
@@ -117,17 +121,27 @@ async function getData() {
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
+	const localAssetDirFiles = await fs.readdirSync('assets');
+	const localAssets = localAssetDirFiles
+		.filter(assetFile => assetFile !== 'index.json')
+		.map(assetFile => assetFile.split('.png')[0]);
+
 	const trustwalletListUrl
 		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json';
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
+
+	const assets = {
+		local: localAssets,
+		trustwallet: trustwalletList,
+	}
 
 	return {
 		coingecko,
 		color,
 		precision,
 		metadataOverwrite,
-		trustwalletList,
+		assets,
 	};
 }
 
@@ -201,6 +215,19 @@ function getColor(network, address, data) {
 	return colorList[sum % colorList.length];
 }
 
+function getLogoUrl(assets, address) {
+	if (address === 'ether') {
+		return 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png'
+	}
+	if (assets.local.includes(address.toLowerCase())) {
+		return `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`
+	}
+	if (assets.trustwallet.includes(address)) {
+		return `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`;
+	}
+	return '';
+}
+
 function mergeTokenLists(lists) {
 	const kovan = [];
 	const homestead = [];
@@ -241,7 +268,7 @@ function mergeTokenLists(lists) {
 	};
 }
 
-function validateInputs(lists, network) {
+function validateInputs(lists) {
 	validateNetworkInputs(lists, 'kovan');
 	validateNetworkInputs(lists, 'homestead');
 }
