@@ -8,7 +8,8 @@
       "decimals": 18,
       "precision": 4,
       "color": "#828384",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x1528F3FCc26d13F7079325Fb78D9442607781c8C": {
       "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
@@ -18,7 +19,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#fab323",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0xef13C0c8abcaf5767160018d268f9697aE4f5375": {
       "address": "0xef13C0c8abcaf5767160018d268f9697aE4f5375",
@@ -28,7 +30,8 @@
       "decimals": 18,
       "precision": 4,
       "color": "#5eb8aa",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x2F375e94FC336Cdec2Dc0cCB5277FE59CBf1cAe5": {
       "address": "0x2F375e94FC336Cdec2Dc0cCB5277FE59CBf1cAe5",
@@ -38,7 +41,8 @@
       "decimals": 6,
       "precision": 3,
       "color": "#2875ca",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x8c9e6c40d3402480ACE624730524fACC5482798c": {
       "address": "0x8c9e6c40d3402480ACE624730524fACC5482798c",
@@ -48,7 +52,8 @@
       "decimals": 18,
       "precision": 4,
       "color": "#422940",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0xe0C9275E44Ea80eF17579d33c55136b7DA269aEb": {
       "address": "0xe0C9275E44Ea80eF17579d33c55136b7DA269aEb",
@@ -58,7 +63,8 @@
       "decimals": 8,
       "precision": 4,
       "color": "#779bc0",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x1f1f156E0317167c11Aa412E3d1435ea29Dc3cCE": {
       "address": "0x1f1f156E0317167c11Aa412E3d1435ea29Dc3cCE",
@@ -68,7 +74,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#ff5700",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x86436BcE20258a6DcfE48C9512d4d49A30C4d8c4": {
       "address": "0x86436BcE20258a6DcfE48C9512d4d49A30C4d8c4",
@@ -78,7 +85,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#ffffff",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x37f03a12241E9FD3658ad6777d289c3fb8512Bc9": {
       "address": "0x37f03a12241E9FD3658ad6777d289c3fb8512Bc9",
@@ -88,7 +96,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#e7983d",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0xccb0F4Cf5D3F97f4a55bb5f5cA321C3ED033f244": {
       "address": "0xccb0F4Cf5D3F97f4a55bb5f5cA321C3ED033f244",
@@ -98,7 +107,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#536dfe",
-      "hasIcon": false
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
