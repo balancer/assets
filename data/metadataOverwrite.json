@@ -25,6 +25,11 @@
 			"decimals": 9,
 			"symbol": "DGD",
 			"name": "DigixDAO DGD Token"
+		},
+		"0x960b236A07cf122663c4303350609A66A7B288C0": {
+			"decimals": 18,
+			"symbol": "ANT (old)",
+			"name": "Aragon v1"
 		}
 	}
 }
