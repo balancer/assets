@@ -3739,6 +3739,17 @@
       "color": "#5d6872",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png"
+    },
+    "0x20945cA1df56D237fD40036d47E866C7DcCD2114": {
+      "address": "0x20945cA1df56D237fD40036d47E866C7DcCD2114",
+      "id": "",
+      "name": "Nsure Network Token",
+      "symbol": "Nsure",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
     }
   },
   "untrusted": [
