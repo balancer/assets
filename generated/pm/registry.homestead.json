@@ -3663,6 +3663,28 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE": {
+      "address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+      "id": "hermez-network-token",
+      "name": "Hermez Network Token",
+      "symbol": "HEZ",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE/logo.png"
+    },
+    "0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1": {
+      "address": "0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1",
+      "id": "unlend-finance",
+      "name": "UniLend Finance Token",
+      "symbol": "UFT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6f6776",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
