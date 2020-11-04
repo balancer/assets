@@ -636,7 +636,7 @@
             "symbol": "Nsure",
             "decimals": 18,
             "precision": 3,
-            "hasIcon": false,
+            "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
         }
     },
