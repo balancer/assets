@@ -11,16 +11,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
     },
-    "0xba100000625a3754423978a60c9317c58a424e3D": {
-      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-      "id": "balancer",
-      "name": "Balancer",
-      "symbol": "BAL",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#fafafa",
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "id": "usd-coin",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "precision": 2,
+      "color": "#9d9f7f",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
     },
     "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
       "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -33,49 +33,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
     },
-    "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
-      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-      "id": "maker",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18,
-      "precision": 5,
-      "color": "#7e9e99",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
-    },
-    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "id": "usd-coin",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "precision": 2,
-      "color": "#9d9f7f",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
-    },
-    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
-      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-      "id": "wrapped-bitcoin",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "precision": 6,
-      "color": "#68aca9",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
-    },
-    "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
-      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
-      "id": "uma",
-      "name": "UMA Voting Token v1",
-      "symbol": "UMA",
+    "0xba100000625a3754423978a60c9317c58a424e3D": {
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "id": "balancer",
+      "name": "Balancer",
+      "symbol": "BAL",
       "decimals": 18,
       "precision": 3,
-      "color": "#a593a5",
+      "color": "#fafafa",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
     },
     "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
       "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
@@ -88,38 +55,49 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
     },
-    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
-      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
-      "id": "aave",
-      "name": "Aave Token",
-      "symbol": "AAVE",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#6f6776",
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "id": "wrapped-bitcoin",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "precision": 6,
+      "color": "#68aca9",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
     },
-    "0x960b236A07cf122663c4303350609A66A7B288C0": {
-      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
-      "id": "aragon",
-      "name": "Aragon v1",
-      "symbol": "ANT (old)",
+    "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
+      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "id": "havven",
+      "name": "Synthetix Network Token",
+      "symbol": "SNX",
       "decimals": 18,
       "precision": 3,
-      "color": "#c28d75",
+      "color": "#8d6268",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
     },
-    "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
-      "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
-      "id": "basic-attention-token",
-      "name": "Basic Attention Token",
-      "symbol": "BAT",
+    "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
+      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+      "id": "compound-governance-token",
+      "name": "Compound",
+      "symbol": "COMP",
       "decimals": 18,
-      "precision": 2,
-      "color": "#be955c",
+      "precision": 4,
+      "color": "#387080",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+    },
+    "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
+      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "id": "yearn-finance",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "precision": 6,
+      "color": "#a593a5",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png"
     },
     "0x408e41876cCCDC0F92210600ef50372656052a38": {
       "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
@@ -132,16 +110,104 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png"
     },
-    "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
-      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
-      "id": "havven",
-      "name": "Synthetix Network Token",
-      "symbol": "SNX",
+    "0xdd974D5C2e2928deA5F71b9825b8b646686BD200": {
+      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+      "id": "kyber-network",
+      "name": "Kyber Network Crystal",
+      "symbol": "KNC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
+    },
+    "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "id": "maker",
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18,
+      "precision": 5,
+      "color": "#7e9e99",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
+    },
+    "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
+      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+      "id": "loopring",
+      "name": "LoopringCoin V2",
+      "symbol": "LRC",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#6e6962",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png"
+    },
+    "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
+      "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+      "id": "basic-attention-token",
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#be955c",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png"
+    },
+    "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C": {
+      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+      "id": "bancor",
+      "name": "Bancor Network Token",
+      "symbol": "BNT",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#c5ccb8",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png"
+    },
+    "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE": {
+      "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
+      "id": "wrapped-nxm",
+      "name": "Wrapped NXM",
+      "symbol": "wNXM",
+      "decimals": 18,
+      "precision": 4,
+      "color": "#c28d75",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0d438F3b5175Bebc262bF23753C1E53d03432bDE/logo.png"
+    },
+    "0x960b236A07cf122663c4303350609A66A7B288C0": {
+      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+      "id": "aragon",
+      "name": "Aragon v1",
+      "symbol": "ANT (old)",
       "decimals": 18,
       "precision": 3,
-      "color": "#8d6268",
+      "color": "#c28d75",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+    },
+    "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
+      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+      "id": "uma",
+      "name": "UMA Voting Token v1",
+      "symbol": "UMA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
+    },
+    "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "id": "aave",
+      "name": "Aave Token",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "precision": 4,
+      "color": "#6f6776",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png"
     },
     "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51": {
       "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
@@ -219,17 +285,6 @@
       "color": "#387080",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e.png"
-    },
-    "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
-      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
-      "id": "compound-governance-token",
-      "name": "Compound",
-      "symbol": "COMP",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#387080",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
     },
     "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
       "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
@@ -571,28 +626,6 @@
       "color": "#416aa3",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x27054b13b1B798B345b591a4d22e6562d47eA75a/logo.png"
-    },
-    "0xdd974D5C2e2928deA5F71b9825b8b646686BD200": {
-      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
-      "id": "kyber-network",
-      "name": "Kyber Network Crystal",
-      "symbol": "KNC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
-    },
-    "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
-      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
-      "id": "loopring",
-      "name": "LoopringCoin V2",
-      "symbol": "LRC",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#6e6962",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png"
     },
     "0x04abEdA201850aC0124161F037Efd70c74ddC74C": {
       "address": "0x04abEdA201850aC0124161F037Efd70c74ddC74C",
@@ -1165,17 +1198,6 @@
       "color": "#8b5580",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8f8221aFbB33998d8584A2B05749bA73c37a938a/logo.png"
-    },
-    "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C": {
-      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
-      "id": "bancor",
-      "name": "Bancor Network Token",
-      "symbol": "BNT",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#c5ccb8",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png"
     },
     "0x8A9C67fee641579dEbA04928c4BC45F66e26343A": {
       "address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
@@ -2243,28 +2265,6 @@
       "color": "#8d6268",
       "hasIcon": false,
       "logoUrl": ""
-    },
-    "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
-      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
-      "id": "yearn-finance",
-      "name": "yearn.finance",
-      "symbol": "YFI",
-      "decimals": 18,
-      "precision": 6,
-      "color": "#a593a5",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png"
-    },
-    "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE": {
-      "address": "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE",
-      "id": "wrapped-nxm",
-      "name": "Wrapped NXM",
-      "symbol": "wNXM",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#c28d75",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0d438F3b5175Bebc262bF23753C1E53d03432bDE/logo.png"
     },
     "0xB6eD7644C69416d67B522e20bC294A9a9B405B31": {
       "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
