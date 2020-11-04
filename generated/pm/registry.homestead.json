@@ -833,8 +833,8 @@
       "decimals": 18,
       "precision": 2,
       "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE5F166c0D8872B68790061317BB6CcA04582C912/logo.png"
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x5732046A883704404F284Ce41FfADd5b007FD668": {
       "address": "0x5732046A883704404F284Ce41FfADd5b007FD668",
@@ -3660,8 +3660,8 @@
       "decimals": 18,
       "precision": 2,
       "color": "#c38890",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB1e9157c2Fdcc5a856C8DA8b2d89b6C32b3c1229/logo.png"
     },
     "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE": {
       "address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
@@ -3684,6 +3684,39 @@
       "color": "#6f6776",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1/logo.png"
+    },
+    "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44": {
+      "address": "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44",
+      "id": "keep3rv1",
+      "name": "Keep3rV1",
+      "symbol": "KP3R",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa": {
+      "address": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
+      "id": "polkastarter",
+      "name": "PolkastarterToken",
+      "symbol": "POLS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa/logo.png"
+    },
+    "0xf93340b1a3aDf7eedcAEc25Fae8171D4b736e89F": {
+      "address": "0xf93340b1a3aDf7eedcAEc25Fae8171D4b736e89F",
+      "id": "pxusd-synthetic-usd-expiring-1-april-2021",
+      "name": "pxUSD Synthetic USD Expiring 1 April 2021",
+      "symbol": "pxUSD_MAR2021",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": ""
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
@@ -3770,7 +3803,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#6e6962",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
     }
   },
