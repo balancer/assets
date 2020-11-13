@@ -176,16 +176,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0d438F3b5175Bebc262bF23753C1E53d03432bDE/logo.png"
     },
-    "0x960b236A07cf122663c4303350609A66A7B288C0": {
-      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+    "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
+      "address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
       "id": "aragon",
-      "name": "Aragon v1",
-      "symbol": "ANT (old)",
+      "name": "Aragon Network Token",
+      "symbol": "ANT",
       "decimals": 18,
       "precision": 3,
-      "color": "#c28d75",
+      "color": "#5d6872",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png"
     },
     "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
       "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
@@ -3718,6 +3718,28 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x20c36f062a31865bED8a5B1e512D9a1A20AA333A": {
+      "address": "0x20c36f062a31865bED8a5B1e512D9a1A20AA333A",
+      "id": "defidollar-dao",
+      "name": "DefiDollar DAO",
+      "symbol": "DFD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xCa3FE04C7Ee111F0bbb02C328c699226aCf9Fd33": {
+      "address": "0xCa3FE04C7Ee111F0bbb02C328c699226aCf9Fd33",
+      "id": "seen",
+      "name": "seen.haus",
+      "symbol": "SEEN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -3783,17 +3805,6 @@
       "color": "#666092",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000000441378008EA67F4284A57932B1c000a5/logo.png"
-    },
-    "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
-      "address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
-      "id": "",
-      "name": "Aragon Network Token",
-      "symbol": "ANT",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#5d6872",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa117000000f279D81A1D3cc75430fAA017FA5A2e/logo.png"
     },
     "0x20945cA1df56D237fD40036d47E866C7DcCD2114": {
       "address": "0x20945cA1df56D237fD40036d47E866C7DcCD2114",
