@@ -3816,6 +3816,17 @@
       "color": "#6e6962",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
+    },
+    "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9": {
+      "address": "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9",
+      "id": "",
+      "name": "PrimeDAO Token",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
