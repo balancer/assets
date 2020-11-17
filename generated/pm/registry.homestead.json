@@ -3561,8 +3561,8 @@
       "decimals": 18,
       "precision": 2,
       "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x584bC13c7D411c00c01A62e8019472dE68768430/logo.png"
     },
     "0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14": {
       "address": "0x2e1E15C44Ffe4Df6a0cb7371CD00d5028e571d14",
