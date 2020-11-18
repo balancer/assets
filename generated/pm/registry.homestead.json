@@ -3740,6 +3740,105 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x0E8d6b471e332F140e7d9dbB99E5E3822F728DA6": {
+      "address": "0x0E8d6b471e332F140e7d9dbB99E5E3822F728DA6",
+      "id": "the-abyss",
+      "name": "ABYSS",
+      "symbol": "ABYSS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0E8d6b471e332F140e7d9dbB99E5E3822F728DA6/logo.png"
+    },
+    "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0": {
+      "address": "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0",
+      "id": "allianceblock",
+      "name": "AllianceBlock Token",
+      "symbol": "ALBT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0/logo.png"
+    },
+    "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998": {
+      "address": "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+      "id": "audius",
+      "name": "Audius",
+      "symbol": "AUDIO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998/logo.png"
+    },
+    "0x87b008E57F640D94Ee44Fd893F0323AF933F9195": {
+      "address": "0x87b008E57F640D94Ee44Fd893F0323AF933F9195",
+      "id": "coin-artist",
+      "name": "coin_artist",
+      "symbol": "COIN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x87b008E57F640D94Ee44Fd893F0323AF933F9195/logo.png"
+    },
+    "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B": {
+      "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
+      "id": "finnexus",
+      "name": "FinNexus",
+      "symbol": "FNX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B/logo.png"
+    },
+    "0x7d91e637589EC3Bb54D8213a9e92Dc6E8D12da91": {
+      "address": "0x7d91e637589EC3Bb54D8213a9e92Dc6E8D12da91",
+      "id": "friends-with-benefits",
+      "name": "FRIENDS WITH BENEFITS",
+      "symbol": "FWB",
+      "decimals": 4,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7d91e637589EC3Bb54D8213a9e92Dc6E8D12da91/logo.png"
+    },
+    "0x56687cf29Ac9751Ce2a4E764680B6aD7E668942e": {
+      "address": "0x56687cf29Ac9751Ce2a4E764680B6aD7E668942e",
+      "id": "flynnjamm",
+      "name": "FlynnJamm",
+      "symbol": "JAMM",
+      "decimals": 4,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x56687cf29Ac9751Ce2a4E764680B6aD7E668942e/logo.png"
+    },
+    "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5": {
+      "address": "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5",
+      "id": "unisocks",
+      "name": "Unisocks Edition 0",
+      "symbol": "SOCKS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x23B608675a2B2fB1890d3ABBd85c5775c51691d5/logo.png"
+    },
+    "0x4691937a7508860F876c9c0a2a617E7d9E945D4B": {
+      "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+      "id": "wootrade-network",
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
