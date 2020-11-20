@@ -3926,6 +3926,17 @@
       "color": "#4a3e80",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
+    },
+    "0x705C71b262C511B66bAA4791cC2BE61B971bD784": {
+      "address": "0x705C71b262C511B66bAA4791cC2BE61B971bD784",
+      "id": "",
+      "name": "Bankless Season 0",
+      "symbol": "BAP0",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#3c0605",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x705c71b262c511b66baa4791cc2be61b971bd784.png"
     }
   },
   "untrusted": [
