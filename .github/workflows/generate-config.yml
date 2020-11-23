@@ -34,6 +34,11 @@ jobs:
       with:
         name: dex-homestead-data
         path: generated/dex/registry.homestead.json
+    - name: Upload TokenList
+      uses: actions/upload-artifact@v2
+      with:
+        name: tokenlist-data
+        path: generated/listed.tokenlist.json
   commit:
     needs: generate
     runs-on: ubuntu-latest
@@ -58,6 +63,11 @@ jobs:
       with:
         name: dex-homestead-data
         path: dex
+    - name: Download TokenList
+      uses: actions/download-artifact@v2
+      with:
+        name: tokenlist-data
+        path: .
     - name: Create 'generated' branch
       uses: peterjgrainger/action-create-branch@v2.0.1
       env:
@@ -79,6 +89,7 @@ jobs:
         cp ../dex/registry.homestead.json generated/dex/registry.homestead.json
         cp ../pm/registry.kovan.json generated/pm/registry.kovan.json
         cp ../pm/registry.homestead.json generated/pm/registry.homestead.json
+        cp ../listed.tokenlist.json generated/listed.tokenlist.json
         git config --global user.email "bot@balancer.finance"
         git config --global user.name "Balancer Bot"
         DIFF_LINES=$(git diff | wc -l)
