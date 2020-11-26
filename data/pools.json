@@ -87,5 +87,10 @@
     "is_visible": true,
     "is_compatible": true,
     "bptAddress": "0x51a2310b37ead1d8f8fe01b89b4cd68fa58992d0"
+  },
+  "0xa751a143f8fe0a108800bfb915585e4255c2fe80": {
+    "chainId": 1,
+    "about": "This shared pool is designed to hold AMPL Elastic Supply tokens and accommodate the daily rebase.",
+    "learn_more": "https://www.ampleforth.org"
   }
 }
