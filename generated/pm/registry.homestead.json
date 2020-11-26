@@ -3223,14 +3223,14 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF2f9A7e93f845b3ce154EfbeB64fB9346FCCE509/logo.png"
     },
-    "0x250a3500f48666561386832f1F1f1019b89a2699": {
-      "address": "0x250a3500f48666561386832f1F1f1019b89a2699",
-      "id": "safe2",
-      "name": "SAFE2",
-      "symbol": "SAFE2",
+    "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286": {
+      "address": "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286",
+      "id": "cover-protocol",
+      "name": "Cover Protocol",
+      "symbol": "COVER",
       "decimals": 18,
-      "precision": 4,
-      "color": "#666092",
+      "precision": 3,
+      "color": "#c5ccb8",
       "hasIcon": false,
       "logoUrl": ""
     },
@@ -3839,6 +3839,171 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xE48972fCd82a274411c01834e2f031D4377Fa2c0": {
+      "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
+      "id": "2key",
+      "name": "TwoKeyEconomy",
+      "symbol": "2KEY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE48972fCd82a274411c01834e2f031D4377Fa2c0/logo.png"
+    },
+    "0x95a4492F028aa1fd432Ea71146b433E7B4446611": {
+      "address": "0x95a4492F028aa1fd432Ea71146b433E7B4446611",
+      "id": "apy-finance",
+      "name": "APY Governance Token",
+      "symbol": "APY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x95a4492F028aa1fd432Ea71146b433E7B4446611/logo.png"
+    },
+    "0xF5D669627376EBd411E34b98F19C868c8ABA5ADA": {
+      "address": "0xF5D669627376EBd411E34b98F19C868c8ABA5ADA",
+      "id": "axie-infinity",
+      "name": "Axie Infinity Shard",
+      "symbol": "AXS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF5D669627376EBd411E34b98F19C868c8ABA5ADA/logo.png"
+    },
+    "0x32C4ADB9cF57f972bc375129de91C897b4F364F1": {
+      "address": "0x32C4ADB9cF57f972bc375129de91C897b4F364F1",
+      "id": "flowchaincoin",
+      "name": "Flowchain",
+      "symbol": "FLC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x32C4ADB9cF57f972bc375129de91C897b4F364F1/logo.png"
+    },
+    "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30": {
+      "address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+      "id": "injective-protocol",
+      "name": "Injective Token",
+      "symbol": "INJ",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30/logo.png"
+    },
+    "0x4CC19356f2D37338b9802aa8E8fc58B0373296E7": {
+      "address": "0x4CC19356f2D37338b9802aa8E8fc58B0373296E7",
+      "id": "selfkey",
+      "name": "SelfKey",
+      "symbol": "KEY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4CC19356f2D37338b9802aa8E8fc58B0373296E7/logo.png"
+    },
+    "0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875": {
+      "address": "0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875",
+      "id": "mad-network",
+      "name": "MADToken",
+      "symbol": "MAD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6f6776",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875/logo.png"
+    },
+    "0x20945cA1df56D237fD40036d47E866C7DcCD2114": {
+      "address": "0x20945cA1df56D237fD40036d47E866C7DcCD2114",
+      "id": "nsure-network",
+      "name": "Nsure Network Token",
+      "symbol": "Nsure",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
+    },
+    "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a": {
+      "address": "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a",
+      "id": "orion-protocol",
+      "name": "Orion Protocol",
+      "symbol": "ORN",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a/logo.png"
+    },
+    "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9": {
+      "address": "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9",
+      "id": "primedao",
+      "name": "PrimeDAO Token",
+      "symbol": "PRIME",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#4a3e80",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
+    },
+    "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d": {
+      "address": "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d",
+      "id": "quantstamp",
+      "name": "Quantstamp Token",
+      "symbol": "QSP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7ca1c0",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d/logo.png"
+    },
+    "0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7": {
+      "address": "0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7",
+      "id": "blockv",
+      "name": "BLOCKv Token",
+      "symbol": "VEE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7/logo.png"
+    },
+    "0x286BDA1413a2Df81731D4930ce2F862a35A609fE": {
+      "address": "0x286BDA1413a2Df81731D4930ce2F862a35A609fE",
+      "id": "wabi",
+      "name": "WaBi",
+      "symbol": "WaBi",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x286BDA1413a2Df81731D4930ce2F862a35A609fE/logo.png"
+    },
+    "0x837010619aeb2ae24141605afc8f66577f6fb2e7": {
+      "address": "0x837010619aeb2ae24141605afc8f66577f6fb2e7",
+      "id": "zhegic",
+      "name": "zHEGIC",
+      "symbol": "zHEGIC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xA8e7AD77C60eE6f30BaC54E2E7c0617Bd7B5A03E": {
+      "address": "0xA8e7AD77C60eE6f30BaC54E2E7c0617Bd7B5A03E",
+      "id": "zlot",
+      "name": "zLOT",
+      "symbol": "zLOT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -3904,28 +4069,6 @@
       "color": "#666092",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000000441378008EA67F4284A57932B1c000a5/logo.png"
-    },
-    "0x20945cA1df56D237fD40036d47E866C7DcCD2114": {
-      "address": "0x20945cA1df56D237fD40036d47E866C7DcCD2114",
-      "id": "",
-      "name": "Nsure Network Token",
-      "symbol": "Nsure",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#6e6962",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
-    },
-    "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9": {
-      "address": "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9",
-      "id": "",
-      "name": "PrimeDAO Token",
-      "symbol": "PRIME",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#4a3e80",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
     },
     "0x705C71b262C511B66bAA4791cC2BE61B971bD784": {
       "address": "0x705C71b262C511B66bAA4791cC2BE61B971bD784",
