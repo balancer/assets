@@ -3982,9 +3982,9 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x286BDA1413a2Df81731D4930ce2F862a35A609fE/logo.png"
     },
-    "0x837010619aeb2ae24141605afc8f66577f6fb2e7": {
-      "address": "0x837010619aeb2ae24141605afc8f66577f6fb2e7",
-      "id": "zhegic",
+    "0x837010619aeb2AE24141605aFC8f66577f6fb2e7": {
+      "address": "0x837010619aeb2AE24141605aFC8f66577f6fb2e7",
+      "id": "",
       "name": "zHEGIC",
       "symbol": "zHEGIC",
       "decimals": 18,
