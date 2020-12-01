@@ -4080,6 +4080,17 @@
       "color": "#3c0605",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x705c71b262c511b66baa4791cc2be61b971bd784.png"
+    },
+    "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033": {
+      "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
+      "id": "",
+      "name": "PieDAO DEFI++",
+      "symbol": "DEFI++",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
     }
   },
   "untrusted": [
