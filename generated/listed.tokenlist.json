@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2020-11-30T15:54:19.782Z",
+    "timestamp": "2020-12-01T10:00:36.587Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -587,6 +587,14 @@
             "symbol": "PRIME",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
+        },
+        {
+            "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
+            "chainId": 1,
+            "name": "PieDAO DEFI++",
+            "symbol": "DEFI++",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
         },
         {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
