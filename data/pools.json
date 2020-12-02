@@ -93,11 +93,12 @@
     "about": "This shared pool is designed to hold AMPL Elastic Supply tokens and accommodate the daily rebase.",
     "learn_more": "https://www.ampleforth.org"
   },
-  "0x6c2cf58e468b64b604407c6ea89c5868ed13c252": {
+  "0x10996ec4f3e7a1b314ebd966fa8b1ad0fe0f8307": {
     "chainId": 1,
     "name": "CrescoFin WETH/DAI Pool",
     "about": "Welcome to our token launch, you are about to be one of the first to own wCRES and be part of an exciting new community.  We are the world’s first DeFi alternative to a bank account. With us, you get much higher returns than in a bank on your fiat and crypto. Deposits and returns are fully insured, and your money legally stays yours.  Make your money work harder for you and keep it safe.\n\nRegulated in Switzerland. Available globally.",
     "learn_more": "https://medium.com/crescofin/first-regulated-firm-to-offer-equity-tokens-on-balancer-2f161a276c3d",
+    "logo": true,
     "is_visible": true,
     "is_compatible": true
   }
