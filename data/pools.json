@@ -92,5 +92,12 @@
     "chainId": 1,
     "about": "This shared pool is designed to hold AMPL Elastic Supply tokens and accommodate the daily rebase.",
     "learn_more": "https://www.ampleforth.org"
+  },
+  "0x6c2cf58e468b64b604407c6ea89c5868ed13c252": {
+    "chainId": 1,
+    "name": "CrescoFin Smart Pool",
+    "learn_more": "https://medium.com/crescofin/first-regulated-firm-to-offer-equity-tokens-on-balancer-2f161a276c3d",
+    "is_visible": true,
+    "is_compatible": true
   }
 }
