@@ -4004,6 +4004,72 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xBbff34E47E559ef680067a6B1c980639EEb64D24": {
+      "address": "0xBbff34E47E559ef680067a6B1c980639EEb64D24",
+      "id": "leverj-gluon",
+      "name": "Leverj Gluon",
+      "symbol": "L2",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x362bc847A3a9637d3af6624EeC853618a43ed7D2": {
+      "address": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
+      "id": "parsiq",
+      "name": "Parsiq Token",
+      "symbol": "PRQ",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x362bc847A3a9637d3af6624EeC853618a43ed7D2/logo.png"
+    },
+    "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
+      "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+      "id": "truefi",
+      "name": "TrustToken",
+      "symbol": "TRU",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10": {
+      "address": "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10",
+      "id": "wrapped-zcash",
+      "name": "Wrapped ZEC",
+      "symbol": "WZEC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x80DC468671316E50D4E9023D3db38D3105c1C146": {
+      "address": "0x80DC468671316E50D4E9023D3db38D3105c1C146",
+      "id": "xaavea",
+      "name": "xAAVE",
+      "symbol": "xAAVEa",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x704De5696dF237c5B9ba0De9ba7e0C63dA8eA0Df": {
+      "address": "0x704De5696dF237c5B9ba0De9ba7e0C63dA8eA0Df",
+      "id": "xaaveb",
+      "name": "xAAVE",
+      "symbol": "xAAVEb",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
