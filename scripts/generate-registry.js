@@ -12,7 +12,7 @@ async function run() {
 	try {
 		const lists = await getLists();
 		const data = await getData();
-		validateInputs(lists);
+		verifyInputs(lists);
 		const tokens = mergeTokenLists(lists);
 		const metadata = await getMetadata(tokens, data.metadataOverwrite);
 		await generate(lists, data, metadata);
@@ -285,33 +285,34 @@ function mergeTokenLists(lists) {
 	};
 }
 
-function validateInputs(lists) {
-	validateNetworkInputs(lists, 'kovan');
-	validateNetworkInputs(lists, 'homestead');
+function verifyInputs(lists) {
+	verifyNetworkInputs(lists, 'kovan');
+	verifyNetworkInputs(lists, 'homestead');
 }
 
-function validateNetworkInputs(lists, network) {
+function verifyNetworkInputs(lists, network) {
 	// Check that addresses are checksummed
-	validateAddressesChecksummed(Object.keys(lists.eligible[network]));
-	validateAddressesChecksummed(lists.listed[network]);
-	validateAddressesChecksummed(lists.ui[network]);
-	validateAddressesChecksummed(lists.untrusted[network]);
+	verifyAddressesChecksummed(Object.keys(lists.eligible[network]));
+	verifyAddressesChecksummed(lists.listed[network]);
+	verifyAddressesChecksummed(lists.ui[network]);
+	verifyAddressesChecksummed(lists.untrusted[network]);
 	// Check that lists don't have duplicates
-	validateNoDuplicates(Object.keys(lists.eligible[network]), lists.ui[network]);
-	validateNoDuplicates(lists.ui[network], lists.untrusted[network]);
-	validateNoDuplicates(lists.listed[network], lists.untrusted[network]);
+	verifyNoDuplicates(Object.keys(lists.eligible[network]), lists.ui[network]);
+	verifyNoDuplicates(lists.ui[network], lists.untrusted[network]);
+	verifyNoDuplicates(lists.listed[network], lists.untrusted[network]);
 }
 
-function validateAddressesChecksummed(tokens) {
+function verifyAddressesChecksummed(tokens) {
 	for (const address of tokens) {
 		const checksummedAddress = ethers.utils.getAddress(address);
 		if (address !== checksummedAddress) {
-			console.warn(`Address not checksummed: ${address} (should be ${checksummedAddress})`);
+			const error = `Address not checksummed: ${address} (should be ${checksummedAddress})`;
+			throw error;
 		}
 	}
 }
 
-function validateNoDuplicates(listA, listB) {
+function verifyNoDuplicates(listA, listB) {
 	for (const address of listA) {
 		if (listB.includes(address)) {
 			console.warn(`Duplicate address: ${address}`);
