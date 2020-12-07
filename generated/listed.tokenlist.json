@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2020-12-04T07:11:21.960Z",
+    "timestamp": "2020-12-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -234,49 +234,55 @@
             "name": "Synth sUSD",
             "symbol": "sUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
         },
         {
             "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6",
             "chainId": 1,
             "name": "Synth sBTC",
             "symbol": "sBTC",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6.png"
         },
         {
             "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
             "chainId": 1,
             "name": "yUSD Synthetic Token Expiring 1 September 2020",
             "symbol": "yUSD-SEP20",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x81ab848898b5ffd3354dbbefb333d5d183eedcb5.png"
         },
         {
             "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
             "chainId": 1,
             "name": "yUSD Synthetic Token Expiring 1 October 2020",
             "symbol": "yUSD-OCT20",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb2fdd60ad80ca7ba89b9bab3b5336c2601c020b4.png"
         },
         {
             "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
             "chainId": 1,
             "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
             "symbol": "uUSDrBTC-OCT",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x208d174775dc39fe18b1b374972f77ddec6c0f73.png"
         },
         {
             "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
             "chainId": 1,
             "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
             "symbol": "uUSDwETH-DEC",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd16c79c8a39d44b2f3eb45d2019cd6a42b03e2a9.png"
         },
         {
             "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
             "chainId": 1,
             "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
             "symbol": "uUSDrBTC-DEC",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf06ddacf71e2992e2122a1a0168c6967afdf63ce.png"
         },
         {
             "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
@@ -343,11 +349,12 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png"
         },
         {
-            "address": "0x7AFeBBB46fDb47ed17b22ed075Cde2447694fB9e",
+            "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
             "chainId": 1,
             "name": "Ocean Token",
             "symbol": "OCEAN",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
         },
         {
             "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
@@ -474,7 +481,8 @@
             "chainId": 1,
             "name": "Aave Interest bearing Binance USD",
             "symbol": "aBUSD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8.png"
         },
         {
             "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
