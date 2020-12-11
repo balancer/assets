@@ -748,16 +748,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
     },
-    "0xCeD4E93198734dDaFf8492d525Bd258D49eb388E": {
-      "address": "0xCeD4E93198734dDaFf8492d525Bd258D49eb388E",
-      "id": "eidoo",
-      "name": "Eidoo Token",
-      "symbol": "EDO",
+    "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD": {
+      "address": "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD",
+      "id": "pnetwork",
+      "name": "pNetwork Token",
+      "symbol": "PNT",
       "decimals": 18,
-      "precision": 2,
-      "color": "#9a4f50",
+      "precision": 3,
+      "color": "#6e6962",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCeD4E93198734dDaFf8492d525Bd258D49eb388E/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD/logo.png"
     },
     "0x8E870D67F660D95d5be530380D0eC0bd388289E1": {
       "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
@@ -4069,6 +4069,72 @@
       "color": "#8b5580",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x0b38210ea11411557c13457D4dA7dC6ea731B88a": {
+      "address": "0x0b38210ea11411557c13457D4dA7dC6ea731B88a",
+      "id": "api3",
+      "name": "API3",
+      "symbol": "API3",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x998b3B82bC9dBA173990Be7afb772788B5aCB8Bd": {
+      "address": "0x998b3B82bC9dBA173990Be7afb772788B5aCB8Bd",
+      "id": "banca",
+      "name": "BANCA Token",
+      "symbol": "BANCA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x998b3B82bC9dBA173990Be7afb772788B5aCB8Bd/logo.png"
+    },
+    "0xC57d533c50bC22247d49a368880fb49a1caA39F7": {
+      "address": "0xC57d533c50bC22247d49a368880fb49a1caA39F7",
+      "id": "powertrade-fuel",
+      "name": "PowerTrade Fuel Token",
+      "symbol": "PTF",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC57d533c50bC22247d49a368880fb49a1caA39F7/logo.png"
+    },
+    "0x1695936d6a953df699C38CA21c2140d497C08BD9": {
+      "address": "0x1695936d6a953df699C38CA21c2140d497C08BD9",
+      "id": "synlev",
+      "name": "SynLev",
+      "symbol": "SYN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE": {
+      "address": "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE",
+      "id": "wrapped-filecoin",
+      "name": "Wrapped Filecoin",
+      "symbol": "WFIL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc": {
+      "address": "0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc",
+      "id": "tap",
+      "name": "Tap",
+      "symbol": "XTP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc/logo.png"
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
