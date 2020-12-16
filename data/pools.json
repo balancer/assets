@@ -105,7 +105,7 @@
   "0xea05a15dbce2eb543ffda16950e95b2bd2e40d0e": {
     "chainId": 1,
     "name": "Metagame SEED Pool",
-    "about": "Seeds are reward tokens for builders of MetaGame; this is where you plant and water them.",
+    "about": "This is where you plant & water your Seeds",
     "learn_more": "https://metagame.wtf",
     "logo": true,
     "is_visible": true,
