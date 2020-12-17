@@ -101,5 +101,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xea05a15dbce2eb543ffda16950e95b2bd2e40d0e": {
+    "chainId": 1,
+    "name": "Metagame SEED Pool",
+    "about": "This is where you plant & water your Seeds",
+    "learn_more": "https://metagame.wtf",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
