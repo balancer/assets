@@ -4136,6 +4136,72 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc/logo.png"
     },
+    "0xf0Bc1ae4eF7ffb126A8347D06Ac6f8AdD770e1CE": {
+      "address": "0xf0Bc1ae4eF7ffb126A8347D06Ac6f8AdD770e1CE",
+      "id": "1million-token",
+      "name": "1Million Token",
+      "symbol": "1MT",
+      "decimals": 7,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a": {
+      "address": "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a",
+      "id": "basis-cash",
+      "name": "BAC",
+      "symbol": "BAC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
+      "address": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+      "id": "badger-dao",
+      "name": "Badger",
+      "symbol": "BADGER",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3472A5A71965499acd81997a54BBA8D852C6E53d/logo.png"
+    },
+    "0xa7ED29B253D8B4E3109ce07c80fc570f81B63696": {
+      "address": "0xa7ED29B253D8B4E3109ce07c80fc570f81B63696",
+      "id": "basis-share",
+      "name": "BAS",
+      "symbol": "BAS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723": {
+      "address": "0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723",
+      "id": "empty-set-dollar",
+      "name": "Empty Set Dollar",
+      "symbol": "ESD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723/logo.png"
+    },
+    "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96": {
+      "address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
+      "id": "xsgd",
+      "name": "XSGD",
+      "symbol": "XSGD",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4234,6 +4300,17 @@
       "color": "#7cb5d6",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa0afaa285ce85974c3c881256cb7f225e3a1178a.png"
+    },
+    "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D": {
+      "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
+      "id": "",
+      "name": "Tapmydata",
+      "symbol": "TAP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
