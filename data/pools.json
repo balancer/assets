@@ -110,5 +110,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x38131a37f74a52141e14d7aef40a876066ffe25f": {
+    "chainId": 1,
+    "name": "Tapmydata LB Pool",
+    "about": "The Tapmydata solution is a framework of tools, ledger and decentralised protocol for people to reclaim their digital identity, crystallise unique, verified elements of consent in an NFT and provide a new, transparent channel for legitimate counterparties to blend data and exchange value.",
+    "learn_more": "https://tapmydata.com/tap-token/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
