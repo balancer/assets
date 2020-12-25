@@ -4202,6 +4202,39 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96/logo.png"
     },
+    "0x167E2A574669b0EeB552aaF3Da47c728cb348a41": {
+      "address": "0x167E2A574669b0EeB552aaF3Da47c728cb348a41",
+      "id": "spartan",
+      "name": "Spartan",
+      "symbol": "300",
+      "decimals": 7,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xc944E90C64B2c07662A292be6244BDf05Cda44a7": {
+      "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+      "id": "the-graph",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
+    },
+    "0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5": {
+      "address": "0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5",
+      "id": "renfil",
+      "name": "renFIL",
+      "symbol": "renFIL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6f6776",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
