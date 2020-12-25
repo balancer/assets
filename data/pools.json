@@ -110,5 +110,32 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x38131a37f74a52141e14d7aef40a876066ffe25f": {
+    "chainId": 1,
+    "name": "Tapmydata LB Pool",
+    "about": "The Tapmydata solution is a framework of tools, ledger and decentralised protocol for people to reclaim their digital identity, crystallise unique, verified elements of consent in an NFT and provide a new, transparent channel for legitimate counterparties to blend data and exchange value.",
+    "learn_more": "https://tapmydata.com/tap-token/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
+  },
+  "0x3694b26c6b67677b663a905cea4d325019eace9a": {
+    "chainId": 1,
+    "name": "CCA Defi Direct Fund",
+    "about": "My DeFi Pie Direct gives you direct exposure to “blue chip” crypto assets, while maintaining a cash reserve that generates passive income for future-proofing climate solutions.",
+    "learn_more": "https://www.confluenceanalytics.com/my-defi-pie-eco-direct",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
+  },
+  "0xb2ec68ad657ecfd9aa1f61ed8de02c3f5186d925": {
+    "chainId": 1,
+    "name": "CCA Defi Index Fund",
+    "about": "My DeFi Pie Index provides the opportunity for growth through full participation in the decentralized finance revolution - all while maintaining a cash reserve that generates passive income for future-proofing climate solutions.",
+    "learn_more": "https://www.confluenceanalytics.com/my-defi-pie-eco-index",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
