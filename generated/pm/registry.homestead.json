@@ -4235,6 +4235,50 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x111111111117dC0aa78b770fA6A738034120C302": {
+      "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+      "id": "1inch",
+      "name": "1INCH Token",
+      "symbol": "1INCH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png"
+    },
+    "0x002f0B1A71C5730CF2F4dA1970A889207BdB6D0D": {
+      "address": "0x002f0B1A71C5730CF2F4dA1970A889207BdB6D0D",
+      "id": "yd-btc-mar21",
+      "name": "Yield Dollar [renBTC Mar 2021]",
+      "symbol": "YD-BTC-MAR21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x90f802C7E8fb5D40B0De583e34C065A3bd2020D8": {
+      "address": "0x90f802C7E8fb5D40B0De583e34C065A3bd2020D8",
+      "id": "yd-eth-mar21",
+      "name": "Yield Dollar [WETH Mar 2021]",
+      "symbol": "YD-ETH-MAR21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xDcB01cc464238396E213a6fDd933E36796eAfF9f": {
+      "address": "0xDcB01cc464238396E213a6fDd933E36796eAfF9f",
+      "id": "yield",
+      "name": "Yield",
+      "symbol": "YLD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDcB01cc464238396E213a6fDd933E36796eAfF9f/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4350,28 +4394,6 @@
       "id": "",
       "name": "Interest Bearing ETH",
       "symbol": "ibETH",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#68aca9",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x90f802C7E8fb5D40B0De583e34C065A3bd2020D8": {
-      "address": "0x90f802C7E8fb5D40B0De583e34C065A3bd2020D8",
-      "id": "",
-      "name": "Yield Dollar [WETH Mar 2021]",
-      "symbol": "YD-ETH-MAR21",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#6e6962",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x002f0B1A71C5730CF2F4dA1970A889207BdB6D0D": {
-      "address": "0x002f0B1A71C5730CF2F4dA1970A889207BdB6D0D",
-      "id": "",
-      "name": "Yield Dollar [renBTC Mar 2021]",
-      "symbol": "YD-BTC-MAR21",
       "decimals": 18,
       "precision": 3,
       "color": "#68aca9",
