@@ -137,5 +137,16 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x25af1f2c3772d6f19aa6615571203757365d29c6": {
+    "chainId": 1,
+    "name": "PieDAO BCP",
+    "symbol": "BCP",
+    "about": "BCP is an equal balance between the established market leader (BTC), the backbone asset of smart-contract infrastructure (ETH), and a basket of the most innovative permissionless tools revolutionizing finance (DEFI++).",
+    "learn_more": "https://pools.piedao.org/#/pie/0xe4f726adc8e89c6a6017f01eada77865db22da14",
+    "is_visible": false,
+    "is_compatible": false,
+    "logo": true,
+    "bptAddress": "0xe4f726adc8e89c6a6017f01eada77865db22da14"
   }
 }
