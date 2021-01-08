@@ -16,16 +16,19 @@ async function run() {
 		const listedTokens = getTokens(data, listedMetadata);
 
 		const eligibleFile = await fs.readFileSync('lists/eligible.json');
-		const rawEligible = JSON.parse(eligibleFile);
-		const eligible = {
-			kovan: Object.keys(rawEligible.kovan),
-			homestead: Object.keys(rawEligible.homestead),
+		const uiFile = await fs.readFileSync('lists/ui-not-eligible.json');
+		const eligible = JSON.parse(eligibleFile);
+		const ui = JSON.parse(uiFile);
+
+		const vetted = {
+			kovan: [...Object.keys(eligible.kovan), ...ui.kovan],
+			homestead: [...Object.keys(eligible.homestead), ...ui.homestead],
 		};
-		const eligibleMetadata = await getMetadata(eligible, data.metadataOverwrite);
-		const eligibleTokens = getTokens(data, eligibleMetadata);
+		const vettedMetadata = await getMetadata(vetted, data.metadataOverwrite);
+		const vettedTokens = getTokens(data, vettedMetadata);
 
 		await generate('listed', listedTokens);
-		await generate('eligible', eligibleTokens);
+		await generate('vetted', vettedTokens);
 	} catch(e) {
 		console.error(e);
 		process.exit(1);
