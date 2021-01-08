@@ -4279,6 +4279,61 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDcB01cc464238396E213a6fDd933E36796eAfF9f/logo.png"
     },
+    "0x875773784Af8135eA0ef43b5a374AaD105c5D39e": {
+      "address": "0x875773784Af8135eA0ef43b5a374AaD105c5D39e",
+      "id": "idle",
+      "name": "Idle",
+      "symbol": "IDLE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x69e8b9528CABDA89fe846C67675B5D73d463a916": {
+      "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+      "id": "open-governance-token",
+      "name": "OPEN Governance Token",
+      "symbol": "OPEN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x93dfaf57D986B9cA77Df9376c50878E013D9c7C8": {
+      "address": "0x93dfaf57D986B9cA77Df9376c50878E013D9c7C8",
+      "id": "unique-one",
+      "name": "RARE.UNIQUE",
+      "symbol": "RARE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x30cF203b48edaA42c3B4918E955fED26Cd012A3F": {
+      "address": "0x30cF203b48edaA42c3B4918E955fED26Cd012A3F",
+      "id": "metagame",
+      "name": "Seed",
+      "symbol": "SEED",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x30cf203b48edaa42c3b4918e955fed26cd012a3f.png"
+    },
+    "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD": {
+      "address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+      "id": "terrausd",
+      "name": "Wrapped UST Token",
+      "symbol": "UST",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
