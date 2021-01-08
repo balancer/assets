@@ -8,12 +8,27 @@ const erc20 = require('../abi/ERC20.json');
 
 async function run() {
 	try {
+		const data = await getData();
+
 		const listedFile = await fs.readFileSync('lists/listed.json');
 		const listed = JSON.parse(listedFile);
-		const data = await getData();
-		const metadata = await getMetadata(listed, data.metadataOverwrite);
-		const tokens = getTokens(data, metadata);
-		await generate('listed', tokens);
+		const listedMetadata = await getMetadata(listed, data.metadataOverwrite);
+		const listedTokens = getTokens(data, listedMetadata);
+
+		const eligibleFile = await fs.readFileSync('lists/eligible.json');
+		const uiFile = await fs.readFileSync('lists/ui-not-eligible.json');
+		const eligible = JSON.parse(eligibleFile);
+		const ui = JSON.parse(uiFile);
+
+		const vetted = {
+			kovan: [...Object.keys(eligible.kovan), ...ui.kovan],
+			homestead: [...Object.keys(eligible.homestead), ...ui.homestead],
+		};
+		const vettedMetadata = await getMetadata(vetted, data.metadataOverwrite);
+		const vettedTokens = getTokens(data, vettedMetadata);
+
+		await generate('listed', listedTokens);
+		await generate('vetted', vettedTokens);
 	} catch(e) {
 		console.error(e);
 		process.exit(1);
@@ -22,7 +37,7 @@ async function run() {
 
 async function generate(name, tokens) {
 	const nowTimestamp = Date.now();
-	const dayTimestamp = nowTimestamp - (nowTimestamp % (24 * 60 * 60 * 1000))
+	const dayTimestamp = nowTimestamp - (nowTimestamp % (24 * 60 * 60 * 1000));
 	const date = new Date(dayTimestamp);
 	const timestamp = date.toISOString();
 	const list = {
@@ -31,7 +46,7 @@ async function generate(name, tokens) {
 		logoURI: 'https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png',
 		keywords: [
 			'balancer',
-			'default',
+			name,
 		],
 		version: {
 			major: 1,
