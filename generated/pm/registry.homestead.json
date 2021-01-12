@@ -3223,16 +3223,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF2f9A7e93f845b3ce154EfbeB64fB9346FCCE509/logo.png"
     },
-    "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286": {
-      "address": "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286",
+    "0x4688a8b1F292FDaB17E9a90c8Bc379dC1DBd8713": {
+      "address": "0x4688a8b1F292FDaB17E9a90c8Bc379dC1DBd8713",
       "id": "cover-protocol",
-      "name": "Cover Protocol",
+      "name": "Cover Protocol Governance Token",
       "symbol": "COVER",
       "decimals": 18,
       "precision": 3,
-      "color": "#c5ccb8",
+      "color": "#68aca9",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5d8d9f5b96f4438195be9b99eee6118ed4304286.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713.png"
     },
     "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -4334,6 +4334,50 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD/logo.png"
     },
+    "0xfFffFffF2ba8F66D4e51811C5190992176930278": {
+      "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
+      "id": "",
+      "name": "Furucombo",
+      "symbol": "COMBO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xffffffff2ba8f66d4e51811c5190992176930278.png"
+    },
+    "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
+      "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "id": "lido-dao",
+      "name": "Lido DAO Token",
+      "symbol": "LDO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": {
+      "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
+      "id": "nftx",
+      "name": "NFTX",
+      "symbol": "NFTX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xeDEec5691f23E4914cF0183A4196bBEb30d027a0": {
+      "address": "0xeDEec5691f23E4914cF0183A4196bBEb30d027a0",
+      "id": "wrapped-statera",
+      "name": "Wrapped STA",
+      "symbol": "WSTA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeDEec5691f23E4914cF0183A4196bBEb30d027a0/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4454,17 +4498,6 @@
       "color": "#68aca9",
       "hasIcon": false,
       "logoUrl": ""
-    },
-    "0xfFffFffF2ba8F66D4e51811C5190992176930278": {
-      "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
-      "id": "",
-      "name": "Furucombo",
-      "symbol": "COMBO",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#666092",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xffffffff2ba8f66d4e51811c5190992176930278.png"
     }
   },
   "untrusted": [
