@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-01-08T00:00:00.000Z",
+    "timestamp": "2021-01-11T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -2272,12 +2272,12 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF2f9A7e93f845b3ce154EfbeB64fB9346FCCE509/logo.png"
         },
         {
-            "address": "0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286",
+            "address": "0x4688a8b1F292FDaB17E9a90c8Bc379dC1DBd8713",
             "chainId": 1,
-            "name": "Cover Protocol",
+            "name": "Cover Protocol Governance Token",
             "symbol": "COVER",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5d8d9f5b96f4438195be9b99eee6118ed4304286.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713.png"
         },
         {
             "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -3050,6 +3050,36 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD/logo.png"
         },
         {
+            "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
+            "chainId": 1,
+            "name": "Furucombo",
+            "symbol": "COMBO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xffffffff2ba8f66d4e51811c5190992176930278.png"
+        },
+        {
+            "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+            "chainId": 1,
+            "name": "Lido DAO Token",
+            "symbol": "LDO",
+            "decimals": 18
+        },
+        {
+            "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
+            "chainId": 1,
+            "name": "NFTX",
+            "symbol": "NFTX",
+            "decimals": 18
+        },
+        {
+            "address": "0xeDEec5691f23E4914cF0183A4196bBEb30d027a0",
+            "chainId": 1,
+            "name": "Wrapped STA",
+            "symbol": "WSTA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeDEec5691f23E4914cF0183A4196bBEb30d027a0/logo.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3135,14 +3165,6 @@
             "name": "Interest Bearing ETH",
             "symbol": "ibETH",
             "decimals": 18
-        },
-        {
-            "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
-            "chainId": 1,
-            "name": "Furucombo",
-            "symbol": "COMBO",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xffffffff2ba8f66d4e51811c5190992176930278.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",

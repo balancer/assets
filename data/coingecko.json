@@ -291,7 +291,7 @@
 		"0x208D174775dc39fe18B1b374972F77ddEc6c0F73": "uusdrbtc-synthetic-token-expiring-1-october-2020",
 		"0xCee1d3c3A02267e37E6B373060F79d5d7b9e1669": "yffi-finance",
 		"0x28cb7e841ee97947a86B06fA4090C8451f64c0be": "yflink",
-		"0x5D8d9F5b96f4438195BE9b99eee6118Ed4304286": "cover-protocol",
+		"0x4688a8b1F292FDaB17E9a90c8Bc379dC1DBd8713": "cover-protocol",
 		"0x3e780920601D61cEdb860fe9c4a90c9EA6A35E78": "boosted-finance",
 		"0x0cf58006B2400ebec3eB8C05b73170138a340563": "good-boy-points",
 		"0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0": "growth-defi",
@@ -414,6 +414,9 @@
 		"0x69e8b9528CABDA89fe846C67675B5D73d463a916": "open-governance-token",
 		"0x93dfaf57D986B9cA77Df9376c50878E013D9c7C8": "unique-one",
 		"0x30cF203b48edaA42c3B4918E955fED26Cd012A3F": "metagame",
-		"0xa47c8bf37f92aBed4A126BDA807A7b7498661acD": "terrausd"
+		"0xa47c8bf37f92aBed4A126BDA807A7b7498661acD": "terrausd",
+		"0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": "lido-dao",
+		"0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": "nftx",
+		"0xeDEec5691f23E4914cF0183A4196bBEb30d027a0": "wrapped-statera"
 	}
 }
