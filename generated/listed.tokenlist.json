@@ -605,6 +605,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
         },
         {
+            "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
+            "chainId": 1,
+            "name": "Furucombo",
+            "symbol": "COMBO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xffffffff2ba8f66d4e51811c5190992176930278.png"
+        },
+        {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
             "chainId": 42,
             "name": "Dai Stablecoin",
