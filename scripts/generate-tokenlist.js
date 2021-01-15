@@ -1,10 +1,14 @@
 const axios = require('axios');
 const { ethers } = require('ethers');
-
 const fs = require('fs');
+const fleek = require('@fleekhq/fleek-storage-js');
 
 const multicall = require('../abi/Multicall.json');
 const erc20 = require('../abi/ERC20.json');
+
+const fleekApiKey = process.env.FLEEK_API_KEY;
+const fleekApiSecret = process.env.FLEEK_API_SECRET;
+const fleekBucket = 'balancer-team-bucket';
 
 async function run() {
 	try {
@@ -57,6 +61,7 @@ async function generate(name, tokens) {
 	};
 	const listFileName = `generated/${name}.tokenlist.json`;
 	await fs.writeFileSync(listFileName, JSON.stringify(list, null, 4));
+	if (fleekApiSecret) await ipfsPin(`assets/${name}.tokenlist.json`, list);
 }
 
 async function getData() {
@@ -197,6 +202,20 @@ function getMainnetAddress(address) {
 		'0xccb0F4Cf5D3F97f4a55bb5f5cA321C3ED033f244': '0xE41d2489571d322189246DaFA5ebDe1F4699F498',
 	};
 	return map[address] || address;
+}
+
+async function ipfsPin(key, body) {
+	let ipfsHash;
+	const input = {
+		apiKey: fleekApiKey,
+		apiSecret: fleekApiSecret,
+		bucket: fleekBucket,
+		key,
+		data: JSON.stringify(body)
+	};
+	const result = await fleek.upload(input);
+	ipfsHash = result.hashV0;
+	return ipfsHash;
 }
 
 run();
