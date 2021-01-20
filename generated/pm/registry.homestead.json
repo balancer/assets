@@ -3572,7 +3572,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#416aa3",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b.png"
     },
     "0xABe580E7ee158dA464b51ee1a83Ac0289622e6be": {
@@ -3968,8 +3968,8 @@
       "decimals": 8,
       "precision": 3,
       "color": "#9a9a97",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png"
     },
     "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10": {
       "address": "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10",

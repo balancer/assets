@@ -465,7 +465,7 @@
             "symbol": "RLY",
             "decimals": 18,
             "precision": 2,
-            "hasIcon": false,
+            "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b.png"
         },
         "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
