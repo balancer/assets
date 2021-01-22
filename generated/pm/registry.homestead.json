@@ -649,17 +649,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png"
     },
-    "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C": {
-      "address": "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C",
-      "id": "ghost-by-mcafee",
-      "name": "GHOST",
-      "symbol": "GHOST",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c327471C44B2dacD6E90525f9D629bd2e4f662C/logo.png"
-    },
     "0x6810e776880C02933D47DB1b9fc05908e5386b96": {
       "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "id": "gnosis",
@@ -857,17 +846,6 @@
       "color": "#9d9f7f",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F/logo.png"
-    },
-    "0xE5F166c0D8872B68790061317BB6CcA04582C912": {
-      "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
-      "id": "te-food",
-      "name": "TE-FOOD",
-      "symbol": "TFD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0x5732046A883704404F284Ce41FfADd5b007FD668": {
       "address": "0x5732046A883704404F284Ce41FfADd5b007FD668",
@@ -1209,17 +1187,6 @@
       "color": "#6f6776",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8A9C67fee641579dEbA04928c4BC45F66e26343A/logo.png"
-    },
-    "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0": {
-      "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
-      "id": "rdai",
-      "name": "Redeemable DAI",
-      "symbol": "rDAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#68aca9",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
     },
     "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7": {
       "address": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7",
@@ -2211,17 +2178,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
     },
-    "0xa645264C5603E96c3b0B078cdab68733794B0A71": {
-      "address": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
-      "id": "mysterium",
-      "name": "Mysterium",
-      "symbol": "MYST",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe": {
       "address": "0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe",
       "id": "ong-social",
@@ -2254,17 +2210,6 @@
       "color": "#557064",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe/logo.png"
-    },
-    "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38": {
-      "address": "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38",
-      "id": "utrust",
-      "name": "UTRUST Token",
-      "symbol": "UTK",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#8d6268",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0xB6eD7644C69416d67B522e20bC294A9a9B405B31": {
       "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
@@ -2386,17 +2331,6 @@
       "color": "#c28d75",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x13339fD07934CD674269726EdF3B5ccEE9DD93de/logo.png"
-    },
-    "0xBD6467a31899590474cE1e84F70594c53D628e46": {
-      "address": "0xBD6467a31899590474cE1e84F70594c53D628e46",
-      "id": "kardiachain",
-      "name": "KardiaChain Token",
-      "symbol": "KAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": false,
-      "logoUrl": ""
     },
     "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e": {
       "address": "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e",
@@ -3638,7 +3572,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#416aa3",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b.png"
     },
     "0xABe580E7ee158dA464b51ee1a83Ac0289622e6be": {
@@ -4034,8 +3968,8 @@
       "decimals": 8,
       "precision": 3,
       "color": "#9a9a97",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png"
     },
     "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10": {
       "address": "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10",
@@ -4378,6 +4312,28 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeDEec5691f23E4914cF0183A4196bBEb30d027a0/logo.png"
     },
+    "0x53352e7d6620cc931c0C9318166ae2a92c1A4666": {
+      "address": "0x53352e7d6620cc931c0C9318166ae2a92c1A4666",
+      "id": "ai-mining",
+      "name": "AIM",
+      "symbol": "AIM",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xAE1eaAE3F627AAca434127644371b67B18444051": {
+      "address": "0xAE1eaAE3F627AAca434127644371b67B18444051",
+      "id": "yield-optimization-platform",
+      "name": "YOP",
+      "symbol": "YOP",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#6e6962",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4496,6 +4452,72 @@
       "decimals": 18,
       "precision": 3,
       "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C": {
+      "address": "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C",
+      "id": "",
+      "name": "GHOST",
+      "symbol": "GHOST",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c327471C44B2dacD6E90525f9D629bd2e4f662C/logo.png"
+    },
+    "0xBD6467a31899590474cE1e84F70594c53D628e46": {
+      "address": "0xBD6467a31899590474cE1e84F70594c53D628e46",
+      "id": "",
+      "name": "KardiaChain Token",
+      "symbol": "KAI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xa645264C5603E96c3b0B078cdab68733794B0A71": {
+      "address": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
+      "id": "",
+      "name": "Mysterium",
+      "symbol": "MYST",
+      "decimals": 8,
+      "precision": 2,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0": {
+      "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
+      "id": "",
+      "name": "Redeemable DAI",
+      "symbol": "rDAI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#68aca9",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
+    },
+    "0xE5F166c0D8872B68790061317BB6CcA04582C912": {
+      "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
+      "id": "",
+      "name": "TE-FOOD",
+      "symbol": "TFD",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38": {
+      "address": "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38",
+      "id": "",
+      "name": "UTRUST Token",
+      "symbol": "UTK",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#8d6268",
       "hasIcon": false,
       "logoUrl": ""
     }

@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-01-15T00:00:00.000Z",
+    "timestamp": "2021-01-19T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -482,14 +482,6 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4EFd85c19999D84251304bDA99E90B92300Bd93/logo.png"
         },
         {
-            "address": "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C",
-            "chainId": 1,
-            "name": "GHOST",
-            "symbol": "GHOST",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c327471C44B2dacD6E90525f9D629bd2e4f662C/logo.png"
-        },
-        {
             "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
             "chainId": 1,
             "name": "Gnosis Token",
@@ -632,13 +624,6 @@
             "symbol": "TRAC",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F/logo.png"
-        },
-        {
-            "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
-            "chainId": 1,
-            "name": "TE-FOOD",
-            "symbol": "TFD",
-            "decimals": 18
         },
         {
             "address": "0x5732046A883704404F284Ce41FfADd5b007FD668",
@@ -887,14 +872,6 @@
             "symbol": "JRT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8A9C67fee641579dEbA04928c4BC45F66e26343A/logo.png"
-        },
-        {
-            "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
-            "chainId": 1,
-            "name": "Redeemable DAI",
-            "symbol": "rDAI",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
         },
         {
             "address": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7",
@@ -1552,13 +1529,6 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
         },
         {
-            "address": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
-            "chainId": 1,
-            "name": "Mysterium",
-            "symbol": "MYST",
-            "decimals": 8
-        },
-        {
             "address": "0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe",
             "chainId": 1,
             "name": "onG",
@@ -1581,13 +1551,6 @@
             "symbol": "SWAP",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCC4304A31d09258b0029eA7FE63d032f52e44EFe/logo.png"
-        },
-        {
-            "address": "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38",
-            "chainId": 1,
-            "name": "UTRUST Token",
-            "symbol": "UTK",
-            "decimals": 18
         },
         {
             "address": "0xB6eD7644C69416d67B522e20bC294A9a9B405B31",
@@ -1674,13 +1637,6 @@
             "symbol": "CUR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x13339fD07934CD674269726EdF3B5ccEE9DD93de/logo.png"
-        },
-        {
-            "address": "0xBD6467a31899590474cE1e84F70594c53D628e46",
-            "chainId": 1,
-            "name": "KardiaChain Token",
-            "symbol": "KAI",
-            "decimals": 18
         },
         {
             "address": "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e",
@@ -3080,6 +3036,21 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeDEec5691f23E4914cF0183A4196bBEb30d027a0/logo.png"
         },
         {
+            "address": "0x53352e7d6620cc931c0C9318166ae2a92c1A4666",
+            "chainId": 1,
+            "name": "AIM",
+            "symbol": "AIM",
+            "decimals": 18
+        },
+        {
+            "address": "0xAE1eaAE3F627AAca434127644371b67B18444051",
+            "chainId": 1,
+            "name": "YOP",
+            "symbol": "YOP",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3164,6 +3135,50 @@
             "chainId": 1,
             "name": "Interest Bearing ETH",
             "symbol": "ibETH",
+            "decimals": 18
+        },
+        {
+            "address": "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C",
+            "chainId": 1,
+            "name": "GHOST",
+            "symbol": "GHOST",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c327471C44B2dacD6E90525f9D629bd2e4f662C/logo.png"
+        },
+        {
+            "address": "0xBD6467a31899590474cE1e84F70594c53D628e46",
+            "chainId": 1,
+            "name": "KardiaChain Token",
+            "symbol": "KAI",
+            "decimals": 18
+        },
+        {
+            "address": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
+            "chainId": 1,
+            "name": "Mysterium",
+            "symbol": "MYST",
+            "decimals": 8
+        },
+        {
+            "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
+            "chainId": 1,
+            "name": "Redeemable DAI",
+            "symbol": "rDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
+        },
+        {
+            "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
+            "chainId": 1,
+            "name": "TE-FOOD",
+            "symbol": "TFD",
+            "decimals": 18
+        },
+        {
+            "address": "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38",
+            "chainId": 1,
+            "name": "UTRUST Token",
+            "symbol": "UTK",
             "decimals": 18
         },
         {
