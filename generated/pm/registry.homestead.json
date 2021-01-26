@@ -4334,6 +4334,72 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png"
     },
+    "0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69": {
+      "address": "0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69",
+      "id": "foundrydao-logistics",
+      "name": "Foundry Logistics Token",
+      "symbol": "FRY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69/logo.png"
+    },
+    "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb": {
+      "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+      "id": "geyser",
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4": {
+      "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+      "id": "dexkit",
+      "name": "DexKit",
+      "symbol": "KIT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA": {
+      "address": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
+      "id": "orbs",
+      "name": "Orbs",
+      "symbol": "ORBS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA/logo.png"
+    },
+    "0x79C75E2e8720B39e258F41c37cC4f309E0b0fF80": {
+      "address": "0x79C75E2e8720B39e258F41c37cC4f309E0b0fF80",
+      "id": "phantasma",
+      "name": "Phantasma Stake",
+      "symbol": "SOUL",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a": {
+      "address": "0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a",
+      "id": "wrapped-celo",
+      "name": "Wrapped Celo",
+      "symbol": "wCELO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4518,6 +4584,17 @@
       "decimals": 18,
       "precision": 2,
       "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15": {
+      "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
+      "id": "",
+      "name": "DefiStarter",
+      "symbol": "DFST",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
       "hasIcon": false,
       "logoUrl": ""
     }
