@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-01-19T00:00:00.000Z",
+    "timestamp": "2021-01-26T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -2799,7 +2799,8 @@
             "chainId": 1,
             "name": "TrustToken",
             "symbol": "TRU",
-            "decimals": 8
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784/logo.png"
         },
         {
             "address": "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10",
@@ -3051,6 +3052,50 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAE1eaAE3F627AAca434127644371b67B18444051/logo.png"
         },
         {
+            "address": "0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69",
+            "chainId": 1,
+            "name": "Foundry Logistics Token",
+            "symbol": "FRY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69/logo.png"
+        },
+        {
+            "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+            "chainId": 1,
+            "name": "Geyser",
+            "symbol": "GYSR",
+            "decimals": 18
+        },
+        {
+            "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
+            "chainId": 1,
+            "name": "DexKit",
+            "symbol": "KIT",
+            "decimals": 18
+        },
+        {
+            "address": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
+            "chainId": 1,
+            "name": "Orbs",
+            "symbol": "ORBS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA/logo.png"
+        },
+        {
+            "address": "0x79C75E2e8720B39e258F41c37cC4f309E0b0fF80",
+            "chainId": 1,
+            "name": "Phantasma Stake",
+            "symbol": "SOUL",
+            "decimals": 8
+        },
+        {
+            "address": "0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a",
+            "chainId": 1,
+            "name": "Wrapped Celo",
+            "symbol": "wCELO",
+            "decimals": 18
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3179,6 +3224,13 @@
             "chainId": 1,
             "name": "UTRUST Token",
             "symbol": "UTK",
+            "decimals": 18
+        },
+        {
+            "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
+            "chainId": 1,
+            "name": "DefiStarter",
+            "symbol": "DFST",
             "decimals": 18
         },
         {
