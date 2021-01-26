@@ -413,6 +413,12 @@
 		"0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": "nftx",
 		"0xeDEec5691f23E4914cF0183A4196bBEb30d027a0": "wrapped-statera",
 		"0x53352e7d6620cc931c0C9318166ae2a92c1A4666": "ai-mining",
-		"0xAE1eaAE3F627AAca434127644371b67B18444051": "yield-optimization-platform"
+		"0xAE1eaAE3F627AAca434127644371b67B18444051": "yield-optimization-platform",
+		"0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69": "foundrydao-logistics",
+		"0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb": "geyser",
+		"0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4": "dexkit",
+		"0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA": "orbs",
+		"0x79C75E2e8720B39e258F41c37cC4f309E0b0fF80": "phantasma",
+		"0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a": "wrapped-celo"
 	}
 }
