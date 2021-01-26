@@ -416,6 +416,7 @@
 		"0xAE1eaAE3F627AAca434127644371b67B18444051": "yield-optimization-platform",
 		"0x6c972b70c533E2E045F333Ee28b9fFb8D717bE69": "foundrydao-logistics",
 		"0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb": "geyser",
-		"0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4": "dexkit"
+		"0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4": "dexkit",
+		"0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA": "orbs"
 	}
 }
