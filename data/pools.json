@@ -161,7 +161,6 @@
   "0x753f64a1447228bb800336569d98e11e94b0d0d2": {
     "chainId": 1,
     "about": "This pool will slowly switch from primarily vBZRX to primarily WETH over a ~40 month period. The pool also holds 4% BZRX (may need to be increased slightly later) so that BZRX that is left in the pool due to vesting can be gulp()ed and incorporated into the pool. When the 42 month vBZRX vesting period is nearly complete I will pause swapping (if I am still alive).",
-    "learn_more": "https://razor.network",
     "is_visible": true,
     "is_compatible": true
   },
