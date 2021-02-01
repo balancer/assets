@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-01-26T00:00:00.000Z",
+    "timestamp": "2021-02-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3064,7 +3064,8 @@
             "chainId": 1,
             "name": "Geyser",
             "symbol": "GYSR",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb/logo.png"
         },
         {
             "address": "0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4",
@@ -3094,6 +3095,21 @@
             "name": "Wrapped Celo",
             "symbol": "wCELO",
             "decimals": 18
+        },
+        {
+            "address": "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35",
+            "chainId": 1,
+            "name": "CudosToken",
+            "symbol": "CUDOS",
+            "decimals": 18
+        },
+        {
+            "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
+            "chainId": 1,
+            "name": "PieDAO DEFI++",
+            "symbol": "DEFI++",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
         },
         {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
@@ -3150,14 +3166,6 @@
             "symbol": "BAP0",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x705c71b262c511b66baa4791cc2be61b971bd784.png"
-        },
-        {
-            "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
-            "chainId": 1,
-            "name": "PieDAO DEFI++",
-            "symbol": "DEFI++",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
         },
         {
             "address": "0xa0afAA285Ce85974c3C881256cB7F225e3A1178a",
@@ -3227,11 +3235,27 @@
             "decimals": 18
         },
         {
+            "address": "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
+            "chainId": 1,
+            "name": "xHDX",
+            "symbol": "xHDX",
+            "decimals": 12,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6fcb6408499a7c0f242e32d77eb51ffa1dd28a7e.png"
+        },
+        {
             "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
             "chainId": 1,
             "name": "DefiStarter",
             "symbol": "DFST",
             "decimals": 18
+        },
+        {
+            "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
+            "chainId": 1,
+            "name": "RAZOR",
+            "symbol": "RAZOR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
