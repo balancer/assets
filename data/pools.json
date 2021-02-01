@@ -157,5 +157,20 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x753f64a1447228bb800336569d98e11e94b0d0d2": {
+    "chainId": 1,
+    "about": "This pool will slowly switch from primarily vBZRX to primarily WETH over a ~40 month period. The pool also holds 4% BZRX (may need to be increased slightly later) so that BZRX that is left in the pool due to vesting can be gulp()ed and incorporated into the pool. When the 42 month vBZRX vesting period is nearly complete I will pause swapping (if I am still alive).",
+    "is_visible": true,
+    "is_compatible": true
+  },
+  "0xd64bb9076f513d05ac31d1f143edcea6884d595f": {
+    "chainId": 1,
+    "name": "Razor Network LBP",
+    "about": "This is the Liquidity Bootstrapping Pool for Razor Network's RAZOR utility tokens. With this mechanism, initial distribution of the RAZOR tokens will be performed. The weights of the pool will change over time to perform price discovery and avoid front-running attacks. More details can be found on razor.network and our social media channels.",
+    "learn_more": "https://razor.network",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
