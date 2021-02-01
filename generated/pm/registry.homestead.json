@@ -4587,6 +4587,17 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E": {
+      "address": "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
+      "id": "",
+      "name": "xHDX",
+      "symbol": "xHDX",
+      "decimals": 12,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6fcb6408499a7c0f242e32d77eb51ffa1dd28a7e.png"
+    },
     "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15": {
       "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
       "id": "",
