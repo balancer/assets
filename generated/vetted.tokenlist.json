@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-01T00:00:00.000Z",
+    "timestamp": "2021-02-04T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1848,7 +1848,8 @@
             "chainId": 1,
             "name": "Perlin",
             "symbol": "PERL",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeca82185adCE47f39c684352B0439f030f860318/logo.png"
         },
         {
             "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
@@ -2193,7 +2194,8 @@
             "chainId": 1,
             "name": "Hedget",
             "symbol": "HGET",
-            "decimals": 6
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7968bc6a03017eA2de509AAA816F163Db0f35148/logo.png"
         },
         {
             "address": "0x3E9BC21C9b189C09dF3eF1B824798658d5011937",
@@ -2807,7 +2809,8 @@
             "chainId": 1,
             "name": "Wrapped ZEC",
             "symbol": "WZEC",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4A64515E5E1d1073e83f30cB97BEd20400b66E10/logo.png"
         },
         {
             "address": "0x80DC468671316E50D4E9023D3db38D3105c1C146",
@@ -2860,7 +2863,8 @@
             "chainId": 1,
             "name": "Wrapped Filecoin",
             "symbol": "WFIL",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6e1A19F235bE7ED8E3369eF73b196C07257494DE/logo.png"
         },
         {
             "address": "0x6368e1E18c4C419DDFC608A0BEd1ccb87b9250fc",
@@ -2974,7 +2978,8 @@
             "chainId": 1,
             "name": "Idle",
             "symbol": "IDLE",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x875773784af8135ea0ef43b5a374aad105c5d39e.png"
         },
         {
             "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
