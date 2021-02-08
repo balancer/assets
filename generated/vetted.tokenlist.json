@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-04T00:00:00.000Z",
+    "timestamp": "2021-02-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3117,6 +3117,43 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
         },
         {
+            "address": "0x6e36556B3ee5Aa28Def2a8EC3DAe30eC2B208739",
+            "chainId": 1,
+            "name": "BUILD Finance",
+            "symbol": "BUILD",
+            "decimals": 18
+        },
+        {
+            "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
+            "chainId": 1,
+            "name": "Cap",
+            "symbol": "CAP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x43044f861ec040DB59A7e324c40507adDb673142/logo.png"
+        },
+        {
+            "address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+            "chainId": 1,
+            "name": "Golem Network Token",
+            "symbol": "GLM",
+            "decimals": 18
+        },
+        {
+            "address": "0x8A9c4dfe8b9D8962B31e4e16F8321C44d48e246E",
+            "chainId": 1,
+            "name": "NameChangeToken",
+            "symbol": "NCT",
+            "decimals": 18
+        },
+        {
+            "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
+            "chainId": 1,
+            "name": "RAZOR",
+            "symbol": "RAZOR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3253,14 +3290,6 @@
             "name": "DefiStarter",
             "symbol": "DFST",
             "decimals": 18
-        },
-        {
-            "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
-            "chainId": 1,
-            "name": "RAZOR",
-            "symbol": "RAZOR",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
