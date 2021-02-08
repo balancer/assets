@@ -172,5 +172,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xc697051d1c6296c24ae3bcef39aca743861d9a81": {
+    "chainId": 1,
+    "name": "Aave Balancer Pool",
+    "about": "Aave is a liquidity protocol where users can earn interest on deposits and borrow assets. If you add liquidity to this pool, you can stake your pool tokens in the Safety Module, which helps secure the Aave Protocol. In return for taking this risk (up to 30% of your stake could be slashed to cover a shortfall), you receive a share of the 550 AAVE/day Safety Incentive.",
+    "learn_more": "https://medium.com/aave/aavenomics-quarterly-upgrade-1b57ab8ae20b",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
