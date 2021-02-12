@@ -3963,7 +3963,7 @@
     "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
       "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
       "id": "truefi",
-      "name": "TrustToken",
+      "name": "TrueFi",
       "symbol": "TRU",
       "decimals": 8,
       "precision": 3,
@@ -4474,7 +4474,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#5d2e9a",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
     },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
@@ -4653,17 +4653,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E": {
-      "address": "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
-      "id": "",
-      "name": "xHDX",
-      "symbol": "xHDX",
-      "decimals": 12,
-      "precision": 3,
-      "color": "#433455",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6fcb6408499a7c0f242e32d77eb51ffa1dd28a7e.png"
-    },
     "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15": {
       "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
       "id": "",
@@ -4737,6 +4726,7 @@
     "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
     "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
     "0xA9859874e1743A32409f75bB11549892138BBA1E",
-    "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C"
+    "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C",
+    "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E"
   ]
 }
