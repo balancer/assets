@@ -11,8 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
+    "@fleekhq/fleek-storage-js": "^1.0.9",
     "axios": "^0.20.0",
     "ethers": "^5.0.9"
   }
