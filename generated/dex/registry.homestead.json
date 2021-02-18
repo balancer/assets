@@ -537,7 +537,7 @@
             "symbol": "aBUSD",
             "decimals": 18,
             "precision": 2,
-            "hasIcon": false,
+            "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8.png"
         },
         "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00": {
