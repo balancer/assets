@@ -437,7 +437,7 @@
       "decimals": 18,
       "precision": 2,
       "color": "#93a167",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8.png"
     },
     "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00": {
@@ -912,17 +912,6 @@
       "color": "#7ca1c0",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
-    },
-    "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5": {
-      "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
-      "id": "tellor",
-      "name": "Tellor Tributes",
-      "symbol": "TRB",
-      "decimals": 18,
-      "precision": 4,
-      "color": "#9a4f50",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
     },
     "0x4a220E6096B25EADb88358cb44068A3248254675": {
       "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
@@ -3963,7 +3952,7 @@
     "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
       "address": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
       "id": "truefi",
-      "name": "TrustToken",
+      "name": "TrueFi",
       "symbol": "TRU",
       "decimals": 8,
       "precision": 3,
@@ -4422,6 +4411,94 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d1ce361eb68e9e05573443c407d4a3bed23b033.png"
     },
+    "0x6e36556B3ee5Aa28Def2a8EC3DAe30eC2B208739": {
+      "address": "0x6e36556B3ee5Aa28Def2a8EC3DAe30eC2B208739",
+      "id": "build-finance",
+      "name": "BUILD Finance",
+      "symbol": "BUILD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x43044f861ec040DB59A7e324c40507adDb673142": {
+      "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
+      "id": "cap",
+      "name": "Cap",
+      "symbol": "CAP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x43044f861ec040DB59A7e324c40507adDb673142/logo.png"
+    },
+    "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429": {
+      "address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+      "id": "golem",
+      "name": "Golem Network Token",
+      "symbol": "GLM",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x8A9c4dfe8b9D8962B31e4e16F8321C44d48e246E": {
+      "address": "0x8A9c4dfe8b9D8962B31e4e16F8321C44d48e246E",
+      "id": "name-changing-token",
+      "name": "NameChangeToken",
+      "symbol": "NCT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd": {
+      "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
+      "id": "razor-network",
+      "name": "RAZOR",
+      "symbol": "RAZOR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
+    },
+    "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad": {
+      "address": "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad",
+      "id": "dao-maker",
+      "name": "DAO Maker",
+      "symbol": "DAO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xac3211a5025414Af2866FF09c23FC18bc97e79b1": {
+      "address": "0xac3211a5025414Af2866FF09c23FC18bc97e79b1",
+      "id": "dovu",
+      "name": "DOVU",
+      "symbol": "DOV",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xac3211a5025414Af2866FF09c23FC18bc97e79b1/logo.png"
+    },
+    "0xEfc1C73A3D8728Dc4Cf2A18ac5705FE93E5914AC": {
+      "address": "0xEfc1C73A3D8728Dc4Cf2A18ac5705FE93E5914AC",
+      "id": "metric-exchange",
+      "name": "Metric.exchange",
+      "symbol": "METRIC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4518,7 +4595,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#557064",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d.png"
     },
     "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A": {
@@ -4598,17 +4675,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E": {
-      "address": "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
-      "id": "",
-      "name": "xHDX",
-      "symbol": "xHDX",
-      "decimals": 12,
-      "precision": 3,
-      "color": "#433455",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6fcb6408499a7c0f242e32d77eb51ffa1dd28a7e.png"
-    },
     "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15": {
       "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
       "id": "",
@@ -4619,17 +4685,6 @@
       "color": "#387080",
       "hasIcon": false,
       "logoUrl": ""
-    },
-    "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd": {
-      "address": "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
-      "id": "razor-network",
-      "name": "RAZOR",
-      "symbol": "RAZOR",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
     }
   },
   "untrusted": [
@@ -4693,6 +4748,7 @@
     "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
     "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
     "0xA9859874e1743A32409f75bB11549892138BBA1E",
-    "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C"
+    "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C",
+    "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E"
   ]
 }
