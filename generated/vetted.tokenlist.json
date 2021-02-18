@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-12T00:00:00.000Z",
+    "timestamp": "2021-02-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -672,14 +672,6 @@
             "symbol": "CEL",
             "decimals": 4,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
-        },
-        {
-            "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
-            "chainId": 1,
-            "name": "Tellor Tributes",
-            "symbol": "TRB",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
         },
         {
             "address": "0x4a220E6096B25EADb88358cb44068A3248254675",
@@ -3152,6 +3144,28 @@
             "symbol": "RAZOR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png"
+        },
+        {
+            "address": "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad",
+            "chainId": 1,
+            "name": "DAO Maker",
+            "symbol": "DAO",
+            "decimals": 18
+        },
+        {
+            "address": "0xac3211a5025414Af2866FF09c23FC18bc97e79b1",
+            "chainId": 1,
+            "name": "DOVU",
+            "symbol": "DOV",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xac3211a5025414Af2866FF09c23FC18bc97e79b1/logo.png"
+        },
+        {
+            "address": "0xEfc1C73A3D8728Dc4Cf2A18ac5705FE93E5914AC",
+            "chainId": 1,
+            "name": "Metric.exchange",
+            "symbol": "METRIC",
+            "decimals": 18
         },
         {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
