@@ -181,5 +181,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xcaf467dfe064a1f54e4ece8515ddf326b9be801e": {
+    "chainId": 1,
+    "name": "Idle Smart Treasury",
+    "about": "The Idle Smart Treasury is based on the buyback-and-make model by Placeholder VC. The Idle FeeCollector converts protocol fees into WETH and deposits a portion into the smart treasury, acting as a buyback machine while also providing more on-chain liquidity for the IDLE token.",
+    "learn_more": "https://gov.idle.finance/t/iip-2-add-a-smart-treasury-to-idle/211",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
