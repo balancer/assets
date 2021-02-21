@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-19T00:00:00.000Z",
+    "timestamp": "2021-02-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -619,6 +619,13 @@
             "symbol": "IDLE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x875773784af8135ea0ef43b5a374aad105c5d39e.png"
+        },
+        {
+            "address": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+            "chainId": 1,
+            "name": "Radicle",
+            "symbol": "RAD",
+            "decimals": 18
         },
         {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
