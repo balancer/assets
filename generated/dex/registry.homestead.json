@@ -692,6 +692,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x875773784af8135ea0ef43b5a374aad105c5d39e.png"
+        },
+        "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3": {
+            "address": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+            "name": "Radicle",
+            "symbol": "RAD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
