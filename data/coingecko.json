@@ -428,6 +428,7 @@
 		"0x8A9c4dfe8b9D8962B31e4e16F8321C44d48e246E": "name-changing-token",
 		"0x0f51bb10119727a7e5eA3538074fb341F56B09Ad": "dao-maker",
 		"0xac3211a5025414Af2866FF09c23FC18bc97e79b1": "dovu",
-		"0xEfc1C73A3D8728Dc4Cf2A18ac5705FE93E5914AC": "metric-exchange"
+		"0xEfc1C73A3D8728Dc4Cf2A18ac5705FE93E5914AC": "metric-exchange",
+		"0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5": "unit-protocol-duck"
 	}
 }
