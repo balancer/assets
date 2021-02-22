@@ -3349,6 +3349,13 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
         },
         {
+            "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+            "chainId": 1,
+            "name": "Synth sTSLA",
+            "symbol": "sTSLA",
+            "decimals": 18
+        },
+        {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
             "chainId": 42,
             "name": "Wrapped Ether",

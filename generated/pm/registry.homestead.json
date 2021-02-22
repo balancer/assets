@@ -4762,6 +4762,17 @@
       "color": "#9a9a97",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
+    },
+    "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D": {
+      "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+      "id": "stsla",
+      "name": "Synth sTSLA",
+      "symbol": "sTSLA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
