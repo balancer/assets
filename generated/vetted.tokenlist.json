@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-18T00:00:00.000Z",
+    "timestamp": "2021-02-22T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3168,6 +3168,57 @@
             "decimals": 18
         },
         {
+            "address": "0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5",
+            "chainId": 1,
+            "name": "Unit Protocol",
+            "symbol": "DUCK",
+            "decimals": 18
+        },
+        {
+            "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e",
+            "chainId": 1,
+            "name": "Ethix",
+            "symbol": "ETHIX",
+            "decimals": 18
+        },
+        {
+            "address": "0x59fec83eC709c893aedD1A144Cf1828Eb04127Cd",
+            "chainId": 1,
+            "name": "pxGOLD Synthetic GOLD Expiring 31 May 2021",
+            "symbol": "pxGOLD_MAY2021",
+            "decimals": 18
+        },
+        {
+            "address": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+            "chainId": 1,
+            "name": "Radicle",
+            "symbol": "RAD",
+            "decimals": 18
+        },
+        {
+            "address": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
+            "chainId": 1,
+            "name": "SIREN",
+            "symbol": "SI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de/logo.png"
+        },
+        {
+            "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
+            "chainId": 1,
+            "name": "Tapmydata",
+            "symbol": "TAP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d.png"
+        },
+        {
+            "address": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
+            "chainId": 1,
+            "name": "USDP Stablecoin",
+            "symbol": "USDP",
+            "decimals": 18
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3232,14 +3283,6 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa0afaa285ce85974c3c881256cb7f225e3a1178a.png"
         },
         {
-            "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
-            "chainId": 1,
-            "name": "Tapmydata",
-            "symbol": "TAP",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d.png"
-        },
-        {
             "address": "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A",
             "chainId": 1,
             "name": "Interest Bearing ETH",
@@ -3295,6 +3338,21 @@
             "chainId": 1,
             "name": "DefiStarter",
             "symbol": "DFST",
+            "decimals": 18
+        },
+        {
+            "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+            "chainId": 1,
+            "name": "HOPR Token",
+            "symbol": "HOPR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
+        },
+        {
+            "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+            "chainId": 1,
+            "name": "Synth sTSLA",
+            "symbol": "sTSLA",
             "decimals": 18
         },
         {
