@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-22T00:00:00.000Z",
+    "timestamp": "2021-02-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3193,7 +3193,8 @@
             "chainId": 1,
             "name": "Radicle",
             "symbol": "RAD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
         },
         {
             "address": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
@@ -3353,6 +3354,13 @@
             "chainId": 1,
             "name": "Synth sTSLA",
             "symbol": "sTSLA",
+            "decimals": 18
+        },
+        {
+            "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
+            "chainId": 1,
+            "name": "ETHA",
+            "symbol": "ETHA",
             "decimals": 18
         },
         {

@@ -625,7 +625,8 @@
             "chainId": 1,
             "name": "Radicle",
             "symbol": "RAD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
         },
         {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
