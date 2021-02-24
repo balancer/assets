@@ -4499,6 +4499,83 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5": {
+      "address": "0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5",
+      "id": "unit-protocol-duck",
+      "name": "Unit Protocol",
+      "symbol": "DUCK",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e": {
+      "address": "0xFd09911130e6930Bf87F2B0554c44F400bD80D3e",
+      "id": "ethichub",
+      "name": "Ethix",
+      "symbol": "ETHIX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7ca1c0",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x59fec83eC709c893aedD1A144Cf1828Eb04127Cd": {
+      "address": "0x59fec83eC709c893aedD1A144Cf1828Eb04127Cd",
+      "id": "pxgold-synthetic-gold-31-may-2021",
+      "name": "pxGOLD Synthetic GOLD Expiring 31 May 2021",
+      "symbol": "pxGOLD_MAY2021",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3": {
+      "address": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+      "id": "radicle",
+      "name": "Radicle",
+      "symbol": "RAD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de": {
+      "address": "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de",
+      "id": "siren",
+      "name": "SIREN",
+      "symbol": "SI",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de/logo.png"
+    },
+    "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D": {
+      "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
+      "id": "tapmydata",
+      "name": "Tapmydata",
+      "symbol": "TAP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d.png"
+    },
+    "0x1456688345527bE1f37E9e627DA0837D6f08C925": {
+      "address": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
+      "id": "usdp",
+      "name": "USDP Stablecoin",
+      "symbol": "USDP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4586,17 +4663,6 @@
       "color": "#7cb5d6",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa0afaa285ce85974c3c881256cb7f225e3a1178a.png"
-    },
-    "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D": {
-      "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
-      "id": "",
-      "name": "Tapmydata",
-      "symbol": "TAP",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f1f2d3dfa99678675ece1c243d3f7bc3746db5d.png"
     },
     "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A": {
       "address": "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A",
@@ -4696,6 +4762,28 @@
       "color": "#9a9a97",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
+    },
+    "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D": {
+      "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+      "id": "stsla",
+      "name": "Synth sTSLA",
+      "symbol": "sTSLA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x59E9261255644c411AfDd00bD89162d09D862e38": {
+      "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
+      "id": "",
+      "name": "ETHA",
+      "symbol": "ETHA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
