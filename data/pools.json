@@ -190,5 +190,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xb249e00c0d861aaad716f46a47a340c22cd941fd": {
+    "chainId": 1,
+    "name": "HOPR Network LBP",
+    "about": "This is the Liquidity Bootstrapping Pool for the HOPR Network's HOPR Token. As voted for by the Genesis DAO, 30m HOPR tokens (plus any leftover from the presale in Phase 1) will be placed in this Liquidity Bootstrapping Pool (LBP) for 72hrs, balanced against the initial capital of almost $2.5m DAI (converted from xDAI) raised in the presale.",
+    "learn_more": "https://medium.com/hoprnet/hopr-launch-phase-2-balancer-liquidity-bootstrapping-pool-7128c7ce5896",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
