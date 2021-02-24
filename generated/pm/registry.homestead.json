@@ -4773,6 +4773,17 @@
       "color": "#c38890",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x59E9261255644c411AfDd00bD89162d09D862e38": {
+      "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
+      "id": "",
+      "name": "ETHA",
+      "symbol": "ETHA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
