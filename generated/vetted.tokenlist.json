@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-18T00:00:00.000Z",
+    "timestamp": "2021-02-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3296,6 +3296,14 @@
             "name": "DefiStarter",
             "symbol": "DFST",
             "decimals": 18
+        },
+        {
+            "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+            "chainId": 1,
+            "name": "HOPR Token",
+            "symbol": "HOPR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
