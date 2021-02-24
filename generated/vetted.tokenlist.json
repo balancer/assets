@@ -3364,6 +3364,14 @@
             "decimals": 18
         },
         {
+            "address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+            "chainId": 1,
+            "name": "Mask Network",
+            "symbol": "MASK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+        },
+        {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
             "chainId": 42,
             "name": "Wrapped Ether",
