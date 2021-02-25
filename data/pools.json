@@ -208,5 +208,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x3c035c3f8e271e12df1bed648024e60249f507c3": {
+    "chainId": 1,
+    "name": "Radicle LBP",
+    "about": "The Radicle LBP Event is a two-day liquidity bootstrapping event for the Radicle community. This is the first opportunity for the general public to buy RAD to participate in the governance of the network. All proceeds will go to the Radicle Treasury, a smart contract entirely controlled by Radicle token holders. ",
+    "learn_more": "https://lbp.radicle.network/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
