@@ -199,5 +199,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x1e6c8c4d3a9a6f633f28c70c7c80a412df42956a": {
+    "chainId": 1,
+    "name": "Mask Network LBP",
+    "about": "The second part of the Mask public offering, the $MASK LBP will launch at 3:00pm UTC+0, Feb 24th and end at 3:00am UTC+0, Feb 26th, a total of 36 hours. We will use the Liquidity Bootstrapping Pool (LBP) by Balancer to auction 4% of the total supply in order to derive and capture the true value of $MASK.",
+    "learn_more": "https://news.mask.io/2021/02/24/mask-lbp-tutorial",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
