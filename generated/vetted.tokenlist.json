@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-02-25T00:00:00.000Z",
+    "timestamp": "2021-03-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3202,7 +3202,7 @@
             "name": "SIREN",
             "symbol": "SI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd23ac27148af6a2f339bd82d0e3cff380b5093de.png"
         },
         {
             "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
@@ -3218,6 +3218,94 @@
             "name": "USDP Stablecoin",
             "symbol": "USDP",
             "decimals": 18
+        },
+        {
+            "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+            "chainId": 1,
+            "name": "Alchemix",
+            "symbol": "ALCX",
+            "decimals": 18
+        },
+        {
+            "address": "0xc4De189Abf94c57f396bD4c52ab13b954FebEfD8",
+            "chainId": 1,
+            "name": "B.20",
+            "symbol": "B20",
+            "decimals": 18
+        },
+        {
+            "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+            "chainId": 1,
+            "name": "HOPR Token",
+            "symbol": "HOPR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
+        },
+        {
+            "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+            "chainId": 1,
+            "name": "ichi.farm",
+            "symbol": "ICHI",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x903bEF1736CDdf2A537176cf3C64579C3867A881/logo.png"
+        },
+        {
+            "address": "0x0fe629d1E84E171f8fF0C1Ded2Cc2221Caa48a3f",
+            "chainId": 1,
+            "name": "Mask",
+            "symbol": "MASK",
+            "decimals": 18
+        },
+        {
+            "address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+            "chainId": 1,
+            "name": "Mask Network",
+            "symbol": "MASK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+        },
+        {
+            "address": "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5",
+            "chainId": 1,
+            "name": "Punk",
+            "symbol": "PUNK",
+            "decimals": 18
+        },
+        {
+            "address": "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb",
+            "chainId": 1,
+            "name": "MetaFactory",
+            "symbol": "ROBOT",
+            "decimals": 18
+        },
+        {
+            "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20",
+            "chainId": 1,
+            "name": "SpaceChainV2",
+            "symbol": "SPC",
+            "decimals": 18
+        },
+        {
+            "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+            "chainId": 1,
+            "name": "Synth sTSLA",
+            "symbol": "sTSLA",
+            "decimals": 18
+        },
+        {
+            "address": "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94",
+            "chainId": 1,
+            "name": "Bancor Governance Token",
+            "symbol": "vBNT",
+            "decimals": 18
+        },
+        {
+            "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+            "chainId": 1,
+            "name": "VesperToken",
+            "symbol": "VSP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png"
         },
         {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
@@ -3342,21 +3430,6 @@
             "decimals": 18
         },
         {
-            "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
-            "chainId": 1,
-            "name": "HOPR Token",
-            "symbol": "HOPR",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
-        },
-        {
-            "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
-            "chainId": 1,
-            "name": "Synth sTSLA",
-            "symbol": "sTSLA",
-            "decimals": 18
-        },
-        {
             "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
             "chainId": 1,
             "name": "ETHA",
@@ -3365,12 +3438,18 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
         },
         {
-            "address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+            "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
             "chainId": 1,
-            "name": "Mask Network",
-            "symbol": "MASK",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+            "name": "CAD Coin",
+            "symbol": "CADC",
+            "decimals": 18
+        },
+        {
+            "address": "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7",
+            "chainId": 1,
+            "name": "Kylin Network",
+            "symbol": "KYL",
+            "decimals": 18
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",

@@ -4576,6 +4576,138 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF": {
+      "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+      "id": "alchemix",
+      "name": "Alchemix",
+      "symbol": "ALCX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xc4De189Abf94c57f396bD4c52ab13b954FebEfD8": {
+      "address": "0xc4De189Abf94c57f396bD4c52ab13b954FebEfD8",
+      "id": "b20",
+      "name": "B.20",
+      "symbol": "B20",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA": {
+      "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+      "id": "hopr",
+      "name": "HOPR Token",
+      "symbol": "HOPR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
+    },
+    "0x903bEF1736CDdf2A537176cf3C64579C3867A881": {
+      "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+      "id": "ichi-farm",
+      "name": "ichi.farm",
+      "symbol": "ICHI",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x903bEF1736CDdf2A537176cf3C64579C3867A881/logo.png"
+    },
+    "0x0fe629d1E84E171f8fF0C1Ded2Cc2221Caa48a3f": {
+      "address": "0x0fe629d1E84E171f8fF0C1Ded2Cc2221Caa48a3f",
+      "id": "nftx-hashmasks-index",
+      "name": "Mask",
+      "symbol": "MASK",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074": {
+      "address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+      "id": "mask-network",
+      "name": "Mask Network",
+      "symbol": "MASK",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+    },
+    "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5": {
+      "address": "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5",
+      "id": "punk",
+      "name": "Punk",
+      "symbol": "PUNK",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb": {
+      "address": "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb",
+      "id": "robot",
+      "name": "MetaFactory",
+      "symbol": "ROBOT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x86ed939B500E121C0C5f493F399084Db596dAd20": {
+      "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20",
+      "id": "spacechain-erc-20",
+      "name": "SpaceChainV2",
+      "symbol": "SPC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D": {
+      "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
+      "id": "stsla",
+      "name": "Synth sTSLA",
+      "symbol": "sTSLA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94": {
+      "address": "0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94",
+      "id": "bancor-governance-token",
+      "name": "Bancor Governance Token",
+      "symbol": "vBNT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421": {
+      "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+      "id": "vesper-finance",
+      "name": "VesperToken",
+      "symbol": "VSP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4752,28 +4884,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA": {
-      "address": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
-      "id": "",
-      "name": "HOPR Token",
-      "symbol": "HOPR",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#9a9a97",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da.png"
-    },
-    "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D": {
-      "address": "0x918dA91Ccbc32B7a6A0cc4eCd5987bbab6E31e6D",
-      "id": "stsla",
-      "name": "Synth sTSLA",
-      "symbol": "sTSLA",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c38890",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0x59E9261255644c411AfDd00bD89162d09D862e38": {
       "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
       "id": "",
@@ -4785,16 +4895,27 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
     },
-    "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074": {
-      "address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
-      "id": "mask-network",
-      "name": "Mask Network",
-      "symbol": "MASK",
+    "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef": {
+      "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
+      "id": "",
+      "name": "CAD Coin",
+      "symbol": "CADC",
       "decimals": 18,
       "precision": 3,
-      "color": "#68aca9",
+      "color": "#c28d75",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
+      "logoUrl": ""
+    },
+    "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7": {
+      "address": "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7",
+      "id": "",
+      "name": "Kylin Network",
+      "symbol": "KYL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#6eaa78",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
