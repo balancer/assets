@@ -217,5 +217,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x3c035c3f8e271e12df1bed648024e60249f507c3": {
+    "chainId": 1,
+    "name": "MetaFactory Pool",
+    "about": "$ROBOT is the MetaFactory Governance Token by which community members decide on token mechanics, reward schedules, partnerships, platform features, treasury use and more. It is also the vehicle by which value is captured, distributed, earned and shared. Creators receive $ROBOT based on the success of their product(s), buyers are rewarded with $ROBOT for their patronage, and the community earns $ROBOT by helping to curate the marketplace.  Revenue from product sales are used to buy back and provide liquidity for $ROBOT, which support ongoing community rewards. Fund management is entirely under the control of the community members via the MetaFactory DAO.",
+    "learn_more": "https://forefront.news/creators/robot",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
