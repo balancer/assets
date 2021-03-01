@@ -445,6 +445,7 @@
 		"0x0fe629d1E84E171f8fF0C1Ded2Cc2221Caa48a3f": "nftx-hashmasks-index",
 		"0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5": "punk",
 		"0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb": "robot",
-		"0x86ed939B500E121C0C5f493F399084Db596dAd20": "spacechain-erc-20"
+		"0x86ed939B500E121C0C5f493F399084Db596dAd20": "spacechain-erc-20",
+		"0x48Fb253446873234F2fEBbF9BdeAA72d9d387f94": "bancor-governance-token"
 	}
 }
