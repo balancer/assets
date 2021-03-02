@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-01T00:00:00.000Z",
+    "timestamp": "2021-03-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3150,7 +3150,8 @@
             "chainId": 1,
             "name": "DAO Maker",
             "symbol": "DAO",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0f51bb10119727a7e5eA3538074fb341F56B09Ad/logo.png"
         },
         {
             "address": "0xac3211a5025414Af2866FF09c23FC18bc97e79b1",
@@ -3202,7 +3203,7 @@
             "name": "SIREN",
             "symbol": "SI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd23ac27148af6a2f339bd82d0e3cff380b5093de.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de/logo.png"
         },
         {
             "address": "0x7f1F2D3dFa99678675ECE1C243d3f7bC3746db5D",
@@ -3276,7 +3277,8 @@
             "chainId": 1,
             "name": "MetaFactory",
             "symbol": "ROBOT",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
         },
         {
             "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20",
@@ -3445,11 +3447,12 @@
             "decimals": 18
         },
         {
-            "address": "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7",
+            "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
             "chainId": 1,
             "name": "Kylin Network",
             "symbol": "KYL",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
