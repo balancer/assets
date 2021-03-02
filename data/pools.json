@@ -235,5 +235,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x963b3d2137fd7ef23273918cb07462c64337c819": {
+    "chainId": 1,
+    "name": "Siren LBP",
+    "about": "5MM SI Tokens will be distributed through a Balancer Liquidity Bootstrapping Pool (LBP). The Balancer LBP will be live for 3 days only and is designed to prevent front-running and speculation. It will start at a high price then go down quickly as the weights of the pool change. This mechanism prevents people from front-running other participants and speculating on SI tokens rather than using them for governance.",
+    "learn_more": "https://app.sirenmarkets.com/lbp",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
