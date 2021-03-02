@@ -30,6 +30,11 @@
 			"decimals": 18,
 			"symbol": "ANT (old)",
 			"name": "Aragon v1"
+		},
+		"0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5": {
+			"decimals": 18,
+			"symbol": "TRB (old)",
+			"name": "Tellor Tributes"
 		}
 	}
 }
