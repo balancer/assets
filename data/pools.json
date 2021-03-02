@@ -218,6 +218,15 @@
     "is_visible": true,
     "is_compatible": true
   },
+  "0x58ad69d1306a2410622d0e3f707c8f1dd0185c49": {
+    "chainId": 1,
+    "name": "Kylin Network LBP",
+    "about": "13M KYL tokens from the Public Sale will be distributed (unpaused) to Balancer’s Liquidity Bootstrapping Pool (LBP) on March 3rd at around 10:00 am UTC. The LBP will run for 48 hours, starting from 10:00 am UTC March 3rd, and ending at 10:00 am UTC March 5th. The weight of Balancer Pool will be adjusted according to the market buying power. This is dynamic!",
+    "learn_more": "https://kylinnetwork.medium.com/kylin-token-launch-phase-2-liquidity-bootstrapping-pool-lbp-on-balancer-725fe67f73a8",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
+  },
   "0x3c035c3f8e271e12df1bed648024e60249f507c3": {
     "chainId": 1,
     "name": "MetaFactory Pool",
@@ -226,5 +235,4 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
-  }
 }
