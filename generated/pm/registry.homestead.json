@@ -4474,8 +4474,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0f51bb10119727a7e5eA3538074fb341F56B09Ad/logo.png"
     },
     "0xac3211a5025414Af2866FF09c23FC18bc97e79b1": {
       "address": "0xac3211a5025414Af2866FF09c23FC18bc97e79b1",
@@ -4906,16 +4906,16 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7": {
-      "address": "0xFAf9b1cbCaf4321AE834335C8bA50B170cf836e7",
+    "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": {
+      "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
       "id": "",
       "name": "Kylin Network",
       "symbol": "KYL",
       "decimals": 18,
       "precision": 3,
-      "color": "#6eaa78",
+      "color": "#5d2e9a",
       "hasIcon": false,
-      "logoUrl": ""
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
     }
   },
   "untrusted": [
