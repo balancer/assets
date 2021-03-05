@@ -244,5 +244,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xebdb2d0f89b0148a6b1b0520388f3ad7daff8acc": {
+    "chainId": 1,
+    "name": "ETHALend LBP",
+    "about": "After being oversubscribed by more than 25x on Dodo, we are extremely pleased to continue our IDO on Balancer via the Liquidity Bootstrapping Pool. From 13:00 CET on March 6 to 13:00 CET on March 7, the pool's weights will adjust from 90/10 ETHA/USDC to 10/90 ETHA/USDC, generating downward pressure on the price of ETHA similar to a Dutch auction.",
+    "learn_more": "https://medium.com/etha/etha-lend-5th-8th-march-double-ido-triple-ieo-sale-details-c3481cece8ff",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
