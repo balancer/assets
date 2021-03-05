@@ -61,7 +61,16 @@ async function generate(name, tokens) {
 	};
 	const listFileName = `generated/${name}.tokenlist.json`;
 	await fs.writeFileSync(listFileName, JSON.stringify(list, null, 4));
-	if (fleekApiSecret) await ipfsPin(`assets/${name}.tokenlist.json`, list);
+
+	if (fleekApiSecret) {
+		try {
+			await ipfsPin(`assets/${name}.tokenlist.json`, list);
+		} catch (e) {
+			console.error('Failed to pin list on IPFS', e);
+		}
+	} else {
+		console.error('Fleek API secret is missing');
+	}
 }
 
 async function getData() {
