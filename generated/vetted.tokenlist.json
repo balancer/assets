@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-02T00:00:00.000Z",
+    "timestamp": "2021-03-09T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3310,6 +3310,36 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png"
         },
         {
+            "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
+            "chainId": 1,
+            "name": "CAD Coin",
+            "symbol": "CADC",
+            "decimals": 18
+        },
+        {
+            "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
+            "chainId": 1,
+            "name": "ETHA",
+            "symbol": "ETHA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
+        },
+        {
+            "address": "0x544c42fBB96B39B21DF61cf322b5EDC285EE7429",
+            "chainId": 1,
+            "name": "InsurAce",
+            "symbol": "INSUR",
+            "decimals": 18
+        },
+        {
+            "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
+            "chainId": 1,
+            "name": "Kylin Network",
+            "symbol": "KYL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3430,29 +3460,6 @@
             "name": "DefiStarter",
             "symbol": "DFST",
             "decimals": 18
-        },
-        {
-            "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
-            "chainId": 1,
-            "name": "ETHA",
-            "symbol": "ETHA",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
-        },
-        {
-            "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
-            "chainId": 1,
-            "name": "CAD Coin",
-            "symbol": "CADC",
-            "decimals": 18
-        },
-        {
-            "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
-            "chainId": 1,
-            "name": "Kylin Network",
-            "symbol": "KYL",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",

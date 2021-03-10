@@ -4708,6 +4708,50 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png"
     },
+    "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef": {
+      "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
+      "id": "cad-coin",
+      "name": "CAD Coin",
+      "symbol": "CADC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x59E9261255644c411AfDd00bD89162d09D862e38": {
+      "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
+      "id": "etha-lend",
+      "name": "ETHA",
+      "symbol": "ETHA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
+    },
+    "0x544c42fBB96B39B21DF61cf322b5EDC285EE7429": {
+      "address": "0x544c42fBB96B39B21DF61cf322b5EDC285EE7429",
+      "id": "insurace",
+      "name": "InsurAce",
+      "symbol": "INSUR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": {
+      "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
+      "id": "kylin-network",
+      "name": "Kylin Network",
+      "symbol": "KYL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4883,39 +4927,6 @@
       "color": "#387080",
       "hasIcon": false,
       "logoUrl": ""
-    },
-    "0x59E9261255644c411AfDd00bD89162d09D862e38": {
-      "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
-      "id": "",
-      "name": "ETHA",
-      "symbol": "ETHA",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#433455",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x59e9261255644c411afdd00bd89162d09d862e38.png"
-    },
-    "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef": {
-      "address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
-      "id": "",
-      "name": "CAD Coin",
-      "symbol": "CADC",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c28d75",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": {
-      "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
-      "id": "",
-      "name": "Kylin Network",
-      "symbol": "KYL",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#5d2e9a",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
     }
   },
   "untrusted": [
