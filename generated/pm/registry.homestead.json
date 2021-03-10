@@ -4927,6 +4927,17 @@
       "color": "#387080",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04": {
+      "address": "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04",
+      "id": "",
+      "name": "Visor",
+      "symbol": "VISR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf62dff6d13b8ac6f7707335b4d936a2ca5e16d04.png"
     }
   },
   "untrusted": [
