@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-09T00:00:00.000Z",
+    "timestamp": "2021-03-10T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3460,6 +3460,22 @@
             "name": "DefiStarter",
             "symbol": "DFST",
             "decimals": 18
+        },
+        {
+            "address": "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04",
+            "chainId": 1,
+            "name": "Visor",
+            "symbol": "VISR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf62dff6d13b8ac6f7707335b4d936a2ca5e16d04.png"
+        },
+        {
+            "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
+            "chainId": 1,
+            "name": "mStable BTC",
+            "symbol": "mBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
