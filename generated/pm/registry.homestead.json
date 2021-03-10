@@ -4938,6 +4938,17 @@
       "color": "#8d6268",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf62dff6d13b8ac6f7707335b4d936a2ca5e16d04.png"
+    },
+    "0x945Facb997494CC2570096c74b5F66A3507330a1": {
+      "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
+      "id": "mstable-btc",
+      "name": "mStable BTC",
+      "symbol": "mBTC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
     }
   },
   "untrusted": [
