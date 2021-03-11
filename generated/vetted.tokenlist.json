@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-10T00:00:00.000Z",
+    "timestamp": "2021-03-11T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3329,7 +3329,8 @@
             "chainId": 1,
             "name": "InsurAce",
             "symbol": "INSUR",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544c42fbb96b39b21df61cf322b5edc285ee7429.png"
         },
         {
             "address": "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C",
@@ -3476,6 +3477,14 @@
             "symbol": "mBTC",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
+        },
+        {
+            "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+            "chainId": 1,
+            "name": "Kine Governance Token",
+            "symbol": "KINE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
