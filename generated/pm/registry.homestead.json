@@ -4949,6 +4949,17 @@
       "color": "#628b8d",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
+    },
+    "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": {
+      "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+      "id": "",
+      "name": "Kine Governance Token",
+      "symbol": "KINE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
     }
   },
   "untrusted": [

@@ -253,5 +253,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x21c4509100443f756b6fff33382bc5e42849d49b": {
+    "chainId": 1,
+    "name": "Kine Protocol LBP",
+    "about": "Kine Protocol will be distributing 5,000,000 (5 million) KINE via a Balancer Liquidity Bootstrapping Pool at about 2021–03–11 14:00 UTC and ending at about 2021–03–13 02:00 UTC. The LBP will last approximately 36 hours.",
+    "learn_more": "https://medium.com/@KineProtocol/guide-to-kines-first-token-offering-219a102d72b6",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
