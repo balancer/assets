@@ -3759,8 +3759,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png"
     },
     "0xE48972fCd82a274411c01834e2f031D4377Fa2c0": {
       "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
@@ -4949,6 +4949,17 @@
       "color": "#628b8d",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
+    },
+    "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": {
+      "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+      "id": "",
+      "name": "Kine Governance Token",
+      "symbol": "KINE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
     }
   },
   "untrusted": [
