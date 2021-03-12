@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-11T00:00:00.000Z",
+    "timestamp": "2021-03-12T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -2653,7 +2653,8 @@
             "chainId": 1,
             "name": "Wootrade Network",
             "symbol": "WOO",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png"
         },
         {
             "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
@@ -3463,12 +3464,12 @@
             "decimals": 18
         },
         {
-            "address": "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04",
+            "address": "0xF938424F7210f31dF2Aee3011291b658f872e91e",
             "chainId": 1,
-            "name": "Visor",
+            "name": "VISOR",
             "symbol": "VISR",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf62dff6d13b8ac6f7707335b4d936a2ca5e16d04.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
         },
         {
             "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
