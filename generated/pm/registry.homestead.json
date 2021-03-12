@@ -3759,8 +3759,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png"
     },
     "0xE48972fCd82a274411c01834e2f031D4377Fa2c0": {
       "address": "0xE48972fCd82a274411c01834e2f031D4377Fa2c0",
@@ -4639,7 +4639,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#68aca9",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png"
     },
     "0x9cea2eD9e47059260C97d697f82b8A14EfA61EA5": {
@@ -4928,16 +4928,16 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04": {
-      "address": "0xf62dfF6d13B8AC6f7707335b4D936a2Ca5e16D04",
+    "0xF938424F7210f31dF2Aee3011291b658f872e91e": {
+      "address": "0xF938424F7210f31dF2Aee3011291b658f872e91e",
       "id": "",
-      "name": "Visor",
+      "name": "VISOR",
       "symbol": "VISR",
       "decimals": 18,
       "precision": 3,
-      "color": "#8d6268",
+      "color": "#a593a5",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf62dff6d13b8ac6f7707335b4d936a2ca5e16d04.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
     },
     "0x945Facb997494CC2570096c74b5F66A3507330a1": {
       "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
