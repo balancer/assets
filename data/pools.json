@@ -263,7 +263,7 @@
     "is_visible": true,
     "is_compatible": true
   },
-  "0xb969f8aE6908E5534Bb54C8309c4503E94629909": {
+  "0xb969f8ae6908e5534bb54c8309c4503e94629909": {
     "chainId": 1,
     "name": "Visor Finance LBP",
     "about": "30% of the total supply of VISR tokens will become available through the Liquidity Bootstrapping Event. The price weights start at 96:4 and change linearly over time towards a 50%-50% split after 48 hours.",
