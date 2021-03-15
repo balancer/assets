@@ -4752,6 +4752,28 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
     },
+    "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": {
+      "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+      "id": "kine-protocol",
+      "name": "Kine Governance Token",
+      "symbol": "KINE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
+    },
+    "0x945Facb997494CC2570096c74b5F66A3507330a1": {
+      "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
+      "id": "mstable-btc",
+      "name": "mStable BTC",
+      "symbol": "mBTC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4938,28 +4960,6 @@
       "color": "#a593a5",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
-    },
-    "0x945Facb997494CC2570096c74b5F66A3507330a1": {
-      "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
-      "id": "mstable-btc",
-      "name": "mStable BTC",
-      "symbol": "mBTC",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#628b8d",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
-    },
-    "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": {
-      "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
-      "id": "",
-      "name": "Kine Governance Token",
-      "symbol": "KINE",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c28d75",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
     }
   },
   "untrusted": [
