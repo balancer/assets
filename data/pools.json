@@ -271,5 +271,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x9574e1b5b3e208edc2315319ca858ce03c1f6a00": {
+    "chainId": 1,
+    "name": "InsurAce LBP",
+    "about": "The InsurAce LBP program will start from UTC 14:00:00 March 15th, 2021 to UTC 13:59:59 March 17th, 2021, lasting for 48 hours. The starting price for $INSUR is set at USD $4.50, and the initial weightage of INSUR to USDC is set at 90:10 and the ending ratio will be at 50:50.",
+    "learn_more": "https://lbp.insurace.io/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
