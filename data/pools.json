@@ -289,5 +289,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x7c1cb5bf3a62606fe364f25bf6d98f2c60622440": {
+    "chainId": 1,
+    "name": "Xend Finance LBP",
+    "about": "Xend Finance will auction 6.65% of total token supply in a Liquidity Bootstrap Pool (LBP) by Balancer. The LBP will launch at 15:00 UTC+0, March 22, 2021 and end at 15:00 UTC+0, March 24, 2021.",
+    "learn_more": "https://medium.com/xendfinance/the-xend-token-launch-on-balancer-b47e5b6ca80f",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
