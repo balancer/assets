@@ -4540,7 +4540,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c5ccb8",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
     },
     "0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de": {
@@ -4760,7 +4760,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#c28d75",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
     },
     "0x945Facb997494CC2570096c74b5F66A3507330a1": {
@@ -4960,6 +4960,17 @@
       "color": "#a593a5",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
+    },
+    "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
+      "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
+      "id": "",
+      "name": "Dorayaki",
+      "symbol": "DORA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
     }
   },
   "untrusted": [

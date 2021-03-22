@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-12T00:00:00.000Z",
+    "timestamp": "2021-03-22T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3342,6 +3342,22 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c.png"
         },
         {
+            "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
+            "chainId": 1,
+            "name": "Kine Governance Token",
+            "symbol": "KINE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
+        },
+        {
+            "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
+            "chainId": 1,
+            "name": "mStable BTC",
+            "symbol": "mBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -3472,20 +3488,12 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
         },
         {
-            "address": "0x945Facb997494CC2570096c74b5F66A3507330a1",
+            "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
             "chainId": 1,
-            "name": "mStable BTC",
-            "symbol": "mBTC",
+            "name": "Dorayaki",
+            "symbol": "DORA",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
-        },
-        {
-            "address": "0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D",
-            "chainId": 1,
-            "name": "Kine Governance Token",
-            "symbol": "KINE",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
         },
         {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
