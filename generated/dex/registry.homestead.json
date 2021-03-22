@@ -699,7 +699,7 @@
             "symbol": "RAD",
             "decimals": 18,
             "precision": 3,
-            "hasIcon": false,
+            "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
         }
     },
