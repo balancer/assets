@@ -4971,6 +4971,17 @@
       "color": "#7e9e99",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
+    },
+    "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903": {
+      "address": "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903",
+      "id": "",
+      "name": "XEND",
+      "symbol": "XEND",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
     }
   },
   "untrusted": [

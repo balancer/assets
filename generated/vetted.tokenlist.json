@@ -3496,6 +3496,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
         },
         {
+            "address": "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903",
+            "chainId": 1,
+            "name": "XEND",
+            "symbol": "XEND",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
+        },
+        {
             "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
             "chainId": 42,
             "name": "Wrapped Ether",
