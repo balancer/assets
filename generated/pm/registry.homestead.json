@@ -4774,6 +4774,116 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x945facb997494cc2570096c74b5f66a3507330a1.png"
     },
+    "0xEC6a5D88bF56Fd3F96957AE65916C69F29DB35c5": {
+      "address": "0xEC6a5D88bF56Fd3F96957AE65916C69F29DB35c5",
+      "id": "apeusd-aave-synthetic-usd-dec-2021",
+      "name": "apeUSD-AAVE Synthetic USD (Dec 2021)",
+      "symbol": "apeUSD-AAVE-DEC21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x0f775aD69e3c93D599D3315A130Bd82A0cDda397": {
+      "address": "0x0f775aD69e3c93D599D3315A130Bd82A0cDda397",
+      "id": "apeusd-link-synthetic-usd-dec-2021",
+      "name": "apeUSD-LINK Synthetic USD (Dec 2021)",
+      "symbol": "apeUSD-LINK-DEC21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x5C6Af72cBd740b90528C8Fe226125413b6bd7E5A": {
+      "address": "0x5C6Af72cBd740b90528C8Fe226125413b6bd7E5A",
+      "id": "apeusd-snx-synthetic-usd-dec-2021",
+      "name": "apeUSD-SNX Synthetic USD (Dec 2021)",
+      "symbol": "apeUSD-SNX-DEC21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xfA5e27893aee4805283D86e4283Da64F8c72dd56": {
+      "address": "0xfA5e27893aee4805283D86e4283Da64F8c72dd56",
+      "id": "apeusd-uma-synthetic-usd-dec-2021",
+      "name": "apeUSD-UMA Synthetic USD (Dec 2021)",
+      "symbol": "apeUSD-UMA-DEC21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xFbB6B34DD77274a06EA2E5462a5e0B9E23ce478e": {
+      "address": "0xFbB6B34DD77274a06EA2E5462a5e0B9E23ce478e",
+      "id": "apeusd-uni-synthetic-usd-dec-2021",
+      "name": "apeUSD-UNI Synthetic USD (Dec 2021)",
+      "symbol": "apeUSD-UNI-DEC21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD": {
+      "address": "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD",
+      "id": "eth-2x-flexible-leverage-index",
+      "name": "ETH 2x Flexible Leverage Index",
+      "symbol": "ETH2x-FLI",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD/logo.png"
+    },
+    "0xaac41EC512808d64625576EDdd580e7Ea40ef8B2": {
+      "address": "0xaac41EC512808d64625576EDdd580e7Ea40ef8B2",
+      "id": "gameswap-org",
+      "name": "gameswap.org",
+      "symbol": "GSWAP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x5247C0DB4044FB6F97f32C7E1B48758019A5A912": {
+      "address": "0x5247C0DB4044FB6F97f32C7E1B48758019A5A912",
+      "id": "pxgold-synthetic-gold-expiring-31-mar-2022",
+      "name": "pxGOLD Synthetic Gold Expiring 31 Mar 2022",
+      "symbol": "pxGOLD_MAR2022",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xEd0439EACf4c4965AE4613D77a5C2Efe10e5f183": {
+      "address": "0xEd0439EACf4c4965AE4613D77a5C2Efe10e5f183",
+      "id": "shroom-finance",
+      "name": "shroom.finance",
+      "symbol": "SHROOM",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEd0439EACf4c4965AE4613D77a5C2Efe10e5f183/logo.png"
+    },
+    "0x29CbD0510EEc0327992CD6006e63F9Fa8E7f33B7": {
+      "address": "0x29CbD0510EEc0327992CD6006e63F9Fa8E7f33B7",
+      "id": "tidal-finance",
+      "name": "Tidal Token",
+      "symbol": "TIDAL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -4958,7 +5068,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#a593a5",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
     },
     "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
@@ -4982,6 +5092,17 @@
       "color": "#c5ccb8",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
+    },
+    "0x178c820f862B14f316509ec36b13123DA19A6054": {
+      "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
+      "id": "",
+      "name": "Energy Web Token Bridged",
+      "symbol": "EWTB",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
     }
   },
   "untrusted": [
