@@ -454,6 +454,7 @@
 		"0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": "kylin-network",
 		"0x945Facb997494CC2570096c74b5F66A3507330a1": "mstable-btc",
 		"0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": "kine-protocol",
-		"0xEC6a5D88bF56Fd3F96957AE65916C69F29DB35c5": "apeusd-aave-synthetic-usd-dec-2021"
+		"0xEC6a5D88bF56Fd3F96957AE65916C69F29DB35c5": "apeusd-aave-synthetic-usd-dec-2021",
+		"0x0f775aD69e3c93D599D3315A130Bd82A0cDda397": "apeusd-link-synthetic-usd-dec-2021"
 	}
 }
