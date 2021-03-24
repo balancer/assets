@@ -453,6 +453,16 @@
 		"0x544c42fBB96B39B21DF61cf322b5EDC285EE7429": "insurace",
 		"0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": "kylin-network",
 		"0x945Facb997494CC2570096c74b5F66A3507330a1": "mstable-btc",
-		"0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": "kine-protocol"
+		"0xCbfef8fdd706cde6F208460f2Bf39Aa9c785F05D": "kine-protocol",
+		"0xEC6a5D88bF56Fd3F96957AE65916C69F29DB35c5": "apeusd-aave-synthetic-usd-dec-2021",
+		"0x0f775aD69e3c93D599D3315A130Bd82A0cDda397": "apeusd-link-synthetic-usd-dec-2021",
+		"0x5C6Af72cBd740b90528C8Fe226125413b6bd7E5A": "apeusd-snx-synthetic-usd-dec-2021",
+		"0xfA5e27893aee4805283D86e4283Da64F8c72dd56": "apeusd-uma-synthetic-usd-dec-2021",
+		"0xFbB6B34DD77274a06EA2E5462a5e0B9E23ce478e": "apeusd-uni-synthetic-usd-dec-2021",
+		"0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD": "eth-2x-flexible-leverage-index",
+		"0xaac41EC512808d64625576EDdd580e7Ea40ef8B2": "gameswap-org",
+		"0x5247C0DB4044FB6F97f32C7E1B48758019A5A912": "pxgold-synthetic-gold-expiring-31-mar-2022",
+		"0xEd0439EACf4c4965AE4613D77a5C2Efe10e5f183": "shroom-finance",
+		"0x29CbD0510EEc0327992CD6006e63F9Fa8E7f33B7": "tidal-finance"
 	}
 }
