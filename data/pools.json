@@ -298,5 +298,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xf2b535c3c48b8e88aec2229b6f38946b6786c1ad": {
+    "chainId": 1,
+    "name": "Tidal Finance LBP",
+    "about": "The TIDAL LBP will begin at 14:00 UTC on March 25th and last 3 days. The starting price of the TIDAL token will be $0.029, and the pool weights will gradually shift from 96:4 to 70:30.",
+    "learn_more": "https://sale.tidal.finance/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
