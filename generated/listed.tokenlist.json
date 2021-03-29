@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-03-25T00:00:00.000Z",
+    "timestamp": "2021-03-29T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -627,6 +627,55 @@
             "symbol": "RAD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3.png"
+        },
+        {
+            "address": "0xe1329748c41A140536e41049C95c36A53bCACee6",
+            "chainId": 42,
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18
+        },
+        {
+            "address": "0x1688C45BC51Faa1B783D274E03Da0A0B28A0A871",
+            "chainId": 42,
+            "name": "BAL",
+            "symbol": "BAL",
+            "decimals": 18
+        },
+        {
+            "address": "0xFd05Bbf0e4E2fc552A67F3cb2dD2ecB289252eE1",
+            "chainId": 42,
+            "name": "USDC",
+            "symbol": "USDC",
+            "decimals": 6
+        },
+        {
+            "address": "0xD9D9E09604c0C14B592e6E383582291b026EBced",
+            "chainId": 42,
+            "name": "MKR",
+            "symbol": "MKR",
+            "decimals": 18
+        },
+        {
+            "address": "0x59935f19d720aD935beCdC34c4F367397a28DaED",
+            "chainId": 42,
+            "name": "DAI",
+            "symbol": "DAI",
+            "decimals": 18
+        },
+        {
+            "address": "0x5468C3a3e32e390C6Fef5E3622a616695b501900",
+            "chainId": 42,
+            "name": "PERP",
+            "symbol": "PERP",
+            "decimals": 18
+        },
+        {
+            "address": "0x7A0Fbc1aD60E8d624215282afb0e877E51A08136",
+            "chainId": 42,
+            "name": "WBTC",
+            "symbol": "WBTC",
+            "decimals": 8
         },
         {
             "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
