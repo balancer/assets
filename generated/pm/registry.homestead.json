@@ -4884,6 +4884,160 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7.png"
     },
+    "0x67c597624B17b16fb77959217360B7cD18284253": {
+      "address": "0x67c597624B17b16fb77959217360B7cD18284253",
+      "id": "benchmark-protocol",
+      "name": "Benchmark",
+      "symbol": "MARK",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x67c597624B17b16fb77959217360B7cD18284253/logo.png"
+    },
+    "0x06147110022B768BA8F99A8f385df11a151A9cc8": {
+      "address": "0x06147110022B768BA8F99A8f385df11a151A9cc8",
+      "id": "tokenstars-ace",
+      "name": "ACE Token",
+      "symbol": "ACE",
+      "decimals": 0,
+      "precision": 3,
+      "color": "#9a9a97",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x06147110022B768BA8F99A8f385df11a151A9cc8/logo.png"
+    },
+    "0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0": {
+      "address": "0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0",
+      "id": "dextf",
+      "name": "DEXTF Token",
+      "symbol": "DEXTF",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0/logo.png"
+    },
+    "0x53C8395465A84955c95159814461466053DedEDE": {
+      "address": "0x53C8395465A84955c95159814461466053DedEDE",
+      "id": "degate",
+      "name": "DeGate Token",
+      "symbol": "DG",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
+      "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
+      "id": "dora-factory",
+      "name": "Dorayaki",
+      "symbol": "DORA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
+    },
+    "0x4B606e9Eb2228c70f44453AFe5a73e1FeA258Ce1": {
+      "address": "0x4B606e9Eb2228c70f44453AFe5a73e1FeA258Ce1",
+      "id": "pxusd-synthetic-usd-expiring-31-mar-2022",
+      "name": " pxUSD Synthetic USD Expiring 31 Mar 2022",
+      "symbol": "pxUSD_MAR2022",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "id": "staked-ether",
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84/logo.png"
+    },
+    "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A": {
+      "address": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
+      "id": "swapfolio",
+      "name": "Swapfolio",
+      "symbol": "SWFL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A/logo.png"
+    },
+    "0xB6ff96B8A8d214544Ca0dBc9B33f7AD6503eFD32": {
+      "address": "0xB6ff96B8A8d214544Ca0dBc9B33f7AD6503eFD32",
+      "id": "sync-network",
+      "name": "SYNC",
+      "symbol": "SYNC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7ca1c0",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB6ff96B8A8d214544Ca0dBc9B33f7AD6503eFD32/logo.png"
+    },
+    "0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7": {
+      "address": "0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7",
+      "id": "tokenstars-team",
+      "name": "TEAM",
+      "symbol": "TEAM",
+      "decimals": 4,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7/logo.png"
+    },
+    "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903": {
+      "address": "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903",
+      "id": "xend-finance",
+      "name": "XEND",
+      "symbol": "XEND",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
+    },
+    "0x4b7Fb448dF91C8Ed973494F8C8c4f12DAF3A8521": {
+      "address": "0x4b7Fb448dF91C8Ed973494F8C8c4f12DAF3A8521",
+      "id": "yd-btc-jun21",
+      "name": "Yield Dollar [renBTC Jun 2021]",
+      "symbol": "YD-BTC-JUN21",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xcBE430927370e95B4B10cFc702c6017EC7abEfC3": {
+      "address": "0xcBE430927370e95B4B10cFc702c6017EC7abEfC3",
+      "id": "yd-eth-jun21",
+      "name": "Yield Dollar [WETH Jun 2021]",
+      "symbol": "YD-ETH-JUN21",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E": {
+      "address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
+      "id": "illuvium",
+      "name": "Illuvium",
+      "symbol": "ILV",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x767fe9edc9e0df98e07454847909b5e959d7ca0e.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -5070,28 +5224,6 @@
       "color": "#a593a5",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
-    },
-    "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d": {
-      "address": "0xbc4171f45EF0EF66E76F979dF021a34B46DCc81d",
-      "id": "",
-      "name": "Dorayaki",
-      "symbol": "DORA",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7e9e99",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc4171f45ef0ef66e76f979df021a34b46dcc81d.png"
-    },
-    "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903": {
-      "address": "0xE4CFE9eAa8Cdb0942A80B7bC68fD8Ab0F6D44903",
-      "id": "",
-      "name": "XEND",
-      "symbol": "XEND",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c5ccb8",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe4cfe9eaa8cdb0942a80b7bc68fd8ab0f6d44903.png"
     },
     "0x178c820f862B14f316509ec36b13123DA19A6054": {
       "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
