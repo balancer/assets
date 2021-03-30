@@ -307,5 +307,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xd0dd7451d58318d8d528b83a8f45b0a22b7eacd1": {
+    "chainId": 1,
+    "name": "Illuvium LBP",
+    "about": "The Illuvium LBP will begin at 15:00 UTC on March 30th and last 72 hours. The start price of the ILV token will be $50 USD, and the pool weights will gradually shift from 96:4 to 50:50. There will be a total of one million tokens inside the LBP. This is the public’s first chance to acquire ILV outside of the two Discord Airdrops.",
+    "learn_more": "https://swap.illuvium.io/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
