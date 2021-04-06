@@ -4,6 +4,10 @@ on:
   push:
     branches: [ master ]
 
+env:
+  FLEEK_API_KEY: ${{ secrets.FLEEK_API_KEY }}
+  FLEEK_API_SECRET: ${{ secrets.FLEEK_API_SECRET }}
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -16,9 +20,6 @@ jobs:
     - run: npm run generate
     - name: Upload DEX Kovan config
       uses: actions/upload-artifact@v2
-      env:
-        FLEEK_API_KEY: ${{ secrets.FLEEK_API_KEY }}
-        FLEEK_API_SECRET: ${{ secrets.FLEEK_API_SECRET }}
       with:
         name: dex-kovan-data
         path: generated/dex/registry.kovan.json
