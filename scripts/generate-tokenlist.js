@@ -67,10 +67,10 @@ async function generate(name, tokens) {
 			await ipfsPin(`assets/${name}.tokenlist.json`, list);
 			console.log(`Tokenlist uploaded for ${name}`);
 		} catch (e) {
-			console.error('Failed to pin list on IPFS', e);
+			throw new Error('Failed to pin list on IPFS');
 		}
 	} else {
-		console.error('Fleek API secret is missing');
+		throw new Error('Fleek API secret is missing');
 	}
 }
 
