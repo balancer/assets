@@ -5038,6 +5038,39 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x767fe9edc9e0df98e07454847909b5e959d7ca0e.png"
     },
+    "0x3A810ff7211b40c4fA76205a14efe161615d0385": {
+      "address": "0x3A810ff7211b40c4fA76205a14efe161615d0385",
+      "id": "ai-network",
+      "name": "AI Network",
+      "symbol": "AIN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#68aca9",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E": {
+      "address": "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E",
+      "id": "kickico",
+      "name": "KickToken",
+      "symbol": "KICK",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E/logo.png"
+    },
+    "0x68037790A0229e9Ce6EaA8A99ea92964106C4703": {
+      "address": "0x68037790A0229e9Ce6EaA8A99ea92964106C4703",
+      "id": "par-stablecoin",
+      "name": "PAR Stablecoin",
+      "symbol": "PAR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x68037790A0229e9Ce6EaA8A99ea92964106C4703/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
