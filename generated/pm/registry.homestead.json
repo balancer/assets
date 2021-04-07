@@ -5268,6 +5268,17 @@
       "color": "#9a9a97",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
+    },
+    "0xbA4cFE5741b357FA371b506e5db0774aBFeCf8Fc": {
+      "address": "0xbA4cFE5741b357FA371b506e5db0774aBFeCf8Fc",
+      "id": "",
+      "name": "vVSP pool",
+      "symbol": "vVSP",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
