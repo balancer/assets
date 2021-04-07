@@ -12,6 +12,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v1
+      with:
+        envkey_FLEEK_API_KEY: ${{ secrets.FLEEK_API_KEY }}
+        envkey_FLEEK_API_SECRET: ${{ secrets.FLEEK_API_SECRET }}
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
       with:
