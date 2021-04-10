@@ -316,5 +316,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xe669118728f005978b2a1a69a189d5ced29bc6c9": {
+    "chainId": 1,
+    "name": "Degate LBP",
+    "about": "The DG LBP will begin at 14:00 UTC on April 10th and last 2 days. The starting price of the DG token will be $0.2112, and the pool weights will gradually shift from 96:4 to 16:84. DeGate Home Dao will put 100,000,000 DG and 880,000 USDC into smart pool initially. This distribution will release no more than 8.4% of the total amount of tokens. ",
+    "learn_more": "https://degate.com/lbp",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
