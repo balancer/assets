@@ -5279,6 +5279,17 @@
       "color": "#220730",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC": {
+      "address": "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC",
+      "id": "",
+      "name": "Raze Network",
+      "symbol": "RAZE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5eaa69b29f99c84fe5de8200340b4e9b4ab38eac.png"
     }
   },
   "untrusted": [
