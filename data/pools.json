@@ -329,7 +329,7 @@
   "0x78ac4da23b147c589167cf0dbaa53adcb73306a1": {
     "chainId": 1,
     "name": "Raze Network LBP",
-    "about": "4M RAZE tokens from the Public Sale will be distributed to Balancer’s Liquidity Bootstrapping Pool (LBP) on April 12th at around 3 pm UTC. The LBP will run for 72 hours, starting from 3 pm UTC April 12th, and ending at 3 pm UTC April 16th. The weight of Balancer Pool will be adjusted according to the market buying power.",
+    "about": "4.8M RAZE tokens from the Public Sale will be distributed to Balancer’s Liquidity Bootstrapping Pool (LBP) on April 12th at around 3 pm UTC. The LBP will run for 72 hours, starting from 3 pm UTC April 12th, and ending at 3 pm UTC April 16th. The weight of Balancer Pool will be adjusted according to the market buying power.",
     "learn_more": "https://raze.network/",
     "logo": true,
     "is_visible": true,
