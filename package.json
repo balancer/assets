@@ -13,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@fleekhq/fleek-storage-js": "^1.0.9",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "ethers": "^5.0.9"
   }
 }
