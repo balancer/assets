@@ -5082,6 +5082,50 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0x7d4B1d793239707445305D8d2456D2c735F6B25B": {
+      "address": "0x7d4B1d793239707445305D8d2456D2c735F6B25B",
+      "id": "blockswap-network",
+      "name": "BSNcommunitynet",
+      "symbol": "cBSN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7d4b1d793239707445305d8d2456d2c735f6b25b.png"
+    },
+    "0xdB25f211AB05b1c97D595516F45794528a807ad8": {
+      "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+      "id": "stasis-eurs",
+      "name": "STASIS EURS Token",
+      "symbol": "EURS",
+      "decimals": 2,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdB25f211AB05b1c97D595516F45794528a807ad8/logo.png"
+    },
+    "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC": {
+      "address": "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC",
+      "id": "raze-network",
+      "name": "Raze Network",
+      "symbol": "RAZE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5eaa69b29f99c84fe5de8200340b4e9b4ab38eac.png"
+    },
+    "0xD71eCFF9342A5Ced620049e616c5035F1dB98620": {
+      "address": "0xD71eCFF9342A5Ced620049e616c5035F1dB98620",
+      "id": "seur",
+      "name": "Synth sEUR",
+      "symbol": "sEUR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -5291,17 +5335,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC": {
-      "address": "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC",
-      "id": "",
-      "name": "Raze Network",
-      "symbol": "RAZE",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#be955c",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5eaa69b29f99c84fe5de8200340b4e9b4ab38eac.png"
-    },
     "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa": {
       "address": "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa",
       "id": "",
@@ -5312,17 +5345,6 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": ""
-    },
-    "0x7d4B1d793239707445305D8d2456D2c735F6B25B": {
-      "address": "0x7d4B1d793239707445305D8d2456D2c735F6B25B",
-      "id": "blockswap-network",
-      "name": "BSNcommunitynet",
-      "symbol": "cBSN",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#9a4f50",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7d4b1d793239707445305d8d2456d2c735f6b25b.png"
     }
   },
   "untrusted": [
