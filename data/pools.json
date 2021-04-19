@@ -334,5 +334,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x65afe174e1063d9b9049a8e6884db559075b1b74": {
+    "chainId": 1,
+    "name": "cBSN LBP",
+    "about": "cBSN LBP is a Blockswap Network Community Bootstrapping Event (CBE) that will run from April 19th, 2021 (GMT 4 pm) for 3 days as an LBP- Liquidity Bootstrapping pool. The start price of the cBSN token will be $0.045 USDC, and the pool weights will gradually shift from 90:10 to 10:90. There will be a total of 100 million tokens inside the LBP. This is an opportunity for the general public to buy cBSN to participate in the CommunityNet and its incentives using our Beta products.",
+    "learn_more": "https://blog.blockswap.network/cbsn-lbp-information-guide-8e462266a3c8",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
