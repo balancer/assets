@@ -72,7 +72,7 @@
     },
     "0xd0A1E359811322d97991E03f863a0C30C2cF029C": {
       "address": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-      "id": "weth",
+      "id": "",
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
@@ -83,7 +83,7 @@
     },
     "0x1528F3FCc26d13F7079325Fb78D9442607781c8C": {
       "address": "0x1528F3FCc26d13F7079325Fb78D9442607781c8C",
-      "id": "dai",
+      "id": "",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
@@ -94,7 +94,7 @@
     },
     "0xef13C0c8abcaf5767160018d268f9697aE4f5375": {
       "address": "0xef13C0c8abcaf5767160018d268f9697aE4f5375",
-      "id": "maker",
+      "id": "",
       "name": "Maker",
       "symbol": "MKR",
       "decimals": 18,
@@ -105,7 +105,7 @@
     },
     "0x2F375e94FC336Cdec2Dc0cCB5277FE59CBf1cAe5": {
       "address": "0x2F375e94FC336Cdec2Dc0cCB5277FE59CBf1cAe5",
-      "id": "usd-coin",
+      "id": "",
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
@@ -127,7 +127,7 @@
     },
     "0xe0C9275E44Ea80eF17579d33c55136b7DA269aEb": {
       "address": "0xe0C9275E44Ea80eF17579d33c55136b7DA269aEb",
-      "id": "wrapped-bitcoin",
+      "id": "",
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
