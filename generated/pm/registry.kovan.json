@@ -2,7 +2,7 @@
   "tokens": {
     "0x02822e968856186a20fEc2C824D4B174D0b70502": {
       "address": "0x02822e968856186a20fEc2C824D4B174D0b70502",
-      "id": "",
+      "id": "weth",
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
@@ -12,7 +12,7 @@
     },
     "0x41286Bb1D3E870f3F750eB7E1C25d7E48c8A1Ac7": {
       "address": "0x41286Bb1D3E870f3F750eB7E1C25d7E48c8A1Ac7",
-      "id": "",
+      "id": "balancer",
       "name": "BAL",
       "symbol": "BAL",
       "decimals": 18,
@@ -22,7 +22,7 @@
     },
     "0xc2569dd7d0fd715B054fBf16E75B001E5c0C1115": {
       "address": "0xc2569dd7d0fd715B054fBf16E75B001E5c0C1115",
-      "id": "",
+      "id": "usd-coin",
       "name": "USDC",
       "symbol": "USDC",
       "decimals": 6,
@@ -32,7 +32,7 @@
     },
     "0xAf9ac3235be96eD496db7969f60D354fe5e426B0": {
       "address": "0xAf9ac3235be96eD496db7969f60D354fe5e426B0",
-      "id": "",
+      "id": "maker",
       "name": "MKR",
       "symbol": "MKR",
       "decimals": 18,
@@ -42,7 +42,7 @@
     },
     "0x04DF6e4121c27713ED22341E7c7Df330F56f289B": {
       "address": "0x04DF6e4121c27713ED22341E7c7Df330F56f289B",
-      "id": "",
+      "id": "dai",
       "name": "DAI",
       "symbol": "DAI",
       "decimals": 18,
@@ -52,7 +52,7 @@
     },
     "0x8F4beBF498cc624a0797Fe64114A6Ff169EEe078": {
       "address": "0x8F4beBF498cc624a0797Fe64114A6Ff169EEe078",
-      "id": "",
+      "id": "perpetual-protocol",
       "name": "PERP",
       "symbol": "PERP",
       "decimals": 18,
@@ -62,7 +62,7 @@
     },
     "0x1C8E3Bcb3378a443CC591f154c5CE0EBb4dA9648": {
       "address": "0x1C8E3Bcb3378a443CC591f154c5CE0EBb4dA9648",
-      "id": "",
+      "id": "wrapped-bitcoin",
       "name": "WBTC",
       "symbol": "WBTC",
       "decimals": 8,
