@@ -5112,7 +5112,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#be955c",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5eaa69b29f99c84fe5de8200340b4e9b4ab38eac.png"
     },
     "0xD71eCFF9342A5Ced620049e616c5035F1dB98620": {
