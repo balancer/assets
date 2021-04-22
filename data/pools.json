@@ -343,5 +343,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x2dee1a6b9e24d5e41d25c84bbe52adaeef5482ce": {
+    "chainId": 1,
+    "name": "Fair cBSN",
+    "about": "To support our users we have created a community pool seeded at the fair market price from the conclusion of our LBP with a tighter ratio curve weight. This pool curve will start at 90/10 and settle at 50/50 (cBSN / USDC) at 27th April 5pm GMT.  Before the official Pool begins for trading the 27th April. This extended pool shall allow users wishing to join the CommunityNet opportunity to acquire cBSN from the balancer pool during this period without needing to be purchased from unofficial pools.",
+    "learn_more": "https://blog.blockswap.network/stakehouse-incentives-game-announcement-community-pool-lbp-conclusion-c1ff99dd361b",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
