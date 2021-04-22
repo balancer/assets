@@ -72,7 +72,7 @@ async function generate(name, tokens) {
 			throw new Error('Failed to pin list on IPFS');
 		}
 	} else {
-		throw new Error('Fleek API secret is missing');
+		console.log('Fleek API secret is not available');
 	}
 }
 
