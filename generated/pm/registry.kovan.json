@@ -1,8 +1,8 @@
 {
   "tokens": {
-    "0x02822e968856186a20fEc2C824D4B174D0b70502": {
-      "address": "0x02822e968856186a20fEc2C824D4B174D0b70502",
-      "id": "weth",
+    "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1": {
+      "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
+      "id": "",
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
