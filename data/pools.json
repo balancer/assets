@@ -352,5 +352,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x3634f7bf0a5b1aef9cdfc441eb2f2c02551ee8af": {
+    "chainId": 1,
+    "name": "Ares Protocol LBP",
+    "about": "The launch of the Balancer LBP is scheduled to start at 16:00 UTC+0 on April 26th, 2021. The LBP will last for 64 hours, and ends at ~08:00 UTC+0 on April 29th, 2021. The trading pair is ARES/USDC, the initial weights will be 96:4, the end weights will be 50:50. The start price of the ARES tokens of this LBP will be roughly 0.86 USDC.",
+    "learn_more": "https://medium.com/@aresprotocol/guidelines-and-a-i-rdrop-rules-for-ares-protocol-balancer-lbp-53970bf87387",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
