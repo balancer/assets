@@ -5345,6 +5345,17 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x358AA737e033F34df7c54306960a38d09AaBd523": {
+      "address": "0x358AA737e033F34df7c54306960a38d09AaBd523",
+      "id": "",
+      "name": "Ares Protocol",
+      "symbol": "ARES",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x358aa737e033f34df7c54306960a38d09aabd523.png"
     }
   },
   "untrusted": [
