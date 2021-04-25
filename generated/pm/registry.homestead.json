@@ -5345,6 +5345,28 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x358AA737e033F34df7c54306960a38d09AaBd523": {
+      "address": "0x358AA737e033F34df7c54306960a38d09AaBd523",
+      "id": "",
+      "name": "Ares Protocol",
+      "symbol": "ARES",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x358aa737e033f34df7c54306960a38d09aabd523.png"
+    },
+    "0x33349B282065b0284d756F0577FB39c158F935e6": {
+      "address": "0x33349B282065b0284d756F0577FB39c158F935e6",
+      "id": "maple-finance",
+      "name": "Maple Token",
+      "symbol": "MPL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
     }
   },
   "untrusted": [
