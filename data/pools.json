@@ -361,5 +361,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x29682cf1006ad08ec6ade56ae69db94d4c940f86": {
+    "chainId": 1,
+    "name": "Maple Token Launch",
+    "about": "Maple is a decentralized marketplace providing institutional growth capital. Maple offers borrowers transparent and efficient financing completed entirely on-chain, while liquidity providers earn sustainable yield through lending to diversified pools of crypto’s premium institutions. The Pool Delegates that manage these pools perform diligence and set terms with Borrowers.",
+    "learn_more": "https://launch.maple.finance/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
