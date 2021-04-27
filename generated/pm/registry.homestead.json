@@ -5126,6 +5126,50 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xED30Dd7E50EdF3581AD970eFC5D9379Ce2614AdB": {
+      "address": "0xED30Dd7E50EdF3581AD970eFC5D9379Ce2614AdB",
+      "id": "arc-governance",
+      "name": "ARC Governance Token",
+      "symbol": "ARCX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x33349B282065b0284d756F0577FB39c158F935e6": {
+      "address": "0x33349B282065b0284d756F0577FB39c158F935e6",
+      "id": "maple-finance",
+      "name": "Maple Token",
+      "symbol": "MPL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c38890",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
+    },
+    "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa": {
+      "address": "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa",
+      "id": "o-ocean-mar22",
+      "name": "OPEN Dollar [OCEAN Mar 2022]",
+      "symbol": "O-OCEAN-MAR22",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x4156D3342D5c385a87D264F90653733592000581": {
+      "address": "0x4156D3342D5c385a87D264F90653733592000581",
+      "id": "salt",
+      "name": "Salt",
+      "symbol": "SALT",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4156D3342D5c385a87D264F90653733592000581/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -5335,17 +5379,6 @@
       "hasIcon": false,
       "logoUrl": ""
     },
-    "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa": {
-      "address": "0x24D8C2163D6B13A6B8770B794d00c98Cb4E0cBCa",
-      "id": "",
-      "name": "OPEN Dollar [OCEAN Mar 2022]",
-      "symbol": "O-OCEAN-MAR22",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
     "0x358AA737e033F34df7c54306960a38d09AaBd523": {
       "address": "0x358AA737e033F34df7c54306960a38d09AaBd523",
       "id": "",
@@ -5357,16 +5390,60 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x358aa737e033f34df7c54306960a38d09aabd523.png"
     },
-    "0x33349B282065b0284d756F0577FB39c158F935e6": {
-      "address": "0x33349B282065b0284d756F0577FB39c158F935e6",
-      "id": "maple-finance",
-      "name": "Maple Token",
-      "symbol": "MPL",
-      "decimals": 18,
+    "0xC88F47067dB2E25851317A2FDaE73a22c0777c37": {
+      "address": "0xC88F47067dB2E25851317A2FDaE73a22c0777c37",
+      "id": "",
+      "name": "oneBTC",
+      "symbol": "oneBTC",
+      "decimals": 9,
       "precision": 3,
-      "color": "#c38890",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC88F47067dB2E25851317A2FDaE73a22c0777c37/logo.png"
+    },
+    "0xEc0d77a58528a218cBf41Fa6E1585c8D7A085868": {
+      "address": "0xEc0d77a58528a218cBf41Fa6E1585c8D7A085868",
+      "id": "",
+      "name": "oneETH",
+      "symbol": "oneETH",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEc0d77a58528a218cBf41Fa6E1585c8D7A085868/logo.png"
+    },
+    "0x18Cc17a1EeD37C02A77B0B96b7890C7730E2a2CF": {
+      "address": "0x18Cc17a1EeD37C02A77B0B96b7890C7730E2a2CF",
+      "id": "",
+      "name": "oneLINK",
+      "symbol": "oneLINK",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x18Cc17a1EeD37C02A77B0B96b7890C7730E2a2CF/logo.png"
+    },
+    "0x7BD198b9107496fD5cC3d7655AF52f43a8eDBc4C": {
+      "address": "0x7BD198b9107496fD5cC3d7655AF52f43a8eDBc4C",
+      "id": "",
+      "name": "oneVBTC",
+      "symbol": "oneVBTC",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7BD198b9107496fD5cC3d7655AF52f43a8eDBc4C/logo.png"
+    },
+    "0x8F041A3940a5e6FB580075C3774E15FcFA0E1618": {
+      "address": "0x8F041A3940a5e6FB580075C3774E15FcFA0E1618",
+      "id": "",
+      "name": "oneWING",
+      "symbol": "oneWING",
+      "decimals": 9,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8F041A3940a5e6FB580075C3774E15FcFA0E1618/logo.png"
     }
   },
   "untrusted": [
