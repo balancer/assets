@@ -374,7 +374,7 @@
   "0x5f78b2b5fc84a9a4f4111e0881d483ca92693f92": {
     "chainId": 1,
     "name": "ICHI oneToken Pool",
-    "about": "The ICHI (ichi.org) oneToken smart pool contains ICHI stablecoins + USDC.  Not your stablecoin. Not your money. Now every project can now have their own oneToken (ICHI stablecoin) that is minted with that community's scarce crypto + a fiat-backed stablecoin.  This smart pool has no impermanent loss and earns ICHI rewards.",
+    "about": "The ICHI (ichi.org) oneToken smart pool contains ICHI stablecoins + USDC. Not your stablecoin. Not your money. Now every project can now have their own oneToken (ICHI stablecoin) that is minted with that community's scarce crypto + a fiat-backed stablecoin. This smart pool has no impermanent loss and earns ICHI rewards.",
     "learn_more": "https://medium.com/ichifarm/launching-the-new-onetoken-balancer-smart-pool-4675159b388",
     "logo": true,
     "is_visible": true,
