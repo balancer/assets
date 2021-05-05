@@ -379,5 +379,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x10af9c5fd15b510c8586bf163249c5a8a78d8263": {
+    "chainId": 1,
+    "name": "BAL x PRIME (BLxPR)",
+    "about": "The BAL x PRIME (BLxPR) Pool is a DAO2DAO pool between Balancer and Prime. The pool is the first instance of a DAO 2 DAO pool, a shared liquidity pool that embodies a relationship between two or more DAOs. BLxPR aligns Balancer Protocol and PrimeDAO by providing shared liquidity and mutual ownership.",
+    "learn_more": "https://primepool.primedao.io/pool/0x42cdca708ee2e07090e7461b70af271983d4ac05/overview/story",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
