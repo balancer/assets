@@ -4386,8 +4386,8 @@
       "decimals": 18,
       "precision": 3,
       "color": "#9a9a97",
-      "hasIcon": false,
-      "logoUrl": ""
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a/logo.png"
     },
     "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35": {
       "address": "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35",
@@ -5387,7 +5387,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#9d9f7f",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x358aa737e033f34df7c54306960a38d09aabd523.png"
     },
     "0xC88F47067dB2E25851317A2FDaE73a22c0777c37": {
