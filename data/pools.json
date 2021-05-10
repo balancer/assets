@@ -388,5 +388,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x61585f56cefa98b91b0a2e605eab0d30b8d0dcc5": {
+    "chainId": 1,
+    "name": "Globe Liquidity Bootstrapping Pool",
+    "about": "Globe will auction up to 3.5% (14,000,000) of the total $GDT token supply in a Liquidity Bootstrap Pool (LBP) by Balancer. The LBP will launch at 12:00 UTC+0, May 10, 2021, and end at 12:00 UTC+0, May 12, 2021.",
+    "learn_more": "https://medium.com/globe-official/announcing-globe-gdt-balancer-liquidity-bootstrapping-pool-f1d6385f4b3e",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
