@@ -397,5 +397,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x58b0ff534b1e24502dd84bc677f773529c955c42": {
+    "chainId": 1,
+    "name": "NFTFY LBP",
+    "about": "Liquidity Bootstrapping Pool of the Nftfy protocol. The event will start on May 10th, at 13:00 UTC and run until May 12th, at 1:00 UTC, lasting for 36 hours. Token pair on Balancer Smart Pool: NFTFY/DAI. Initial NFTFY balance: 2 million (2% of total supply). Initial DAI balance: USD 1,200,000. Starting weight: 90:10. Ending weight: 30:70. Starting price: $5.45. Swap fee: 0.9%",
+    "learn_more": "https://medium.com/nftfy/quick-steps-to-the-nftfy-lbp-9f8fb1cee47",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
