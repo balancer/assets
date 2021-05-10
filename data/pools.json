@@ -406,5 +406,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xe104a1e9ac002218123e19685bc78291d976b954": {
+    "chainId": 1,
+    "name": "Taconomics Liquidity",
+    "about": "SALSA is the Liquidity Pool token for the Taconomics platform, powering the TACO NFT economy. Provide TACO/ETH liquidity to receive SALSA, then stake SALSA in our farms to earn access to exclusive NFTs created by nascent and amazing latino artists. Don't miss out and help a new artist get some TACO to eat while they make their best work.",
+    "learn_more": "https://www.taconomics.io",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
