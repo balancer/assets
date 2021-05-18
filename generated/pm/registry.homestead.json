@@ -5543,6 +5543,17 @@
       "color": "#9a9a97",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
+    },
+    "0x134c0591183E9C8a39250A9a04e6F8585bC8157F": {
+      "address": "0x134c0591183E9C8a39250A9a04e6F8585bC8157F",
+      "id": "",
+      "name": "",
+      "symbol": "",
+      "decimals": 0,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x134c0591183e9c8a39250a9a04e6f8585bc8157f.png"
     }
   },
   "untrusted": [
