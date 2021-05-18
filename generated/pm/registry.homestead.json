@@ -5324,6 +5324,28 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xd0345D30FD918D7682398ACbCdf139C808998709": {
+      "address": "0xd0345D30FD918D7682398ACbCdf139C808998709",
+      "id": "lixir-protocol",
+      "name": "Lixir Token",
+      "symbol": "LIX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xEe9801669C6138E84bD50dEB500827b776777d28": {
+      "address": "0xEe9801669C6138E84bD50dEB500827b776777d28",
+      "id": "o3-swap",
+      "name": "O3 Swap Token",
+      "symbol": "O3",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xee9801669c6138e84bd50deb500827b776777d28.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -5522,16 +5544,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
     },
-    "0xEe9801669C6138E84bD50dEB500827b776777d28": {
-      "address": "0xEe9801669C6138E84bD50dEB500827b776777d28",
+    "0x134c0591183E9C8a39250A9a04e6F8585bC8157F": {
+      "address": "0x134c0591183E9C8a39250A9a04e6F8585bC8157F",
       "id": "",
-      "name": "O3 Swap Token",
-      "symbol": "O3",
-      "decimals": 18,
+      "name": "",
+      "symbol": "",
+      "decimals": 0,
       "precision": 3,
-      "color": "#9a4f50",
+      "color": "#9d9f7f",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xee9801669c6138e84bd50deb500827b776777d28.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x134c0591183e9c8a39250a9a04e6f8585bc8157f.png"
     }
   },
   "untrusted": [
