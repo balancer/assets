@@ -5544,16 +5544,16 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
     },
-    "0x134c0591183E9C8a39250A9a04e6F8585bC8157F": {
-      "address": "0x134c0591183E9C8a39250A9a04e6F8585bC8157F",
+    "0x4104b135DBC9609Fc1A9490E61369036497660c8": {
+      "address": "0x4104b135DBC9609Fc1A9490E61369036497660c8",
       "id": "",
-      "name": "",
-      "symbol": "",
-      "decimals": 0,
+      "name": "APWine Token",
+      "symbol": "APW",
+      "decimals": 18,
       "precision": 3,
-      "color": "#9d9f7f",
+      "color": "#c7bdf4",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x134c0591183e9c8a39250a9a04e6f8585bc8157f.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4104b135dbc9609fc1a9490e61369036497660c8.png"
     }
   },
   "untrusted": [
