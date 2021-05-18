@@ -415,5 +415,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x33d7e8c1d4933518f291b5dfc375eb44a812cb2a": {
+    "chainId": 1,
+    "name": "APWine LBP",
+    "about": "This pool is the Liquidity Bootstrapping Pool (LBP) for the APWine Token. The event will run for two days to distribute 7% of the supply to the community in a fair way. APWine is a protocol to trade future yield. DeFi users can deposit their interest bearing tokens of other protocols during defined future periods and trade in advance the future yield that their funds will generate.",
+    "learn_more": "https://apwine.medium.com/apwine-balancer-liquidity-bootstrapping-event-tge-f04ea1d3855e",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
