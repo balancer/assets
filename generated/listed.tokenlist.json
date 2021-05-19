@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-05-18T00:00:00.000Z",
+    "timestamp": "2021-05-19T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -51,6 +51,14 @@
             "symbol": "WBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "chainId": 1,
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
         },
         {
             "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
@@ -131,14 +139,6 @@
             "symbol": "SRM",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x476c5E26a75bd202a9683ffD34359C0CC15be0fF/logo.png"
-        },
-        {
-            "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
-            "chainId": 1,
-            "name": "EthLend Token",
-            "symbol": "LEND",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png"
         },
         {
             "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
@@ -243,46 +243,6 @@
             "symbol": "sBTC",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6.png"
-        },
-        {
-            "address": "0x81ab848898b5ffD3354dbbEfb333D5D183eEDcB5",
-            "chainId": 1,
-            "name": "yUSD Synthetic Token Expiring 1 September 2020",
-            "symbol": "yUSD-SEP20",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x81ab848898b5ffd3354dbbefb333d5d183eedcb5.png"
-        },
-        {
-            "address": "0xB2FdD60AD80ca7bA89B9BAb3b5336c2601C020b4",
-            "chainId": 1,
-            "name": "yUSD Synthetic Token Expiring 1 October 2020",
-            "symbol": "yUSD-OCT20",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb2fdd60ad80ca7ba89b9bab3b5336c2601c020b4.png"
-        },
-        {
-            "address": "0x208D174775dc39fe18B1b374972F77ddEc6c0F73",
-            "chainId": 1,
-            "name": "uUSDrBTC Synthetic Token Expiring 1 October 2020",
-            "symbol": "uUSDrBTC-OCT",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x208d174775dc39fe18b1b374972f77ddec6c0f73.png"
-        },
-        {
-            "address": "0xD16c79c8A39D44B2F3eB45D2019cd6A42B03E2A9",
-            "chainId": 1,
-            "name": "uUSDwETH Synthetic Token Expiring 31 December 2020",
-            "symbol": "uUSDwETH-DEC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd16c79c8a39d44b2f3eb45d2019cd6a42b03e2a9.png"
-        },
-        {
-            "address": "0xF06DdacF71e2992E2122A1a0168C6967aFdf63ce",
-            "chainId": 1,
-            "name": "uUSDrBTC Synthetic Token Expiring 31 December 2020",
-            "symbol": "uUSDrBTC-DEC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf06ddacf71e2992e2122a1a0168c6967afdf63ce.png"
         },
         {
             "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
@@ -435,142 +395,6 @@
             "symbol": "Nsure",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20945ca1df56d237fd40036d47e866c7dccd2114.png"
-        },
-        {
-            "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
-            "chainId": 1,
-            "name": "Aave Interest bearing DAI",
-            "symbol": "aDAI",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d/logo.png"
-        },
-        {
-            "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
-            "chainId": 1,
-            "name": "Aave Interest bearing USDT",
-            "symbol": "aUSDT",
-            "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8/logo.png"
-        },
-        {
-            "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
-            "chainId": 1,
-            "name": "Aave Interest bearing USDC",
-            "symbol": "aUSDC",
-            "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E/logo.png"
-        },
-        {
-            "address": "0x625aE63000f46200499120B906716420bd059240",
-            "chainId": 1,
-            "name": "Aave Interest bearing SUSD",
-            "symbol": "aSUSD",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x625aE63000f46200499120B906716420bd059240/logo.png"
-        },
-        {
-            "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
-            "chainId": 1,
-            "name": "Aave Interest bearing TUSD",
-            "symbol": "aTUSD",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4DA9b813057D04BAef4e5800E36083717b4a0341/logo.png"
-        },
-        {
-            "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
-            "chainId": 1,
-            "name": "Aave Interest bearing Binance USD",
-            "symbol": "aBUSD",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8.png"
-        },
-        {
-            "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
-            "chainId": 1,
-            "name": "Aave Interest bearing BAT",
-            "symbol": "aBAT",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00/logo.png"
-        },
-        {
-            "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
-            "chainId": 1,
-            "name": "Aave Interest bearing ETH",
-            "symbol": "aETH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04/logo.png"
-        },
-        {
-            "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
-            "chainId": 1,
-            "name": "Aave Interest bearing KNC",
-            "symbol": "aKNC",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9D91BE44C06d373a8a226E1f3b146956083803eB/logo.png"
-        },
-        {
-            "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
-            "chainId": 1,
-            "name": "Aave Interest bearing LEND",
-            "symbol": "aLEND",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D2D3688Df45Ce7C552E19c27e007673da9204B8/logo.png"
-        },
-        {
-            "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
-            "chainId": 1,
-            "name": "Aave Interest bearing LINK",
-            "symbol": "aLINK",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84/logo.png"
-        },
-        {
-            "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
-            "chainId": 1,
-            "name": "Aave Interest bearing MKR",
-            "symbol": "aMKR",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7deB5e830be29F91E298ba5FF1356BB7f8146998/logo.png"
-        },
-        {
-            "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
-            "chainId": 1,
-            "name": "Aave Interest bearing SNX",
-            "symbol": "aSNX",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE/logo.png"
-        },
-        {
-            "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
-            "chainId": 1,
-            "name": "Aave Interest bearing WBTC",
-            "symbol": "aWBTC",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFC4B8ED459e00e5400be803A9BB3954234FD50e3/logo.png"
-        },
-        {
-            "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
-            "chainId": 1,
-            "name": "Aave Interest bearing ZRX",
-            "symbol": "aZRX",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f/logo.png"
-        },
-        {
-            "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-            "chainId": 1,
-            "name": "Compound USD Coin",
-            "symbol": "cUSDC",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x39AA39c021dfbaE8faC545936693aC917d5E7563/logo.png"
-        },
-        {
-            "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
-            "chainId": 1,
-            "name": "Compound Dai",
-            "symbol": "cDAI",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643/logo.png"
         },
         {
             "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
