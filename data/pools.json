@@ -424,5 +424,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x2d9036c43ad4d40ceb6f5892b9eeb1cbb4988eb6": {
+    "chainId": 1,
+    "name": "RICE LBP",
+    "about": "Born in the well-known West Ethereum community MetaCartel, DAOSquare is dedicated to building a Web3 incubator which aims to be the Y·Combinator in the Web3 era. DAOSquare has received seed funding from Youbi, SNZ, IOSG Ventures, GBV, MetaCartel Ventures China, Mask Network, and BR Capital. DAOSquare has also received a round of angel investments led by HashKey Capital, with other investors including Alameda, NGC, CMS Holdings, SRC Capital, and more.",
+    "learn_more": "https://www.daosquare.io/",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
