@@ -5554,6 +5554,17 @@
       "color": "#c7bdf4",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4104b135dbc9609fc1a9490e61369036497660c8.png"
+    },
+    "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0": {
+      "address": "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0",
+      "id": "",
+      "name": "DAOSquare Governance Token",
+      "symbol": "RICE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7ca1c0",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbd9908b0cdd50386f92efcc8e1d71766c2782df0.png"
     }
   },
   "untrusted": [
