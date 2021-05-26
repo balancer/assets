@@ -5346,6 +5346,28 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xee9801669c6138e84bd50deb500827b776777d28.png"
     },
+    "0x4104b135DBC9609Fc1A9490E61369036497660c8": {
+      "address": "0x4104b135DBC9609Fc1A9490E61369036497660c8",
+      "id": "apwine",
+      "name": "APWine Token",
+      "symbol": "APW",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4104b135dbc9609fc1a9490e61369036497660c8.png"
+    },
+    "0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651": {
+      "address": "0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651",
+      "id": "ifarm",
+      "name": "iFARM",
+      "symbol": "iFARM",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1571eD0bed4D987fe2b498DdBaE7DFA19519F651/logo.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
@@ -5544,17 +5566,6 @@
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
     },
-    "0x4104b135DBC9609Fc1A9490E61369036497660c8": {
-      "address": "0x4104b135DBC9609Fc1A9490E61369036497660c8",
-      "id": "",
-      "name": "APWine Token",
-      "symbol": "APW",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c7bdf4",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4104b135dbc9609fc1a9490e61369036497660c8.png"
-    },
     "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0": {
       "address": "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0",
       "id": "",
@@ -5574,7 +5585,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#416aa3",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f.png"
     }
   },
