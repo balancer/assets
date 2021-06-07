@@ -4738,7 +4738,7 @@
       "decimals": 18,
       "precision": 3,
       "color": "#557064",
-      "hasIcon": false,
+      "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544c42fbb96b39b21df61cf322b5edc285ee7429.png"
     },
     "0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C": {
@@ -5598,6 +5598,17 @@
       "color": "#7ca1c0",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbd9908b0cdd50386f92efcc8e1d71766c2782df0.png"
+    },
+    "0x677ddbd918637E5F2c79e164D402454dE7dA8619": {
+      "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
+      "id": "",
+      "name": "VUSD",
+      "symbol": "VUSD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [
@@ -5663,6 +5674,7 @@
     "0xA9859874e1743A32409f75bB11549892138BBA1E",
     "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C",
     "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
-    "0x55296f69f40Ea6d20E478533C15A6B08B654E758"
+    "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
+    "0x15874d65e649880c2614e7a480cb7c9A55787FF6"
   ]
 }
