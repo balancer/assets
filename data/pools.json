@@ -433,5 +433,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0x02e1300a7e6c3211c65317176cf1795f9bb1daab": {
+    "chainId": 1,
+    "name": "Array Smart Pool",
+    "about": "Array Smart Pool by array.finance.",
+    "learn_more": "https://array.finance/",
+    "logo": false,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
