@@ -447,7 +447,7 @@
     "chainId": 1,
     "name": "Ibiza Token IBZ/USDC Pool",
     "about": "Ibiza Token is an ERC-20 governance token on the Ethereum Mainnet, created expressly for the island of Ibiza. Ibiza Token (IBZ) aims to be a habitual means of exchange and payment gateway for all the Ibiza lovers within the Island and worldwide by growing in vision to a globally tradeable coin with full smart-contract capabilities. For the Ibiza Token launch, we have decided to count on Balancer’s Liquidity Bootstrapping Pool from the 21st of June, 3PM CEST to 1st of July, 3PM CEST.",
-    "learn_more": "https;//ibizatoken.com",
+    "learn_more": "https://ibizatoken.com",
     "logo": true,
     "is_visible": true,
     "is_compatible": true
