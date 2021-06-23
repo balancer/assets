@@ -4,17 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "node scripts/generate-tokenlist.js"
+    "generate": "ts-node scripts/generate-tokenlist.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@fleekhq/fleek-storage-js": "^1.0.9",
-    "axios": "^0.20.0",
-    "ethers": "^5.0.9"
+    "@types/node": "^15.12.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
   },
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "@fleekhq/fleek-storage-js": "^1.0.17",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.3.1",
+    "ts-node": "^10.0.0"
   }
 }
