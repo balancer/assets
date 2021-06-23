@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "npm run generate:registry && npm run generate:tokenlist",
-    "generate:registry": "node scripts/generate-registry.js",
-    "generate:tokenlist": "node scripts/generate-tokenlist.js"
+    "generate": "node scripts/generate-tokenlist.js"
   },
   "keywords": [],
   "author": "",
