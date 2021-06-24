@@ -16,8 +16,8 @@ const chainIdMap = {
 };
 
 const multicallContract = {
-  kovan: "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A",
-  homestead: "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
+  kovan: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+  homestead: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
 };
 
 const erc20ABI = [
@@ -27,7 +27,7 @@ const erc20ABI = [
 ];
 
 const multicallABI = [
-  "function aggregate(tuple(address, bytes)[]) view returns (uint256, bytes[])",
+  "function tryAggregate(bool, tuple(address, bytes)[]) view returns (tuple(bool, bytes)[])",
 ];
 
 const metadataIsInvalid = ({ name, symbol }: MinimalTokenInfo): boolean =>
@@ -36,7 +36,8 @@ const metadataIsInvalid = ({ name, symbol }: MinimalTokenInfo): boolean =>
 export const getMetadata = async (
   network: Network,
   tokens: string[],
-  overwrite: Record<string, MinimalTokenInfo>
+  overwrite: Record<string, MinimalTokenInfo>,
+  acceptBadMetadata = false
 ): Promise<Record<string, MinimalTokenInfo>> => {
   const onchainMetadata = await getNetworkMetadata(network, tokens);
 
@@ -46,7 +47,9 @@ export const getMetadata = async (
     ...overwrite,
   };
 
-  if (Object.values(metadata).some(metadataIsInvalid)) {
+  // console.log(metadata);
+
+  if (!acceptBadMetadata && Object.values(metadata).some(metadataIsInvalid)) {
     Object.entries(metadata)
       .filter(([, token]) => metadataIsInvalid(token))
       .forEach(([address]) => console.log(`Metadata missing for: ${address}`));
@@ -118,16 +121,16 @@ async function getNetworkMetadata(
     calls.push([token, erc20.encodeFunctionData("symbol", [])]);
     calls.push([token, erc20.encodeFunctionData("decimals", [])]);
   });
-  const [, response] = await multi.aggregate(calls);
+  const response = await multi.tryAggregate(false, calls);
 
   const tokenMetadata = tokens.reduce((acc, address, index) => {
     acc[address] = {
       address,
       chainId: chainIdMap[network],
       ...decodeERC20Metadata(
-        response[3 * index],
-        response[3 * index + 1],
-        response[3 * index + 2]
+        response[3 * index][1],
+        response[3 * index + 1][1],
+        response[3 * index + 2][1]
       ),
     };
 

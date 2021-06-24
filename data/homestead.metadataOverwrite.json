@@ -1,0 +1,27 @@
+{
+	"0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8": {
+		"name": "Curve.fi Y Pool Token",
+		"symbol": "yCRV",
+		"decimals": 18
+	},
+	"0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359": {
+		"name": "Sai Stablecoin v1.0",
+		"symbol": "SAI",
+		"decimals": 18
+	},
+	"0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A": {
+		"name": "DigixDAO DGD Token",
+		"symbol": "DGD",
+		"decimals": 9
+	},
+	"0x960b236A07cf122663c4303350609A66A7B288C0": {
+		"name": "Aragon v1",
+		"symbol": "ANT (old)",
+		"decimals": 18
+	},
+	"0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5": {
+		"name": "Tellor Tributes",
+		"symbol": "TRB (old)",
+		"decimals": 18
+	}
+}

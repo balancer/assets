@@ -4,7 +4,7 @@ import fs from "fs";
 import fleek from "@fleekhq/fleek-storage-js";
 
 import { getMetadata } from "../src/metadata";
-import { MinimalTokenInfo, Network } from "../src/types";
+import { List, MinimalTokenInfo, Network } from "../src/types";
 import { getLogoURI, loadAssets } from "../src/icons";
 import { TokenInfo, TokenList } from "@uniswap/token-lists";
 
@@ -22,29 +22,45 @@ const fleekConfig: FleekConfig = {
 
 async function run() {
   try {
-    const metadataOverwriteFile = await fs.readFileSync(
-      "data/metadataOverwrite.json"
-    );
-    const metadataOverwrite = JSON.parse(metadataOverwriteFile.toString());
-
-    const listedFile = await fs.readFileSync("lists/listed.json");
-    const listed = JSON.parse(listedFile.toString());
-    const listedMetadata = await getAllMetadata(listed, metadataOverwrite);
-    const listedTokens = await getTokens(listedMetadata);
-    await generate("listed", listedTokens);
-
-    const vettedFile = await fs.readFileSync("lists/vetted.json");
-    const vetted = JSON.parse(vettedFile.toString());
-    const vettedMetadata = await getAllMetadata(vetted, metadataOverwrite);
-    const vettedTokens = await getTokens(vettedMetadata);
-    await generate("vetted", vettedTokens);
+    await buildNetworkLists(Network.Homestead);
+    await buildNetworkLists(Network.Kovan);
   } catch (e) {
     console.error(e);
     process.exit(1);
   }
 }
 
-async function generate(name: string, tokens: TokenInfo[]) {
+async function buildNetworkLists(network: Network) {
+  const metadataOverwriteFile = await fs.readFileSync(
+    `data/${network}.metadataOverwrite.json`
+  );
+  const metadataOverwrite = JSON.parse(metadataOverwriteFile.toString());
+
+  await Promise.all([
+    buildListFromFile(List.Listed, network, metadataOverwrite),
+    buildListFromFile(List.Vetted, network, metadataOverwrite),
+    buildListFromFile(List.Untrusted, network, metadataOverwrite),
+  ]);
+}
+
+async function buildListFromFile(
+  listType: List,
+  network: Network,
+  metadataOverwrite: Record<string, MinimalTokenInfo>
+) {
+  const listedFile = await fs.readFileSync(`lists/${network}.${listType}.json`);
+  const listed: { tokens: string[] } = JSON.parse(listedFile.toString());
+  const listedMetadata = await getMetadata(
+    network,
+    listed.tokens,
+    metadataOverwrite,
+    listType === List.Untrusted
+  );
+  const listedTokens = await getTokens(listedMetadata);
+  await generate(listType, network, listedTokens);
+}
+
+async function generate(name: List, network: Network, tokens: TokenInfo[]) {
   const nowTimestamp = Date.now();
   const dayTimestamp = nowTimestamp - (nowTimestamp % (24 * 60 * 60 * 1000));
   const date = new Date(dayTimestamp);
@@ -60,68 +76,36 @@ async function generate(name: string, tokens: TokenInfo[]) {
       minor: 0,
       patch: 0,
     },
-    tokens,
+    tokens: tokens.sort((a, b) => (a.name > b.name ? 1 : -1)),
   };
-  const listFileName = `generated/${name}.tokenlist.json`;
+  const listFileName = `generated/${network}.${name}.tokenlist.json`;
   await fs.writeFileSync(listFileName, JSON.stringify(list, null, 4));
 
   try {
-    await ipfsPin(`assets/${name}.tokenlist.json`, list, fleekConfig);
+    await ipfsPin(
+      `assets/${network}.${name}.tokenlist.json`,
+      list,
+      fleekConfig
+    );
     console.log(`Tokenlist uploaded for ${name}`);
   } catch (e) {
     console.log(e.message);
   }
 }
 
-async function getAllMetadata(
-  tokens: Record<Network, string[]>,
-  overwrite: Record<Network, Record<string, MinimalTokenInfo>>
-) {
-  const kovan = await getMetadata("kovan", tokens.kovan, overwrite.kovan);
-  const homestead = await getMetadata(
-    "homestead",
-    tokens.homestead,
-    overwrite.homestead
-  );
-
-  return {
-    kovan,
-    homestead,
-  };
-}
-
 async function getTokens(
-  metadata: Record<Network, Record<string, MinimalTokenInfo>>
+  metadata: Record<string, MinimalTokenInfo>
 ): Promise<TokenInfo[]> {
   const assets = await loadAssets();
 
-  const tokens = [];
-  for (const address in metadata.homestead) {
-    const chainId = 1;
-    const token = metadata.homestead[address];
-    const { decimals, symbol, name } = token;
-    tokens.push({
+  const tokens = Object.entries(metadata).map(([address, tokenInfo]) => {
+    return {
       address,
-      chainId,
-      name,
-      symbol,
-      decimals,
+      chainId: 1,
+      ...tokenInfo,
       logoURI: getLogoURI(assets, address),
-    });
-  }
-  for (const address in metadata.kovan) {
-    const chainId = 42;
-    const token = metadata.kovan[address];
-    const { decimals, symbol, name } = token;
-    tokens.push({
-      address,
-      chainId,
-      name,
-      symbol,
-      decimals,
-      logoURI: getLogoURI(assets, address),
-    });
-  }
+    };
+  });
   return tokens;
 }
 
