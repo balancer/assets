@@ -44,7 +44,7 @@ async function run() {
   }
 }
 
-async function generate(name: string, tokens: any[]) {
+async function generate(name: string, tokens: TokenInfo[]) {
   const nowTimestamp = Date.now();
   const dayTimestamp = nowTimestamp - (nowTimestamp % (24 * 60 * 60 * 1000));
   const date = new Date(dayTimestamp);
