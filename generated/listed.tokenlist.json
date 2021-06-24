@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-06-23T00:00:00.000Z",
+    "timestamp": "2021-06-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -459,6 +459,45 @@
             "symbol": "MPL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
+        },
+        {
+            "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
+            "chainId": 1,
+            "name": "Curve.fi Y Pool Token",
+            "symbol": "yCRV",
+            "decimals": 18
+        },
+        {
+            "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+            "chainId": 1,
+            "name": "Sai Stablecoin v1.0",
+            "symbol": "SAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359/logo.png"
+        },
+        {
+            "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+            "chainId": 1,
+            "name": "DigixDAO DGD Token",
+            "symbol": "DGD",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A/logo.png"
+        },
+        {
+            "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+            "chainId": 1,
+            "name": "Aragon v1",
+            "symbol": "ANT (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+        },
+        {
+            "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
+            "chainId": 1,
+            "name": "Tellor Tributes",
+            "symbol": "TRB (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",

@@ -33,15 +33,8 @@ async function run() {
     const listedTokens = await getTokens(listedMetadata);
     await generate("listed", listedTokens);
 
-    const eligibleFile = await fs.readFileSync("lists/eligible.json");
-    const uiFile = await fs.readFileSync("lists/ui-not-eligible.json");
-    const eligible = JSON.parse(eligibleFile.toString());
-    const ui = JSON.parse(uiFile.toString());
-
-    const vetted = {
-      kovan: [...Object.keys(eligible.kovan), ...ui.kovan],
-      homestead: [...Object.keys(eligible.homestead), ...ui.homestead],
-    };
+    const vettedFile = await fs.readFileSync("lists/vetted.json");
+    const vetted = JSON.parse(vettedFile.toString());
     const vettedMetadata = await getAllMetadata(vetted, metadataOverwrite);
     const vettedTokens = await getTokens(vettedMetadata);
     await generate("vetted", vettedTokens);

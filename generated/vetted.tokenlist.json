@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-06-23T00:00:00.000Z",
+    "timestamp": "2021-06-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3945,6 +3945,22 @@
             "symbol": "IBZ",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5aa7c403c7de4b3bb0cc07079a03e389671a4771.png"
+        },
+        {
+            "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+            "chainId": 1,
+            "name": "Aragon v1",
+            "symbol": "ANT (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+        },
+        {
+            "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
+            "chainId": 1,
+            "name": "Tellor Tributes",
+            "symbol": "TRB (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
