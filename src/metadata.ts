@@ -8,16 +8,21 @@ const infuraKey = "93e3393c76ed4e1f940d0266e2fdbda2";
 const providers = {
   kovan: new ethers.providers.InfuraProvider("kovan", infuraKey),
   homestead: new ethers.providers.InfuraProvider("homestead", infuraKey),
+  polygon: new ethers.providers.JsonRpcProvider(
+    "https://rpc-mainnet.matic.network"
+  ),
 };
 
-const chainIdMap = {
+export const chainIdMap = {
   homestead: 1,
   kovan: 42,
+  polygon: 137,
 };
 
 const multicallContract = {
-  kovan: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
   homestead: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+  kovan: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
+  polygon: "0xe2530198A125Dcdc8Fc5476e07BFDFb5203f1102",
 };
 
 const erc20ABI = [
@@ -32,32 +37,6 @@ const multicallABI = [
 
 const metadataIsInvalid = ({ name, symbol }: MinimalTokenInfo): boolean =>
   name === "UNKNOWN" || symbol === "UNKNOWN";
-
-export const getMetadata = async (
-  network: Network,
-  tokens: string[],
-  overwrite: Record<string, MinimalTokenInfo>,
-  acceptBadMetadata = false
-): Promise<Record<string, MinimalTokenInfo>> => {
-  const onchainMetadata = await getNetworkMetadata(network, tokens);
-
-  // Overwrite any addresses for which we have our own metadata
-  const metadata = {
-    ...onchainMetadata,
-    ...overwrite,
-  };
-
-  // console.log(metadata);
-
-  if (!acceptBadMetadata && Object.values(metadata).some(metadataIsInvalid)) {
-    Object.entries(metadata)
-      .filter(([, token]) => metadataIsInvalid(token))
-      .forEach(([address]) => console.log(`Metadata missing for: ${address}`));
-    throw new Error("Missing metadata");
-  }
-
-  return metadata;
-};
 
 const decodeERC20Metadata = (
   nameResponse: string,
@@ -106,7 +85,7 @@ const decodeERC20Metadata = (
   };
 };
 
-async function getNetworkMetadata(
+export async function getNetworkMetadata(
   network: Network,
   tokens: string[]
 ): Promise<Record<string, TokenInfo>> {

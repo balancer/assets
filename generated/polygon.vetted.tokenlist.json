@@ -1,0 +1,159 @@
+{
+    "name": "Balancer",
+    "timestamp": "2021-06-25T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+        "balancer",
+        "vetted"
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+            "chainId": 137,
+            "name": "Aave",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png"
+        },
+        {
+            "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+            "chainId": 137,
+            "name": "Aavegotchi",
+            "symbol": "GHST",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12467/large/ghst_200.png?1600750321"
+        },
+        {
+            "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+            "chainId": 137,
+            "name": "Balancer",
+            "symbol": "BAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+            "chainId": 137,
+            "name": "Chainlink",
+            "symbol": "LINK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+        },
+        {
+            "address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+            "chainId": 137,
+            "name": "Compound",
+            "symbol": "COMP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+        },
+        {
+            "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+            "chainId": 137,
+            "name": "Dai",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
+            "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
+            "chainId": 137,
+            "name": "DeFiPulse Index",
+            "symbol": "DPI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b/logo.png"
+        },
+        {
+            "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+            "chainId": 137,
+            "name": "MAI",
+            "symbol": "miMATIC",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018"
+        },
+        {
+            "address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
+            "chainId": 137,
+            "name": "Ocean Protocol",
+            "symbol": "mOCEAN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
+        },
+        {
+            "address": "0x580A84C73811E1839F75d86d75d88cCa0c241fF4",
+            "chainId": 137,
+            "name": "Qi Dao",
+            "symbol": "QI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15329/large/qi.png?1620540969"
+        },
+        {
+            "address": "0x831753DD7087CaC61aB5644b308642cc1c33Dc13",
+            "chainId": 137,
+            "name": "Quickswap",
+            "symbol": "QUICK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c28AeF8977c9B773996d0e8376d2EE379446F2f/logo.png"
+        },
+        {
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "chainId": 137,
+            "name": "Tether",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        },
+        {
+            "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+            "chainId": 137,
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+        },
+        {
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "chainId": 137,
+            "name": "WETH",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        },
+        {
+            "address": "0x87ff96aba480f1813aF5c780387d8De7cf7D8261",
+            "chainId": 137,
+            "name": "Wrapped BUSD",
+            "symbol": "WBUSD",
+            "decimals": 18
+        },
+        {
+            "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+            "chainId": 137,
+            "name": "Wrapped Bitcoin",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+            "chainId": 137,
+            "name": "Wrapped Matic",
+            "symbol": "WMATIC",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.jpg?1614155404"
+        },
+        {
+            "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+            "chainId": 137,
+            "name": "yearn.finance",
+            "symbol": "YFI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png"
+        }
+    ]
+}

@@ -3,10 +3,16 @@ require("dotenv").config();
 import fs from "fs";
 import fleek from "@fleekhq/fleek-storage-js";
 
-import { getMetadata } from "../src/metadata";
-import { List, MinimalTokenInfo, Network } from "../src/types";
+import { chainIdMap, getNetworkMetadata } from "../src/metadata";
+import {
+  List,
+  MetadataOverride,
+  MinimalTokenInfo,
+  Network,
+} from "../src/types";
 import { getLogoURI, loadAssets } from "../src/icons";
 import { TokenInfo, TokenList } from "@uniswap/token-lists";
+import { getCoingeckoMetadata } from "../src/coingecko";
 
 type FleekConfig = {
   apiKey: string;
@@ -22,8 +28,9 @@ const fleekConfig: FleekConfig = {
 
 async function run() {
   try {
-    await buildNetworkLists(Network.Homestead);
-    await buildNetworkLists(Network.Kovan);
+    // await buildNetworkLists(Network.Homestead);
+    // await buildNetworkLists(Network.Kovan);
+    await buildNetworkLists(Network.Polygon);
   } catch (e) {
     console.error(e);
     process.exit(1);
@@ -39,24 +46,23 @@ async function buildNetworkLists(network: Network) {
   await Promise.all([
     buildListFromFile(List.Listed, network, metadataOverwrite),
     buildListFromFile(List.Vetted, network, metadataOverwrite),
-    buildListFromFile(List.Untrusted, network, metadataOverwrite),
+    // buildListFromFile(List.Untrusted, network, metadataOverwrite),
   ]);
 }
 
 async function buildListFromFile(
   listType: List,
   network: Network,
-  metadataOverwrite: Record<string, MinimalTokenInfo>
+  metadataOverwrite: Record<string, MetadataOverride>
 ) {
-  const listedFile = await fs.readFileSync(`lists/${network}.${listType}.json`);
-  const listed: { tokens: string[] } = JSON.parse(listedFile.toString());
-  const listedMetadata = await getMetadata(
-    network,
-    listed.tokens,
+  const inputFile = await fs.readFileSync(`lists/${network}.${listType}.json`);
+  const input: { tokens: string[] } = JSON.parse(inputFile.toString());
+  const onchainMetadata = await getNetworkMetadata(network, input.tokens);
+  const listedTokens = await getTokens(
+    onchainMetadata,
     metadataOverwrite,
-    listType === List.Untrusted
+    network
   );
-  const listedTokens = await getTokens(listedMetadata);
   await generate(listType, network, listedTokens);
 }
 
@@ -94,19 +100,42 @@ async function generate(name: List, network: Network, tokens: TokenInfo[]) {
 }
 
 async function getTokens(
-  metadata: Record<string, MinimalTokenInfo>
+  metadata: Record<string, MinimalTokenInfo>,
+  metadataOverwrite: Record<string, MetadataOverride>,
+  network: Network
 ): Promise<TokenInfo[]> {
   const assets = await loadAssets();
 
-  const tokens = Object.entries(metadata).map(([address, tokenInfo]) => {
+  // TODO: rate limit this to prevent issues with coingecko
+  const tokens = Object.entries(metadata).map(async ([address, tokenInfo]) => {
+    const [mainnetAddress, coingeckoMeta] = await getCoingeckoMetadata(
+      network,
+      address
+    );
+
+    const name =
+      metadataOverwrite[address]?.name ?? coingeckoMeta.name ?? tokenInfo.name;
+    const symbol =
+      metadataOverwrite[address]?.symbol ??
+      tokenInfo.symbol ??
+      coingeckoMeta.symbol;
+    const decimals = tokenInfo.decimals;
+    const logoURI =
+      metadataOverwrite[address]?.logoURI ??
+      getLogoURI(assets, mainnetAddress ?? address) ??
+      coingeckoMeta.logoURI;
+
     return {
       address,
-      chainId: 1,
-      ...tokenInfo,
-      logoURI: getLogoURI(assets, address),
+      chainId: chainIdMap[network],
+      name,
+      symbol,
+      decimals,
+      logoURI,
     };
   });
-  return tokens;
+
+  return Promise.all(tokens);
 }
 
 async function ipfsPin(key: string, body: TokenList, config: FleekConfig) {
