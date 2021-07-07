@@ -512,6 +512,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
+        },
+        "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42": {
+            "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
+            "name": "Balancer USD Stable Pool",
+            "symbol": "staBAL3",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
