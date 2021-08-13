@@ -5172,7 +5172,7 @@
     },
     "0x358AA737e033F34df7c54306960a38d09AaBd523": {
       "address": "0x358AA737e033F34df7c54306960a38d09AaBd523",
-      "id": "onebtc",
+      "id": "ares-protocol",
       "name": "Ares Protocol",
       "symbol": "ARES",
       "decimals": 18,
@@ -5620,6 +5620,17 @@
       "color": "#a593a5",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5aa7c403c7de4b3bb0cc07079a03e389671a4771.png"
+    },
+    "0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6": {
+      "address": "0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6",
+      "id": "akita-inu",
+      "name": "Akita Inu",
+      "symbol": "AKITA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6/logo.png"
     }
   },
   "untrusted": [

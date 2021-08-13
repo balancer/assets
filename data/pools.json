@@ -451,5 +451,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xb00d4c6966f07f045411ec201f657f376b33c0c3": {
+    "chainId": 1,
+    "name": "Akita Rescue LBP",
+    "about": "This is the Akita+Gitcoin LBP. It's the first of a series of LBPs that will slowly transfer the Akita held by Gitcoin (as donated by Vitalik) back to the community and also help fund public goods in the meantime! This first sale is meant to sell about $2M in Akita, and will help raise ether for the next LBP. Funds generated are also being split with the Akita development fund and a Dog Rescue charity chosen by the community.",
+    "learn_more": "https://snapshot.org/#/gitcoindao.eth/proposal/QmQe6fHVDsvE91ShNagvFojetuWHu6xKn7izk46Dg2cQmK",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }

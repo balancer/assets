@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-06-21T00:00:00.000Z",
+    "timestamp": "2021-07-28T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -459,6 +459,13 @@
             "symbol": "MPL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x33349b282065b0284d756f0577fb39c158f935e6.png"
+        },
+        {
+            "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
+            "chainId": 1,
+            "name": "Balancer USD Stable Pool",
+            "symbol": "staBAL3",
+            "decimals": 18
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
