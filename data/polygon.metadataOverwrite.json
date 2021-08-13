@@ -2,5 +2,34 @@
 	"0x282d8efCe846A88B159800bd4130ad77443Fa1A1": {
 		"name": "Ocean Protocol",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
+	},
+	"0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65": {
+		"name": "Gemini Dollar",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd/logo.png"
+	},
+	"0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8": {
+		"name": "Gnosis",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+	},
+	"0x263534a4Fe3cb249dF46810718B7B612a30ebbff": {
+		"name": "Perpetual Protocol",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png"
+	},
+	"0x3066818837c5e6eD6601bd5a91B0762877A6B731": {
+		"name": "UMA Protocol",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
+	},
+	"0x87ff96aba480f1813aF5c780387d8De7cf7D8261": {
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png"
+	},
+	"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+		"name": "Wrapped Ether"
+	},
+	"0xF501dd45a1198C2E1b5aEF5314A68B9006D842E0": {
+		"name": "Meta",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
+	},
+	"0xDBf31dF14B66535aF65AaC99C32e9eA844e14501": {
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
 	}
 }

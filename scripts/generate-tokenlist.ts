@@ -13,6 +13,7 @@ import {
 import { getLogoURI, loadAssets } from "../src/icons";
 import { TokenInfo, TokenList } from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
+import { validateTokenList } from "../src/validation";
 
 type FleekConfig = {
   apiKey: string;
@@ -84,18 +85,23 @@ async function generate(name: List, network: Network, tokens: TokenInfo[]) {
     },
     tokens: tokens.sort((a, b) => (a.name > b.name ? 1 : -1)),
   };
+
   const listFileName = `generated/${network}.${name}.tokenlist.json`;
   await fs.writeFileSync(listFileName, JSON.stringify(list, null, 4));
 
-  try {
-    await ipfsPin(
-      `assets/${network}.${name}.tokenlist.json`,
-      list,
-      fleekConfig
-    );
-    console.log(`Tokenlist uploaded for ${name}`);
-  } catch (e) {
-    console.log(e.message);
+  if (validateTokenList(list)) {
+    try {
+      await ipfsPin(
+        `assets/${network}.${name}.tokenlist.json`,
+        list,
+        fleekConfig
+      );
+      console.log(`Tokenlist uploaded for ${name}`);
+    } catch (e) {
+      console.log(e.message);
+    }
+  } else {
+    throw Error("TokenList is invalid");
   }
 }
 

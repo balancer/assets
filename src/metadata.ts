@@ -9,7 +9,7 @@ const providers = {
   kovan: new ethers.providers.InfuraProvider("kovan", infuraKey),
   homestead: new ethers.providers.InfuraProvider("homestead", infuraKey),
   polygon: new ethers.providers.JsonRpcProvider(
-    "https://rpc-mainnet.matic.network"
+    "https://matic-mainnet.chainstacklabs.com"
   ),
 };
 

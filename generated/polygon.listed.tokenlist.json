@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-06-25T00:00:00.000Z",
+    "timestamp": "2021-07-29T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -29,6 +29,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/12467/large/ghst_200.png?1600750321"
         },
         {
+            "address": "0xc3FdbadC7c795EF1D6Ba111e06fF8F16A20Ea539",
+            "chainId": 137,
+            "name": "Adamant",
+            "symbol": "ADDY",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15225/large/adamant.png?1620136256"
+        },
+        {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
             "chainId": 137,
             "name": "Balancer",
@@ -53,6 +61,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
         },
         {
+            "address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+            "chainId": 137,
+            "name": "Curve DAO Token",
+            "symbol": "CRV",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
+        },
+        {
             "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
             "chainId": 137,
             "name": "Dai",
@@ -69,6 +85,30 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b/logo.png"
         },
         {
+            "address": "0x2a93172c8DCCbfBC60a39d56183B7279a2F647b4",
+            "chainId": 137,
+            "name": "Decentral Games",
+            "symbol": "$DG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEE06A81a695750E71a662B51066F2c74CF4478a0/logo.png"
+        },
+        {
+            "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
+            "chainId": 137,
+            "name": "Gemini Dollar",
+            "symbol": "GUSD",
+            "decimals": 2,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd/logo.png"
+        },
+        {
+            "address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
+            "chainId": 137,
+            "name": "Gnosis",
+            "symbol": "GNO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+        },
+        {
             "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
             "chainId": 137,
             "name": "MAI",
@@ -77,12 +117,28 @@
             "logoURI": "https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018"
         },
         {
+            "address": "0xF501dd45a1198C2E1b5aEF5314A68B9006D842E0",
+            "chainId": 137,
+            "name": "Meta",
+            "symbol": "MTA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
+        },
+        {
             "address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
             "chainId": 137,
             "name": "Ocean Protocol",
             "symbol": "mOCEAN",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
+        },
+        {
+            "address": "0x263534a4Fe3cb249dF46810718B7B612a30ebbff",
+            "chainId": 137,
+            "name": "Perpetual Protocol",
+            "symbol": "PERP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png"
         },
         {
             "address": "0x580A84C73811E1839F75d86d75d88cCa0c241fF4",
@@ -101,12 +157,60 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c28AeF8977c9B773996d0e8376d2EE379446F2f/logo.png"
         },
         {
+            "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+            "chainId": 137,
+            "name": "Sushi",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
+        },
+        {
+            "address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
+            "chainId": 137,
+            "name": "Synthetix Network Token",
+            "symbol": "SNX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+        },
+        {
+            "address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
+            "chainId": 137,
+            "name": "Telcoin",
+            "symbol": "TEL",
+            "decimals": 2,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x467Bccd9d29f223BcE8043b84E8C8B282827790F/logo.png"
+        },
+        {
             "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
             "chainId": 137,
             "name": "Tether",
             "symbol": "USDT",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        },
+        {
+            "address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+            "chainId": 137,
+            "name": "The Graph",
+            "symbol": "GRT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
+        },
+        {
+            "address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
+            "chainId": 137,
+            "name": "UMA Protocol",
+            "symbol": "UMA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
+        },
+        {
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "chainId": 137,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
         },
         {
             "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
@@ -117,19 +221,12 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
         },
         {
-            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-            "chainId": 137,
-            "name": "WETH",
-            "symbol": "WETH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-        },
-        {
             "address": "0x87ff96aba480f1813aF5c780387d8De7cf7D8261",
             "chainId": 137,
             "name": "Wrapped BUSD",
             "symbol": "WBUSD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png"
         },
         {
             "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
@@ -140,12 +237,28 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
         },
         {
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "chainId": 137,
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        },
+        {
             "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
             "chainId": 137,
             "name": "Wrapped Matic",
             "symbol": "WMATIC",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.jpg?1614155404"
+        },
+        {
+            "address": "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501",
+            "chainId": 137,
+            "name": "renBTC",
+            "symbol": "renBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
         },
         {
             "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
