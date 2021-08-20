@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-07-28T00:00:00.000Z",
+    "timestamp": "2021-08-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -466,6 +466,30 @@
             "name": "Balancer USD Stable Pool",
             "symbol": "staBAL3",
             "decimals": 18
+        },
+        {
+            "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+            "chainId": 1,
+            "name": "Lido DAO Token",
+            "symbol": "LDO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
+        },
+        {
+            "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+            "chainId": 1,
+            "name": "Liquid staked Ether 2.0",
+            "symbol": "stETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae7ab96520de3a18e5e111b5eaab095312d7fe84.png"
+        },
+        {
+            "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+            "chainId": 1,
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",

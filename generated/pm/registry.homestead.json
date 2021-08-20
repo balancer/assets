@@ -795,8 +795,8 @@
     "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023": {
       "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
       "id": "streamr-datacoin",
-      "name": "Streamr DATAcoin",
-      "symbol": "DATA",
+      "name": "Streamr (old)",
+      "symbol": "XDATA",
       "decimals": 18,
       "precision": 2,
       "color": "#6f6776",
@@ -4277,7 +4277,7 @@
       "precision": 3,
       "color": "#6eaa78",
       "hasIcon": false,
-      "logoUrl": ""
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
     },
     "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": {
       "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
@@ -4959,7 +4959,7 @@
       "precision": 3,
       "color": "#a593a5",
       "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae7ab96520de3a18e5e111b5eaab095312d7fe84.png"
     },
     "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A": {
       "address": "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A",
@@ -5631,6 +5631,39 @@
       "color": "#9a4f50",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6/logo.png"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "id": "",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png"
+    },
+    "0x1e83916Ea2EF2D7a6064775662E163b2D4C330a7": {
+      "address": "0x1e83916Ea2EF2D7a6064775662E163b2D4C330a7",
+      "id": "ethereum-eagle-project",
+      "name": "EthereumGasLimit",
+      "symbol": "EGL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#433455",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x1e83916ea2ef2d7a6064775662e163b2d4c330a7.png"
+    },
+    "0x123151402076fc819B7564510989e475c9cD93CA": {
+      "address": "0x123151402076fc819B7564510989e475c9cD93CA",
+      "id": "wrapped-dgld",
+      "name": "wrapped-DGLD",
+      "symbol": "wDGLD",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x123151402076fc819b7564510989e475c9cd93ca.png"
     }
   },
   "untrusted": [
