@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "npm run generate:registry && npm run generate:tokenlist",
+    "generate": "npm run generate:registry && npm run generate:tokenlist && npm run generate:bal-for-gas",
     "generate:registry": "node scripts/generate-registry.js",
-    "generate:tokenlist": "node scripts/generate-tokenlist.js"
+    "generate:tokenlist": "node scripts/generate-tokenlist.js",
+    "generate:bal-for-gas": "node scripts/generate-bal-for-gas.js"
   },
   "keywords": [],
   "author": "",
