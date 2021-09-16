@@ -528,7 +528,7 @@
             "symbol": "LDO",
             "decimals": 18,
             "precision": 3,
-            "hasIcon": false,
+            "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
         },
         "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
@@ -548,6 +548,24 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png"
+        },
+        "0x123151402076fc819B7564510989e475c9cD93CA": {
+            "address": "0x123151402076fc819B7564510989e475c9cD93CA",
+            "name": "wrapped-DGLD",
+            "symbol": "wDGLD",
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x123151402076fc819b7564510989e475c9cd93ca.png"
+        },
+        "0xdB25f211AB05b1c97D595516F45794528a807ad8": {
+            "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+            "name": "STASIS EURS Token",
+            "symbol": "EURS",
+            "decimals": 2,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdB25f211AB05b1c97D595516F45794528a807ad8/logo.png"
         }
     },
     "untrusted": [
