@@ -460,5 +460,14 @@
     "logo": true,
     "is_visible": true,
     "is_compatible": true
+  },
+  "0xfc3cca33112b1861c165badc997c970a0a447d5a": {
+    "chainId": 1,
+    "name": "CHEESE-WETH",
+    "about": "$CHEESE LBP Pool is a Balancer Liquidity Bootstrapping Pool (LBP). The $CHEESE LBP will last for three (3) days (72 hours), from 1:00 PM UTC Sept. 28, 2021, to 12:59 PM UTC Sept. 30, 2021. There will be a total of 93,132 CHEESE tokens (1% of the total supply) available, and the trading pair will be CHEESE: WETH. The weights of the LBP will gradually change from CHEESE: WETH = 95:5 to CHEESE: WETH = 30:70 during that period, creating downward pressure on the price. The starting amount of WETH will be 7.35 WETH.",
+    "learn_more": "",
+    "logo": true,
+    "is_visible": true,
+    "is_compatible": true
   }
 }
