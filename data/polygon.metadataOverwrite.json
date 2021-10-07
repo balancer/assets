@@ -15,6 +15,10 @@
 		"name": "Perpetual Protocol",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png"
 	},
+	"0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b": {
+		"name": "Avalanche",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
+	},
 	"0x3066818837c5e6eD6601bd5a91B0762877A6B731": {
 		"name": "UMA Protocol",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
@@ -24,6 +28,10 @@
 	},
 	"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
 		"name": "Wrapped Ether"
+	},
+	"0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4": {
+		"name": "Solana",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
 	},
 	"0xF501dd45a1198C2E1b5aEF5314A68B9006D842E0": {
 		"name": "Meta",

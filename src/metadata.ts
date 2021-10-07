@@ -8,8 +8,9 @@ const infuraKey = "93e3393c76ed4e1f940d0266e2fdbda2";
 const providers = {
   kovan: new ethers.providers.InfuraProvider("kovan", infuraKey),
   homestead: new ethers.providers.InfuraProvider("homestead", infuraKey),
-  polygon: new ethers.providers.JsonRpcProvider(
-    "https://matic-mainnet.chainstacklabs.com"
+  polygon: new ethers.providers.JsonRpcProvider("https://polygon-rpc.com/"),
+  arbitrum: new ethers.providers.JsonRpcProvider(
+    "https://arb1.arbitrum.io/rpc"
   ),
 };
 
@@ -17,12 +18,14 @@ export const chainIdMap = {
   homestead: 1,
   kovan: 42,
   polygon: 137,
+  arbitrum: 42161,
 };
 
 const multicallContract = {
   homestead: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
   kovan: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
   polygon: "0xe2530198A125Dcdc8Fc5476e07BFDFb5203f1102",
+  arbitrum: "0xd67950096d029af421a946ffb1e04c94caf8e256",
 };
 
 const erc20ABI = [

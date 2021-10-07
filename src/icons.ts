@@ -13,9 +13,11 @@ export async function loadAssets(): Promise<Assets> {
     .map((assetFile) => assetFile.split(".png")[0]);
 
   const trustwalletListUrl =
-    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json";
+    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/tokenlist.json";
   const trustwalletListResponse = await axios.get(trustwalletListUrl);
-  const trustwalletList = trustwalletListResponse.data;
+  const trustwalletList = trustwalletListResponse.data.tokens.map(
+    (token: { address: string }) => token.address
+  );
 
   return {
     local: localAssets,

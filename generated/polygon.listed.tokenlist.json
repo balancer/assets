@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-07-29T00:00:00.000Z",
+    "timestamp": "2021-09-30T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -35,6 +35,14 @@
             "symbol": "ADDY",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/15225/large/adamant.png?1620136256"
+        },
+        {
+            "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+            "chainId": 137,
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/info/logo.png"
         },
         {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
@@ -90,7 +98,7 @@
             "name": "Decentral Games",
             "symbol": "$DG",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEE06A81a695750E71a662B51066F2c74CF4478a0/logo.png"
+            "logoURI": "https://assets.coingecko.com/coins/images/13267/large/Decentral_Games_Logo-1.png?1621652581"
         },
         {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
@@ -107,6 +115,22 @@
             "symbol": "GNO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+        },
+        {
+            "address": "0x596ebe76e2db4470966ea395b0d063ac6197a8c5",
+            "chainId": 137,
+            "name": "Jarvis Reward Token",
+            "symbol": "JRT",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/10390/large/cfeii0y.png?1578868949"
+        },
+        {
+            "address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Euro",
+            "symbol": "jEUR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15725/large/logo_-_2021-05-22T063621.432.png?1621636593"
         },
         {
             "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
@@ -133,6 +157,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
         },
         {
+            "address": "0xE2Aa7db6dA1dAE97C5f5C6914d285fBfCC32A128",
+            "chainId": 137,
+            "name": "Parallel",
+            "symbol": "PAR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14153/large/par_round_200.png?1614670422"
+        },
+        {
             "address": "0x263534a4Fe3cb249dF46810718B7B612a30ebbff",
             "chainId": 137,
             "name": "Perpetual Protocol",
@@ -154,7 +186,23 @@
             "name": "Quickswap",
             "symbol": "QUICK",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c28AeF8977c9B773996d0e8376d2EE379446F2f/logo.png"
+            "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+        },
+        {
+            "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+            "chainId": 137,
+            "name": "STASIS EURO",
+            "symbol": "EURS",
+            "decimals": 2,
+            "logoURI": "https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779"
+        },
+        {
+            "address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
+            "chainId": 137,
+            "name": "Solana",
+            "symbol": "SOL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
         },
         {
             "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
@@ -178,7 +226,7 @@
             "name": "Telcoin",
             "symbol": "TEL",
             "decimals": 2,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x467Bccd9d29f223BcE8043b84E8C8B282827790F/logo.png"
+            "logoURI": "https://assets.coingecko.com/coins/images/1899/large/tel.png?1547036203"
         },
         {
             "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -250,7 +298,7 @@
             "name": "Wrapped Matic",
             "symbol": "WMATIC",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.jpg?1614155404"
+            "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
         },
         {
             "address": "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501",

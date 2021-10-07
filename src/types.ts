@@ -4,6 +4,7 @@ export enum Network {
   Homestead = "homestead",
   Kovan = "kovan",
   Polygon = "polygon",
+  Arbitrum = "arbitrum",
 }
 
 export enum List {
