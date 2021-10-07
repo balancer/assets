@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-09-30T00:00:00.000Z",
+    "timestamp": "2021-10-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -42,7 +42,7 @@
             "name": "Avalanche",
             "symbol": "AVAX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/info/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
         },
         {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
@@ -202,7 +202,7 @@
             "name": "Solana",
             "symbol": "SOL",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
         },
         {
             "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",

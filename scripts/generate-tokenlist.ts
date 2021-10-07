@@ -31,7 +31,8 @@ async function run() {
   try {
     // await buildNetworkLists(Network.Homestead);
     // await buildNetworkLists(Network.Kovan);
-    await buildNetworkLists(Network.Polygon);
+    // await buildNetworkLists(Network.Polygon);
+    await buildNetworkLists(Network.Arbitrum);
   } catch (e) {
     console.error(e);
     process.exit(1);
@@ -45,7 +46,7 @@ async function buildNetworkLists(network: Network) {
   const metadataOverwrite = JSON.parse(metadataOverwriteFile.toString());
 
   await Promise.all([
-    buildListFromFile(List.Listed, network, metadataOverwrite),
+    // buildListFromFile(List.Listed, network, metadataOverwrite),
     buildListFromFile(List.Vetted, network, metadataOverwrite),
     // buildListFromFile(List.Untrusted, network, metadataOverwrite),
   ]);
