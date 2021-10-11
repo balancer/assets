@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-10-07T00:00:00.000Z",
+    "timestamp": "2021-10-11T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -139,6 +139,14 @@
             "symbol": "GRT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
+        },
+        {
+            "address": "0xA72159FC390f0E3C6D415e658264c7c4051E9b87",
+            "chainId": 42161,
+            "name": "Tracer DAO",
+            "symbol": "TCR",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18271/large/tracer_logo.png?1631176676"
         },
         {
             "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
