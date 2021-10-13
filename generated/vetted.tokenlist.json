@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-09-28T00:00:00.000Z",
+    "timestamp": "2021-10-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3995,6 +3995,14 @@
             "symbol": "CHEESE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x332e824e46fceeb9e59ba9491b80d3e6d42b0b59.png"
+        },
+        {
+            "address": "0xe93a27d4ED64F44a2B356d78C06115e5C9D97DA0",
+            "chainId": 1,
+            "name": "KNX",
+            "symbol": "KNX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
