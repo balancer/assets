@@ -5686,6 +5686,17 @@
       "color": "#8b5580",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x332e824e46fceeb9e59ba9491b80d3e6d42b0b59.png"
+    },
+    "0xe93a27d4ED64F44a2B356d78C06115e5C9D97DA0": {
+      "address": "0xe93a27d4ED64F44a2B356d78C06115e5C9D97DA0",
+      "id": "",
+      "name": "KNX",
+      "symbol": "KNX",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0.png"
     }
   },
   "untrusted": [
