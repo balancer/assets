@@ -575,6 +575,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7.png"
+        },
+        "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb": {
+            "address": "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb",
+            "name": "MetaFactory",
+            "symbol": "ROBOT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
         }
     },
     "untrusted": [
