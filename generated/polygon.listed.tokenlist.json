@@ -42,7 +42,7 @@
             "name": "Avalanche",
             "symbol": "AVAX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
         },
         {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
@@ -82,7 +82,7 @@
             "name": "DFX Token",
             "symbol": "DFX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/dfx-finance/assets/blob/add-dfx-logov3/blockchains/ethereum/assets/0x888888435FDe8e7d4c54cAb67f206e4199454c60/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/dfx-finance/assets/add-dfx-logov3/blockchains/ethereum/assets/0x888888435FDe8e7d4c54cAb67f206e4199454c60/logo.png"
         },
         {
             "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
@@ -210,7 +210,7 @@
             "name": "Solana",
             "symbol": "SOL",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/blob/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
         },
         {
             "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
