@@ -253,6 +253,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
         },
         {
+            "address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
+            "chainId": 137,
+            "name": "TrueUSD",
+            "symbol": "TUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png"
+        },
+        {
             "address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
             "chainId": 137,
             "name": "UMA Protocol",
