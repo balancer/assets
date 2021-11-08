@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-11-02T00:00:00.000Z",
+    "timestamp": "2021-11-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -522,6 +522,22 @@
             "symbol": "ROBOT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
+        },
+        {
+            "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+            "chainId": 1,
+            "name": "Fei USD",
+            "symbol": "FEI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x956F47F50A910163D8BF957Cf5846D573E7f87CA/logo.png"
+        },
+        {
+            "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+            "chainId": 1,
+            "name": "Tribe",
+            "symbol": "TRIBE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",

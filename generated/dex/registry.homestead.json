@@ -584,6 +584,24 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
+        },
+        "0x956F47F50A910163D8BF957Cf5846D573E7f87CA": {
+            "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+            "name": "Fei USD",
+            "symbol": "FEI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x956F47F50A910163D8BF957Cf5846D573E7f87CA/logo.png"
+        },
+        "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B": {
+            "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+            "name": "Tribe",
+            "symbol": "TRIBE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png"
         }
     },
     "untrusted": [
