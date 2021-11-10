@@ -19,6 +19,9 @@
 	"0x354A6dA3fcde098F8389cad84b0182725c6C91dE": {
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
 	},
+	"0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65": {
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84/logo.png"
+	},
 	"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
 	},

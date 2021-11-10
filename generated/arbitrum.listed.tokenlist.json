@@ -189,6 +189,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
         },
         {
+            "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
+            "chainId": 42161,
+            "name": "dHEDGE DAO",
+            "symbol": "DHT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84/logo.png"
+        },
+        {
             "address": "0xA970AF1a584579B618be4d69aD6F73459D112F95",
             "chainId": 42161,
             "name": "sUSD",
