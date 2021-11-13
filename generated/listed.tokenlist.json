@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-11-08T00:00:00.000Z",
+    "timestamp": "2021-11-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -538,6 +538,22 @@
             "symbol": "TRIBE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png"
+        },
+        {
+            "address": "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
+            "chainId": 1,
+            "name": "Notional",
+            "symbol": "NOTE",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5.png"
+        },
+        {
+            "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+            "chainId": 1,
+            "name": "Nexo",
+            "symbol": "NEXO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
