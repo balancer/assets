@@ -602,6 +602,24 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png"
+        },
+        "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5": {
+            "address": "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
+            "name": "Notional",
+            "symbol": "NOTE",
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5.png"
+        },
+        "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
+            "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+            "name": "Nexo",
+            "symbol": "NEXO",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
         }
     },
     "untrusted": [
