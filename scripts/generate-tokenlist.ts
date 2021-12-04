@@ -90,7 +90,7 @@ async function generate(name: List, network: Network, tokens: TokenInfo[]) {
   const listFileName = `generated/${network}.${name}.tokenlist.json`;
   await fs.writeFileSync(listFileName, JSON.stringify(list, null, 4));
 
-  if (validateTokenList(list)) {
+  if (name === List.Untrusted || validateTokenList(list)) {
     try {
       await ipfsPin(
         `assets/${network}.${name}.tokenlist.json`,
