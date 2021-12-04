@@ -10,7 +10,7 @@ import {
   MinimalTokenInfo,
   Network,
 } from "../src/types";
-import { getLogoURI, loadAssets } from "../src/icons";
+import { Assets, getLogoURI, loadAssets } from "../src/icons";
 import { TokenInfo, TokenList } from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
 import { validateTokenList } from "../src/validation";
@@ -113,36 +113,62 @@ async function getTokens(
 ): Promise<TokenInfo[]> {
   const assets = await loadAssets();
 
-  // TODO: rate limit this to prevent issues with coingecko
-  const tokens = Object.entries(metadata).map(async ([address, tokenInfo]) => {
-    const [mainnetAddress, coingeckoMeta] = await getCoingeckoMetadata(
-      network,
-      address
-    );
+  const tokens = await Object.entries(metadata).reduce(
+    async (acc: Promise<TokenInfo[]>, [address, tokenInfo], index) => {
+      // wait for previous tokens to be queried
+      const prev = await acc;
 
-    const name =
-      metadataOverwrite[address]?.name ?? coingeckoMeta.name ?? tokenInfo.name;
-    const symbol =
-      metadataOverwrite[address]?.symbol ??
-      tokenInfo.symbol ??
-      coingeckoMeta.symbol;
-    const decimals = tokenInfo.decimals;
-    const logoURI =
-      metadataOverwrite[address]?.logoURI ??
-      getLogoURI(assets, mainnetAddress ?? address) ??
-      coingeckoMeta.logoURI;
+      const token = await getTokenMetadata(
+        address,
+        tokenInfo,
+        metadataOverwrite[address] ?? {},
+        assets,
+        network
+      );
 
-    return {
-      address,
-      chainId: chainIdMap[network],
-      name,
-      symbol,
-      decimals,
-      logoURI,
-    };
-  });
+      // Coingecko rate limits their API to 10 calls/second
+      if (index > 0 && index % 10 === 0) {
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+      }
 
-  return Promise.all(tokens);
+      return Promise.all([...prev, token]);
+    },
+    Promise.resolve([])
+  );
+
+  return tokens;
+}
+
+async function getTokenMetadata(
+  address: string,
+  onchainMetadata: MinimalTokenInfo,
+  metadataOverwrite: MetadataOverride,
+  assets: Assets,
+  network: Network
+): Promise<TokenInfo> {
+  const [mainnetAddress, coingeckoMeta] = await getCoingeckoMetadata(
+    network,
+    address
+  );
+
+  const name =
+    metadataOverwrite?.name ?? coingeckoMeta.name ?? onchainMetadata.name;
+  const symbol =
+    metadataOverwrite?.symbol ?? onchainMetadata.symbol ?? coingeckoMeta.symbol;
+  const decimals = onchainMetadata.decimals;
+  const logoURI =
+    metadataOverwrite?.logoURI ??
+    getLogoURI(assets, mainnetAddress ?? address) ??
+    coingeckoMeta.logoURI;
+
+  return {
+    address,
+    chainId: chainIdMap[network],
+    name,
+    symbol,
+    decimals,
+    logoURI,
+  };
 }
 
 async function ipfsPin(key: string, body: TokenList, config: FleekConfig) {

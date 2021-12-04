@@ -1,7 +1,7 @@
 import axios from "axios";
 import fs from "fs";
 
-type Assets = {
+export type Assets = {
   local: string[];
   trustWallet: string[];
 };
