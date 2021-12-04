@@ -23,13 +23,13 @@ jobs:
         node-version: 14.x
     - name: Install
       run: yarn --immutable
-    - name: Generate TokenList
+    - name: Generate TokenLists
       run: yarn generate
-    - name: Upload TokenList
+    - name: Upload TokenLists
       uses: actions/upload-artifact@v2
       with:
         name: tokenlist-data
-        path: generated/listed.tokenlist.json
+        path: generated/
   commit:
     needs: generate
     runs-on: ubuntu-latest
@@ -56,7 +56,7 @@ jobs:
       id: commit
       run: |
         cd branch
-        cp ../listed.tokenlist.json generated/listed.tokenlist.json
+        find .. -name "*.*.tokenlist.json" -exec cp '{}' generated/
         git config --global user.email "bot@balancer.finance"
         git config --global user.name "Balancer Bot"
         DIFF_LINES=$(git diff | wc -l)

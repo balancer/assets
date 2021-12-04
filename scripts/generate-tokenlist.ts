@@ -27,12 +27,27 @@ const fleekConfig: FleekConfig = {
   bucket: "balancer-team-bucket",
 };
 
-async function run() {
+let network: Network = process.argv[2] as Network;
+if (network && !Object.values(Network).includes(network)) {
+  if (network.toString() === "mainnet") {
+    network = Network.Homestead;
+  } else {
+    throw new Error(`Invalid network: "${network}"`);
+  }
+}
+
+run(network);
+
+async function run(network?: Network) {
   try {
-    // await buildNetworkLists(Network.Homestead);
-    // await buildNetworkLists(Network.Kovan);
-    // await buildNetworkLists(Network.Polygon);
-    await buildNetworkLists(Network.Arbitrum);
+    if (network) {
+      await buildNetworkLists(network);
+    } else {
+      await buildNetworkLists(Network.Homestead);
+      await buildNetworkLists(Network.Kovan);
+      await buildNetworkLists(Network.Polygon);
+      await buildNetworkLists(Network.Arbitrum);
+    }
   } catch (e) {
     console.error(e);
     process.exit(1);
@@ -40,16 +55,15 @@ async function run() {
 }
 
 async function buildNetworkLists(network: Network) {
+  console.log(`Building ${network} tokenlists\n`);
   const metadataOverwriteFile = await fs.readFileSync(
     `data/${network}.metadataOverwrite.json`
   );
   const metadataOverwrite = JSON.parse(metadataOverwriteFile.toString());
 
-  await Promise.all([
-    // buildListFromFile(List.Listed, network, metadataOverwrite),
-    buildListFromFile(List.Vetted, network, metadataOverwrite),
-    // buildListFromFile(List.Untrusted, network, metadataOverwrite),
-  ]);
+  await buildListFromFile(List.Listed, network, metadataOverwrite);
+  await buildListFromFile(List.Vetted, network, metadataOverwrite);
+  await buildListFromFile(List.Untrusted, network, metadataOverwrite);
 }
 
 async function buildListFromFile(
@@ -57,6 +71,7 @@ async function buildListFromFile(
   network: Network,
   metadataOverwrite: Record<string, MetadataOverride>
 ) {
+  console.log(`Building ${listType} tokenlist`);
   const inputFile = await fs.readFileSync(`lists/${network}.${listType}.json`);
   const input: { tokens: string[] } = JSON.parse(inputFile.toString());
   const onchainMetadata = await getNetworkMetadata(network, input.tokens);
@@ -185,5 +200,3 @@ async function ipfsPin(key: string, body: TokenList, config: FleekConfig) {
   const ipfsHash = result.hashV0;
   return ipfsHash;
 }
-
-run();

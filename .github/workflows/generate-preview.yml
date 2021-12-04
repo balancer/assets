@@ -15,5 +15,5 @@ jobs:
         node-version: 14.x
     - name: Install
       run: yarn --immutable
-    - name: Generate TokenList
+    - name: Generate TokenLists
       run: yarn generate
