@@ -7,6 +7,10 @@
 		"name": "Ocean Protocol",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
 	},
+	"0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015": {
+		"name": "THX Network",
+		"logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x2934b36ca9a4b31e633c5be670c8c8b28b6aa015.png"
+	},
 	"0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65": {
 		"name": "Gemini Dollar",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd/logo.png"
