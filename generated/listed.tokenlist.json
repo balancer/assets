@@ -413,14 +413,6 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e/logo.png"
         },
         {
-            "address": "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9",
-            "chainId": 1,
-            "name": "PrimeDAO Token",
-            "symbol": "PRIME",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
-        },
-        {
             "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
             "chainId": 1,
             "name": "PieDAO DEFI++",
