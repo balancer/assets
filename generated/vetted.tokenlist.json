@@ -4045,6 +4045,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
         },
         {
+            "address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+            "chainId": 1,
+            "name": "Olympus",
+            "symbol": "OHM",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x383518188c0c6d7730d91b2c03a03c837814a899.png"
+        },
+        {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
             "chainId": 42,
             "name": "Wrapped Ether",
