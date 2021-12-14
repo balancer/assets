@@ -601,7 +601,7 @@
             "name": "Olympus",
             "symbol": "OHM",
             "decimals": 9,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x383518188c0c6d7730d91b2c03a03c837814a899.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x383518188C0C6d7730D91b2c03a03C837814a899/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
