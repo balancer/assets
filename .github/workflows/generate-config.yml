@@ -22,7 +22,9 @@ jobs:
       with:
         node-version: 14.x
     - run: npm ci
-    - run: npm run generate
+    - run: npm run generate:registry
+    - run: npm run generate:tokenlist
+    - run: npm run generate:bal-for-gas
     - name: Upload DEX Kovan config
       uses: actions/upload-artifact@v2
       with:
