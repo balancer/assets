@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-11-13T00:00:00.000Z",
+    "timestamp": "2021-12-14T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -586,6 +586,14 @@
             "symbol": "bb-a-USD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
+        },
+        {
+            "address": "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad",
+            "chainId": 1,
+            "name": "Prime",
+            "symbol": "D2D",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
