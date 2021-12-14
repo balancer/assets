@@ -172,30 +172,31 @@ async function getNetworkMetadata(network, tokens, overwrite) {
 	const multicallAddress = multicallContract[network];
 
 	const multi = new ethers.Contract(multicallAddress, multicall.abi, provider);
-	const calls = [];
-	const erc20Contract = new ethers.utils.Interface(erc20.abi);
-	tokens.forEach(token => {
-		calls.push([token, erc20Contract.encodeFunctionData('decimals', [])]);
-		calls.push([token, erc20Contract.encodeFunctionData('symbol', [])]);
-		calls.push([token, erc20Contract.encodeFunctionData('name', [])]);
-	});
 	const tokenMetadata = {};
-	const [, response] = await multi.aggregate(calls);
-	for (let i = 0; i < tokens.length; i++) {
-		const address = tokens[i];
-		if (address in overwrite) {
-			tokenMetadata[address] = overwrite[address];
-			continue;
-		}
-		const [decimals] = erc20Contract.decodeFunctionResult('decimals', response[3 * i]);
-		const [symbol] = erc20Contract.decodeFunctionResult('symbol', response[3 * i + 1]);
-		const [name] = erc20Contract.decodeFunctionResult('name', response[3 * i + 2]);
-		tokenMetadata[tokens[i]] = {
-			decimals,
-			symbol,
-			name
-		};
-	}
+	const erc20Contract = new ethers.utils.Interface(erc20.abi);
+  const promises = tokens.map(async address => {
+    const calls = [
+      [address, erc20Contract.encodeFunctionData('decimals', [])],
+      [address, erc20Contract.encodeFunctionData('symbol', [])],
+      [address, erc20Contract.encodeFunctionData('name', [])]
+    ]
+    const [, response] = await multi.aggregate(calls);
+
+    if (address in overwrite) {
+      tokenMetadata[address] = overwrite[address];
+      return;
+    }
+    const [decimals] = erc20Contract.decodeFunctionResult('decimals', response[0]);
+    const [symbol] = erc20Contract.decodeFunctionResult('symbol', response[1]);
+    const [name] = erc20Contract.decodeFunctionResult('name', response[2]);
+    tokenMetadata[address] = {
+      decimals,
+      symbol,
+      name
+    };
+  })
+  await Promise.all(promises);
+
 	return tokenMetadata;
 }
 
