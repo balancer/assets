@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-06-25T00:00:00.000Z",
+    "timestamp": "2021-11-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -427,6 +427,86 @@
             "symbol": "renBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
+        },
+        {
+            "address": "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb",
+            "chainId": 1,
+            "name": "MetaFactory",
+            "symbol": "ROBOT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfb5453340c03db5ade474b27e68b6a9c6b2823eb.png"
+        },
+        {
+            "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+            "chainId": 1,
+            "name": "Fei USD",
+            "symbol": "FEI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x956F47F50A910163D8BF957Cf5846D573E7f87CA/logo.png"
+        },
+        {
+            "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+            "chainId": 1,
+            "name": "Tribe",
+            "symbol": "TRIBE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png"
+        },
+        {
+            "address": "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
+            "chainId": 1,
+            "name": "Notional",
+            "symbol": "NOTE",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5.png"
+        },
+        {
+            "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+            "chainId": 1,
+            "name": "Nexo",
+            "symbol": "NEXO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
+        },
+        {
+            "address": "0x804CdB9116a10bB78768D3252355a1b18067bF8f",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (DAI)",
+            "symbol": "bb-a-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x804cdb9116a10bb78768d3252355a1b18067bf8f.png"
+        },
+        {
+            "address": "0x9210F1204b5a24742Eba12f710636D76240dF3d0",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (USDC)",
+            "symbol": "bb-a-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9210f1204b5a24742eba12f710636d76240df3d0.png"
+        },
+        {
+            "address": "0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (USDT)",
+            "symbol": "bb-a-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c.png"
+        },
+        {
+            "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted StablePool (USD)",
+            "symbol": "bb-a-USD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
+        },
+        {
+            "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
+            "chainId": 42,
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
         },
         {
             "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6",
