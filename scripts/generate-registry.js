@@ -3,8 +3,7 @@ const { ethers } = require('ethers');
 
 const fs = require('fs');
 
-const multicall = require('../abi/Multicall.json');
-const erc20 = require('../abi/ERC20.json');
+const { getTokenMetadata, getTrustWalletAssetAddresses } = require('./token-data');
 
 const DEFAULT_PRECISION = 3;
 
@@ -126,14 +125,11 @@ async function getData() {
 		.filter(assetFile => assetFile !== 'index.json')
 		.map(assetFile => assetFile.split('.png')[0]);
 
-	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/allowlist.json';
-	const trustwalletListResponse = await axios.get(trustwalletListUrl);
-	const trustwalletList = trustwalletListResponse.data;
+  const trustwalletAssets = await getTrustWalletAssetAddresses()
 
 	const assets = {
 		local: localAssets,
-		trustwallet: trustwalletList,
+		trustwallet: trustwalletAssets,
 	}
 
 	return {
@@ -146,57 +142,13 @@ async function getData() {
 }
 
 async function getMetadata(tokens, overwrite) {
-	const kovan = await getNetworkMetadata('kovan', tokens.kovan, overwrite.kovan);
-	const homestead = await getNetworkMetadata('homestead', tokens.homestead, overwrite.homestead);
+	const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
+	const homestead = await getTokenMetadata('homestead', tokens.homestead, overwrite.homestead);
 
 	return {
 		kovan,
 		homestead,
 	};
-}
-
-async function getNetworkMetadata(network, tokens, overwrite) {
-	const infuraKey = '93e3393c76ed4e1f940d0266e2fdbda2';
-
-	const providers = {
-		kovan: new ethers.providers.InfuraProvider('kovan', infuraKey),
-		homestead: new ethers.providers.InfuraProvider('homestead', infuraKey),
-	};
-
-	const multicallContract = {
-		kovan: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
-		homestead: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
-	};
-
-	const provider = providers[network];
-	const multicallAddress = multicallContract[network];
-
-	const multi = new ethers.Contract(multicallAddress, multicall.abi, provider);
-	const calls = [];
-	const erc20Contract = new ethers.utils.Interface(erc20.abi);
-	tokens.forEach(token => {
-		calls.push([token, erc20Contract.encodeFunctionData('decimals', [])]);
-		calls.push([token, erc20Contract.encodeFunctionData('symbol', [])]);
-		calls.push([token, erc20Contract.encodeFunctionData('name', [])]);
-	});
-	const tokenMetadata = {};
-	const [, response] = await multi.aggregate(calls);
-	for (let i = 0; i < tokens.length; i++) {
-		const address = tokens[i];
-		if (address in overwrite) {
-			tokenMetadata[address] = overwrite[address];
-			continue;
-		}
-		const [decimals] = erc20Contract.decodeFunctionResult('decimals', response[3 * i]);
-		const [symbol] = erc20Contract.decodeFunctionResult('symbol', response[3 * i + 1]);
-		const [name] = erc20Contract.decodeFunctionResult('name', response[3 * i + 2]);
-		tokenMetadata[tokens[i]] = {
-			decimals,
-			symbol,
-			name
-		};
-	}
-	return tokenMetadata;
 }
 
 function getColor(network, address, data) {

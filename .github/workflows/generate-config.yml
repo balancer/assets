@@ -7,6 +7,7 @@ on:
 env:
   FLEEK_API_KEY: ${{ secrets.FLEEK_API_KEY }}
   FLEEK_API_SECRET: ${{ secrets.FLEEK_API_SECRET }}
+  INFURA_KEY: ${{ secrets.INFURA_KEY }}
 
 jobs:
   generate:
@@ -22,7 +23,9 @@ jobs:
       with:
         node-version: 14.x
     - run: npm ci
-    - run: npm run generate
+    - run: npm run generate:registry
+    - run: npm run generate:tokenlist
+    - run: npm run generate:bal-for-gas
     - name: Upload DEX Kovan config
       uses: actions/upload-artifact@v2
       with:
