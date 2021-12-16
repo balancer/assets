@@ -2,6 +2,8 @@ const axios = require('axios');
 
 const fs = require('fs');
 
+const { getTrustWalletAssetAddresses } = require('./token-data');
+
 const coingeckoClient = axios.create({
 	baseURL: 'https://api.coingecko.com/api/v3',
 });
@@ -83,10 +85,7 @@ async function getData() {
 	const precisionFile = await fs.readFileSync('data/precision.json');
 	const precision = JSON.parse(precisionFile);
 
-	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/4ff402ed99d9028fb58ab3594b196e177390773b/blockchains/ethereum/allowlist.json';
-	const trustwalletListResponse = await axios.get(trustwalletListUrl);
-	const trustwalletList = trustwalletListResponse.data;
+  const trustwalletList = await getTrustWalletAssetAddresses()
 
 	return {
 		coingecko,
