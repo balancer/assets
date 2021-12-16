@@ -459,15 +459,6 @@
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e/logo.png"
         },
-        "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9": {
-            "address": "0xE59064a8185Ed1Fca1D17999621eFedfab4425c9",
-            "name": "PrimeDAO Token",
-            "symbol": "PRIME",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe59064a8185ed1fca1d17999621efedfab4425c9.png"
-        },
         "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033": {
             "address": "0x8D1ce361eb68e9E05573443C407D4A3Bed23B033",
             "name": "PieDAO DEFI++",
@@ -620,6 +611,96 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
+        },
+        "0x804CdB9116a10bB78768D3252355a1b18067bF8f": {
+            "address": "0x804CdB9116a10bB78768D3252355a1b18067bF8f",
+            "name": "Balancer Aave Boosted Pool (DAI)",
+            "symbol": "bb-a-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x804cdb9116a10bb78768d3252355a1b18067bf8f.png"
+        },
+        "0x9210F1204b5a24742Eba12f710636D76240dF3d0": {
+            "address": "0x9210F1204b5a24742Eba12f710636D76240dF3d0",
+            "name": "Balancer Aave Boosted Pool (USDC)",
+            "symbol": "bb-a-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9210f1204b5a24742eba12f710636d76240df3d0.png"
+        },
+        "0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C": {
+            "address": "0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C",
+            "name": "Balancer Aave Boosted Pool (USDT)",
+            "symbol": "bb-a-USDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c.png"
+        },
+        "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
+            "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
+            "name": "Balancer Aave Boosted StablePool (USD)",
+            "symbol": "bb-a-USD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
+        },
+        "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad": {
+            "address": "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad",
+            "name": "Prime",
+            "symbol": "D2D",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
+        },
+        "0x383518188C0C6d7730D91b2c03a03C837814a899": {
+            "address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+            "name": "Olympus",
+            "symbol": "OHM",
+            "decimals": 9,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x383518188C0C6d7730D91b2c03a03C837814a899/logo.png"
+        },
+        "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198": {
+            "address": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
+            "name": "Bankless Token",
+            "symbol": "BANK",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198/logo.png"
+        },
+        "0x02d60b84491589974263d922D9cC7a3152618Ef6": {
+            "address": "0x02d60b84491589974263d922D9cC7a3152618Ef6",
+            "name": "Wrapped aDAI",
+            "symbol": "aDAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x02d60b84491589974263d922d9cc7a3152618ef6.png"
+        },
+        "0xd093fA4Fb80D09bB30817FDcd442d4d02eD3E5de": {
+            "address": "0xd093fA4Fb80D09bB30817FDcd442d4d02eD3E5de",
+            "name": "Wrapped aUSDC",
+            "symbol": "aUSDC",
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd093fa4fb80d09bb30817fdcd442d4d02ed3e5de.png"
+        },
+        "0xf8Fd466F12e236f4c96F7Cce6c79EAdB819abF58": {
+            "address": "0xf8Fd466F12e236f4c96F7Cce6c79EAdB819abF58",
+            "name": "Wrapped aUSDT",
+            "symbol": "aUSDT",
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf8fd466f12e236f4c96f7cce6c79eadb819abf58.png"
         }
     },
     "untrusted": [
