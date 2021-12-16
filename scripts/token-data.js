@@ -1,4 +1,5 @@
 const { ethers } = require('ethers');
+const axios = require('axios');
 const multicall = require('../abi/Multicall.json');
 const erc20 = require('../abi/ERC20.json');
 
@@ -46,4 +47,23 @@ async function getTokenMetadata(network, tokens, overwrite) {
 	return tokenMetadata;
 }
 
+async function getTrustWalletAssetAddresses() {
+
+	const trustwalletListUrl
+		= 'https://raw.githubusercontent.com/trustwallet/assets/4ff402ed99d9028fb58ab3594b196e177390773b/blockchains/ethereum/allowlist.json';
+	const trustwalletListResponse = await axios.get(trustwalletListUrl);
+	const trustwalletList = trustwalletListResponse.data;
+
+  // The trustwallet list above is frozen at a commit in the past
+  // unfortunately they have removed that file from newer revisions
+  // so trustwalletAdditional contains additional addresses for which
+  // there is an icon in their repo
+  const trustwalletAdditional = [
+    "0x383518188C0C6d7730D91b2c03a03C837814a899" // OHM
+  ]
+
+  return trustwalletList.concat(trustwalletAdditional)
+}
+
 module.exports.getTokenMetadata = getTokenMetadata;
+module.exports.getTrustWalletAssetAddresses = getTrustWalletAssetAddresses;

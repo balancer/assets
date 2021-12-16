@@ -3,7 +3,7 @@ const { ethers } = require('ethers');
 
 const fs = require('fs');
 
-const { getTokenMetadata } = require('./token-data');
+const { getTokenMetadata, getTrustWalletAssetAddresses } = require('./token-data');
 
 const DEFAULT_PRECISION = 3;
 
@@ -125,22 +125,11 @@ async function getData() {
 		.filter(assetFile => assetFile !== 'index.json')
 		.map(assetFile => assetFile.split('.png')[0]);
 
-	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/4ff402ed99d9028fb58ab3594b196e177390773b/blockchains/ethereum/allowlist.json';
-	const trustwalletListResponse = await axios.get(trustwalletListUrl);
-	const trustwalletList = trustwalletListResponse.data;
-
-  // The trustwallet list above is frozen at a commit in the past
-  // unfortunately they have removed that file from newer revisions
-  // so trustwalletAdditional contains additional addresses for which
-  // there is an icon in their repo
-  const trustwalletAdditional = [
-    "0x383518188C0C6d7730D91b2c03a03C837814a899" // OHM
-  ]
+  const trustwalletAssets = await getTrustWalletAssetAddresses()
 
 	const assets = {
 		local: localAssets,
-		trustwallet: trustwalletList.concat(trustwalletAdditional),
+		trustwallet: trustwalletAssets,
 	}
 
 	return {

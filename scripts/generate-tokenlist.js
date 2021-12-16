@@ -1,11 +1,10 @@
 require('dotenv').config();
 
-const axios = require('axios');
 const { ethers } = require('ethers');
 const fs = require('fs');
 const fleek = require('@fleekhq/fleek-storage-js');
 
-const { getTokenMetadata } = require('./token-data');
+const { getTokenMetadata, getTrustWalletAssetAddresses } = require('./token-data');
 
 const fleekApiKey = process.env.FLEEK_API_KEY;
 const fleekApiSecret = process.env.FLEEK_API_SECRET;
@@ -84,14 +83,11 @@ async function getData() {
 		.filter(assetFile => assetFile !== 'index.json')
 		.map(assetFile => assetFile.split('.png')[0]);
 
-	const trustwalletListUrl
-		= 'https://raw.githubusercontent.com/trustwallet/assets/4ff402ed99d9028fb58ab3594b196e177390773b/blockchains/ethereum/allowlist.json';
-	const trustwalletListResponse = await axios.get(trustwalletListUrl);
-	const trustwalletList = trustwalletListResponse.data;
+  const trustwalletAssets = await getTrustWalletAssetAddresses()
 
 	const assets = {
 		local: localAssets,
-		trustwallet: trustwalletList,
+		trustwallet: trustwalletAssets,
 	}
 
 	return {
