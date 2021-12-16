@@ -130,9 +130,17 @@ async function getData() {
 	const trustwalletListResponse = await axios.get(trustwalletListUrl);
 	const trustwalletList = trustwalletListResponse.data;
 
+  // The trustwallet list above is frozen at a commit in the past
+  // unfortunately they have removed that file from newer revisions
+  // so trustwalletAdditional contains additional addresses for which
+  // there is an icon in their repo
+  const trustwalletAdditional = [
+    "0x383518188C0C6d7730D91b2c03a03C837814a899" // OHM
+  ]
+
 	const assets = {
 		local: localAssets,
-		trustwallet: trustwalletList,
+		trustwallet: trustwalletList.concat(trustwalletAdditional),
 	}
 
 	return {
