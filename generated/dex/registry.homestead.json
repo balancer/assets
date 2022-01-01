@@ -719,6 +719,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
+        },
+        "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5": {
+            "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
+            "name": "ParaSwap",
+            "symbol": "PSP",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcafe001067cdef266afb7eb5a286dcfd277f3de5.png"
         }
     },
     "untrusted": [
