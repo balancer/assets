@@ -644,6 +644,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
         },
         {
+            "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
+            "chainId": 1,
+            "name": "ParaSwap",
+            "symbol": "PSP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcafe001067cdef266afb7eb5a286dcfd277f3de5.png"
+        },
+        {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
             "chainId": 42,
             "name": "Wrapped Ether",
