@@ -5401,6 +5401,28 @@
       "hasIcon": false,
       "logoUrl": ""
     },
+    "0xD33526068D116cE69F19A9ee46F0bd304F21A51f": {
+      "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "id": "",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png"
+    },
+    "0xae78736Cd615f374D3085123A210448E74Fc6393": {
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "id": "",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
+    },
     "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
       "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
       "id": "prochain",
