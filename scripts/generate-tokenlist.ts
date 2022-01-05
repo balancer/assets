@@ -13,7 +13,7 @@ import {
 import { Assets, getLogoURI, loadAssets } from "../src/icons";
 import { TokenInfo, TokenList } from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
-import { validateTokenList } from "../src/validation";
+import { validateTokenList } from "../src/tokenlists/validation";
 
 type FleekConfig = {
   apiKey: string;
