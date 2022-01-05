@@ -2,14 +2,17 @@ require("dotenv").config();
 
 import fs from "fs";
 
-import { chainIdMap, getNetworkMetadata } from "../src/metadata";
+import { chainIdMap, getNetworkMetadata } from "../src/metadata/onchain";
 import {
   List,
   MetadataOverride,
   MinimalTokenInfo,
   Network,
 } from "../src/types";
-import { getExistingMetadata, getMainnetAddress } from "../src/icons";
+import {
+  getExistingMetadata,
+  getMainnetAddress,
+} from "../src/metadata/overrides";
 import {
   isVersionUpdate,
   minVersionBump,
@@ -17,7 +20,7 @@ import {
   TokenInfo,
   TokenList,
 } from "@uniswap/token-lists";
-import { getCoingeckoMetadata } from "../src/coingecko";
+import { getCoingeckoMetadata } from "../src/metadata/coingecko";
 import { validateTokenList } from "../src/tokenlists/validation";
 import { FleekConfig, ipfsPin } from "../src/ipfs";
 

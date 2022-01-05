@@ -1,7 +1,7 @@
 import { TokenInfo } from "@uniswap/token-lists";
 import axios from "axios";
 import fs from "fs";
-import { MetadataOverride, Network } from "./types";
+import { MetadataOverride, Network } from "../types";
 
 export type Assets = {
   local: string[];

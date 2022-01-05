@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import { TokenInfo } from "@uniswap/token-lists";
 
-import { MinimalTokenInfo, Network } from "./types";
+import { MinimalTokenInfo, Network } from "../types";
 
 const infuraKey = "93e3393c76ed4e1f940d0266e2fdbda2";
 
@@ -37,9 +37,6 @@ const erc20ABI = [
 const multicallABI = [
   "function tryAggregate(bool, tuple(address, bytes)[]) view returns (tuple(bool, bytes)[])",
 ];
-
-const metadataIsInvalid = ({ name, symbol }: MinimalTokenInfo): boolean =>
-  name === "UNKNOWN" || symbol === "UNKNOWN";
 
 const decodeERC20Metadata = (
   nameResponse: string,

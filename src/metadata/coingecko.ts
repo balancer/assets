@@ -1,7 +1,7 @@
 import { TokenInfo } from "@uniswap/token-lists";
 import axios from "axios";
 import { getAddress } from "ethers/lib/utils";
-import { Network } from "./types";
+import { Network } from "../types";
 
 const coingeckoClient = axios.create({
   baseURL: "https://api.coingecko.com/api/v3",
