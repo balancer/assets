@@ -1,48 +1,55 @@
+import { TokenInfo } from "@uniswap/token-lists";
 import axios from "axios";
 import fs from "fs";
+import { MetadataOverride, Network } from "./types";
 
 export type Assets = {
   local: string[];
   trustWallet: string[];
 };
 
-export async function loadAssets(): Promise<Assets> {
-  const localAssetDirFiles: string[] = await fs.readdirSync("assets");
+export const networkNameMap: Record<Network, string> = {
+  [Network.Homestead]: "ethereum",
+  [Network.Kovan]: "ethereum",
+  [Network.Polygon]: "polygon",
+  [Network.Arbitrum]: "ethereum",
+};
+
+export async function getExistingMetadata(
+  network: Network,
+  knownTokenInfo?: TokenInfo[]
+): Promise<Record<string, MetadataOverride>> {
+  // Pull the trustwallet tokenlist for the network of interest
+  const trustwalletListUrl = `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/${networkNameMap[network]}/tokenlist.json`;
+  const trustwalletListResponse = await axios.get(trustwalletListUrl);
+  const trustwalletTokenList = trustwalletListResponse.data.tokens;
+
+  // Create fake TokenInfo for the local images
+  const localAssetDirFiles: string[] = fs.readdirSync("assets");
   const localAssets = localAssetDirFiles
     .filter((assetFile) => assetFile !== "index.json")
-    .map((assetFile) => assetFile.split(".png")[0]);
+    .map((assetFile) => {
+      const address = assetFile.split(".png")[0];
+      return {
+        address: address,
+        logoURI: `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`,
+      };
+    });
 
-  const trustwalletListUrl =
-    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/tokenlist.json";
-  const trustwalletListResponse = await axios.get(trustwalletListUrl);
-  const trustwalletList = trustwalletListResponse.data.tokens.map(
-    (token: { address: string }) => token.address
-  );
+  const tokenInfo: TokenInfo[] = [
+    ...trustwalletTokenList,
+    ...localAssets,
+    ...(knownTokenInfo ?? []),
+  ];
 
-  return {
-    local: localAssets,
-    trustWallet: trustwalletList,
-  };
+  // Note that we're doing a shallow merge here
+  return tokenInfo.reduce((acc, info) => {
+    acc[info.address.toLowerCase()] = info;
+    return acc;
+  }, {} as Record<string, MetadataOverride>);
 }
 
-export function getLogoURI(
-  assets: Assets,
-  address: string
-): string | undefined {
-  address = getMainnetAddress(address);
-  if (address === "ether") {
-    return "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png";
-  }
-  if (assets.local.includes(address.toLowerCase())) {
-    return `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`;
-  }
-  if (assets.trustWallet.includes(address)) {
-    return `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`;
-  }
-  return undefined;
-}
-
-function getMainnetAddress(address: string): string {
+export function getMainnetAddress(address: string): string {
   const map: Record<string, string> = {
     "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1":
       "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",

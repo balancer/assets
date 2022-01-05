@@ -9,8 +9,8 @@ import {
   MinimalTokenInfo,
   Network,
 } from "../src/types";
-import { Assets, getLogoURI, loadAssets } from "../src/icons";
-import { TokenInfo } from "@uniswap/token-lists";
+import { getExistingMetadata, getMainnetAddress } from "../src/icons";
+import { TokenInfo, TokenList } from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
 import { validateTokenList } from "../src/tokenlists/validation";
 import { FleekConfig, ipfsPin } from "../src/ipfs";
@@ -37,7 +37,7 @@ async function run(network?: Network) {
     if (network) {
       await buildNetworkLists(network);
     } else {
-      await buildNetworkLists(Network.Homestead);
+      // await buildNetworkLists(Network.Homestead);
       await buildNetworkLists(Network.Kovan);
       await buildNetworkLists(Network.Polygon);
       await buildNetworkLists(Network.Arbitrum);
@@ -66,12 +66,32 @@ async function buildListFromFile(
   metadataOverwrite: Record<string, MetadataOverride>
 ) {
   console.log(`Building ${listType} tokenlist`);
-  const inputFile = await fs.readFileSync(`lists/${network}.${listType}.json`);
-  const input: { tokens: string[] } = JSON.parse(inputFile.toString());
-  const onchainMetadata = await getNetworkMetadata(network, input.tokens);
+  const { tokens }: { tokens: string[] } = JSON.parse(
+    fs.readFileSync(`lists/${network}.${listType}.json`).toString()
+  );
+  const onchainMetadata = await getNetworkMetadata(network, tokens);
+
+  let currentTokenList: TokenList | undefined;
+  try {
+    currentTokenList = JSON.parse(
+      fs
+        .readFileSync(`generated/${network}.${listType}.tokenlist.json`)
+        .toString()
+    );
+  } catch {
+    // Most likely a new tokenlist which we haven't generated before
+  }
+
+  const existingMetadata = await getExistingMetadata(
+    network,
+    currentTokenList?.tokens
+  );
   const listedTokens = await getTokens(
     onchainMetadata,
-    metadataOverwrite,
+    {
+      ...existingMetadata,
+      ...metadataOverwrite,
+    },
     network
   );
   await generate(listType, network, listedTokens);
@@ -120,8 +140,6 @@ async function getTokens(
   metadataOverwrite: Record<string, MetadataOverride>,
   network: Network
 ): Promise<TokenInfo[]> {
-  const assets = await loadAssets();
-
   const tokens = await Object.entries(metadata).reduce(
     async (acc: Promise<TokenInfo[]>, [address, tokenInfo], index) => {
       // wait for previous tokens to be queried
@@ -130,8 +148,7 @@ async function getTokens(
       const token = await getTokenMetadata(
         address,
         tokenInfo,
-        metadataOverwrite[address] ?? {},
-        assets,
+        metadataOverwrite[getMainnetAddress(address).toLowerCase()] ?? {},
         network
       );
 
@@ -152,23 +169,36 @@ async function getTokenMetadata(
   address: string,
   onchainMetadata: MinimalTokenInfo,
   metadataOverwrite: MetadataOverride,
-  assets: Assets,
   network: Network
 ): Promise<TokenInfo> {
+  // If we have an override for all metadata fields then just return early
+  if (
+    metadataOverwrite.name &&
+    metadataOverwrite.symbol &&
+    metadataOverwrite.decimals &&
+    metadataOverwrite.logoURI
+  ) {
+    return {
+      address,
+      chainId: chainIdMap[network],
+      name: metadataOverwrite.name,
+      symbol: metadataOverwrite.symbol,
+      decimals: metadataOverwrite.decimals,
+      logoURI: metadataOverwrite?.logoURI,
+    };
+  }
+
   const [mainnetAddress, coingeckoMeta] = await getCoingeckoMetadata(
     network,
     address
   );
 
   const name =
-    metadataOverwrite?.name ?? coingeckoMeta.name ?? onchainMetadata.name;
+    metadataOverwrite.name ?? coingeckoMeta.name ?? onchainMetadata.name;
   const symbol =
-    metadataOverwrite?.symbol ?? onchainMetadata.symbol ?? coingeckoMeta.symbol;
+    metadataOverwrite.symbol ?? onchainMetadata.symbol ?? coingeckoMeta.symbol;
   const decimals = onchainMetadata.decimals;
-  const logoURI =
-    metadataOverwrite?.logoURI ??
-    getLogoURI(assets, mainnetAddress ?? address) ??
-    coingeckoMeta.logoURI;
+  const logoURI = metadataOverwrite.logoURI ?? coingeckoMeta.logoURI;
 
   return {
     address,
