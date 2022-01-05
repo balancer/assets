@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 import fs from "fs";
-import fleek from "@fleekhq/fleek-storage-js";
 
 import { chainIdMap, getNetworkMetadata } from "../src/metadata";
 import {
@@ -11,15 +10,10 @@ import {
   Network,
 } from "../src/types";
 import { Assets, getLogoURI, loadAssets } from "../src/icons";
-import { TokenInfo, TokenList } from "@uniswap/token-lists";
+import { TokenInfo } from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
 import { validateTokenList } from "../src/tokenlists/validation";
-
-type FleekConfig = {
-  apiKey: string;
-  apiSecret: string;
-  bucket: string;
-};
+import { FleekConfig, ipfsPin } from "../src/ipfs";
 
 const fleekConfig: FleekConfig = {
   apiKey: process.env.FLEEK_API_KEY ?? "",
@@ -184,19 +178,4 @@ async function getTokenMetadata(
     decimals,
     logoURI,
   };
-}
-
-async function ipfsPin(key: string, body: TokenList, config: FleekConfig) {
-  if (!config.apiKey || !config.apiSecret) {
-    throw new Error("No Fleek credentials provided");
-  }
-
-  const input = {
-    ...config,
-    key,
-    data: JSON.stringify(body),
-  };
-  const result = await fleek.upload(input);
-  const ipfsHash = result.hashV0;
-  return ipfsHash;
 }
