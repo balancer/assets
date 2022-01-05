@@ -10,7 +10,13 @@ import {
   Network,
 } from "../src/types";
 import { getExistingMetadata, getMainnetAddress } from "../src/icons";
-import { TokenInfo, TokenList } from "@uniswap/token-lists";
+import {
+  isVersionUpdate,
+  minVersionBump,
+  nextVersion,
+  TokenInfo,
+  TokenList,
+} from "@uniswap/token-lists";
 import { getCoingeckoMetadata } from "../src/coingecko";
 import { validateTokenList } from "../src/tokenlists/validation";
 import { FleekConfig, ipfsPin } from "../src/ipfs";
@@ -94,10 +100,29 @@ async function buildListFromFile(
     },
     network
   );
-  await generate(listType, network, listedTokens);
+
+  await generate(listType, network, listedTokens, currentTokenList);
 }
 
-async function generate(name: List, network: Network, tokens: TokenInfo[]) {
+async function generate(
+  name: List,
+  network: Network,
+  tokens: TokenInfo[],
+  oldTokenList?: TokenList
+) {
+  let newVersion = { major: 0, minor: 1, patch: 0 };
+  if (oldTokenList) {
+    newVersion = nextVersion(
+      oldTokenList.version,
+      minVersionBump(oldTokenList.tokens, tokens)
+    );
+
+    if (!isVersionUpdate(oldTokenList.version, newVersion)) {
+      console.log("Tokenlist is unchanged");
+      return;
+    }
+  }
+
   const nowTimestamp = Date.now();
   const dayTimestamp = nowTimestamp - (nowTimestamp % (24 * 60 * 60 * 1000));
   const date = new Date(dayTimestamp);
@@ -108,11 +133,7 @@ async function generate(name: List, network: Network, tokens: TokenInfo[]) {
     logoURI:
       "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     keywords: ["balancer", name],
-    version: {
-      major: 1,
-      minor: 0,
-      patch: 0,
-    },
+    version: newVersion,
     tokens: tokens.sort((a, b) => (a.name > b.name ? 1 : -1)),
   };
 
