@@ -60,5 +60,9 @@
 	"0xDB7Cb471dd0b49b29CAB4a1C14d070f27216a0Ab": {
 		"name": "Bankless DAO",
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198/logo.png"
+	},
+	"0xbD7A5Cf51d22930B8B3Df6d834F9BCEf90EE7c4f": {
+		"name": "Ethereum Name Service",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
 	}
 }
