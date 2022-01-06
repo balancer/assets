@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
     "tokens": [
@@ -59,6 +59,14 @@
             "symbol": "BANK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198/logo.png"
+        },
+        {
+            "address": "0xFbdd194376de19a88118e84E279b977f165d01b8",
+            "chainId": 137,
+            "name": "Beefy.Finance",
+            "symbol": "BIFI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12704/large/token.png?1601876182"
         },
         {
             "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
@@ -125,12 +133,28 @@
             "logoURI": "https://assets.coingecko.com/coins/images/13267/large/Decentral_Games_Logo-1.png?1621652581"
         },
         {
+            "address": "0xbD7A5Cf51d22930B8B3Df6d834F9BCEf90EE7c4f",
+            "chainId": 137,
+            "name": "Ethereum Name Service",
+            "symbol": "ENS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
+        },
+        {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
             "chainId": 137,
             "name": "Gemini Dollar",
             "symbol": "GUSD",
             "decimals": 2,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd/logo.png"
+        },
+        {
+            "address": "0xdb95f9188479575F3F718a245EcA1B3BF74567EC",
+            "chainId": 137,
+            "name": "Gitcoin",
+            "symbol": "GTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f.png"
         },
         {
             "address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
@@ -181,6 +205,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png"
         },
         {
+            "address": "0xEAeCC18198a475c921B24b8A6c1C1f0f5F3F7EA0",
+            "chainId": 137,
+            "name": "MetaGame",
+            "symbol": "SEED",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/13099/large/V8phEz8V.png?1612854078"
+        },
+        {
             "address": "0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1",
             "chainId": 137,
             "name": "Metaverse Index",
@@ -227,6 +259,14 @@
             "symbol": "QUICK",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+        },
+        {
+            "address": "0x00e5646f60AC6Fb446f621d146B6E1886f002905",
+            "chainId": 137,
+            "name": "Rai Reflex Index",
+            "symbol": "RAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14004/large/RAI-logo-coin.png?1613592334"
         },
         {
             "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",

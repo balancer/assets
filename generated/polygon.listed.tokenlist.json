@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
     "tokens": [
@@ -125,12 +125,28 @@
             "logoURI": "https://assets.coingecko.com/coins/images/13267/large/Decentral_Games_Logo-1.png?1621652581"
         },
         {
+            "address": "0xbD7A5Cf51d22930B8B3Df6d834F9BCEf90EE7c4f",
+            "chainId": 137,
+            "name": "Ethereum Name Service",
+            "symbol": "ENS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
+        },
+        {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
             "chainId": 137,
             "name": "Gemini Dollar",
             "symbol": "GUSD",
             "decimals": 2,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd/logo.png"
+        },
+        {
+            "address": "0xdb95f9188479575F3F718a245EcA1B3BF74567EC",
+            "chainId": 137,
+            "name": "Gitcoin",
+            "symbol": "GTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f.png"
         },
         {
             "address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
@@ -227,6 +243,14 @@
             "symbol": "QUICK",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+        },
+        {
+            "address": "0x00e5646f60AC6Fb446f621d146B6E1886f002905",
+            "chainId": 137,
+            "name": "Rai Reflex Index",
+            "symbol": "RAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/14004/large/RAI-logo-coin.png?1613592334"
         },
         {
             "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
