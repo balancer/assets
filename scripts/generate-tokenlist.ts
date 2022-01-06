@@ -23,6 +23,7 @@ import {
 import { getCoingeckoMetadata } from "../src/metadata/coingecko";
 import { validateTokenList } from "../src/tokenlists/validation";
 import { FleekConfig, ipfsPin } from "../src/ipfs";
+import { getAddress } from "@ethersproject/address";
 
 const fleekConfig: FleekConfig = {
   apiKey: process.env.FLEEK_API_KEY ?? "",
@@ -172,7 +173,7 @@ async function getTokens(
       const token = await getTokenMetadata(
         address,
         tokenInfo,
-        metadataOverwrite[getMainnetAddress(address).toLowerCase()] ?? {},
+        metadataOverwrite[getAddress(getMainnetAddress(address))] ?? {},
         network
       );
 

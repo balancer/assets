@@ -1,3 +1,4 @@
+import { getAddress } from "@ethersproject/address";
 import { TokenInfo } from "@uniswap/token-lists";
 import axios from "axios";
 import fs from "fs";
@@ -44,7 +45,7 @@ export async function getExistingMetadata(
 
   // Note that we're doing a shallow merge here
   return tokenInfo.reduce((acc, info) => {
-    acc[info.address.toLowerCase()] = info;
+    acc[getAddress(info.address)] = info;
     return acc;
   }, {} as Record<string, MetadataOverride>);
 }

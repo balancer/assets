@@ -35,7 +35,8 @@
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4Fabb145d64652a948d72533023f6E7A623C7C53/logo.png"
 	},
 	"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
-		"name": "Wrapped Ether"
+		"name": "Wrapped Ether",
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
 	},
 	"0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4": {
 		"name": "Solana",
