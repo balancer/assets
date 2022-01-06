@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-01-01T00:00:00.000Z",
+    "timestamp": "2022-01-06T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -650,6 +650,30 @@
             "symbol": "PSP",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcafe001067cdef266afb7eb5a286dcfd277f3de5.png"
+        },
+        {
+            "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+            "chainId": 1,
+            "name": "Wrapped Ampleforth",
+            "symbol": "WAMPL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xedb171c18ce90b633db442f2a6f72874093b49ef.png"
+        },
+        {
+            "address": "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
+            "chainId": 1,
+            "name": "Olympus",
+            "symbol": "OHM",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5.png"
+        },
+        {
+            "address": "0x10010078a54396F62c96dF8532dc2B4847d47ED3",
+            "chainId": 1,
+            "name": "Hundred Finance",
+            "symbol": "HND",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x10010078a54396f62c96df8532dc2b4847d47ed3.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
