@@ -27,15 +27,13 @@ export async function getExistingMetadata(
 
   // Create fake TokenInfo for the local images
   const localAssetDirFiles: string[] = fs.readdirSync("assets");
-  const localAssets = localAssetDirFiles
-    .filter((assetFile) => assetFile !== "index.json")
-    .map((assetFile) => {
-      const address = assetFile.split(".png")[0];
-      return {
-        address: address,
-        logoURI: `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`,
-      };
-    });
+  const localAssets = localAssetDirFiles.map((assetFile) => {
+    const address = assetFile.split(".png")[0];
+    return {
+      address: address,
+      logoURI: `https://raw.githubusercontent.com/balancer-labs/assets/master/assets/${address.toLowerCase()}.png`,
+    };
+  });
 
   const tokenInfo: TokenInfo[] = [
     ...trustwalletTokenList,
