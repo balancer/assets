@@ -755,6 +755,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x10010078a54396f62c96df8532dc2b4847d47ed3.png"
+        },
+        "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB": {
+            "address": "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB",
+            "name": "Alchemist",
+            "symbol": "⚗️",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB/logo.png"
         }
     },
     "untrusted": [
