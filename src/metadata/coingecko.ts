@@ -1,6 +1,6 @@
+import { getAddress } from "@ethersproject/address";
 import { TokenInfo } from "@uniswap/token-lists";
 import axios from "axios";
-import { getAddress } from "ethers/lib/utils";
 import { Network } from "../types";
 
 const coingeckoClient = axios.create({

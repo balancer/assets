@@ -1,4 +1,7 @@
-import { ethers } from "ethers";
+import { Interface } from "@ethersproject/abi";
+import { Contract } from "@ethersproject/contracts";
+import { InfuraProvider } from "@ethersproject/providers";
+import { parseBytes32String } from "@ethersproject/strings";
 import { TokenInfo } from "@uniswap/token-lists";
 
 import { MinimalTokenInfo, Network } from "../types";
@@ -6,12 +9,10 @@ import { MinimalTokenInfo, Network } from "../types";
 const infuraKey = "93e3393c76ed4e1f940d0266e2fdbda2";
 
 const providers = {
-  kovan: new ethers.providers.InfuraProvider("kovan", infuraKey),
-  homestead: new ethers.providers.InfuraProvider("homestead", infuraKey),
-  polygon: new ethers.providers.JsonRpcProvider("https://polygon-rpc.com/"),
-  arbitrum: new ethers.providers.JsonRpcProvider(
-    "https://arb1.arbitrum.io/rpc"
-  ),
+  kovan: new InfuraProvider("kovan", infuraKey),
+  homestead: new InfuraProvider("homestead", infuraKey),
+  polygon: new InfuraProvider("matic", infuraKey),
+  arbitrum: new InfuraProvider("arbitrum", infuraKey),
 };
 
 export const chainIdMap = {
@@ -43,14 +44,14 @@ const decodeERC20Metadata = (
   symbolResponse: string,
   decimalsResponse: string
 ): MinimalTokenInfo => {
-  const erc20 = new ethers.utils.Interface(erc20ABI);
+  const erc20 = new Interface(erc20ABI);
 
   let name: string;
   try {
     [name] = erc20.decodeFunctionResult("name", nameResponse);
   } catch {
     try {
-      name = ethers.utils.parseBytes32String(nameResponse);
+      name = parseBytes32String(nameResponse);
     } catch {
       name = "UNKNOWN";
     }
@@ -61,7 +62,7 @@ const decodeERC20Metadata = (
     [symbol] = erc20.decodeFunctionResult("symbol", symbolResponse);
   } catch {
     try {
-      symbol = ethers.utils.parseBytes32String(symbolResponse);
+      symbol = parseBytes32String(symbolResponse);
     } catch {
       symbol = "UNKNOWN";
     }
@@ -92,8 +93,8 @@ export async function getNetworkMetadata(
   const provider = providers[network];
   const multicallAddress = multicallContract[network];
 
-  const multi = new ethers.Contract(multicallAddress, multicallABI, provider);
-  const erc20 = new ethers.utils.Interface(erc20ABI);
+  const multi = new Contract(multicallAddress, multicallABI, provider);
+  const erc20 = new Interface(erc20ABI);
   const calls: [string, string][] = [];
   tokens.forEach((token) => {
     calls.push([token, erc20.encodeFunctionData("name", [])]);
