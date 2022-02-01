@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-01-10T00:00:00.000Z",
+    "timestamp": "2022-02-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 0,
-        "patch": 1
+        "minor": 1,
+        "patch": 0
     },
     "tokens": [
         {
@@ -179,6 +179,14 @@
             "symbol": "UNI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+        },
+        {
+            "address": "0xa684cd057951541187f288294a1e1C2646aA2d24",
+            "chainId": 42161,
+            "name": "Vesta Finance",
+            "symbol": "VSTA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa684cd057951541187f288294a1e1c2646aa2d24.png"
         },
         {
             "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",

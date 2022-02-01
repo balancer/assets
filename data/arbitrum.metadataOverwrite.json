@@ -31,6 +31,9 @@
 	"0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1": {
 		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
 	},
+	"0xa684cd057951541187f288294a1e1C2646aA2d24": {
+		"logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa684cd057951541187f288294a1e1c2646aa2d24.png"
+	},
 	"0xA970AF1a584579B618be4d69aD6F73459D112F95": {
 		"logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
 	},
