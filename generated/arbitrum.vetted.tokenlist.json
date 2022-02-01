@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 1,
-        "patch": 1
+        "minor": 2,
+        "patch": 0
     },
     "tokens": [
         {
@@ -75,6 +75,22 @@
             "symbol": "DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
+            "address": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+            "chainId": 42161,
+            "name": "Dopex",
+            "symbol": "DPX",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/16652/large/DPX_%281%29.png?1624598630"
+        },
+        {
+            "address": "0x32Eb7902D4134bf98A28b963D26de779AF92A212",
+            "chainId": 42161,
+            "name": "Dopex Rebate Token",
+            "symbol": "RDPX",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/16659/large/rDPX_200x200_Coingecko.png?1624614475"
         },
         {
             "address": "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1",
