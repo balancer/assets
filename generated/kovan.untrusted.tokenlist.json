@@ -1,0 +1,37 @@
+{
+    "name": "Balancer",
+    "timestamp": "2021-06-24T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+        "balancer",
+        "untrusted"
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "address": "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
+            "chainId": 42,
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+        },
+        {
+            "address": "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E",
+            "chainId": 42,
+            "name": "OMG Network",
+            "symbol": "OMG",
+            "decimals": 18
+        },
+        {
+            "address": "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
+            "chainId": 42,
+            "name": "Statera",
+            "symbol": "STA",
+            "decimals": 18
+        }
+    ]
+}
