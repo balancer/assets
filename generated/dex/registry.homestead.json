@@ -511,7 +511,7 @@
             "decimals": 18,
             "precision": 3,
             "hasIcon": false,
-            "logoUrl": ""
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
         },
         "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
             "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
