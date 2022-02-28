@@ -755,6 +755,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB/logo.png"
+        },
+        "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8": {
+            "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+            "name": "Silo Governance Token",
+            "symbol": "Silo",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
         }
     },
     "untrusted": [
