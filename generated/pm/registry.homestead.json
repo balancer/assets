@@ -5775,17 +5775,6 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
     },
-    "0x383518188C0C6d7730D91b2c03a03C837814a899": {
-      "address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
-      "id": "",
-      "name": "Olympus",
-      "symbol": "OHM",
-      "decimals": 9,
-      "precision": 3,
-      "color": "#387080",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x383518188C0C6d7730D91b2c03a03C837814a899/logo.png"
-    },
     "0x02d60b84491589974263d922D9cC7a3152618Ef6": {
       "address": "0x02d60b84491589974263d922D9cC7a3152618Ef6",
       "id": "",

@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-01-18T00:00:00.000Z",
+    "timestamp": "2022-02-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -586,14 +586,6 @@
             "symbol": "D2D",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
-        },
-        {
-            "address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
-            "chainId": 1,
-            "name": "Olympus",
-            "symbol": "OHM",
-            "decimals": 9,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x383518188C0C6d7730D91b2c03a03C837814a899/logo.png"
         },
         {
             "address": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
