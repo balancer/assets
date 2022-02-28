@@ -457,7 +457,8 @@
             "chainId": 1,
             "name": "Balancer USD Stable Pool",
             "symbol": "staBAL3",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
         },
         {
             "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
