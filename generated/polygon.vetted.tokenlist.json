@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 3,
-        "patch": 0
+        "minor": 4,
+        "patch": 1
     },
     "tokens": [
         {
@@ -287,9 +287,10 @@
         {
             "address": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
             "chainId": 137,
-            "name": "Staked MATIC (PoS)",
+            "name": "Staked MATIC",
             "symbol": "stMATIC",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4.png"
         },
         {
             "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
