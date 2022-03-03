@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-01-06T00:00:00.000Z",
+    "timestamp": "2022-03-03T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "tokens": [
@@ -283,6 +283,13 @@
             "symbol": "SOL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
+        },
+        {
+            "address": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+            "chainId": 137,
+            "name": "Staked MATIC (PoS)",
+            "symbol": "stMATIC",
+            "decimals": 18
         },
         {
             "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
