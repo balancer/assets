@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-02-01T00:00:00.000Z",
+    "timestamp": "2022-03-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "tokens": [
@@ -23,7 +23,7 @@
         {
             "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
             "chainId": 42161,
-            "name": "Chainlink",
+            "name": "ChainLink Token",
             "symbol": "LINK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
@@ -71,7 +71,7 @@
         {
             "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
             "chainId": 42161,
-            "name": "Dai",
+            "name": "Dai Stablecoin",
             "symbol": "DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
@@ -93,6 +93,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/16659/large/rDPX_200x200_Coingecko.png?1624614475"
         },
         {
+            "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+            "chainId": 42161,
+            "name": "GMX",
+            "symbol": "GMX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.png"
+        },
+        {
             "address": "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1",
             "chainId": 42161,
             "name": "Gnosis",
@@ -103,7 +111,7 @@
         {
             "address": "0xB965029343D55189c25a7f3e0c9394DC0F5D41b1",
             "chainId": 42161,
-            "name": "Indexed Finance",
+            "name": "Indexed",
             "symbol": "NDX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83/logo.png"
@@ -135,7 +143,7 @@
         {
             "address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
             "chainId": 42161,
-            "name": "Sushi",
+            "name": "SushiToken",
             "symbol": "SUSHI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
