@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-02-01T00:00:00.000Z",
+    "timestamp": "2022-03-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "tokens": [
@@ -91,6 +91,14 @@
             "symbol": "RDPX",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/16659/large/rDPX_200x200_Coingecko.png?1624614475"
+        },
+        {
+            "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+            "chainId": 42161,
+            "name": "GMX",
+            "symbol": "GMX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.png"
         },
         {
             "address": "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1",
