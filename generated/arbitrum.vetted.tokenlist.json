@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-08T00:00:00.000Z",
+    "timestamp": "2022-03-09T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 3,
+        "minor": 4,
         "patch": 0
     },
     "tokens": [
@@ -115,6 +115,14 @@
             "symbol": "NDX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83/logo.png"
+        },
+        {
+            "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+            "chainId": 42161,
+            "name": "MAGIC",
+            "symbol": "MAGIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x539bde0d7dbd336b79148aa742883198bbf60342.png"
         },
         {
             "address": "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879",
