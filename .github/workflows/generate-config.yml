@@ -22,59 +22,19 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - run: npm ci
-    - run: npm run generate:registry
-    - run: npm run generate:tokenlist
-    - run: npm run generate:bal-for-gas
-    - name: Upload DEX Kovan config
-      uses: actions/upload-artifact@v2
-      with:
-        name: dex-kovan-data
-        path: generated/dex/registry.kovan.json
-    - name: Upload DEX Homestead config
-      uses: actions/upload-artifact@v2
-      with:
-        name: pm-homestead-data
-        path: generated/pm/registry.homestead.json
-    - name: Upload PM Kovan config
-      uses: actions/upload-artifact@v2
-      with:
-        name: pm-kovan-data
-        path: generated/pm/registry.kovan.json
-    - name: Upload PM Homestead config
-      uses: actions/upload-artifact@v2
-      with:
-        name: dex-homestead-data
-        path: generated/dex/registry.homestead.json
-    - name: Upload TokenList
+    - name: Install
+      run: yarn --immutable
+    - name: Generate TokenLists
+      run: yarn generate
+    - name: Upload TokenLists
       uses: actions/upload-artifact@v2
       with:
         name: tokenlist-data
-        path: generated/listed.tokenlist.json
+        path: generated/
   commit:
     needs: generate
     runs-on: ubuntu-latest
     steps:
-    - name: Download PM Kovan config
-      uses: actions/download-artifact@v2
-      with:
-        name: pm-kovan-data
-        path: pm
-    - name: Download PM Homestead config
-      uses: actions/download-artifact@v2
-      with:
-        name: pm-homestead-data
-        path: pm
-    - name: Download DEX Kovan config
-      uses: actions/download-artifact@v2
-      with:
-        name: dex-kovan-data
-        path: dex
-    - name: Download DEX Homestead config
-      uses: actions/download-artifact@v2
-      with:
-        name: dex-homestead-data
-        path: dex
     - name: Download TokenList
       uses: actions/download-artifact@v2
       with:
@@ -97,11 +57,7 @@ jobs:
       id: commit
       run: |
         cd branch
-        cp ../dex/registry.kovan.json generated/dex/registry.kovan.json
-        cp ../dex/registry.homestead.json generated/dex/registry.homestead.json
-        cp ../pm/registry.kovan.json generated/pm/registry.kovan.json
-        cp ../pm/registry.homestead.json generated/pm/registry.homestead.json
-        cp ../listed.tokenlist.json generated/listed.tokenlist.json
+        find .. -name "*.*.tokenlist.json" -exec cp '{}' generated/
         git config --global user.email "bot@balancer.finance"
         git config --global user.name "Balancer Bot"
         DIFF_LINES=$(git diff | wc -l)

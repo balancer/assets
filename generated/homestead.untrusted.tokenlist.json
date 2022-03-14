@@ -1,0 +1,562 @@
+{
+    "name": "Balancer",
+    "timestamp": "2021-06-24T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+        "balancer",
+        "untrusted"
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "address": "0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05",
+            "chainId": 1,
+            "name": "ATLANT Token",
+            "symbol": "ATL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x78B7FADA55A64dD895D8c8c35779DD8b67fA8a05/logo.png"
+        },
+        {
+            "address": "0x4470BB87d77b963A013DB939BE332f927f2b992e",
+            "chainId": 1,
+            "name": "AdEx",
+            "symbol": "ADX",
+            "decimals": 4,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4470BB87d77b963A013DB939BE332f927f2b992e/logo.png"
+        },
+        {
+            "address": "0xBA5F11b16B155792Cf3B2E6880E8706859A8AEB6",
+            "chainId": 1,
+            "name": "Aeron",
+            "symbol": "ARN",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBA5F11b16B155792Cf3B2E6880E8706859A8AEB6/logo.png"
+        },
+        {
+            "address": "0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3",
+            "chainId": 1,
+            "name": "All Sports Coin",
+            "symbol": "SOC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3/logo.png"
+        },
+        {
+            "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+            "chainId": 1,
+            "name": "Aragon v1",
+            "symbol": "ANT (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+        },
+        {
+            "address": "0xeEEE2a622330E6d2036691e983DEe87330588603",
+            "chainId": 1,
+            "name": "Askobar Network",
+            "symbol": "ASKO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeEEE2a622330E6d2036691e983DEe87330588603/logo.png"
+        },
+        {
+            "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+            "chainId": 1,
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB8c77482e45F1F44dE1745F52C74426C631bDD52/logo.png"
+        },
+        {
+            "address": "0x1C95b093d6C236d3EF7c796fE33f9CC6b8606714",
+            "chainId": 1,
+            "name": "BOMB",
+            "symbol": "BOMB",
+            "decimals": 0,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1C95b093d6C236d3EF7c796fE33f9CC6b8606714/logo.png"
+        },
+        {
+            "address": "0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd",
+            "chainId": 1,
+            "name": "BOOM",
+            "symbol": "BOOM",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd/logo.png"
+        },
+        {
+            "address": "0xE6c2C240E1228980F322D76ed4C1F63078191BB5",
+            "chainId": 1,
+            "name": "Basic Income Staking",
+            "symbol": "BIS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE6c2C240E1228980F322D76ed4C1F63078191BB5/logo.png"
+        },
+        {
+            "address": "0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8",
+            "chainId": 1,
+            "name": "BlockCAT Token",
+            "symbol": "CAT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8/logo.png"
+        },
+        {
+            "address": "0xCc34366E3842cA1BD36c1f324d15257960fCC801",
+            "chainId": 1,
+            "name": "Bonpay Token",
+            "symbol": "BON",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCc34366E3842cA1BD36c1f324d15257960fCC801/logo.png"
+        },
+        {
+            "address": "0xfAE4Ee59CDd86e3Be9e8b90b53AA866327D7c090",
+            "chainId": 1,
+            "name": "CPChain",
+            "symbol": "CPC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfAE4Ee59CDd86e3Be9e8b90b53AA866327D7c090/logo.png"
+        },
+        {
+            "address": "0x622dFfCc4e83C64ba959530A5a5580687a57581b",
+            "chainId": 1,
+            "name": "CUBE",
+            "symbol": "AUTO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x622dFfCc4e83C64ba959530A5a5580687a57581b/logo.png"
+        },
+        {
+            "address": "0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af",
+            "chainId": 1,
+            "name": "CoinDash Token",
+            "symbol": "CDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af/logo.png"
+        },
+        {
+            "address": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
+            "chainId": 1,
+            "name": "Curve.fi Y Pool Token",
+            "symbol": "yCRV",
+            "decimals": 18
+        },
+        {
+            "address": "0x26CE25148832C04f3d7F26F32478a9fe55197166",
+            "chainId": 1,
+            "name": "DEXTools",
+            "symbol": "DEXT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x26CE25148832C04f3d7F26F32478a9fe55197166/logo.png"
+        },
+        {
+            "address": "0x3B7f247f21BF3A07088C2D3423F64233d4B069F7",
+            "chainId": 1,
+            "name": "DYNAMITE",
+            "symbol": "DYNMT",
+            "decimals": 2,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3B7f247f21BF3A07088C2D3423F64233d4B069F7/logo.png"
+        },
+        {
+            "address": "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
+            "chainId": 1,
+            "name": "Datum Token",
+            "symbol": "DAT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c/logo.png"
+        },
+        {
+            "address": "0x1a7AC70bcb1571cB056c45710446da4d070cBb80",
+            "chainId": 1,
+            "name": "Defi Index",
+            "symbol": "INDX",
+            "decimals": 18
+        },
+        {
+            "address": "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
+            "chainId": 1,
+            "name": "Dentacoin",
+            "symbol": "٨",
+            "decimals": 0,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6/logo.png"
+        },
+        {
+            "address": "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF",
+            "chainId": 1,
+            "name": "Digix Gold Token",
+            "symbol": "DGX",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF/logo.png"
+        },
+        {
+            "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+            "chainId": 1,
+            "name": "DigixDAO DGD Token",
+            "symbol": "DGD",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A/logo.png"
+        },
+        {
+            "address": "0x95dAaaB98046846bF4B2853e23cba236fa394A31",
+            "chainId": 1,
+            "name": "EtheremonToken",
+            "symbol": "EMONT",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x95dAaaB98046846bF4B2853e23cba236fa394A31/logo.png"
+        },
+        {
+            "address": "0x15874d65e649880c2614e7a480cb7c9A55787FF6",
+            "chainId": 1,
+            "name": "EthereumMax",
+            "symbol": "eMax",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x15874d65e649880c2614e7a480cb7c9A55787FF6/logo.png"
+        },
+        {
+            "address": "0x4270bb238f6DD8B1c3ca01f96CA65b2647c06D3C",
+            "chainId": 1,
+            "name": "FOTA",
+            "symbol": "FOTA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4270bb238f6DD8B1c3ca01f96CA65b2647c06D3C/logo.png"
+        },
+        {
+            "address": "0xDc5864eDe28BD4405aa04d93E05A0531797D9D59",
+            "chainId": 1,
+            "name": "Falcon",
+            "symbol": "FNT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDc5864eDe28BD4405aa04d93E05A0531797D9D59/logo.png"
+        },
+        {
+            "address": "0x85eBa557C06c348395fD49e35d860F58a4F7c95a",
+            "chainId": 1,
+            "name": "H3X",
+            "symbol": "H3X",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x85eBa557C06c348395fD49e35d860F58a4F7c95a/logo.png"
+        },
+        {
+            "address": "0xc58c0Fca06908E66540102356f2E91edCaEB8D81",
+            "chainId": 1,
+            "name": "HalfLife",
+            "symbol": "NUKE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc58c0Fca06908E66540102356f2E91edCaEB8D81/logo.png"
+        },
+        {
+            "address": "0x5E6b6d9aBAd9093fdc861Ea1600eBa1b355Cd940",
+            "chainId": 1,
+            "name": "IOT on Chain",
+            "symbol": "ITC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5E6b6d9aBAd9093fdc861Ea1600eBa1b355Cd940/logo.png"
+        },
+        {
+            "address": "0xc9859fccC876e6b4B3C749C5D29EA04F48aCb74F",
+            "chainId": 1,
+            "name": "Ino Coin",
+            "symbol": "INO",
+            "decimals": 0,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc9859fccC876e6b4B3C749C5D29EA04F48aCb74F/logo.png"
+        },
+        {
+            "address": "0x0b76544F6C413a555F309Bf76260d1E02377c02A",
+            "chainId": 1,
+            "name": "Internet Node Token",
+            "symbol": "INT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0b76544F6C413a555F309Bf76260d1E02377c02A/logo.png"
+        },
+        {
+            "address": "0x2f85E502a988AF76f7ee6D83b7db8d6c0A823bf9",
+            "chainId": 1,
+            "name": "LatiumX",
+            "symbol": "LATX",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2f85E502a988AF76f7ee6D83b7db8d6c0A823bf9/logo.png"
+        },
+        {
+            "address": "0x0F4CA92660Efad97a9a70CB0fe969c755439772C",
+            "chainId": 1,
+            "name": "Leverj",
+            "symbol": "LEV",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0F4CA92660Efad97a9a70CB0fe969c755439772C/logo.png"
+        },
+        {
+            "address": "0x11eeF04c884E24d9B7B4760e7476D06ddF797f36",
+            "chainId": 1,
+            "name": "MX Token",
+            "symbol": "MX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x11eeF04c884E24d9B7B4760e7476D06ddF797f36/logo.png"
+        },
+        {
+            "address": "0x8E766F57F7d16Ca50B4A0b90b88f6468A09b0439",
+            "chainId": 1,
+            "name": "Maximine Coin",
+            "symbol": "MXM",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8E766F57F7d16Ca50B4A0b90b88f6468A09b0439/logo.png"
+        },
+        {
+            "address": "0xF433089366899D83a9f26A773D59ec7eCF30355e",
+            "chainId": 1,
+            "name": "Metal",
+            "symbol": "MTL",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF433089366899D83a9f26A773D59ec7eCF30355e/logo.png"
+        },
+        {
+            "address": "0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB",
+            "chainId": 1,
+            "name": "Mithril Token",
+            "symbol": "MITH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB/logo.png"
+        },
+        {
+            "address": "0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C",
+            "chainId": 1,
+            "name": "Netkoin",
+            "symbol": "NTK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C/logo.png"
+        },
+        {
+            "address": "0x82622209cEf6EBf4b8BDB353a8FC7e0b8655D0b0",
+            "chainId": 1,
+            "name": "Nuclear Bomb",
+            "symbol": "NB",
+            "decimals": 0,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x82622209cEf6EBf4b8BDB353a8FC7e0b8655D0b0/logo.png"
+        },
+        {
+            "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+            "chainId": 1,
+            "name": "OMGToken",
+            "symbol": "OMG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07/logo.png"
+        },
+        {
+            "address": "0x1844b21593262668B7248d0f57a220CaaBA46ab9",
+            "chainId": 1,
+            "name": "Oyster Pearl",
+            "symbol": "PRL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1844b21593262668B7248d0f57a220CaaBA46ab9/logo.png"
+        },
+        {
+            "address": "0xe3818504c1B32bF1557b16C238B2E01Fd3149C17",
+            "chainId": 1,
+            "name": "PILLAR",
+            "symbol": "PLR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe3818504c1B32bF1557b16C238B2E01Fd3149C17/logo.png"
+        },
+        {
+            "address": "0xF0FAC7104aAC544e4a7CE1A55ADF2B5a25c65bD1",
+            "chainId": 1,
+            "name": "Pamp Network",
+            "symbol": "PAMP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF0FAC7104aAC544e4a7CE1A55ADF2B5a25c65bD1/logo.png"
+        },
+        {
+            "address": "0x4689a4e169eB39cC9078C0940e21ff1Aa8A39B9C",
+            "chainId": 1,
+            "name": "Proton Token",
+            "symbol": "PTT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4689a4e169eB39cC9078C0940e21ff1Aa8A39B9C/logo.png"
+        },
+        {
+            "address": "0x7703C35CfFdC5CDa8D27aa3df2F9ba6964544b6e",
+            "chainId": 1,
+            "name": "Pylon Token",
+            "symbol": "PYLNT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7703C35CfFdC5CDa8D27aa3df2F9ba6964544b6e/logo.png"
+        },
+        {
+            "address": "0xa44E5137293E855B1b7bC7E2C6f8cD796fFCB037",
+            "chainId": 1,
+            "name": "SENTinel",
+            "symbol": "SENT",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa44E5137293E855B1b7bC7E2C6f8cD796fFCB037/logo.png"
+        },
+        {
+            "address": "0xb60Fde5D798236fBF1e2697B2A0645380921FccF",
+            "chainId": 1,
+            "name": "STONK",
+            "symbol": "STONK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb60Fde5D798236fBF1e2697B2A0645380921FccF/logo.png"
+        },
+        {
+            "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+            "chainId": 1,
+            "name": "Sai Stablecoin v1.0",
+            "symbol": "SAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359/logo.png"
+        },
+        {
+            "address": "0xbbFF862d906E348E9946Bfb2132ecB157Da3D4b4",
+            "chainId": 1,
+            "name": "Sharder",
+            "symbol": "SS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbbFF862d906E348E9946Bfb2132ecB157Da3D4b4/logo.png"
+        },
+        {
+            "address": "0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E",
+            "chainId": 1,
+            "name": "Shuffle.Monster V3",
+            "symbol": "SHUF",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3A9FfF453d50D4Ac52A6890647b823379ba36B9E/logo.png"
+        },
+        {
+            "address": "0x2bDC0D42996017fCe214b21607a515DA41A9E0C5",
+            "chainId": 1,
+            "name": "SkinCoin",
+            "symbol": "SKIN",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2bDC0D42996017fCe214b21607a515DA41A9E0C5/logo.png"
+        },
+        {
+            "address": "0x08A2E41FB99A7599725190B9C970Ad3893fa33CF",
+            "chainId": 1,
+            "name": "Spaghetti",
+            "symbol": "PASTA",
+            "decimals": 18
+        },
+        {
+            "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+            "chainId": 1,
+            "name": "Statera",
+            "symbol": "STA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa7DE087329BFcda5639247F96140f9DAbe3DeED1/logo.png"
+        },
+        {
+            "address": "0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e",
+            "chainId": 1,
+            "name": "SwftCoin",
+            "symbol": "SWFTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e/logo.png"
+        },
+        {
+            "address": "0xA9859874e1743A32409f75bB11549892138BBA1E",
+            "chainId": 1,
+            "name": "Synth iETH",
+            "symbol": "iETH",
+            "decimals": 18
+        },
+        {
+            "address": "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
+            "chainId": 1,
+            "name": "Synth sDEFI",
+            "symbol": "sDEFI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b.png"
+        },
+        {
+            "address": "0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5",
+            "chainId": 1,
+            "name": "Tellor Tributes",
+            "symbol": "TRB (old)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png"
+        },
+        {
+            "address": "0xB97048628DB6B661D4C2aA833e95Dbe1A905B280",
+            "chainId": 1,
+            "name": "TenX Pay Token",
+            "symbol": "PAY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB97048628DB6B661D4C2aA833e95Dbe1A905B280/logo.png"
+        },
+        {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "chainId": 1,
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        },
+        {
+            "address": "0x38c6A68304cdEfb9BEc48BbFaABA5C5B47818bb2",
+            "chainId": 1,
+            "name": "UNKNOWN",
+            "symbol": "UNKNOWN",
+            "decimals": 18
+        },
+        {
+            "address": "0x28c8d01FF633eA9Cd8fc6a451D7457889E698de6",
+            "chainId": 1,
+            "name": "UNKNOWN",
+            "symbol": "ETG",
+            "decimals": 0,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x28c8d01FF633eA9Cd8fc6a451D7457889E698de6/logo.png"
+        },
+        {
+            "address": "0x3543638eD4a9006E4840B105944271Bcea15605D",
+            "chainId": 1,
+            "name": "UNetworkToken",
+            "symbol": "UUU",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3543638eD4a9006E4840B105944271Bcea15605D/logo.png"
+        },
+        {
+            "address": "0x6Ba460AB75Cd2c56343b3517ffeBA60748654D26",
+            "chainId": 1,
+            "name": "UpToken",
+            "symbol": "UP",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6Ba460AB75Cd2c56343b3517ffeBA60748654D26/logo.png"
+        },
+        {
+            "address": "0x75572098dc462F976127f59F8c97dFa291f81d8b",
+            "chainId": 1,
+            "name": "Vether",
+            "symbol": "VETH",
+            "decimals": 18
+        },
+        {
+            "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
+            "chainId": 1,
+            "name": "XY Oracle",
+            "symbol": "XYO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x55296f69f40Ea6d20E478533C15A6B08B654E758/logo.png"
+        },
+        {
+            "address": "0x37E1160184F7dD29f00b78C050Bf13224780b0B0",
+            "chainId": 1,
+            "name": "Yuan Chain New",
+            "symbol": "YCC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x37E1160184F7dD29f00b78C050Bf13224780b0B0/logo.png"
+        },
+        {
+            "address": "0x13f25cd52b21650caa8225C9942337d914C9B030",
+            "chainId": 1,
+            "name": "realchain token",
+            "symbol": "RCT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x13f25cd52b21650caa8225C9942337d914C9B030/logo.png"
+        },
+        {
+            "address": "0x6FCb6408499a7c0f242E32D77EB51fFa1dD28a7E",
+            "chainId": 1,
+            "name": "xHDX",
+            "symbol": "xHDX",
+            "decimals": 12,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6fcb6408499a7c0f242e32d77eb51ffa1dd28a7e.png"
+        }
+    ]
+}
