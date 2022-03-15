@@ -18,7 +18,7 @@ Lists of tokens are found in the `/lists` directory
 * `listed.json`: assets listed on balancer.exchange
 * `ui-not-eligible.json`: assets vetted by community members
 * `untrusted.json`: assets that are incompatible with Balancer
-* `eligible.json`: assets eligible for BAL mining as per weekly proposals
+* `eligible.json`: DEPRECATED, only relevant to V1 liquidity mining
 
 ## Generated
 
