@@ -764,6 +764,24 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
+        },
+        "0xf2051511B9b121394FA75B8F7d4E7424337af687": {
+            "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
+            "name": "DAOhaus Token",
+            "symbol": "HAUS",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
+        },
+        "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71": {
+            "address": "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71",
+            "name": "Wrapped SYS",
+            "symbol": "WSYS",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [

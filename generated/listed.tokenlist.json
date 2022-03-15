@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-02-28T00:00:00.000Z",
+    "timestamp": "2022-03-15T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -683,6 +683,21 @@
             "symbol": "Silo",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
+        },
+        {
+            "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
+            "chainId": 1,
+            "name": "DAOhaus Token",
+            "symbol": "HAUS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
+        },
+        {
+            "address": "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71",
+            "chainId": 1,
+            "name": "Wrapped SYS",
+            "symbol": "WSYS",
+            "decimals": 18
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
