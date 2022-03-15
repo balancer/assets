@@ -5895,6 +5895,17 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
+    },
+    "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71": {
+      "address": "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71",
+      "id": "",
+      "name": "Wrapped SYS",
+      "symbol": "WSYS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": false,
+      "logoUrl": ""
     }
   },
   "untrusted": [

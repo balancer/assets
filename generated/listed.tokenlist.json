@@ -693,6 +693,13 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
         },
         {
+            "address": "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71",
+            "chainId": 1,
+            "name": "Wrapped SYS",
+            "symbol": "WSYS",
+            "decimals": 18
+        },
+        {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
             "chainId": 42,
             "name": "Wrapped Ether",
