@@ -5884,6 +5884,17 @@
       "color": "#220730",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
+    },
+    "0xf2051511B9b121394FA75B8F7d4E7424337af687": {
+      "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
+      "id": "",
+      "name": "DAOhaus Token",
+      "symbol": "HAUS",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
     }
   },
   "untrusted": [
