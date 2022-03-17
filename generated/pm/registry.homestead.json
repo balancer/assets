@@ -5906,6 +5906,39 @@
       "color": "#c7bdf4",
       "hasIcon": false,
       "logoUrl": ""
+    },
+    "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050": {
+      "address": "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050",
+      "id": "",
+      "name": "Tracer",
+      "symbol": "TCR",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9c4a4204b79dd291d6b6571c5be8bbcd0622f050.png"
+    },
+    "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF": {
+      "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
+      "id": "",
+      "name": "Paladin Token",
+      "symbol": "PAL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf.png"
+    },
+    "0x12E457a5FC7707d0FDDA849068DF6e664d7a8569": {
+      "address": "0x12E457a5FC7707d0FDDA849068DF6e664d7a8569",
+      "id": "",
+      "name": "Launch Paladin Token",
+      "symbol": "lPAL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8b5580",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x12e457a5fc7707d0fdda849068df6e664d7a8569.png"
     }
   },
   "untrusted": [

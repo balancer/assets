@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-15T00:00:00.000Z",
+    "timestamp": "2022-03-17T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -698,6 +698,30 @@
             "name": "Wrapped SYS",
             "symbol": "WSYS",
             "decimals": 18
+        },
+        {
+            "address": "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050",
+            "chainId": 1,
+            "name": "Tracer",
+            "symbol": "TCR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9c4a4204b79dd291d6b6571c5be8bbcd0622f050.png"
+        },
+        {
+            "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
+            "chainId": 1,
+            "name": "Paladin Token",
+            "symbol": "PAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf.png"
+        },
+        {
+            "address": "0x12E457a5FC7707d0FDDA849068DF6e664d7a8569",
+            "chainId": 1,
+            "name": "Launch Paladin Token",
+            "symbol": "lPAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x12e457a5fc7707d0fdda849068df6e664d7a8569.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
