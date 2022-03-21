@@ -274,7 +274,7 @@
             "name": "Rainbow Token",
             "symbol": "RBW",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f.png"
         },
         {
             "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
