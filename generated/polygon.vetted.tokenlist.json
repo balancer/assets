@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
     "tokens": [
@@ -267,6 +267,14 @@
             "symbol": "RAI",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/14004/large/RAI-logo-coin.png?1613592334"
+        },
+        {
+            "address": "0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f",
+            "chainId": 137,
+            "name": "Rainbow Token",
+            "symbol": "RBW",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f.png"
         },
         {
             "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
