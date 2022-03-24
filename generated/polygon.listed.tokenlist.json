@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-01-06T00:00:00.000Z",
+    "timestamp": "2022-03-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 4,
         "patch": 0
     },
     "tokens": [
@@ -253,6 +253,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/14004/large/RAI-logo-coin.png?1613592334"
         },
         {
+            "address": "0x431CD3C9AC9Fc73644BF68bF5691f4B83F9E104f",
+            "chainId": 137,
+            "name": "Rainbow Token",
+            "symbol": "RBW",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f.png"
+        },
+        {
             "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
             "chainId": 137,
             "name": "STASIS EURO",
@@ -315,6 +323,14 @@
             "symbol": "GRT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
+        },
+        {
+            "address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+            "chainId": 137,
+            "name": "The Sandbox",
+            "symbol": "SAND",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xbbba073c31bf03b8acf7c28ef0738decf3695683.png"
         },
         {
             "address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",

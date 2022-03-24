@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-17T00:00:00.000Z",
+    "timestamp": "2022-03-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
     "tokens": [
@@ -155,6 +155,14 @@
             "symbol": "RGT",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/12900/large/Rari_Logo_Transparent.png?1613978014"
+        },
+        {
+            "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+            "chainId": 42161,
+            "name": "Stargate Finance",
+            "symbol": "STG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6694340fc020c5e6b96567843da2df01b2ce1eb6.png"
         },
         {
             "address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
