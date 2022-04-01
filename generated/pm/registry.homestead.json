@@ -5950,6 +5950,17 @@
       "color": "#c7bdf4",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png"
+    },
+    "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB": {
+      "address": "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+      "id": "",
+      "name": "CoW Protocol Token",
+      "symbol": "COW",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png"
     }
   },
   "untrusted": [
