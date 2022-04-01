@@ -5961,6 +5961,17 @@
       "color": "#9a4f50",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png"
+    },
+    "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56": {
+      "address": "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56",
+      "id": "",
+      "name": "Balancer 80 BAL 20 WETH",
+      "symbol": "B-80BAL-20WETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
     }
   },
   "untrusted": [
