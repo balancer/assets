@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-17T00:00:00.000Z",
+    "timestamp": "2022-04-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -722,6 +722,30 @@
             "symbol": "lPAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x12e457a5fc7707d0fdda849068df6e664d7a8569.png"
+        },
+        {
+            "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+            "chainId": 1,
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png"
+        },
+        {
+            "address": "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+            "chainId": 1,
+            "name": "CoW Protocol Token",
+            "symbol": "COW",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png"
+        },
+        {
+            "address": "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56",
+            "chainId": 1,
+            "name": "Balancer 80 BAL 20 WETH",
+            "symbol": "B-80BAL-20WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
