@@ -2,7 +2,7 @@ name: Generate config
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, mkflow27-patch-1 ]
 
 env:
   FLEEK_API_KEY: ${{ secrets.FLEEK_API_KEY }}
