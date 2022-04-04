@@ -1,7 +1,7 @@
 name: Generate preview
 
 on:
-  [pull_request, push]:
+  push:
     branches: [ master, mkflow27-patch-1, mkflow27-branch-with-deletion ]
 
 jobs:
