@@ -15,3 +15,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo $PWD "is the current path"
+      - run: echo "pw is $TEST_PW pw should be displayed here"
+        env:
+          TEST_PW: ${{ secrets.TEST_PW }}

@@ -10,3 +10,6 @@
 ## Generated
 
 To generate, run `npm run generate`.
+
+## This branch is being used for learning experiences
+## 
