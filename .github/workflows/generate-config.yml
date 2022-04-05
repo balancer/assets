@@ -57,7 +57,7 @@ jobs:
       id: commit
       run: |
         cd branch
-        find .. -name "*.*.tokenlist.json" -exec cp '{}' generated/
+        find .. -name "*.*.tokenlist.json" -exec cp '{}' generated/ ;
         git config --global user.email "bot@balancer.finance"
         git config --global user.name "Balancer Bot"
         DIFF_LINES=$(git diff | wc -l)
