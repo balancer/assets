@@ -1,7 +1,6 @@
 name: Generate preview
 
-on:
-  push:
+on: [push, fork]
     branches: [ master, mkflow27-patch-1, mkflow27-branch-with-deletion ]
 
 jobs:
