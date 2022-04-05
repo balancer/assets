@@ -49,7 +49,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        repository: balancer-labs/assets
+        repository: mkflow27/assets
         ref: generated
         path: branch
         fetch-depth: 0
