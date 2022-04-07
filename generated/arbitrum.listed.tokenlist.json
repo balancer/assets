@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-18T00:00:00.000Z",
+    "timestamp": "2022-04-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 6,
+        "minor": 7,
         "patch": 0
     },
     "tokens": [
@@ -227,6 +227,14 @@
             "symbol": "VSTA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa684cd057951541187f288294a1e1c2646aa2d24.png"
+        },
+        {
+            "address": "0x64343594Ab9b56e99087BfA6F2335Db24c2d1F17",
+            "chainId": 42161,
+            "name": "Vesta Stable",
+            "symbol": "VST",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
         },
         {
             "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",

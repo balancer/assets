@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-03-21T00:00:00.000Z",
+    "timestamp": "2022-04-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 6,
+        "minor": 7,
         "patch": 0
     },
     "tokens": [
@@ -139,6 +139,14 @@
             "symbol": "ENS",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
+        },
+        {
+            "address": "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89",
+            "chainId": 137,
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
         },
         {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
@@ -331,6 +339,14 @@
             "symbol": "TEL",
             "decimals": 2,
             "logoURI": "https://assets.coingecko.com/coins/images/1899/large/tel.png?1547036203"
+        },
+        {
+            "address": "0xE6469Ba6D2fD6130788E0eA9C0a0515900563b59",
+            "chainId": 137,
+            "name": "TerraUSD (Wormhole)",
+            "symbol": "UST",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe6469ba6d2fd6130788e0ea9c0a0515900563b59.png"
         },
         {
             "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
