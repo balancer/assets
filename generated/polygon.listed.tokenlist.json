@@ -138,7 +138,7 @@
             "name": "Frax",
             "symbol": "FRAX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
         },
         {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
@@ -322,7 +322,7 @@
             "name": "TerraUSD (Wormhole)",
             "symbol": "UST",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe6469ba6d2fd6130788e0ea9c0a0515900563b59.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe6469ba6d2fd6130788e0ea9c0a0515900563b59.png"
         },
         {
             "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",

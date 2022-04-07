@@ -242,7 +242,7 @@
             "name": "Vesta Stable",
             "symbol": "VST",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
         },
         {
             "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
