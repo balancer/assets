@@ -836,6 +836,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
+        },
+        "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677": {
+            "address": "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677",
+            "name": "FIAT DAO Token",
+            "symbol": "FDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xed1480d12be41d92f36f5f7bdd88212e381a3677.png"
         }
     },
     "untrusted": [
