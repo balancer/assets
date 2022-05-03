@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-04-07T00:00:00.000Z",
+    "timestamp": "2022-05-03T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 7,
+        "minor": 8,
         "patch": 0
     },
     "tokens": [
@@ -195,6 +195,14 @@
             "symbol": "jEUR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/15725/large/jEUR.png?1634046044"
+        },
+        {
+            "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+            "chainId": 137,
+            "name": "Liquid Staking Matic (PoS)",
+            "symbol": "MaticX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
         },
         {
             "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
