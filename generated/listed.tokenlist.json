@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-04-01T00:00:00.000Z",
+    "timestamp": "2022-04-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -746,6 +746,14 @@
             "symbol": "B-80BAL-20WETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
+        },
+        {
+            "address": "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677",
+            "chainId": 1,
+            "name": "FIAT DAO Token",
+            "symbol": "FDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xed1480d12be41d92f36f5f7bdd88212e381a3677.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
