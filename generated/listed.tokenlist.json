@@ -764,6 +764,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x333a4823466879eef910a04d473505da62142069.png"
         },
         {
+            "address": "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2",
+            "chainId": 1,
+            "name": "Biconomy Token",
+            "symbol": "BICO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
+        },
+        {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
             "chainId": 42,
             "name": "Wrapped Ether",

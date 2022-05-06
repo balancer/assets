@@ -5994,6 +5994,17 @@
       "color": "#9a4f50",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x333a4823466879eef910a04d473505da62142069.png"
+    },
+    "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2": {
+      "address": "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2",
+      "id": "",
+      "name": "Biconomy Token",
+      "symbol": "BICO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
     }
   },
   "untrusted": [
