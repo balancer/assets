@@ -845,6 +845,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xed1480d12be41d92f36f5f7bdd88212e381a3677.png"
+        },
+        "0x333A4823466879eeF910A04D473505da62142069": {
+            "address": "0x333A4823466879eeF910A04D473505da62142069",
+            "name": "Nation3",
+            "symbol": "NATION",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x333a4823466879eef910a04d473505da62142069.png"
         }
     },
     "untrusted": [
