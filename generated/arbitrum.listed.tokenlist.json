@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-04-07T00:00:00.000Z",
+    "timestamp": "2022-05-04T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 7,
+        "minor": 8,
         "patch": 0
     },
     "tokens": [
@@ -19,6 +19,14 @@
             "symbol": "BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0xb96B904ba83DdEeCE47CAADa8B40EE6936D92091",
+            "chainId": 42161,
+            "name": "CRE8R DAO",
+            "symbol": "CRE8R",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xb96b904ba83ddeece47caada8b40ee6936d92091.png"
         },
         {
             "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
