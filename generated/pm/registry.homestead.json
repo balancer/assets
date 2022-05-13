@@ -6005,6 +6005,17 @@
       "color": "#387080",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
+    },
+    "0x226f7b842E0F0120b7E194D05432b3fd14773a9D": {
+      "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
+      "id": "",
+      "name": "UNION Protocol Governance Token",
+      "symbol": "UNN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png"
     }
   },
   "untrusted": [

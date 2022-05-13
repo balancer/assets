@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-06T00:00:00.000Z",
+    "timestamp": "2022-05-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -770,6 +770,14 @@
             "symbol": "BICO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
+        },
+        {
+            "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
+            "chainId": 1,
+            "name": "UNION Protocol Governance Token",
+            "symbol": "UNN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
