@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-04T00:00:00.000Z",
+    "timestamp": "2022-05-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -9,7 +9,7 @@
     "version": {
         "major": 1,
         "minor": 8,
-        "patch": 0
+        "patch": 1
     },
     "tokens": [
         {
@@ -31,7 +31,7 @@
         {
             "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
             "chainId": 42161,
-            "name": "ChainLink Token",
+            "name": "Chainlink",
             "symbol": "LINK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
@@ -79,7 +79,7 @@
         {
             "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
             "chainId": 42161,
-            "name": "Dai Stablecoin",
+            "name": "Dai",
             "symbol": "DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
@@ -119,7 +119,7 @@
         {
             "address": "0xB965029343D55189c25a7f3e0c9394DC0F5D41b1",
             "chainId": 42161,
-            "name": "Indexed",
+            "name": "Indexed Finance",
             "symbol": "NDX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83/logo.png"
@@ -175,7 +175,7 @@
         {
             "address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
             "chainId": 42161,
-            "name": "SushiToken",
+            "name": "Sushi",
             "symbol": "SUSHI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"

@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-03T00:00:00.000Z",
+    "timestamp": "2022-05-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 6,
+        "minor": 7,
         "patch": 0
     },
     "tokens": [
@@ -43,6 +43,14 @@
             "symbol": "AVAX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
+        },
+        {
+            "address": "0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14",
+            "chainId": 137,
+            "name": "BTC 2x Flexible Leverage Index (Polygon)",
+            "symbol": "BTC2x-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd6ca869a4ec9ed2c7e618062cdc45306d8dbbc14.png"
         },
         {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
@@ -171,6 +179,46 @@
             "symbol": "INDEX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0954906da0Bf32d5479e25f46056d22f08464cab/logo.png"
+        },
+        {
+            "address": "0x3Ad707dA309f3845cd602059901E39C4dcd66473",
+            "chainId": 137,
+            "name": "Index Coop - ETH 2x Flexible Leverage Index (Polygon)",
+            "symbol": "ETH2x-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3ad707da309f3845cd602059901e39c4dcd66473.png"
+        },
+        {
+            "address": "0x4f025829C4B13dF652f38Abd2AB901185fF1e609",
+            "chainId": 137,
+            "name": "Index Coop - Inverse ETH Flexible Leverage Index",
+            "symbol": "iETH-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4f025829c4b13df652f38abd2ab901185ff1e609.png"
+        },
+        {
+            "address": "0x340f412860dA7b7823df372a2b59Ff78b7ae6abc",
+            "chainId": 137,
+            "name": "Index Coop - Inverse MATIC Flexible Leverage Index",
+            "symbol": "iMATIC-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x340f412860da7b7823df372a2b59ff78b7ae6abc.png"
+        },
+        {
+            "address": "0xf287D97B6345bad3D88856b26Fb7c0ab3F2C7976",
+            "chainId": 137,
+            "name": "Index Coop - MATIC 2x Flexible Leverage Index",
+            "symbol": "MATIC2x-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf287d97b6345bad3d88856b26fb7c0ab3f2c7976.png"
+        },
+        {
+            "address": "0x130cE4E4F76c2265f94a961D70618562de0bb8d2",
+            "chainId": 137,
+            "name": "Inverse BTC Flexible Leverage Index",
+            "symbol": "iBTC-FLI-P",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x130ce4e4f76c2265f94a961d70618562de0bb8d2.png"
         },
         {
             "address": "0x596ebe76e2db4470966ea395b0d063ac6197a8c5",
