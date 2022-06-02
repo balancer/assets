@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-13T00:00:00.000Z",
+    "timestamp": "2022-06-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 7,
+        "minor": 8,
         "patch": 0
     },
     "tokens": [
@@ -35,6 +35,14 @@
             "symbol": "ADDY",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/15225/large/adamant.png?1620136256"
+        },
+        {
+            "address": "0x0E9b89007eEE9c958c0EDA24eF70723C2C93dD58",
+            "chainId": 137,
+            "name": "Ankr Reward Earning MATIC",
+            "symbol": "aMATICc",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0e9b89007eee9c958c0eda24ef70723c2c93dd58.png"
         },
         {
             "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
