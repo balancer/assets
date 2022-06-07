@@ -9,7 +9,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 0
+        "patch": 1
     },
     "tokens": [
         {
@@ -121,14 +121,16 @@
             "chainId": 5,
             "name": "Wrapped aUSDC",
             "symbol": "aUSDC",
-            "decimals": 6
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E/logo.png"
         },
         {
             "address": "0x4Cb1892FdDF14f772b2E39E299f44B2E5DA90d04",
             "chainId": 5,
             "name": "Wrapped aUSDT",
-            "symbol": "USDT",
-            "decimals": 6
+            "symbol": "aUSDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8/logo.png"
         }
     ]
 }
