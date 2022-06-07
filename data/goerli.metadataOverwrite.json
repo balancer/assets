@@ -1,0 +1,20 @@
+{
+    "0xe8Ca9aFAc400757BCBFEEA33453880C70E08FB70": {
+		"name": "Gnosis Token",
+		"symbol": "GNO",
+		"decimals": 18,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+	},
+    "0x811151066392fd641Fe74A9B55a712670572D161": {
+        "name": "Wrapped aUSDC",
+        "symbol": "aUSDC",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9bA00D6856a4eDF4665BcA2C2309936572473B7E/logo.png"
+    },
+    "0x4Cb1892FdDF14f772b2E39E299f44B2E5DA90d04": {
+        "name": "Wrapped aUSDT",
+        "symbol": "aUSDT",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8/logo.png"
+    }
+}

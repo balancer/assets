@@ -1,0 +1,23 @@
+{
+    "name": "Balancer",
+    "timestamp": "2022-06-07T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+        "balancer",
+        "untrusted"
+    ],
+    "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "address": "0xE1a26820F2643275D92d03E21975Fd9A0d842d87",
+            "chainId": 5,
+            "name": "Bad Token",
+            "symbol": "BAD",
+            "decimals": 2
+        }
+    ]
+}

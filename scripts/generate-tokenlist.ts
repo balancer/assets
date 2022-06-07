@@ -49,6 +49,7 @@ async function run(network?: Network) {
     } else {
       // await buildNetworkLists(Network.Homestead);
       await buildNetworkLists(Network.Kovan);
+      await buildNetworkLists(Network.Goerli);
       await buildNetworkLists(Network.Polygon);
       await buildNetworkLists(Network.Arbitrum);
     }

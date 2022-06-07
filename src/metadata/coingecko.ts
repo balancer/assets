@@ -10,6 +10,7 @@ const coingeckoClient = axios.create({
 const platformIdMap: Record<Network, string> = {
   [Network.Homestead]: "ethereum",
   [Network.Kovan]: "ethereum",
+  [Network.Goerli]: "goerli",
   [Network.Polygon]: "polygon-pos",
   [Network.Arbitrum]: "arbitrum-one",
 };
