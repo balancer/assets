@@ -1,14 +1,14 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-06-07T00:00:00.000Z",
+    "timestamp": "2022-06-09T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
         "vetted"
     ],
     "version": {
-        "major": 0,
-        "minor": 1,
+        "major": 1,
+        "minor": 0,
         "patch": 1
     },
     "tokens": [
@@ -69,9 +69,9 @@
             "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x956F47F50A910163D8BF957Cf5846D573E7f87CA/logo.png"
         },
         {
-            "address": "0xe8Ca9aFAc400757BCBFEEA33453880C70E08FB70",
+            "address": "0xFF386a3d08f80AC38c77930d173Fa56C6286Dc8B",
             "chainId": 5,
-            "name": "Gnosis Token",
+            "name": "Gnosis",
             "symbol": "GNO",
             "decimals": 18,
             "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
