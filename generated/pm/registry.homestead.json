@@ -6038,6 +6038,17 @@
       "color": "#220730",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x616e8bfa43f920657b3497dbf40d6b1a02d4608d.png"
+    },
+    "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817": {
+      "address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+      "id": "",
+      "name": "Wrapped NCG",
+      "symbol": "WNCG",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf203ca1769ca8e9e8fe1da9d147db68b6c919817.png"
     }
   },
   "untrusted": [
