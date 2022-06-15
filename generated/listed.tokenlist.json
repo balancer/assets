@@ -796,6 +796,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x616e8bfa43f920657b3497dbf40d6b1a02d4608d.png"
         },
         {
+            "address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+            "chainId": 1,
+            "name": "Wrapped NCG",
+            "symbol": "WNCG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf203ca1769ca8e9e8fe1da9d147db68b6c919817.png"
+        },
+        {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
             "chainId": 42,
             "name": "Wrapped Ether",
