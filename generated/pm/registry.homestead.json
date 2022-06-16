@@ -5972,6 +5972,83 @@
       "color": "#a593a5",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
+    },
+    "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677": {
+      "address": "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677",
+      "id": "",
+      "name": "FIAT DAO Token",
+      "symbol": "FDT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xed1480d12be41d92f36f5f7bdd88212e381a3677.png"
+    },
+    "0x333A4823466879eeF910A04D473505da62142069": {
+      "address": "0x333A4823466879eeF910A04D473505da62142069",
+      "id": "",
+      "name": "Nation3",
+      "symbol": "NATION",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x333a4823466879eef910a04d473505da62142069.png"
+    },
+    "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2": {
+      "address": "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2",
+      "id": "",
+      "name": "Biconomy Token",
+      "symbol": "BICO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
+    },
+    "0x226f7b842E0F0120b7E194D05432b3fd14773a9D": {
+      "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
+      "id": "",
+      "name": "UNION Protocol Governance Token",
+      "symbol": "UNN",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#93a167",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png"
+    },
+    "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF": {
+      "address": "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+      "id": "",
+      "name": "Aura",
+      "symbol": "AURA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc0c293ce456ff0ed870add98a0828dd4d2903dbf.png"
+    },
+    "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d": {
+      "address": "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d",
+      "id": "",
+      "name": "Aura BAL",
+      "symbol": "auraBAL",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x616e8bfa43f920657b3497dbf40d6b1a02d4608d.png"
+    },
+    "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817": {
+      "address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+      "id": "",
+      "name": "Wrapped NCG",
+      "symbol": "WNCG",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf203ca1769ca8e9e8fe1da9d147db68b6c919817.png"
     }
   },
   "untrusted": [

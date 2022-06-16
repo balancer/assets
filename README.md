@@ -2,8 +2,7 @@
 
 ## How to add a token to Balancer
 
-To add a token, the bytecode must be verified.  For example [https://etherscan.io/verifyContract](Verify Contract on Etherscan)
-Furthermore, it must not be a rebasing token, as these are incompatible with the balancer v2 vault
+To add a token, the bytecode must be [verified](https://etherscan.io/verifyContract). Furthermore, it must not be a rebasing token, as these are incompatible with the balancer v2 vault
 
 The tokens should be added to the appropriate list(s) below and then pull requested so they can be subject to community review.  In most cases, for a token to be on the balancer ui, it should be added to `/lists/listed.json` and `/lists/ui-not-eligible.json`. These addresses must be checksummed.
 
