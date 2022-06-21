@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-06-17T00:00:00.000Z",
+    "timestamp": "2022-06-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -810,6 +810,14 @@
             "symbol": "DOLA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x865377367054516e17014ccded1e7d814edc9ce4.png"
+        },
+        {
+            "address": "0xF24d8651578a55b0C119B9910759a351A3458895",
+            "chainId": 1,
+            "name": "Stake DAO Balancer",
+            "symbol": "sdBal",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf24d8651578a55b0c119b9910759a351a3458895.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
