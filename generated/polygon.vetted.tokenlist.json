@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-13T00:00:00.000Z",
+    "timestamp": "2022-06-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 9,
+        "minor": 10,
         "patch": 0
     },
     "tokens": [
@@ -379,6 +379,14 @@
             "symbol": "SNX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+        },
+        {
+            "address": "0x7fC9E0Aa043787BFad28e29632AdA302C790Ce33",
+            "chainId": 137,
+            "name": "TETU_ST_BAL",
+            "symbol": "tetuBAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7fc9e0aa043787bfad28e29632ada302c790ce33.png"
         },
         {
             "address": "0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015",
