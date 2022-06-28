@@ -6071,6 +6071,17 @@
       "color": "#c28d75",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf24d8651578a55b0c119b9910759a351a3458895.png"
+    },
+    "0x586Aa273F262909EEF8fA02d90Ab65F5015e0516": {
+      "address": "0x586Aa273F262909EEF8fA02d90Ab65F5015e0516",
+      "id": "",
+      "name": "Fixed Income Asset Token",
+      "symbol": "FIAT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x586aa273f262909eef8fa02d90ab65f5015e0516.png"
     }
   },
   "untrusted": [
