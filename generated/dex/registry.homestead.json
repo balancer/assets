@@ -926,6 +926,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x586aa273f262909eef8fa02d90ab65f5015e0516.png"
+        },
+        "0x888888435FDe8e7d4c54cAb67f206e4199454c60": {
+            "address": "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
+            "name": "DFX Token",
+            "symbol": "DFX",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x888888435fde8e7d4c54cab67f206e4199454c60.png"
         }
     },
     "untrusted": [
