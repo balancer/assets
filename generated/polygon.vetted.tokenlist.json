@@ -8,10 +8,18 @@
     ],
     "version": {
         "major": 1,
-        "minor": 10,
+        "minor": 11,
         "patch": 0
     },
     "tokens": [
+        {
+            "address": "0x3d468AB2329F296e1b9d8476Bb54Dd77D8c2320f",
+            "chainId": 137,
+            "name": "20WETH-80BAL",
+            "symbol": "20WETH-80BAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3d468ab2329f296e1b9d8476bb54dd77d8c2320f.png"
+        },
         {
             "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
             "chainId": 137,
