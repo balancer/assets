@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-05-04T00:00:00.000Z",
+    "timestamp": "2022-07-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 8,
-        "patch": 0
+        "minor": 9,
+        "patch": 2
     },
     "tokens": [
         {
@@ -19,6 +19,14 @@
             "symbol": "BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d",
+            "chainId": 42161,
+            "name": "Biconomy Token",
+            "symbol": "BICO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d.png"
         },
         {
             "address": "0xb96B904ba83DdEeCE47CAADa8B40EE6936D92091",
@@ -31,7 +39,7 @@
         {
             "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
             "chainId": 42161,
-            "name": "Chainlink",
+            "name": "ChainLink Token",
             "symbol": "LINK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
@@ -55,7 +63,7 @@
         {
             "address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
             "chainId": 42161,
-            "name": "Curve DAO Token",
+            "name": "Curve DAO",
             "symbol": "CRV",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
@@ -79,7 +87,7 @@
         {
             "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
             "chainId": 42161,
-            "name": "Dai",
+            "name": "Dai Stablecoin",
             "symbol": "DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
@@ -175,7 +183,7 @@
         {
             "address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
             "chainId": 42161,
-            "name": "Sushi",
+            "name": "SushiToken",
             "symbol": "SUSHI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
