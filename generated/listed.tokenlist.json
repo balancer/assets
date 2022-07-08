@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-06-30T00:00:00.000Z",
+    "timestamp": "2022-07-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -834,6 +834,14 @@
             "symbol": "DFX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x888888435fde8e7d4c54cab67f206e4199454c60.png"
+        },
+        {
+            "address": "0xBA485b556399123261a5F9c95d413B4f93107407",
+            "chainId": 1,
+            "name": "Gravitationally Bound AURA",
+            "symbol": "graviAURA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xba485b556399123261a5f9c95d413b4f93107407.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",

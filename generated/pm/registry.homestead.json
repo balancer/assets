@@ -6093,6 +6093,17 @@
       "color": "#8d6268",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x888888435fde8e7d4c54cab67f206e4199454c60.png"
+    },
+    "0xBA485b556399123261a5F9c95d413B4f93107407": {
+      "address": "0xBA485b556399123261a5F9c95d413B4f93107407",
+      "id": "",
+      "name": "Gravitationally Bound AURA",
+      "symbol": "graviAURA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#387080",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xba485b556399123261a5f9c95d413b4f93107407.png"
     }
   },
   "untrusted": [
