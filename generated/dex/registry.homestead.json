@@ -944,15 +944,6 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xba485b556399123261a5f9c95d413b4f93107407.png"
-        },
-        "0x798D1bE841a82a273720CE31c822C61a67a601C3": {
-            "address": "0x798D1bE841a82a273720CE31c822C61a67a601C3",
-            "name": "Digg",
-            "symbol": "DIGG",
-            "decimals": 9,
-            "precision": 3,
-            "hasIcon": true,
-            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x798D1bE841a82a273720CE31c822C61a67a601C3/logo.png"
         }
     },
     "untrusted": [
