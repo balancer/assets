@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-06-24T00:00:00.000Z",
+    "timestamp": "2022-07-17T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 11,
+        "minor": 12,
         "patch": 0
     },
     "tokens": [
@@ -363,6 +363,14 @@
             "symbol": "SOL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
+        },
+        {
+            "address": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
+            "chainId": 137,
+            "name": "Stader",
+            "symbol": "SD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x1d734a02ef1e1f5886e66b0673b71af5b53ffa94.png"
         },
         {
             "address": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
