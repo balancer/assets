@@ -953,6 +953,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x798D1bE841a82a273720CE31c822C61a67a601C3/logo.png"
+        },
+        "0x35e78b3982E87ecfD5b3f3265B601c046cDBe232": {
+            "address": "0x35e78b3982E87ecfD5b3f3265B601c046cDBe232",
+            "name": "SideShift Token",
+            "symbol": "XAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x35e78b3982e87ecfd5b3f3265b601c046cdbe232.png"
         }
     },
     "untrusted": [
