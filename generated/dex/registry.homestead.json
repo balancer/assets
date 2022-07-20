@@ -962,6 +962,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x35e78b3982e87ecfd5b3f3265b601c046cdbe232.png"
+        },
+        "0x24A6A37576377F63f194Caa5F518a60f45b42921": {
+            "address": "0x24A6A37576377F63f194Caa5F518a60f45b42921",
+            "name": "Float Bank",
+            "symbol": "BANK",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24A6A37576377F63f194Caa5F518a60f45b42921/logo.png"
         }
     },
     "untrusted": [
