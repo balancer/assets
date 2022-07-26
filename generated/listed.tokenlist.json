@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-07-20T00:00:00.000Z",
+    "timestamp": "2022-07-26T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -866,6 +866,14 @@
             "symbol": "BANK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24A6A37576377F63f194Caa5F518a60f45b42921/logo.png"
+        },
+        {
+            "address": "0x758B4684BE769E92eeFeA93f60DDA0181eA303Ec",
+            "chainId": 1,
+            "name": "Phonon DAO",
+            "symbol": "PHONON",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x758b4684be769e92eefea93f60dda0181ea303ec.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
