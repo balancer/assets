@@ -971,6 +971,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24A6A37576377F63f194Caa5F518a60f45b42921/logo.png"
+        },
+        "0x758B4684BE769E92eeFeA93f60DDA0181eA303Ec": {
+            "address": "0x758B4684BE769E92eeFeA93f60DDA0181eA303Ec",
+            "name": "Phonon DAO",
+            "symbol": "PHONON",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x758b4684be769e92eefea93f60dda0181ea303ec.png"
         }
     },
     "untrusted": [
