@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-07-13T00:00:00.000Z",
+    "timestamp": "2022-07-20T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -850,6 +850,22 @@
             "symbol": "DIGG",
             "decimals": 9,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x798D1bE841a82a273720CE31c822C61a67a601C3/logo.png"
+        },
+        {
+            "address": "0x35e78b3982E87ecfD5b3f3265B601c046cDBe232",
+            "chainId": 1,
+            "name": "SideShift Token",
+            "symbol": "XAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x35e78b3982e87ecfd5b3f3265b601c046cdbe232.png"
+        },
+        {
+            "address": "0x24A6A37576377F63f194Caa5F518a60f45b42921",
+            "chainId": 1,
+            "name": "Float Bank",
+            "symbol": "BANK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24A6A37576377F63f194Caa5F518a60f45b42921/logo.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
