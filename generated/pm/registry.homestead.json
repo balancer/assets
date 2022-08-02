@@ -6181,6 +6181,17 @@
       "color": "#666092",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8888801af4d980682e47f1a9036e589479e835c5.png"
+    },
+    "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7": {
+      "address": "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7",
+      "id": "",
+      "name": "Temple",
+      "symbol": "TEMPLE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7.png"
     }
   },
   "untrusted": [

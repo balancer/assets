@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-01T00:00:00.000Z",
+    "timestamp": "2022-08-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -897,6 +897,14 @@
             "symbol": "MPH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8888801af4d980682e47f1a9036e589479e835c5.png"
+        },
+        {
+            "address": "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7",
+            "chainId": 1,
+            "name": "Temple",
+            "symbol": "TEMPLE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
