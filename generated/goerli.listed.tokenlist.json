@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-06-07T00:00:00.000Z",
+    "timestamp": "2022-08-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -9,7 +9,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 0
+        "patch": 1
     },
     "tokens": [
         {
@@ -59,6 +59,14 @@
             "symbol": "WBTC",
             "decimals": 8,
             "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "address": "0x398106564948fEeb1fEdeA0709AE7D969D62a391",
+            "chainId": 5,
+            "name": "miMATIC",
+            "symbol": "miMATIC",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018"
         }
     ]
 }
