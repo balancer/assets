@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-02T00:00:00.000Z",
+    "timestamp": "2022-08-03T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -880,7 +880,8 @@
             "chainId": 1,
             "name": "Decentralized USD",
             "symbol": "USDD",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6.png"
         },
         {
             "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
