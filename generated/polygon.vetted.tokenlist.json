@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-07-17T00:00:00.000Z",
+    "timestamp": "2022-08-15T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 12,
+        "minor": 13,
         "patch": 0
     },
     "tokens": [
@@ -45,12 +45,28 @@
             "logoURI": "https://assets.coingecko.com/coins/images/15225/large/adamant.png?1620136256"
         },
         {
+            "address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
+            "chainId": 137,
+            "name": "ApeCoin (PoS)",
+            "symbol": "APE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xb7b31a6bc18e48888545ce79e83e06003be70930.png"
+        },
+        {
             "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
             "chainId": 137,
             "name": "Avalanche",
             "symbol": "AVAX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/avalanchec/info/logo.png"
+        },
+        {
+            "address": "0x61BDD9C7d4dF4Bf47A4508c0c8245505F2Af5b7b",
+            "chainId": 137,
+            "name": "Axie Infinity Shard (PoS)",
+            "symbol": "AXS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x61bdd9c7d4df4bf47a4508c0c8245505f2af5b7b.png"
         },
         {
             "address": "0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14",
@@ -267,6 +283,14 @@
             "symbol": "miMATIC",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018"
+        },
+        {
+            "address": "0x6f7C932e7684666C9fd1d44527765433e01fF61d",
+            "chainId": 137,
+            "name": "MAKER (PoS)",
+            "symbol": "MKR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6f7c932e7684666c9fd1d44527765433e01ff61d.png"
         },
         {
             "address": "0xF501dd45a1198C2E1b5aEF5314A68B9006D842E0",
