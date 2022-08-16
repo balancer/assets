@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-07-02T00:00:00.000Z",
+    "timestamp": "2022-08-16T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 9,
+        "minor": 10,
         "patch": 0
     },
     "tokens": [
@@ -163,6 +163,14 @@
             "symbol": "MKR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
+        },
+        {
+            "address": "0x39A49bc5017Fc668299Cd32e734C9269aCc35295",
+            "chainId": 42161,
+            "name": "Phonon DAO",
+            "symbol": "PHONON",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x39a49bc5017fc668299cd32e734c9269acc35295.png"
         },
         {
             "address": "0x965772e0E9c84b6f359c8597C891108DcF1c5B1A",
