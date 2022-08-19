@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2021-12-22T00:00:00.000Z",
+    "timestamp": "2022-08-19T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -3795,6 +3795,22 @@
             "decimals": 18
         },
         {
+            "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+            "chainId": 1,
+            "name": "Rocket Pool Protocol",
+            "symbol": "RPL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png"
+        },
+        {
+            "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+            "chainId": 1,
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
+        },
+        {
             "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
             "chainId": 1,
             "name": "ProToken",
@@ -4045,14 +4061,6 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
         },
         {
-            "address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
-            "chainId": 1,
-            "name": "Olympus",
-            "symbol": "OHM",
-            "decimals": 9,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x383518188C0C6d7730D91b2c03a03C837814a899/logo.png"
-        },
-        {
             "address": "0x02d60b84491589974263d922D9cC7a3152618Ef6",
             "chainId": 1,
             "name": "Wrapped aDAI",
@@ -4077,20 +4085,299 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf8fd466f12e236f4c96f7cce6c79eadb819abf58.png"
         },
         {
-            "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+            "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
             "chainId": 1,
-            "name": "Rocket Pool Protocol",
-            "symbol": "RPL",
+            "name": "ParaSwap",
+            "symbol": "PSP",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcafe001067cdef266afb7eb5a286dcfd277f3de5.png"
         },
         {
-            "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+            "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
             "chainId": 1,
-            "name": "Rocket Pool ETH",
-            "symbol": "rETH",
+            "name": "Wrapped Ampleforth",
+            "symbol": "WAMPL",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xedb171c18ce90b633db442f2a6f72874093b49ef.png"
+        },
+        {
+            "address": "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
+            "chainId": 1,
+            "name": "Olympus",
+            "symbol": "OHM",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5.png"
+        },
+        {
+            "address": "0x10010078a54396F62c96dF8532dc2B4847d47ED3",
+            "chainId": 1,
+            "name": "Hundred Finance",
+            "symbol": "HND",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x10010078a54396f62c96df8532dc2b4847d47ed3.png"
+        },
+        {
+            "address": "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB",
+            "chainId": 1,
+            "name": "Alchemist",
+            "symbol": "⚗️",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB/logo.png"
+        },
+        {
+            "address": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+            "chainId": 1,
+            "name": "Silo Governance Token",
+            "symbol": "Silo",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
+        },
+        {
+            "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
+            "chainId": 1,
+            "name": "Balancer USD Stable Pool",
+            "symbol": "staBAL3",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
+        },
+        {
+            "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
+            "chainId": 1,
+            "name": "DAOhaus Token",
+            "symbol": "HAUS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf2051511b9b121394fa75b8f7d4e7424337af687.png"
+        },
+        {
+            "address": "0xc976BE9DdBB3e2B2eFFd9af4845C38b6195dAB71",
+            "chainId": 1,
+            "name": "Wrapped SYS",
+            "symbol": "WSYS",
+            "decimals": 18
+        },
+        {
+            "address": "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050",
+            "chainId": 1,
+            "name": "Tracer",
+            "symbol": "TCR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9c4a4204b79dd291d6b6571c5be8bbcd0622f050.png"
+        },
+        {
+            "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
+            "chainId": 1,
+            "name": "Paladin Token",
+            "symbol": "PAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf.png"
+        },
+        {
+            "address": "0x12E457a5FC7707d0FDDA849068DF6e664d7a8569",
+            "chainId": 1,
+            "name": "Launch Paladin Token",
+            "symbol": "lPAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x12e457a5fc7707d0fdda849068df6e664d7a8569.png"
+        },
+        {
+            "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+            "chainId": 1,
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png"
+        },
+        {
+            "address": "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB",
+            "chainId": 1,
+            "name": "CoW Protocol Token",
+            "symbol": "COW",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png"
+        },
+        {
+            "address": "0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56",
+            "chainId": 1,
+            "name": "Balancer 80 BAL 20 WETH",
+            "symbol": "B-80BAL-20WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png"
+        },
+        {
+            "address": "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677",
+            "chainId": 1,
+            "name": "FIAT DAO Token",
+            "symbol": "FDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xed1480d12be41d92f36f5f7bdd88212e381a3677.png"
+        },
+        {
+            "address": "0x333A4823466879eeF910A04D473505da62142069",
+            "chainId": 1,
+            "name": "Nation3",
+            "symbol": "NATION",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x333a4823466879eef910a04d473505da62142069.png"
+        },
+        {
+            "address": "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2",
+            "chainId": 1,
+            "name": "Biconomy Token",
+            "symbol": "BICO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf17e65822b568b3903685a7c9f496cf7656cc6c2.png"
+        },
+        {
+            "address": "0x226f7b842E0F0120b7E194D05432b3fd14773a9D",
+            "chainId": 1,
+            "name": "UNION Protocol Governance Token",
+            "symbol": "UNN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x226f7b842E0F0120b7E194D05432b3fd14773a9D/logo.png"
+        },
+        {
+            "address": "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+            "chainId": 1,
+            "name": "Aura",
+            "symbol": "AURA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc0c293ce456ff0ed870add98a0828dd4d2903dbf.png"
+        },
+        {
+            "address": "0x616e8BfA43F920657B3497DBf40D6b1A02D4608d",
+            "chainId": 1,
+            "name": "Aura BAL",
+            "symbol": "auraBAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x616e8bfa43f920657b3497dbf40d6b1a02d4608d.png"
+        },
+        {
+            "address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+            "chainId": 1,
+            "name": "Wrapped NCG",
+            "symbol": "WNCG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf203ca1769ca8e9e8fe1da9d147db68b6c919817.png"
+        },
+        {
+            "address": "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+            "chainId": 1,
+            "name": "Dola USD Stablecoin",
+            "symbol": "DOLA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x865377367054516e17014ccded1e7d814edc9ce4.png"
+        },
+        {
+            "address": "0xF24d8651578a55b0C119B9910759a351A3458895",
+            "chainId": 1,
+            "name": "Stake DAO Balancer",
+            "symbol": "sdBal",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf24d8651578a55b0c119b9910759a351a3458895.png"
+        },
+        {
+            "address": "0x586Aa273F262909EEF8fA02d90Ab65F5015e0516",
+            "chainId": 1,
+            "name": "Fixed Income Asset Token",
+            "symbol": "FIAT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x586aa273f262909eef8fa02d90ab65f5015e0516.png"
+        },
+        {
+            "address": "0x888888435FDe8e7d4c54cAb67f206e4199454c60",
+            "chainId": 1,
+            "name": "DFX Token",
+            "symbol": "DFX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x888888435fde8e7d4c54cab67f206e4199454c60.png"
+        },
+        {
+            "address": "0xBA485b556399123261a5F9c95d413B4f93107407",
+            "chainId": 1,
+            "name": "Gravitationally Bound AURA",
+            "symbol": "graviAURA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xba485b556399123261a5f9c95d413b4f93107407.png"
+        },
+        {
+            "address": "0x798D1bE841a82a273720CE31c822C61a67a601C3",
+            "chainId": 1,
+            "name": "Digg",
+            "symbol": "DIGG",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x798D1bE841a82a273720CE31c822C61a67a601C3/logo.png"
+        },
+        {
+            "address": "0x35e78b3982E87ecfD5b3f3265B601c046cDBe232",
+            "chainId": 1,
+            "name": "SideShift Token",
+            "symbol": "XAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x35e78b3982e87ecfd5b3f3265b601c046cdbe232.png"
+        },
+        {
+            "address": "0x24A6A37576377F63f194Caa5F518a60f45b42921",
+            "chainId": 1,
+            "name": "Float Bank",
+            "symbol": "BANK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24A6A37576377F63f194Caa5F518a60f45b42921/logo.png"
+        },
+        {
+            "address": "0x758B4684BE769E92eeFeA93f60DDA0181eA303Ec",
+            "chainId": 1,
+            "name": "Phonon DAO",
+            "symbol": "PHONON",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x758b4684be769e92eefea93f60dda0181ea303ec.png"
+        },
+        {
+            "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+            "chainId": 1,
+            "name": "Decentralized USD",
+            "symbol": "USDD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6.png"
+        },
+        {
+            "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+            "chainId": 1,
+            "name": "Frax",
+            "symbol": "FRAX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x853d955aCEf822Db058eb8505911ED77F175b99e/logo.png"
+        },
+        {
+            "address": "0x8888801aF4d980682e47f1A9036e589479e835C5",
+            "chainId": 1,
+            "name": "88mph.app",
+            "symbol": "MPH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8888801af4d980682e47f1a9036e589479e835c5.png"
+        },
+        {
+            "address": "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7",
+            "chainId": 1,
+            "name": "Temple",
+            "symbol": "TEMPLE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7.png"
+        },
+        {
+            "address": "0xd084944d3c05CD115C09d072B9F44bA3E0E45921",
+            "chainId": 1,
+            "name": "Manifold Finance",
+            "symbol": "FOLD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd084944d3c05cd115c09d072b9f44ba3e0e45921.png"
+        },
+        {
+            "address": "0xc55126051B22eBb829D00368f4B12Bde432de5Da",
+            "chainId": 1,
+            "name": "BTRFLY",
+            "symbol": "BTRFLY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc55126051b22ebb829d00368f4b12bde432de5da.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
