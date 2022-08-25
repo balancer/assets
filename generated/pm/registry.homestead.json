@@ -6203,6 +6203,17 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd084944d3c05cd115c09d072b9f44ba3e0e45921.png"
+    },
+    "0xc55126051B22eBb829D00368f4B12Bde432de5Da": {
+      "address": "0xc55126051B22eBb829D00368f4B12Bde432de5Da",
+      "id": "",
+      "name": "BTRFLY",
+      "symbol": "BTRFLY",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc55126051b22ebb829d00368f4b12bde432de5da.png"
     }
   },
   "untrusted": [
