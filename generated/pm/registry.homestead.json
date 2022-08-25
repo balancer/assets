@@ -6204,6 +6204,28 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd084944d3c05cd115c09d072b9f44ba3e0e45921.png"
     },
+    "0x9c354503C38481a7A7a51629142963F98eCC12D0": {
+      "address": "0x9c354503C38481a7A7a51629142963F98eCC12D0",
+      "id": "",
+      "name": "Origin Dollar Governance",
+      "symbol": "OGV",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9c354503c38481a7a7a51629142963f98ecc12d0.png"
+    },
+    "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62": {
+      "address": "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62",
+      "id": "",
+      "name": "Wrapped OUSD",
+      "symbol": "WOUSD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d6872",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd2af830e8cbdfed6cc11bab697bb25496ed6fa62.png"
+    },
     "0xc55126051B22eBb829D00368f4B12Bde432de5Da": {
       "address": "0xc55126051B22eBb829D00368f4B12Bde432de5Da",
       "id": "",
