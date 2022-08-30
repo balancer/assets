@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-15T00:00:00.000Z",
+    "timestamp": "2022-08-30T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 11,
+        "minor": 12,
         "patch": 0
     },
     "tokens": [
@@ -267,6 +267,14 @@
             "symbol": "MaticX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
+        },
+        {
+            "address": "0x6749441fdc8650b5b5a854ed255c82ef361f1596",
+            "chainId": 137,
+            "name": "LUCHA Token",
+            "symbol": "LUCHA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6749441fdc8650b5b5a854ed255c82ef361f1596.png"
         },
         {
             "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
