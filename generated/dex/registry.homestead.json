@@ -1052,6 +1052,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc55126051b22ebb829d00368f4b12bde432de5da.png"
+        },
+        "0x8D6CeBD76f18E1558D4DB88138e2DeFB3909fAD6": {
+            "address": "0x8D6CeBD76f18E1558D4DB88138e2DeFB3909fAD6",
+            "name": "Mai Stablecoin",
+            "symbol": "MAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
         }
     },
     "untrusted": [

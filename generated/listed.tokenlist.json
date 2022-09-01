@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-31T00:00:00.000Z",
+    "timestamp": "2022-09-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -938,6 +938,14 @@
             "symbol": "BTRFLY",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc55126051b22ebb829d00368f4b12bde432de5da.png"
+        },
+        {
+            "address": "0x8D6CeBD76f18E1558D4DB88138e2DeFB3909fAD6",
+            "chainId": 1,
+            "name": "Mai Stablecoin",
+            "symbol": "MAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
