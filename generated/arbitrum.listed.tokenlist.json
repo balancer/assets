@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-16T00:00:00.000Z",
+    "timestamp": "2022-09-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 10,
+        "minor": 11,
         "patch": 0
     },
     "tokens": [
@@ -291,6 +291,22 @@
             "symbol": "DHT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84/logo.png"
+        },
+        {
+            "address": "0xDb298285FE4C5410B05390cA80e8Fbe9DE1F259B",
+            "chainId": 42161,
+            "name": "handleFOREX",
+            "symbol": "FOREX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xdb298285fe4c5410b05390ca80e8fbe9de1f259b.png"
+        },
+        {
+            "address": "0x8616E8EA83f048ab9A5eC513c9412Dd2993bcE3F",
+            "chainId": 42161,
+            "name": "handleUSD",
+            "symbol": "fxUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f.png"
         },
         {
             "address": "0x82e3A8F066a6989666b031d916c43672085b1582",
