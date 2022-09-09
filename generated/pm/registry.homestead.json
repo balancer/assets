@@ -6247,6 +6247,17 @@
       "color": "#628b8d",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
+    },
+    "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321": {
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "id": "",
+      "name": "VitaDAO Token",
+      "symbol": "VITA",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321.png"
     }
   },
   "untrusted": [

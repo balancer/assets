@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-01T00:00:00.000Z",
+    "timestamp": "2022-09-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -946,6 +946,14 @@
             "symbol": "MAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
+        },
+        {
+            "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+            "chainId": 1,
+            "name": "VitaDAO Token",
+            "symbol": "VITA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
