@@ -6258,6 +6258,17 @@
       "color": "#557064",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321.png"
+    },
+    "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68": {
+      "address": "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68",
+      "id": "",
+      "name": "Inverse DAO",
+      "symbol": "INV",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9d9f7f",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
     }
   },
   "untrusted": [
