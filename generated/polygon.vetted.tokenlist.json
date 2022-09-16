@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-08-30T00:00:00.000Z",
+    "timestamp": "2022-09-16T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 14,
+        "minor": 15,
         "patch": 0
     },
     "tokens": [
@@ -269,20 +269,20 @@
             "logoURI": "https://assets.coingecko.com/coins/images/15725/large/jEUR.png?1634046044"
         },
         {
-            "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
-            "chainId": 137,
-            "name": "Liquid Staking Matic (PoS)",
-            "symbol": "MaticX",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
-        },
-        {
             "address": "0x6749441fdc8650b5b5a854ed255c82ef361f1596",
             "chainId": 137,
             "name": "LUCHA Token",
             "symbol": "LUCHA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6749441fdc8650b5b5a854ed255c82ef361f1596.png"
+        },
+        {
+            "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+            "chainId": 137,
+            "name": "Liquid Staking Matic (PoS)",
+            "symbol": "MaticX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
         },
         {
             "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
@@ -507,6 +507,14 @@
             "symbol": "USDC",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "address": "0x64060aB139Feaae7f06Ca4E63189D86aDEb51691",
+            "chainId": 137,
+            "name": "Unicorn Milk",
+            "symbol": "UNIM",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x64060ab139feaae7f06ca4e63189d86adeb51691.png"
         },
         {
             "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
