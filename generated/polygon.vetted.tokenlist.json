@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-16T00:00:00.000Z",
+    "timestamp": "2022-09-17T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 15,
+        "minor": 16,
         "patch": 0
     },
     "tokens": [
@@ -171,6 +171,14 @@
             "symbol": "ENS",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
+        },
+        {
+            "address": "0x656Bf6767Fa8863aC0dD0b7d2a26602B838A2E70",
+            "chainId": 137,
+            "name": "Fitmint Token",
+            "symbol": "FITT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x656bf6767fa8863ac0dd0b7d2a26602b838a2e70.png"
         },
         {
             "address": "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89",
