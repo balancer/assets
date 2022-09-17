@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-12T00:00:00.000Z",
+    "timestamp": "2022-09-17T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -946,6 +946,14 @@
             "symbol": "MAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
+        },
+        {
+            "address": "0xf5f06fFa53Ad7F5914F493F16E57B56C8dd2eA80",
+            "chainId": 1,
+            "name": "Jelly Token",
+            "symbol": "JELLY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5f06ffa53ad7f5914f493f16e57b56c8dd2ea80.png"
         },
         {
             "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",

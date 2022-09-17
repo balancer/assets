@@ -1062,6 +1062,15 @@
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8d6cebd76f18e1558d4db88138e2defb3909fad6.png"
         },
+        "0xf5f06fFa53Ad7F5914F493F16E57B56C8dd2eA80": {
+            "address": "0xf5f06fFa53Ad7F5914F493F16E57B56C8dd2eA80",
+            "name": "Jelly Token",
+            "symbol": "JELLY",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf5f06ffa53ad7f5914f493f16e57b56c8dd2ea80.png"
+        },
         "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321": {
             "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
             "name": "VitaDAO Token",
