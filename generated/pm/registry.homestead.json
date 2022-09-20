@@ -6280,6 +6280,50 @@
       "color": "#9d9f7f",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
+    },
+    "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb": {
+      "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (USDT)",
+      "symbol": "bb-a-USDT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
+    },
+    "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83": {
+      "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (USDC)",
+      "symbol": "bb-a-USDC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
+    },
+    "0xae37D54Ae477268B9997d4161B96b8200755935c": {
+      "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (DAI)",
+      "symbol": "bb-a-DAI",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c28d75",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
+    },
+    "0xA13a9247ea42D743238089903570127DdA72fE44": {
+      "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
+      "id": "",
+      "name": "Balancer Aave Boosted StablePool",
+      "symbol": "bb-a-USD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
     }
   },
   "untrusted": [

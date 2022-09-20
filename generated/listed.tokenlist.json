@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-17T00:00:00.000Z",
+    "timestamp": "2022-09-20T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -970,6 +970,38 @@
             "symbol": "INV",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
+        },
+        {
+            "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (USDT)",
+            "symbol": "bb-a-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
+        },
+        {
+            "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (USDC)",
+            "symbol": "bb-a-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
+        },
+        {
+            "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (DAI)",
+            "symbol": "bb-a-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
+        },
+        {
+            "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted StablePool",
+            "symbol": "bb-a-USD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
         },
         {
             "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
