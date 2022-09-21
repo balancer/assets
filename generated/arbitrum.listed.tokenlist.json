@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-18T00:00:00.000Z",
+    "timestamp": "2022-09-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 12,
+        "minor": 13,
         "patch": 0
     },
     "tokens": [
@@ -91,6 +91,14 @@
             "symbol": "DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
+            "address": "0xF0B5cEeFc89684889e5F7e0A7775Bd100FcD3709",
+            "chainId": 42161,
+            "name": "DigitalDollar",
+            "symbol": "DUSD",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf0b5ceefc89684889e5f7e0a7775bd100fcd3709.png"
         },
         {
             "address": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",

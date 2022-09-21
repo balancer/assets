@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-17T00:00:00.000Z",
+    "timestamp": "2022-09-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 14,
+        "minor": 15,
         "patch": 0
     },
     "tokens": [
@@ -83,6 +83,38 @@
             "symbol": "BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0x178E029173417b1F9C8bC16DCeC6f697bC323746",
+            "chainId": 137,
+            "name": "Balancer Aave Boosted Pool (DAI)",
+            "symbol": "bb-am-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x178e029173417b1f9c8bc16dcec6f697bc323746.png"
+        },
+        {
+            "address": "0xF93579002DBE8046c43FEfE86ec78b1112247BB8",
+            "chainId": 137,
+            "name": "Balancer Aave Boosted Pool (USDC)",
+            "symbol": "bb-am-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf93579002dbe8046c43fefe86ec78b1112247bb8.png"
+        },
+        {
+            "address": "0xFf4ce5AAAb5a627bf82f4A571AB1cE94Aa365eA6",
+            "chainId": 137,
+            "name": "Balancer Aave Boosted Pool (USDT)",
+            "symbol": "bb-am-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xff4ce5aaab5a627bf82f4a571ab1ce94aa365ea6.png"
+        },
+        {
+            "address": "0x48e6B98ef6329f8f0A30eBB8c7C960330d648085",
+            "chainId": 137,
+            "name": "Balancer Aave Boosted StablePool",
+            "symbol": "bb-am-usd",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x48e6b98ef6329f8f0a30ebb8c7c960330d648085.png"
         },
         {
             "address": "0xDB7Cb471dd0b49b29CAB4a1C14d070f27216a0Ab",
