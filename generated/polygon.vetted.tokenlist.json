@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 18,
+        "minor": 19,
         "patch": 0
     },
     "tokens": [
@@ -603,6 +603,30 @@
             "symbol": "WMATIC",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
+        },
+        {
+            "address": "0xEE029120c72b0607344f35B17cdD90025e647B00",
+            "chainId": 137,
+            "name": "Wrapped amDAI",
+            "symbol": "amDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xee029120c72b0607344f35b17cdd90025e647b00.png"
+        },
+        {
+            "address": "0x221836a597948Dce8F3568E044fF123108aCc42A",
+            "chainId": 137,
+            "name": "Wrapped amUSDC",
+            "symbol": "amUSDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x221836a597948dce8f3568e044ff123108acc42a.png"
+        },
+        {
+            "address": "0x19C60a251e525fa88Cd6f3768416a8024e98fC19",
+            "chainId": 137,
+            "name": "Wrapped amUSDT",
+            "symbol": "amUSDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x19c60a251e525fa88cd6f3768416a8024e98fc19.png"
         },
         {
             "address": "0xbAe28251B2a4E621aA7e20538c06DEe010Bc06DE",
