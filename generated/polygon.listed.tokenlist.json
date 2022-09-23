@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-21T00:00:00.000Z",
+    "timestamp": "2022-09-23T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 15,
+        "minor": 16,
         "patch": 0
     },
     "tokens": [
@@ -75,6 +75,14 @@
             "symbol": "BTC2x-FLI-P",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd6ca869a4ec9ed2c7e618062cdc45306d8dbbc14.png"
+        },
+        {
+            "address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
+            "chainId": 137,
+            "name": "BUSD Token",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39.png"
         },
         {
             "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
