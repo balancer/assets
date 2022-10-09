@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-21T00:00:00.000Z",
+    "timestamp": "2022-10-08T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 13,
+        "minor": 14,
         "patch": 0
     },
     "tokens": [
@@ -147,6 +147,14 @@
             "symbol": "NDX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83/logo.png"
+        },
+        {
+            "address": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+            "chainId": 42161,
+            "name": "Lido DAO Token",
+            "symbol": "LDO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60.png"
         },
         {
             "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
