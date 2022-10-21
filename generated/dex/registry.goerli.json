@@ -1,0 +1,14 @@
+{
+    "tokens": {
+        "ether": {
+            "address": "ether",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "precision": 4,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
+        }
+    },
+    "untrusted": []
+}
