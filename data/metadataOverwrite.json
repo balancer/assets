@@ -1,5 +1,5 @@
 {
-	"kovan": {},
+	"goerli": {},
 	"homestead": {
 		"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
 			"decimals": 18,
@@ -35,6 +35,26 @@
 			"decimals": 18,
 			"symbol": "TRB (old)",
 			"name": "Tellor Tributes"
+		},
+		"0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C": {
+			"decimals": 18,
+			"symbol": "bb-a-USDT (old)",
+			"name": "Balancer Aave Boosted Pool (USDT)"
+		},
+		"0x804CdB9116a10bB78768D3252355a1b18067bF8f": {
+			"decimals": 18,
+			"symbol": "bb-a-DAI (old)",
+			"name": "Balancer Aave Boosted Pool (DAI)"
+		},
+		"0x9210F1204b5a24742Eba12f710636D76240dF3d0": {
+			"decimals": 18,
+			"symbol": "bb-a-USDC (old)",
+			"name": "Balancer Aave Boosted Pool (USDC)"
+		},
+		"0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
+			"decimals": 18,
+			"symbol": "bb-a-USD (old)",
+			"name": "Balancer Aave Boosted StablePool (USD)"
 		}
 	}
 }

@@ -22,7 +22,7 @@ async function run() {
 }
 
 async function generate(lists, data, metadata) {
-	await generateNetwork('kovan', lists, data, metadata);
+	await generateNetwork('goerli', lists, data, metadata);
 	await generateNetwork('homestead', lists, data, metadata);
 }
 
@@ -142,11 +142,11 @@ async function getData() {
 }
 
 async function getMetadata(tokens, overwrite) {
-	const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
+	const goerli = await getTokenMetadata('goerli', tokens.goerli, overwrite.goerli);
 	const homestead = await getTokenMetadata('homestead', tokens.homestead, overwrite.homestead);
 
 	return {
-		kovan,
+		goerli,
 		homestead,
 	};
 }
@@ -198,7 +198,7 @@ function getMainnetAddress(address) {
 }
 
 function mergeTokenLists(lists) {
-	const kovan = [];
+	const goerli = [];
 	const homestead = [];
 
 	for (const datasetName in lists) {
@@ -208,11 +208,11 @@ function mergeTokenLists(lists) {
 
 		const dataset = lists[datasetName];
 
-		let dataset_kovan = [];
-		if (dataset.kovan instanceof Array) {
-			dataset_kovan = dataset.kovan;
+		let dataset_goerli = [];
+		if (dataset.goerli instanceof Array) {
+			dataset_goerli = dataset.goerli;
 		} else {
-			dataset_kovan = Object.keys(dataset.kovan);
+			dataset_goerli = Object.keys(dataset.goerli);
 		}
 
 		let dataset_homestead = [];
@@ -222,8 +222,8 @@ function mergeTokenLists(lists) {
 			dataset_homestead = Object.keys(dataset.homestead);
 		}
 
-		for (const token of dataset_kovan) {
-			kovan.push(token);
+		for (const token of dataset_goerli) {
+			goerli.push(token);
 		}
 
 		for (const token of dataset_homestead) {
@@ -232,13 +232,13 @@ function mergeTokenLists(lists) {
 	}
 
 	return {
-		kovan,
+		goerli,
 		homestead,
 	};
 }
 
 function verifyInputs(lists) {
-	verifyNetworkInputs(lists, 'kovan');
+	verifyNetworkInputs(lists, 'goerli');
 	verifyNetworkInputs(lists, 'homestead');
 }
 
