@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-09-21T00:00:00.000Z",
+    "timestamp": "2022-10-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -552,7 +552,7 @@
             "address": "0x804CdB9116a10bB78768D3252355a1b18067bF8f",
             "chainId": 1,
             "name": "Balancer Aave Boosted Pool (DAI)",
-            "symbol": "bb-a-DAI",
+            "symbol": "bb-a-DAI (old)",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x804cdb9116a10bb78768d3252355a1b18067bf8f.png"
         },
@@ -560,7 +560,7 @@
             "address": "0x9210F1204b5a24742Eba12f710636D76240dF3d0",
             "chainId": 1,
             "name": "Balancer Aave Boosted Pool (USDC)",
-            "symbol": "bb-a-USDC",
+            "symbol": "bb-a-USDC (old)",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9210f1204b5a24742eba12f710636d76240df3d0.png"
         },
@@ -568,7 +568,7 @@
             "address": "0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C",
             "chainId": 1,
             "name": "Balancer Aave Boosted Pool (USDT)",
-            "symbol": "bb-a-USDT",
+            "symbol": "bb-a-USDT (old)",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c.png"
         },
@@ -576,7 +576,7 @@
             "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
             "chainId": 1,
             "name": "Balancer Aave Boosted StablePool (USD)",
-            "symbol": "bb-a-USD",
+            "symbol": "bb-a-USD (old)",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
         },
@@ -1002,62 +1002,6 @@
             "symbol": "bb-a-USD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
-        },
-        {
-            "address": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
-            "chainId": 42,
-            "name": "Wrapped Ether",
-            "symbol": "WETH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-        },
-        {
-            "address": "0x41286Bb1D3E870f3F750eB7E1C25d7E48c8A1Ac7",
-            "chainId": 42,
-            "name": "BAL",
-            "symbol": "BAL",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
-        },
-        {
-            "address": "0xc2569dd7d0fd715B054fBf16E75B001E5c0C1115",
-            "chainId": 42,
-            "name": "USDC",
-            "symbol": "USDC",
-            "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
-        },
-        {
-            "address": "0xAf9ac3235be96eD496db7969f60D354fe5e426B0",
-            "chainId": 42,
-            "name": "MKR",
-            "symbol": "MKR",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png"
-        },
-        {
-            "address": "0x04DF6e4121c27713ED22341E7c7Df330F56f289B",
-            "chainId": 42,
-            "name": "DAI",
-            "symbol": "DAI",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
-        },
-        {
-            "address": "0x8F4beBF498cc624a0797Fe64114A6Ff169EEe078",
-            "chainId": 42,
-            "name": "PERP",
-            "symbol": "PERP",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbC396689893D065F41bc2C6EcbeE5e0085233447/logo.png"
-        },
-        {
-            "address": "0x1C8E3Bcb3378a443CC591f154c5CE0EBb4dA9648",
-            "chainId": 42,
-            "name": "WBTC",
-            "symbol": "WBTC",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
         }
     ]
 }
