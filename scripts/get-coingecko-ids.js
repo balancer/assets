@@ -21,11 +21,11 @@ async function run() {
 }
 
 async function getMissingIds(tokens, coingecko) {
-	// const kovan = await getMissingNetworkIds(tokens.kovan, coingecko.kovan);
+	const kovan = await getMissingNetworkIds(tokens.kovan, coingecko.kovan);
 	const homestead = await getMissingNetworkIds(tokens.homestead, coingecko.homestead);
 
 	return {
-		// kovan,
+		kovan,
 		homestead,
 	};
 }
@@ -85,7 +85,7 @@ async function getData() {
 }
 
 function mergeTokenLists(lists) {
-	// const kovan = [];
+	const kovan = [];
 	const homestead = [];
 
 	for (const datasetName in lists) {
@@ -95,12 +95,12 @@ function mergeTokenLists(lists) {
 
 		const dataset = lists[datasetName];
 
-		// let dataset_kovan = [];
-		// if (dataset.kovan instanceof Array) {
-		// 	dataset_kovan = dataset.kovan;
-		// } else {
-		// 	dataset_kovan = Object.keys(dataset.kovan);
-		// }
+		let dataset_kovan = [];
+		if (dataset.kovan instanceof Array) {
+			dataset_kovan = dataset.kovan;
+		} else {
+			dataset_kovan = Object.keys(dataset.kovan);
+		}
 
 		let dataset_homestead = [];
 		if (dataset.homestead instanceof Array) {
@@ -109,9 +109,9 @@ function mergeTokenLists(lists) {
 			dataset_homestead = Object.keys(dataset.homestead);
 		}
 
-		// for (const token of dataset_kovan) {
-		// 	kovan.push(token);
-		// }
+		for (const token of dataset_kovan) {
+			kovan.push(token);
+		}
 
 		for (const token of dataset_homestead) {
 			homestead.push(token);
@@ -119,7 +119,7 @@ function mergeTokenLists(lists) {
 	}
 
 	return {
-		// kovan,
+		kovan,
 		homestead,
 	};
 }

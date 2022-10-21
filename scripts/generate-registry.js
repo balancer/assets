@@ -142,11 +142,11 @@ async function getData() {
 }
 
 async function getMetadata(tokens, overwrite) {
-	// const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
+	const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
 	const homestead = await getTokenMetadata('homestead', tokens.homestead, overwrite.homestead);
 
 	return {
-		// kovan,
+		kovan,
 		homestead,
 	};
 }
