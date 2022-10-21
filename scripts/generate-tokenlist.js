@@ -25,7 +25,7 @@ async function run() {
 		const ui = JSON.parse(uiFile);
 
 		const vetted = {
-			// kovan: [...Object.keys(eligible.kovan), ...ui.kovan],
+			kovan: [...Object.keys(eligible.kovan), ...ui.kovan],
 			homestead: [...Object.keys(eligible.homestead), ...ui.homestead],
 		};
 		const vettedMetadata = await getMetadata(vetted, data.metadataOverwrite);
@@ -97,11 +97,11 @@ async function getData() {
 }
 
 async function getMetadata(tokens, overwrite) {
-	// const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
+	const kovan = await getTokenMetadata('kovan', tokens.kovan, overwrite.kovan);
 	const homestead = await getTokenMetadata('homestead', tokens.homestead, overwrite.homestead);
 
 	return {
-		// kovan,
+		kovan,
 		homestead,
 	};
 }
@@ -121,19 +121,19 @@ function getTokens(data, metadata) {
 			logoURI: getLogoURI(data.assets, address),
 		});
 	}
-	// for (const address in metadata.kovan) {
-	// 	const chainId = 42;
-	// 	const token = metadata.kovan[address];
-	// 	const { decimals, symbol, name } = token;
-	// 	tokens.push({
-	// 		address,
-	// 		chainId,
-	// 		name,
-	// 		symbol,
-	// 		decimals,
-	// 		logoURI: getLogoURI(data.assets, address),
-	// 	});
-	// }
+	for (const address in metadata.kovan) {
+		const chainId = 42;
+		const token = metadata.kovan[address];
+		const { decimals, symbol, name } = token;
+		tokens.push({
+			address,
+			chainId,
+			name,
+			symbol,
+			decimals,
+			logoURI: getLogoURI(data.assets, address),
+		});
+	}
 	return tokens;
 }
 

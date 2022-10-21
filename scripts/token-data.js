@@ -7,12 +7,12 @@ async function getTokenMetadata(network, tokens, overwrite) {
 	const infuraKey = process.env.INFURA_KEY || '93e3393c76ed4e1f940d0266e2fdbda2';
 
 	const providers = {
-		// kovan: new ethers.providers.InfuraProvider('kovan', infuraKey),
+		kovan: new ethers.providers.InfuraProvider('kovan', infuraKey),
 		homestead: new ethers.providers.InfuraProvider('homestead', infuraKey),
 	};
 
 	const multicallContract = {
-		// kovan: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
+		kovan: '0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A',
 		homestead: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
 	};
 
