@@ -26,21 +26,21 @@ jobs:
     - run: npm run generate:registry
     - run: npm run generate:tokenlist
     - run: npm run generate:bal-for-gas
-    - name: Upload DEX Kovan config
+    - name: Upload DEX Goerli config
       uses: actions/upload-artifact@v2
       with:
-        name: dex-kovan-data
-        path: generated/dex/registry.kovan.json
+        name: dex-goerli-data
+        path: generated/dex/registry.goerli.json
     - name: Upload DEX Homestead config
       uses: actions/upload-artifact@v2
       with:
         name: pm-homestead-data
         path: generated/pm/registry.homestead.json
-    - name: Upload PM Kovan config
+    - name: Upload PM Goerli config
       uses: actions/upload-artifact@v2
       with:
-        name: pm-kovan-data
-        path: generated/pm/registry.kovan.json
+        name: pm-goerli-data
+        path: generated/pm/registry.goerli.json
     - name: Upload PM Homestead config
       uses: actions/upload-artifact@v2
       with:
@@ -55,20 +55,20 @@ jobs:
     needs: generate
     runs-on: ubuntu-latest
     steps:
-    - name: Download PM Kovan config
+    - name: Download PM Goerli config
       uses: actions/download-artifact@v2
       with:
-        name: pm-kovan-data
+        name: pm-goerli-data
         path: pm
     - name: Download PM Homestead config
       uses: actions/download-artifact@v2
       with:
         name: pm-homestead-data
         path: pm
-    - name: Download DEX Kovan config
+    - name: Download DEX Goerli config
       uses: actions/download-artifact@v2
       with:
-        name: dex-kovan-data
+        name: dex-goerli-data
         path: dex
     - name: Download DEX Homestead config
       uses: actions/download-artifact@v2
@@ -97,9 +97,9 @@ jobs:
       id: commit
       run: |
         cd branch
-        cp ../dex/registry.kovan.json generated/dex/registry.kovan.json
+        cp ../dex/registry.goerli.json generated/dex/registry.goerli.json
         cp ../dex/registry.homestead.json generated/dex/registry.homestead.json
-        cp ../pm/registry.kovan.json generated/pm/registry.kovan.json
+        cp ../pm/registry.goerli.json generated/pm/registry.goerli.json
         cp ../pm/registry.homestead.json generated/pm/registry.homestead.json
         cp ../listed.tokenlist.json generated/listed.tokenlist.json
         git config --global user.email "bot@balancer.finance"
