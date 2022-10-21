@@ -1124,6 +1124,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
+        },
+        "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+            "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
         }
     },
     "untrusted": [
