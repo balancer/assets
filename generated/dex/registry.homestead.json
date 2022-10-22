@@ -612,6 +612,51 @@
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
         },
+        "0xA13a9247ea42D743238089903570127DdA72fE44": {
+            "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
+            "name": "Balancer Aave Boosted StablePool",
+            "symbol": "bb-a-USD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
+        },
+        "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb": {
+            "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
+            "name": "Balancer Aave Boosted Pool (USDT)",
+            "symbol": "bb-a-USDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
+        },
+        "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83": {
+            "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
+            "name": "Balancer Aave Boosted Pool (USDC)",
+            "symbol": "bb-a-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
+        },
+        "0xae37D54Ae477268B9997d4161B96b8200755935c": {
+            "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
+            "name": "Balancer Aave Boosted Pool (DAI)",
+            "symbol": "bb-a-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
+        },
+        "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
+            "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
+            "name": "Balancer Aave Boosted StablePool (USD)",
+            "symbol": "bb-a-USD (old)",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
+        },
         "0x804CdB9116a10bB78768D3252355a1b18067bF8f": {
             "address": "0x804CdB9116a10bB78768D3252355a1b18067bF8f",
             "name": "Balancer Aave Boosted Pool (DAI)",
@@ -638,15 +683,6 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c.png"
-        },
-        "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
-            "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
-            "name": "Balancer Aave Boosted StablePool (USD)",
-            "symbol": "bb-a-USD (old)",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
         },
         "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad": {
             "address": "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad",
@@ -1088,42 +1124,6 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
-        },
-        "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb": {
-            "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
-            "name": "Balancer Aave Boosted Pool (USDT)",
-            "symbol": "bb-a-USDT",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
-        },
-        "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83": {
-            "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
-            "name": "Balancer Aave Boosted Pool (USDC)",
-            "symbol": "bb-a-USDC",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
-        },
-        "0xae37D54Ae477268B9997d4161B96b8200755935c": {
-            "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
-            "name": "Balancer Aave Boosted Pool (DAI)",
-            "symbol": "bb-a-DAI",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
-        },
-        "0xA13a9247ea42D743238089903570127DdA72fE44": {
-            "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
-            "name": "Balancer Aave Boosted StablePool",
-            "symbol": "bb-a-USD",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
         },
         "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
             "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
