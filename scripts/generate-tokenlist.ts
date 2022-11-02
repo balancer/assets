@@ -48,10 +48,10 @@ async function run(network?: Network) {
       await buildNetworkLists(network);
     } else {
       // await buildNetworkLists(Network.Homestead);
-      await buildNetworkLists(Network.Kovan);
       await buildNetworkLists(Network.Goerli);
       await buildNetworkLists(Network.Polygon);
       await buildNetworkLists(Network.Arbitrum);
+      await buildNetworkLists(Network.Optimism);
     }
   } catch (e) {
     console.error(e);
