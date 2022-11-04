@@ -9,17 +9,17 @@ const coingeckoClient = axios.create({
 
 const platformIdMap: Record<Network, string> = {
   [Network.Homestead]: "ethereum",
-  [Network.Kovan]: "ethereum",
   [Network.Goerli]: "goerli",
   [Network.Polygon]: "polygon-pos",
   [Network.Arbitrum]: "arbitrum-one",
+  [Network.Optimism]: "optimistic-ethereum",
 };
 
 export const getCoingeckoMetadata = async (
   network: Network,
   address: string
 ): Promise<[string | null, Partial<TokenInfo>]> => {
-  if (network === Network.Kovan) return [null, {}];
+  if (network === Network.Goerli) return [null, {}];
 
   let data;
   try {

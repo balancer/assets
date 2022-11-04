@@ -9,27 +9,27 @@ import { MinimalTokenInfo, Network } from "../types";
 const infuraKey = "93e3393c76ed4e1f940d0266e2fdbda2";
 
 const providers = {
-  kovan: new InfuraProvider("kovan", infuraKey),
   goerli: new InfuraProvider("goerli", infuraKey),
   homestead: new InfuraProvider("homestead", infuraKey),
   polygon: new InfuraProvider("matic", infuraKey),
   arbitrum: new InfuraProvider("arbitrum", infuraKey),
+  optimism: new InfuraProvider("optimism", infuraKey),
 };
 
 export const chainIdMap = {
   homestead: 1,
   goerli: 5,
-  kovan: 42,
   polygon: 137,
   arbitrum: 42161,
+  optimism: 10,
 };
 
 const multicallContract = {
   homestead: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
-  kovan: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
   goerli: "0x5ba1e12693dc8f9c48aad8770482f4739beed696",
   polygon: "0xe2530198A125Dcdc8Fc5476e07BFDFb5203f1102",
   arbitrum: "0xd67950096d029af421a946ffb1e04c94caf8e256",
+  optimism: "0x2dc0e2aa608532da689e89e237df582b783e552c",
 };
 
 const erc20ABI = [
