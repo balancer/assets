@@ -1,0 +1,40 @@
+{
+    "name": "Balancer",
+    "timestamp": "2022-10-08T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+        "balancer",
+        "listed"
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "address": "0x888a6195d42a95e80d81e1c506172772a80b80bc",
+            "chainId": 10,
+            "name": "Beets Reaper Aave Boosted DAI",
+            "symbol": "bb-rf-aDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x888a6195d42a95e80d81e1c506172772a80b80bc.png"
+        },
+        {
+            "address": "0x9253d7e1b42fa01ede2c53f3a21b3b4d13239cd4",
+            "chainId": 10,
+            "name": "Beets Reaper Aave Boosted USDT",
+            "symbol": "bb-rf-aUSDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9253d7e1b42fa01ede2c53f3a21b3b4d13239cd4.png"
+        },
+        {
+            "address": "0xba7834bb3cd2db888e6a06fb45e82b4225cd0c71",
+            "chainId": 10,
+            "name": "Beets Reaper Aave Boosted USDC",
+            "symbol": "bb-rf-aUSDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xba7834bb3cd2db888e6a06fb45e82b4225cd0c71.png"
+        }
+    ]
+}
