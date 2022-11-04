@@ -2,10 +2,10 @@ import { TokenInfo } from "@uniswap/token-lists";
 
 export enum Network {
   Homestead = "homestead",
-  Kovan = "kovan",
   Goerli = "goerli",
   Polygon = "polygon",
   Arbitrum = "arbitrum",
+  Optimism = "optimism",
 }
 
 export enum List {

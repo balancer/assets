@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "ts-node scripts/generate-tokenlist.ts",
-    "merge": "ts-node scripts/merge-tokenlists.ts"
+    "generate": "ts-node scripts/generate-tokenlist.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,11 +18,11 @@
     "prettier": "^2.3.1"
   },
   "dependencies": {
-    "@ethersproject/abi": "^5.5.0",
-    "@ethersproject/address": "^5.5.0",
-    "@ethersproject/contracts": "^5.5.0",
-    "@ethersproject/providers": "^5.5.3",
-    "@ethersproject/strings": "^5.5.0",
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/strings": "^5.7.0",
     "@fleekhq/fleek-storage-js": "^1.0.17",
     "@uniswap/token-lists": "^1.0.0-beta.24",
     "axios": "^0.20.0",
