@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-11T00:00:00.000Z",
+    "timestamp": "2022-11-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 20,
+        "minor": 21,
         "patch": 0
     },
     "tokens": [
@@ -74,7 +74,7 @@
             "name": "BOB",
             "symbol": "BOB",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
         },
         {
             "address": "0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14",
