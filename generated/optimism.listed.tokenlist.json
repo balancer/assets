@@ -1,6 +1,10 @@
 {
     "name": "Balancer",
+<<<<<<< HEAD
     "timestamp": "2022-11-11T00:00:00.000Z",
+=======
+    "timestamp": "2022-11-12T00:00:00.000Z",
+>>>>>>> upstream/refactor-for-multichain
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -13,12 +17,21 @@
     },
     "tokens": [
         {
+<<<<<<< HEAD
             "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
             "chainId": 10,
             "name": "BOB",
             "symbol": "BOB",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+=======
+            "address": "0x97513e975a7fA9072c72C92d8000B0dB90b163c5",
+            "chainId": 10,
+            "name": "BeethovenxToken",
+            "symbol": "BEETS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x97513e975a7fa9072c72c92d8000b0db90b163c5.png"
+>>>>>>> upstream/refactor-for-multichain
         },
         {
             "address": "0x888a6195d42a95e80d81e1c506172772a80b80bc",
@@ -40,6 +53,70 @@
             "name": "Beets Reaper Aave Boosted USDT",
             "symbol": "bb-rf-aUSDT",
             "decimals": 18
+        },
+        {
+            "address": "0xA1a77E5d7D769BFBB790a08EC976dc738bF795B9",
+            "chainId": 10,
+            "name": "Beets Reaper Aave Boosted WBTC",
+            "symbol": "bb-rf-aWBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa1a77e5d7d769bfbb790a08ec976dc738bf795b9.png"
+        },
+        {
+            "address": "0xC0d7013A05860271a1EDB52415CF74BC85B2AcE7",
+            "chainId": 10,
+            "name": "Beets Reaper Aave Boosted sUSD",
+            "symbol": "bb-rf-asUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc0d7013a05860271a1edb52415cf74bc85b2ace7.png"
+        },
+        {
+            "address": "0xd0d334B6CfD77AcC94bAB28C7783982387856449",
+            "chainId": 10,
+            "name": "Beets Reaper Granary Boosted BAL",
+            "symbol": "bb-rf-grBAL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd0d334b6cfd77acc94bab28c7783982387856449.png"
+        },
+        {
+            "address": "0xA4e597c1bD01859B393b124ce18427Aa4426A871",
+            "chainId": 10,
+            "name": "Beets Reaper Granary Boosted OP",
+            "symbol": "bb-rf-grOP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa4e597c1bd01859b393b124ce18427aa4426a871.png"
+        },
+        {
+            "address": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+            "chainId": 10,
+            "name": "Lido DAO Token",
+            "symbol": "LDO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfdb794692724153d1488ccdbe0c56c252596735f.png"
+        },
+        {
+            "address": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97",
+            "chainId": 10,
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97.png"
+        },
+        {
+            "address": "0x6222ae1d2a9f6894dA50aA25Cb7b303497f9BEbd",
+            "chainId": 10,
+            "name": "Steady Beets, Boosted",
+            "symbol": "bb-rf-aUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6222ae1d2a9f6894da50aa25cb7b303497f9bebd.png"
+        },
+        {
+            "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+            "chainId": 10,
+            "name": "Wrapped liquid staked Ether 2.0",
+            "symbol": "wstETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb.png"
         }
     ]
 }

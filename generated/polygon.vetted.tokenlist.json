@@ -485,6 +485,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
         },
         {
+            "address": "0x255707B70BF90aa112006E1b07B9AeA6De021424",
+            "chainId": 137,
+            "name": "TETU Reward Token",
+            "symbol": "TETU",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x255707b70bf90aa112006e1b07b9aea6de021424.png"
+        },
+        {
             "address": "0x7fC9E0Aa043787BFad28e29632AdA302C790Ce33",
             "chainId": 137,
             "name": "TETU_ST_BAL",
