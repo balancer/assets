@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-04T00:00:00.000Z",
+    "timestamp": "2022-11-19T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1018,6 +1018,13 @@
             "symbol": "sfrxETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xac3e018457b222d93114458476f3e3416abbe38f.png"
+        },
+        {
+            "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+            "chainId": 1,
+            "name": "Ethereum Name Service",
+            "symbol": "ENS",
+            "decimals": 18
         }
     ]
 }
