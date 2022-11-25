@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-11T00:00:00.000Z",
+    "timestamp": "2022-11-25T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 20,
+        "minor": 21,
         "patch": 0
     },
     "tokens": [
@@ -491,6 +491,14 @@
             "symbol": "tetuBAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7fc9e0aa043787bfad28e29632ada302c790ce33.png"
+        },
+        {
+            "address": "0x4Cd44ced63d9a6FEF595f6AD3F7CED13fCEAc768",
+            "chainId": 137,
+            "name": "TETU_ST_QI",
+            "symbol": "tetuQi",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4cd44ced63d9a6fef595f6ad3f7ced13fceac768.png"
         },
         {
             "address": "0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015",
