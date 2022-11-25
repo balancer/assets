@@ -1151,6 +1151,33 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": ""
+        },
+        "0x93ef1Ea305D11A9b2a3EbB9bB4FCc34695292E7d": {
+            "address": "0x93ef1Ea305D11A9b2a3EbB9bB4FCc34695292E7d",
+            "name": "TranchessV2 WETH QUEEN",
+            "symbol": "qETH",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x93ef1ea305d11a9b2a3ebb9bb4fcc34695292e7d.png"
+        },
+        "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0": {
+            "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+            "name": "LUSD Stablecoin",
+            "symbol": "LUSD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5f98805a4e8be255a32880fdec7f6728c6568ba0.png"
+        },
+        "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D": {
+            "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+            "name": "LQTY",
+            "symbol": "LQTY",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
         }
     },
     "untrusted": [
