@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-11T00:00:00.000Z",
+    "timestamp": "2022-11-25T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 18,
+        "minor": 19,
         "patch": 0
     },
     "tokens": [
@@ -627,6 +627,14 @@
             "symbol": "renBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
+        },
+        {
+            "address": "0x4Cd44ced63d9a6FEF595f6AD3F7CED13fCEAc768",
+            "chainId": 137,
+            "name": "tetuQi",
+            "symbol": "tetuQi",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4cd44ced63d9a6fef595f6ad3f7ced13fceac768.png"
         },
         {
             "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
