@@ -1178,6 +1178,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
+        },
+        "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F": {
+            "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+            "name": "Across Protocol Token",
+            "symbol": "ACX",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
