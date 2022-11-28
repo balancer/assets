@@ -1170,6 +1170,15 @@
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5f98805a4e8be255a32880fdec7f6728c6568ba0.png"
         },
+        "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F": {
+            "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+            "name": "Across Protocol Token",
+            "symbol": "ACX",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f.png"
+        },
         "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D": {
             "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
             "name": "LQTY",
@@ -1178,15 +1187,6 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
-        },
-        "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F": {
-            "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
-            "name": "Across Protocol Token",
-            "symbol": "ACX",
-            "decimals": 18,
-            "precision": 3,
-            "hasIcon": false,
-            "logoUrl": ""
         }
     },
     "untrusted": [
