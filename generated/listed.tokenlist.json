@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-25T00:00:00.000Z",
+    "timestamp": "2022-11-28T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1049,6 +1049,13 @@
             "symbol": "LQTY",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
+        },
+        {
+            "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+            "chainId": 1,
+            "name": "Across Protocol Token",
+            "symbol": "ACX",
+            "decimals": 18
         }
     ]
 }
