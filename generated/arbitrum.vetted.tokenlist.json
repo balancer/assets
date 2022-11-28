@@ -234,7 +234,7 @@
             "name": "TendieBets.io",
             "symbol": "TENDIE",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x22c8fd06710d10f62710364e5bc42064ac3dabba.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x22c8fd06710d10f62710364e5bc42064ac3dabba.png"
         },
         {
             "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
