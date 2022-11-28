@@ -1024,7 +1024,8 @@
             "chainId": 1,
             "name": "Ethereum Name Service",
             "symbol": "ENS",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72.png"
         },
         {
             "address": "0x93ef1Ea305D11A9b2a3EbB9bB4FCc34695292E7d",
