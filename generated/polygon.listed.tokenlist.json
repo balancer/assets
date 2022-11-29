@@ -69,6 +69,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x61bdd9c7d4df4bf47a4508c0c8245505f2af5b7b.png"
         },
         {
+            "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+            "chainId": 137,
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+        },
+        {
             "address": "0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14",
             "chainId": 137,
             "name": "BTC 2x Flexible Leverage Index (Polygon)",
