@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-10-08T00:00:00.000Z",
+    "timestamp": "2022-11-24T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 14,
+        "minor": 15,
         "patch": 0
     },
     "tokens": [
@@ -227,6 +227,14 @@
             "symbol": "sUSD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png"
+        },
+        {
+            "address": "0x22c8fD06710d10f62710364E5bC42064AC3DabBA",
+            "chainId": 42161,
+            "name": "TendieBets.io",
+            "symbol": "TENDIE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x22c8fd06710d10f62710364e5bc42064ac3dabba.png"
         },
         {
             "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
