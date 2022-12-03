@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-28T00:00:00.000Z",
+    "timestamp": "2022-12-03T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1058,6 +1058,14 @@
             "symbol": "LQTY",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
+        },
+        {
+            "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+            "chainId": 1,
+            "name": "Coinbase Wrapped Staked ETH",
+            "symbol": "cbETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbe9895146f7af43049ca1c1ae358b0541ea49704.png"
         }
     ]
 }

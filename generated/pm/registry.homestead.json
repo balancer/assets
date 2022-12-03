@@ -6401,6 +6401,17 @@
       "color": "#8b5580",
       "hasIcon": true,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png"
+    },
+    "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "id": "",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#8d6268",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbe9895146f7af43049ca1c1ae358b0541ea49704.png"
     }
   },
   "untrusted": [
