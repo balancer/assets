@@ -1196,6 +1196,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbe9895146f7af43049ca1c1ae358b0541ea49704.png"
+        },
+        "0xAD038Eb671c44b853887A7E32528FaB35dC5D710": {
+            "address": "0xAD038Eb671c44b853887A7E32528FaB35dC5D710",
+            "name": "Dola Borrowing Right",
+            "symbol": "DBR",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xad038eb671c44b853887a7e32528fab35dc5d710.png"
         }
     },
     "untrusted": [
