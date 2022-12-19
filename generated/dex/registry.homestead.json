@@ -1205,6 +1205,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xad038eb671c44b853887a7e32528fab35dc5d710.png"
+        },
+        "0x30D20208d987713f46DFD34EF128Bb16C404D10f": {
+            "address": "0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+            "name": "Stader",
+            "symbol": "SD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x30d20208d987713f46dfd34ef128bb16c404d10f.png"
         }
     },
     "untrusted": [
