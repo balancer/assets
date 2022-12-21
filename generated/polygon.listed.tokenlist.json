@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-25T00:00:00.000Z",
+    "timestamp": "2022-12-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 19,
+        "minor": 20,
         "patch": 0
     },
     "tokens": [
@@ -213,6 +213,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
         },
         {
+            "address": "0x960d43BE128585Ca45365CD74a7773B9d814dfBE",
+            "chainId": 137,
+            "name": "FireVault FBX",
+            "symbol": "fireFBX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x960d43be128585ca45365cd74a7773b9d814dfbe.png"
+        },
+        {
             "address": "0x656Bf6767Fa8863aC0dD0b7d2a26602B838A2E70",
             "chainId": 137,
             "name": "Fitmint Token",
@@ -363,6 +371,14 @@
             "symbol": "MVI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x72e364F2ABdC788b7E918bc238B21f109Cd634D7/logo.png"
+        },
+        {
+            "address": "0x5A0801BAd20B6c62d86C566ca90688A6b9ea1d3f",
+            "chainId": 137,
+            "name": "Moo Curve aTriCrypto3",
+            "symbol": "mooCurveATriCrypto3",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x5a0801bad20b6c62d86c566ca90688a6b9ea1d3f.png"
         },
         {
             "address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
@@ -594,7 +610,7 @@
             "name": "Wrapped Matic",
             "symbol": "WMATIC",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270.png"
         },
         {
             "address": "0xEE029120c72b0607344f35B17cdD90025e647B00",
