@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-25T00:00:00.000Z",
+    "timestamp": "2022-12-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 19,
+        "minor": 20,
         "patch": 0
     },
     "tokens": [
@@ -149,12 +149,20 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
         },
         {
+            "address": "0xFcBB00dF1d663eeE58123946A30AB2138bF9eb2A",
+            "chainId": 137,
+            "name": "ClayStack Staked MATIC",
+            "symbol": "csMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfcbb00df1d663eee58123946a30ab2138bf9eb2a.png"
+        },
+        {
             "address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
             "chainId": 137,
             "name": "Compound",
             "symbol": "COMP",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/refactor-for-multichain/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
         },
         {
             "address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
