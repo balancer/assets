@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-12-19T00:00:00.000Z",
+    "timestamp": "2023-01-02T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1082,6 +1082,22 @@
             "symbol": "SD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x30d20208d987713f46dfd34ef128bb16c404d10f.png"
+        },
+        {
+            "address": "0x454Ed96955d04D2f5cDD05E0Fd1C77975bFE5307",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (TUSD)",
+            "symbol": "bb-a-TUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x454ed96955d04d2f5cdd05e0fd1c77975bfe5307.png"
+        },
+        {
+            "address": "0x6a1eB2e9B45e772F55bd9a34659A04B6F75Da687",
+            "chainId": 1,
+            "name": "Balancer Aave Boosted Pool (FRAX)",
+            "symbol": "bb-a-FRAX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6a1eb2e9b45e772f55bd9a34659a04b6f75da687.png"
         }
     ]
 }
