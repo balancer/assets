@@ -16,7 +16,7 @@
             "decimals": 18,
             "precision": 5,
             "hasIcon": true,
-            "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
         },
         "0xba100000625a3754423978a60c9317c58a424e3D": {
             "address": "0xba100000625a3754423978a60c9317c58a424e3D",
