@@ -618,7 +618,7 @@
             "name": "Wrapped USDR",
             "symbol": "wUSDR",
             "decimals": 9,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf0d9d65fc54de245cda37af3d18cbec860a4d4b.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xaf0d9d65fc54de245cda37af3d18cbec860a4d4b.png"
         },
         {
             "address": "0xEE029120c72b0607344f35B17cdD90025e647B00",
