@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 23,
+        "minor": 24,
         "patch": 0
     },
     "tokens": [
@@ -245,6 +245,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/13267/large/Decentral_Games_Logo-1.png?1621652581"
         },
         {
+            "address": "0x60Ed6aCEF3a96F8CDaF0c0D207BbAfA66e751af2",
+            "chainId": 137,
+            "name": "Elemental Particles",
+            "symbol": "EP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x60ed6acef3a96f8cdaf0c0d207bbafa66e751af2.png"
+        },
+        {
             "address": "0xbD7A5Cf51d22930B8B3Df6d834F9BCEf90EE7c4f",
             "chainId": 137,
             "name": "Ethereum Name Service",
@@ -259,6 +267,22 @@
             "symbol": "EURT",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f.png"
+        },
+        {
+            "address": "0xD167804ca2aD66cbbf959D707229C2229284acec",
+            "chainId": 137,
+            "name": "FireBot Staked Ether",
+            "symbol": "fireETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd167804ca2ad66cbbf959d707229c2229284acec.png"
+        },
+        {
+            "address": "0xD125443F38A69d776177c2B9c041f462936F8218",
+            "chainId": 137,
+            "name": "FireBotToken",
+            "symbol": "FBX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd125443f38a69d776177c2b9c041f462936f8218.png"
         },
         {
             "address": "0x960d43BE128585Ca45365CD74a7773B9d814dfBE",
