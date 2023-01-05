@@ -789,6 +789,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270.png"
         },
         {
+            "address": "0xAF0D9D65fC54de245cdA37af3d18cbEc860A4D4b",
+            "chainId": 137,
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xaf0d9d65fc54de245cda37af3d18cbec860a4d4b.png"
+        },
+        {
             "address": "0xEE029120c72b0607344f35B17cdD90025e647B00",
             "chainId": 137,
             "name": "Wrapped amDAI",
