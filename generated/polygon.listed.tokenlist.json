@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-12-21T00:00:00.000Z",
+    "timestamp": "2023-01-05T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 20,
+        "minor": 21,
         "patch": 0
     },
     "tokens": [
@@ -67,6 +67,22 @@
             "symbol": "AXS",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x61bdd9c7d4df4bf47a4508c0c8245505f2af5b7b.png"
+        },
+        {
+            "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+            "chainId": 137,
+            "name": "BOB",
+            "symbol": "BOB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+        },
+        {
+            "address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+            "chainId": 137,
+            "name": "BRZ",
+            "symbol": "BRZ",
+            "decimals": 4,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x491a4eb4f1fc3bff8e1d2fc856a6a46663ad556f.png"
         },
         {
             "address": "0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14",
@@ -133,12 +149,36 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198/logo.png"
         },
         {
+            "address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5",
+            "chainId": 137,
+            "name": "BiLira (PoS)",
+            "symbol": "TRYB",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4fb71290ac171e1d144f7221d882becac7196eb5.png"
+        },
+        {
+            "address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
+            "chainId": 137,
+            "name": "CAD Coin",
+            "symbol": "CADC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9de41aff9f55219d5bf4359f167d1d0c772a396d.png"
+        },
+        {
             "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
             "chainId": 137,
             "name": "Chainlink",
             "symbol": "LINK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+        },
+        {
+            "address": "0xFcBB00dF1d663eeE58123946A30AB2138bF9eb2A",
+            "chainId": 137,
+            "name": "ClayStack Staked MATIC",
+            "symbol": "csMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfcbb00df1d663eee58123946a30ab2138bf9eb2a.png"
         },
         {
             "address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
@@ -203,6 +243,14 @@
             "symbol": "ENS",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png"
+        },
+        {
+            "address": "0x7BDF330f423Ea880FF95fC41A280fD5eCFD3D09f",
+            "chainId": 137,
+            "name": "Euro Tether (PoS)",
+            "symbol": "EURT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f.png"
         },
         {
             "address": "0x960d43BE128585Ca45365CD74a7773B9d814dfBE",
@@ -309,12 +357,140 @@
             "logoURI": "https://assets.coingecko.com/coins/images/10390/large/cfeii0y.png?1578868949"
         },
         {
+            "address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Australian Dollar",
+            "symbol": "jAUD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xcb7f1ef7246d1497b985f7fc45a1a31f04346133.png"
+        },
+        {
+            "address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Brazilian Real",
+            "symbol": "jBRL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf2f77fe7b8e66571e0fca7104c4d670bf1c8d722.png"
+        },
+        {
+            "address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
+            "chainId": 137,
+            "name": "Jarvis Synthetic British Pound",
+            "symbol": "jGBP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x767058f11800fba6a682e73a6e79ec5eb74fac8c.png"
+        },
+        {
+            "address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Canadian Dollar",
+            "symbol": "jCAD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x8ca194a3b22077359b5732de53373d4afc11dee3.png"
+        },
+        {
+            "address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Chinese Yuan",
+            "symbol": "jCNY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x84526c812d8f6c4fd6c1a5b68713aff50733e772.png"
+        },
+        {
             "address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
             "chainId": 137,
             "name": "Jarvis Synthetic Euro",
             "symbol": "jEUR",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/15725/large/jEUR.png?1634046044"
+        },
+        {
+            "address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Japanese Yen",
+            "symbol": "jJPY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x8343091f2499fd4b6174a46d067a920a3b851ff9.png"
+        },
+        {
+            "address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Mexican Peso",
+            "symbol": "jMXN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xbd1fe73e1f12bd2bc237de9b626f056f21f86427.png"
+        },
+        {
+            "address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0",
+            "chainId": 137,
+            "name": "Jarvis Synthetic New Zealand Dollar",
+            "symbol": "jNZD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6b526daf03b4c47af2bcc5860b12151823ff70e0.png"
+        },
+        {
+            "address": "0x486880FB16408b47f928F472f57beC55AC6089d1",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Philippine Peso",
+            "symbol": "jPHP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x486880fb16408b47f928f472f57bec55ac6089d1.png"
+        },
+        {
+            "address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Polish Zloty",
+            "symbol": "jPLN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x08e6d1f0c4877ef2993ad733fc6f1d022d0e9dbf.png"
+        },
+        {
+            "address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Singapore Dollar",
+            "symbol": "jSGD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503.png"
+        },
+        {
+            "address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E",
+            "chainId": 137,
+            "name": "Jarvis Synthetic South Korean Won",
+            "symbol": "jKRW",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xa22f6bc96f13bcc84df36109c973d3c0505a067e.png"
+        },
+        {
+            "address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Swedish Krona",
+            "symbol": "jSEK",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x197e5d6ccff265ac3e303a34db360ee1429f5d1a.png"
+        },
+        {
+            "address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Swiss Franc",
+            "symbol": "jCHF",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xbd1463f02f61676d53fd183c2b19282bff93d099.png"
+        },
+        {
+            "address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc",
+            "chainId": 137,
+            "name": "Jarvis Synthetic Turkish Lira",
+            "symbol": "jTRY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x2a227fc77bb2cf8f1881a04ecc8fa01ec57ec9fc.png"
+        },
+        {
+            "address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44",
+            "chainId": 137,
+            "name": "Jarvis Synthetic United States Dollar",
+            "symbol": "jUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc948ee9a0687c292ac4d8c1e2557ad652d6baf44.png"
         },
         {
             "address": "0x6749441fdc8650b5b5a854ed255c82ef361f1596",
@@ -365,6 +541,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x72e364F2ABdC788b7E918bc238B21f109Cd634D7/logo.png"
         },
         {
+            "address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
+            "chainId": 137,
+            "name": "Monerium EUR emoney",
+            "symbol": "EURe",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6.png"
+        },
+        {
             "address": "0x5A0801BAd20B6c62d86C566ca90688A6b9ea1d3f",
             "chainId": 137,
             "name": "Moo Curve aTriCrypto3",
@@ -379,6 +563,14 @@
             "symbol": "mOCEAN",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png"
+        },
+        {
+            "address": "0x7b367a058f370c0057762280547d0b974cf3ac10",
+            "chainId": 137,
+            "name": "PAR Stablecoin (PoS)",
+            "symbol": "PAR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7b367a058f370c0057762280547d0b974cf3ac10.png"
         },
         {
             "address": "0xE2Aa7db6dA1dAE97C5f5C6914d285fBfCC32A128",
@@ -605,6 +797,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270.png"
         },
         {
+            "address": "0xAF0D9D65fC54de245cdA37af3d18cbEc860A4D4b",
+            "chainId": 137,
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xaf0d9d65fc54de245cda37af3d18cbec860a4d4b.png"
+        },
+        {
             "address": "0xEE029120c72b0607344f35B17cdD90025e647B00",
             "chainId": 137,
             "name": "Wrapped amDAI",
@@ -627,6 +827,22 @@
             "symbol": "amUSDT",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x19c60a251e525fa88cd6f3768416a8024e98fc19.png"
+        },
+        {
+            "address": "0xDC3326e71D45186F113a2F448984CA0e8D201995",
+            "chainId": 137,
+            "name": "XSGD",
+            "symbol": "XSGD",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xdc3326e71d45186f113a2f448984ca0e8d201995.png"
+        },
+        {
+            "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+            "chainId": 137,
+            "name": "agEUR",
+            "symbol": "agEUR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe0b52e49357fd4daf2c15e02058dce6bc0057db4.png"
         },
         {
             "address": "0xbAe28251B2a4E621aA7e20538c06DEe010Bc06DE",
