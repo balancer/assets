@@ -1,0 +1,64 @@
+{
+    "name": "Balancer",
+    "timestamp": "2023-01-05T00:00:00.000Z",
+    "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+    "keywords": [
+      "balancer",
+      "listed"
+    ],
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "patch": 0
+    },
+    "tokens": [
+      {
+        "name": "Balancer on xDai",
+        "address": "0x7eF541E2a22058048904fE5744f9c7E4C57AF717",
+        "symbol": "BAL",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://etherscan.io/token/images/Balancer_32.png"
+      },
+      {
+        "name": "Ether",
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "symbol": "ETH",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      },
+      {
+        "name": "Wrapped Ether from Ethereum",
+        "address": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+        "symbol": "WETH",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+      },
+      {
+        "name": "Wrapped XDAI",
+        "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+        "symbol": "WXDAI",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/1Hive/default-token-list/master/src/assets/xdai/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d/logo.png"
+      },
+      {
+        "name": "Dai Stablecoin",
+        "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "symbol": "DAI",
+        "decimals": 18,
+        "chainId": 137,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+      },
+      {
+        "name": "Honey",
+        "address": "0x71850b7e9ee3f13ab46d67167341e4bdc905eef9",
+        "symbol": "HNY",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/1Hive/default-token-list/master/src/assets/xdai/0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9/logo.png"
+      }
+    ]
+  }
