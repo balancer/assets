@@ -3,31 +3,31 @@
     "timestamp": "2023-01-05T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
-        "balancer",
-        "vetted"
+      "balancer",
+      "vetted"
     ],
     "version": {
-        "major": 1,
-        "minor": 1,
-        "patch": 0
+      "major": 1,
+      "minor": 1,
+      "patch": 0
     },
     "tokens": [
-    {
-            "name": "Balancer on xDai",
-            "address": "0x7eF541E2a22058048904fE5744f9c7E4C57AF717",
-            "symbol": "BAL",
-            "decimals": 18,
-            "chainId": 100,
-            "logoURI": "https://etherscan.io/token/images/Balancer_32.png"
-    },
-    {
+      {
+        "name": "Balancer on xDai",
+        "address": "0x7eF541E2a22058048904fE5744f9c7E4C57AF717",
+        "symbol": "BAL",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://etherscan.io/token/images/Balancer_32.png"
+      },
+      {
         "name": "Ether",
         "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "symbol": "ETH",
         "decimals": 18,
         "chainId": 137,
         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-    },
+      },
       {
         "name": "Wrapped Ether from Ethereum",
         "address": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
