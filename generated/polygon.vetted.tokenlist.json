@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-05T00:00:00.000Z",
+    "timestamp": "2023-01-14T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 24,
+        "minor": 25,
         "patch": 0
     },
     "tokens": [
@@ -307,6 +307,14 @@
             "symbol": "FRAX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
+        },
+        {
+            "address": "0xEe327F889d5947c1dc1934Bb208a1E792F953E96",
+            "chainId": 137,
+            "name": "Frax Ether",
+            "symbol": "frxETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xee327f889d5947c1dc1934bb208a1e792f953e96.png"
         },
         {
             "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
