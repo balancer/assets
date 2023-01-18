@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-03T00:00:00.000Z",
+    "timestamp": "2023-01-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1098,6 +1098,14 @@
             "symbol": "bb-a-FRAX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6a1eb2e9b45e772f55bd9a34659a04b6f75da687.png"
+        },
+        {
+            "address": "0x6123B0049F904d730dB3C36a31167D9d4121fA6B",
+            "chainId": 1,
+            "name": "Ribbon",
+            "symbol": "RBN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png"
         }
     ]
 }

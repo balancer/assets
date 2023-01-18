@@ -1232,6 +1232,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6a1eb2e9b45e772f55bd9a34659a04b6f75da687.png"
+        },
+        "0x6123B0049F904d730dB3C36a31167D9d4121fA6B": {
+            "address": "0x6123B0049F904d730dB3C36a31167D9d4121fA6B",
+            "name": "Ribbon",
+            "symbol": "RBN",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png"
         }
     },
     "untrusted": [
