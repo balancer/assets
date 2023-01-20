@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-14T00:00:00.000Z",
+    "timestamp": "2023-01-20T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -9,7 +9,7 @@
     "version": {
         "major": 1,
         "minor": 15,
-        "patch": 1
+        "patch": 2
     },
     "tokens": [
         {
@@ -63,7 +63,7 @@
         {
             "address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
             "chainId": 42161,
-            "name": "Curve DAO",
+            "name": "Curve DAO Token",
             "symbol": "CRV",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
@@ -131,6 +131,14 @@
             "symbol": "GNO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png"
+        },
+        {
+            "address": "0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614",
+            "chainId": 42161,
+            "name": "Graph Token",
+            "symbol": "GRT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
         },
         {
             "address": "0xB965029343D55189c25a7f3e0c9394DC0F5D41b1",
@@ -237,14 +245,6 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
         },
         {
-            "address": "0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614",
-            "chainId": 42161,
-            "name": "The Graph",
-            "symbol": "GRT",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc944E90C64B2c07662A292be6244BDf05Cda44a7/logo.png"
-        },
-        {
             "address": "0xA72159FC390f0E3C6D415e658264c7c4051E9b87",
             "chainId": 42161,
             "name": "Tracer DAO",
@@ -293,20 +293,20 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
         },
         {
-            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-            "chainId": 42161,
-            "name": "WETH",
-            "symbol": "WETH",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-        },
-        {
             "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
             "chainId": 42161,
-            "name": "Wrapped Bitcoin",
+            "name": "Wrapped BTC",
             "symbol": "WBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+            "chainId": 42161,
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
         },
         {
             "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
@@ -319,7 +319,7 @@
         {
             "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
             "chainId": 42161,
-            "name": "dHEDGE DAO",
+            "name": "dHedge DAO Token",
             "symbol": "DHT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84/logo.png"
