@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-14T00:00:00.000Z",
+    "timestamp": "2023-01-20T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 23,
+        "minor": 24,
         "patch": 0
     },
     "tokens": [
@@ -19,6 +19,14 @@
             "symbol": "20WETH-80BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3d468ab2329f296e1b9d8476bb54dd77d8c2320f.png"
+        },
+        {
+            "address": "0xE22483774bd8611bE2Ad2F4194078DaC9159F4bA",
+            "chainId": 137,
+            "name": "2BRL (BRZ)",
+            "symbol": "2BRL (BRZ)",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe22483774bd8611be2ad2f4194078dac9159f4ba.png"
         },
         {
             "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
