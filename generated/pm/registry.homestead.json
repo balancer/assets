@@ -6467,6 +6467,28 @@
       "color": "#387080",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png"
+    },
+    "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb": {
+      "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+      "id": "",
+      "name": "Ankr Staked ETH",
+      "symbol": "ankrETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png"
+    },
+    "0xC285B7E09A4584D027E5BC36571785B515898246": {
+      "address": "0xC285B7E09A4584D027E5BC36571785B515898246",
+      "id": "",
+      "name": "Coin98 Dollar",
+      "symbol": "CUSD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc285b7e09a4584d027e5bc36571785b515898246.png"
     }
   },
   "untrusted": [
