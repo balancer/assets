@@ -1259,6 +1259,15 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png"
+        },
+        "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593": {
+            "address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
+            "name": "StaFi",
+            "symbol": "rETH",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593.png"
         }
     },
     "untrusted": [
