@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-29T00:00:00.000Z",
+    "timestamp": "2023-02-01T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1122,6 +1122,14 @@
             "symbol": "ankrETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png"
+        },
+        {
+            "address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
+            "chainId": 1,
+            "name": "StaFi",
+            "symbol": "rETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593.png"
         }
     ]
 }
