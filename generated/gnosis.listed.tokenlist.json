@@ -45,6 +45,22 @@
         "logoURI": "https://raw.githubusercontent.com/1Hive/default-token-list/master/src/assets/xdai/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d/logo.png"
       },
       {
+        "name": "USDC from Ethereum",
+        "address": "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83",
+        "symbol": "USDC",
+        "decimals": 6,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+      },
+      {
+        "name": "Tether on xDai",
+        "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+        "symbol": "USDT",
+        "decimals": 6,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      },
+      {
         "name": "Dai Stablecoin",
         "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
         "symbol": "DAI",
