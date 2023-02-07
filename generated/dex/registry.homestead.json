@@ -1268,6 +1268,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593.png"
+        },
+        "0xfd0205066521550D7d7AB19DA8F72bb004b4C341": {
+            "address": "0xfd0205066521550D7d7AB19DA8F72bb004b4C341",
+            "name": "Liquidity Incentive Token",
+            "symbol": "LIT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
         }
     },
     "untrusted": [
