@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2022-11-24T00:00:00.000Z",
+    "timestamp": "2023-02-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 15,
+        "minor": 16,
         "patch": 0
     },
     "tokens": [
@@ -39,7 +39,7 @@
         {
             "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
             "chainId": 42161,
-            "name": "ChainLink Token",
+            "name": "Chainlink",
             "symbol": "LINK",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
@@ -199,7 +199,7 @@
         {
             "address": "0xef888bcA6AB6B1d26dbeC977C455388ecd794794",
             "chainId": 42161,
-            "name": "Rari Governance Token",
+            "name": "Rari Governance",
             "symbol": "RGT",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/12900/large/Rari_Logo_Transparent.png?1613978014"
@@ -315,6 +315,14 @@
             "symbol": "wstETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x5979d7b546e38e414f7e9822514be443a4800529.png"
+        },
+        {
+            "address": "0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f",
+            "chainId": 42161,
+            "name": "Y2K",
+            "symbol": "Y2K",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfd0205066521550d7d7ab19da8f72bb004b4c341.png"
         },
         {
             "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",

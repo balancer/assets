@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-01-20T00:00:00.000Z",
+    "timestamp": "2023-02-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 15,
-        "patch": 2
+        "minor": 16,
+        "patch": 0
     },
     "tokens": [
         {
@@ -315,6 +315,14 @@
             "symbol": "wstETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x5979d7b546e38e414f7e9822514be443a4800529.png"
+        },
+        {
+            "address": "0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f",
+            "chainId": 42161,
+            "name": "Y2K",
+            "symbol": "Y2K",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfd0205066521550d7d7ab19da8f72bb004b4c341.png"
         },
         {
             "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
