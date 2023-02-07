@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-04T00:00:00.000Z",
+    "timestamp": "2023-02-07T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 25,
+        "minor": 26,
         "patch": 0
     },
     "tokens": [
@@ -683,6 +683,14 @@
             "symbol": "SOL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/2563ac9dc5369d8e3255cde663cf7f08e3c58914/blockchains/solana/info/logo.png"
+        },
+        {
+            "address": "0x62F594339830b90AE4C084aE7D223fFAFd9658A7",
+            "chainId": 137,
+            "name": "Sphere Finance",
+            "symbol": "SPHERE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x62f594339830b90ae4c084ae7d223ffafd9658a7.png"
         },
         {
             "address": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
