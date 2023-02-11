@@ -1289,8 +1289,8 @@
         },
         "0x50Cf90B954958480b8DF7958A9E965752F627124": {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "precision": 3,
             "hasIcon": false,
