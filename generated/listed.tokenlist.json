@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-07T00:00:00.000Z",
+    "timestamp": "2023-02-11T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1138,6 +1138,62 @@
             "symbol": "LIT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfd0205066521550d7d7ab19da8f72bb004b4c341.png"
+        },
+        {
+            "address": "0x3C640f0d3036Ad85Afa2D5A9E32bE651657B874F",
+            "chainId": 1,
+            "name": "Balancer Euler Boosted Pool (USDT)",
+            "symbol": "bb-e-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3c640f0d3036ad85afa2d5a9e32be651657b874f.png"
+        },
+        {
+            "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
+            "chainId": 1,
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
+        },
+        {
+            "address": "0xD4e7C1F3DA1144c9E2CfD1b015eDA7652b4a4399",
+            "chainId": 1,
+            "name": "Balancer Euler Boosted Pool (USDC)",
+            "symbol": "bb-e-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd4e7c1f3da1144c9e2cfd1b015eda7652b4a4399.png"
+        },
+        {
+            "address": "0xD5a14081a34d256711B02BbEf17E567da48E80b5",
+            "chainId": 1,
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd5a14081a34d256711b02bbef17e567da48e80b5.png"
+        },
+        {
+            "address": "0xeB486AF868AeB3b6e53066abc9623b1041b42bc0",
+            "chainId": 1,
+            "name": "Balancer Euler Boosted Pool (DAI)",
+            "symbol": "bb-e-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xeb486af868aeb3b6e53066abc9623b1041b42bc0.png"
+        },
+        {
+            "address": "0xF71d0774B214c4cf51E33Eb3d30Ef98132e4DBaA",
+            "chainId": 1,
+            "name": "Balancer Euler Boosted Pool (FRAX)",
+            "symbol": "bb-e-FRAX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf71d0774b214c4cf51e33eb3d30ef98132e4dbaa.png"
+        },
+        {
+            "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
+            "chainId": 1,
+            "name": "Z.com USD",
+            "symbol": "ZUSD",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
         }
     ]
 }
