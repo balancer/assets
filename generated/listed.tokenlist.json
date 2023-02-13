@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-11T00:00:00.000Z",
+    "timestamp": "2023-02-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1194,6 +1194,14 @@
             "symbol": "ZUSD",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
+        },
+        {
+            "address": "0x126e7643235ec0ab9c103c507642dC3F4cA23C66",
+            "chainId": 1,
+            "name": "Balancer Tessera Boosted APE Pool",
+            "symbol": "bb-t-stkAPE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
         }
     ]
 }

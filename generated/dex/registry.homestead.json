@@ -1289,8 +1289,8 @@
         },
         "0x50Cf90B954958480b8DF7958A9E965752F627124": {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "precision": 3,
             "hasIcon": false,
@@ -1340,6 +1340,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
+        },
+        "0x126e7643235ec0ab9c103c507642dC3F4cA23C66": {
+            "address": "0x126e7643235ec0ab9c103c507642dC3F4cA23C66",
+            "name": "Balancer Tessera Boosted APE Pool",
+            "symbol": "bb-t-stkAPE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
         }
     },
     "untrusted": [

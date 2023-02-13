@@ -6588,6 +6588,17 @@
       "color": "#7e9e99",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
+    },
+    "0x126e7643235ec0ab9c103c507642dC3F4cA23C66": {
+      "address": "0x126e7643235ec0ab9c103c507642dC3F4cA23C66",
+      "id": "",
+      "name": "Balancer Tessera Boosted APE Pool",
+      "symbol": "bb-t-stkAPE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#220730",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
     }
   },
   "untrusted": [
