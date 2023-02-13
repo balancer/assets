@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-07T00:00:00.000Z",
+    "timestamp": "2023-02-13T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 16,
+        "minor": 17,
         "patch": 0
     },
     "tokens": [
@@ -19,6 +19,30 @@
             "symbol": "BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0xe1Fb90D0d3b47E551d494d7eBe8f209753526B01",
+            "chainId": 42161,
+            "name": "Balancer Reaper Boosted Pool (DAI)",
+            "symbol": "bb-rf-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe1fb90d0d3b47e551d494d7ebe8f209753526b01.png"
+        },
+        {
+            "address": "0x5BAe72B75CaAb1f260D21BC028c630140607D6e8",
+            "chainId": 42161,
+            "name": "Balancer Reaper Boosted Pool (USDC)",
+            "symbol": "bb-rf-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x5bae72b75caab1f260d21bc028c630140607d6e8.png"
+        },
+        {
+            "address": "0x894c82800526E0391E709c0983a5AeA3718b7F6D",
+            "chainId": 42161,
+            "name": "Balancer Reaper Boosted Pool (USDT)",
+            "symbol": "bb-rf-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x894c82800526e0391e709c0983a5aea3718b7f6d.png"
         },
         {
             "address": "0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d",
@@ -323,6 +347,14 @@
             "symbol": "Y2K",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x65c936f008bc34fe819bce9fa5afd9dc2d49977f.png"
+        },
+        {
+            "address": "0x077794c30AFECcdF5ad2Abc0588E8CEE7197b71a",
+            "chainId": 42161,
+            "name": "bb-rf-USD",
+            "symbol": "bb-rf-USD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x077794c30afeccdf5ad2abc0588e8cee7197b71a.png"
         },
         {
             "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
