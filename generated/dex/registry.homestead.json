@@ -1349,6 +1349,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
+        },
+        "0x057acee6DF29EcC20e87A77783838d90858c5E83": {
+            "address": "0x057acee6DF29EcC20e87A77783838d90858c5E83",
+            "name": "Wrapped Pirate Chain",
+            "symbol": "wARRR",
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x057acee6df29ecc20e87a77783838d90858c5e83.png"
         }
     },
     "untrusted": [
