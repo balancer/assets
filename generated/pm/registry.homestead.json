@@ -6610,6 +6610,94 @@
       "color": "#7ca1c0",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x057acee6df29ecc20e87a77783838d90858c5e83.png"
+    },
+    "0xe025E3ca2bE02316033184551D4d3Aa22024D9DC": {
+      "address": "0xe025E3ca2bE02316033184551D4d3Aa22024D9DC",
+      "id": "",
+      "name": "Euler Pool: Dai Stablecoin",
+      "symbol": "eDAI",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#5d2e9a",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe025e3ca2be02316033184551d4d3aa22024d9dc.png"
+    },
+    "0xEb91861f8A4e1C12333F42DCE8fB0Ecdc28dA716": {
+      "address": "0xEb91861f8A4e1C12333F42DCE8fB0Ecdc28dA716",
+      "id": "",
+      "name": "Euler Pool: USD Coin",
+      "symbol": "eUSDC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716.png"
+    },
+    "0x4d19F33948b99800B6113Ff3e83beC9b537C85d2": {
+      "address": "0x4d19F33948b99800B6113Ff3e83beC9b537C85d2",
+      "id": "",
+      "name": "Euler Pool: Tether USD",
+      "symbol": "eUSDT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4d19f33948b99800b6113ff3e83bec9b537c85d2.png"
+    },
+    "0x60683B05e9a39E3509D8fdb9C959f23170f8A0fa": {
+      "address": "0x60683B05e9a39E3509D8fdb9C959f23170f8A0fa",
+      "id": "",
+      "name": "Balancer Idle Boosted StablePool",
+      "symbol": "bb-i-USD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x60683b05e9a39e3509d8fdb9c959f23170f8a0fa.png"
+    },
+    "0xDbA274B4D04097b90A72b62467d828cEFD708037": {
+      "address": "0xDbA274B4D04097b90A72b62467d828cEFD708037",
+      "id": "",
+      "name": "Balancer Idle Boosted Pool (DAI)",
+      "symbol": "bb-i-DAI",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdba274b4d04097b90a72b62467d828cefd708037.png"
+    },
+    "0xbc0F2372008005471874e426e86CCFae7B4De79d": {
+      "address": "0xbc0F2372008005471874e426e86CCFae7B4De79d",
+      "id": "",
+      "name": "Balancer Idle Boosted Pool (USDC)",
+      "symbol": "bb-i-USDC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc0f2372008005471874e426e86ccfae7b4de79d.png"
+    },
+    "0x2FF1A9Dbdacd55297452cFD8a4d94724Bc22a5F7": {
+      "address": "0x2FF1A9Dbdacd55297452cFD8a4d94724Bc22a5F7",
+      "id": "",
+      "name": "Balancer Idle Boosted Pool (USDT)",
+      "symbol": "bb-i-USDT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#a593a5",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2ff1a9dbdacd55297452cfd8a4d94724bc22a5f7.png"
+    },
+    "0x3BB22Fc9033b802F2AC47c18885F63476F158aFC": {
+      "address": "0x3BB22Fc9033b802F2AC47c18885F63476F158aFC",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (TUSD)",
+      "symbol": "bb-a-TUSD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c5ccb8",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3bb22fc9033b802f2ac47c18885f63476f158afc.png"
     }
   },
   "untrusted": [
