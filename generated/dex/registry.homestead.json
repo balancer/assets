@@ -1430,6 +1430,42 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3bb22fc9033b802f2ac47c18885f63476f158afc.png"
+        },
+        "0x7966C5BAe631294D7cFFcEA5430b78C2F76DB6Fa": {
+            "address": "0x7966C5BAe631294D7cFFcEA5430b78C2F76DB6Fa",
+            "name": "Staked Apecoin",
+            "symbol": "sAPE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": ""
+        },
+        "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA": {
+            "address": "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA",
+            "name": "IdleDAI Junior4626Adapter",
+            "symbol": "idleDAIJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0c80f31b840c6564e6c5e18f386fad96b63514ca.png"
+        },
+        "0xc3dA79e0De523eEf7AC1e4ca9aBFE3aAc9973133": {
+            "address": "0xc3dA79e0De523eEf7AC1e4ca9aBFE3aAc9973133",
+            "name": "IdleUSDC Junior4626Adapter",
+            "symbol": "idleUSDCJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc3da79e0de523eef7ac1e4ca9abfe3aac9973133.png"
+        },
+        "0x544897A3B944fdEB1f94A0ed973eA31A80ae18E1": {
+            "address": "0x544897A3B944fdEB1f94A0ed973eA31A80ae18E1",
+            "name": "IdleUSDT Junior4626Adapter",
+            "symbol": "idleUSDTJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544897a3b944fdeb1f94a0ed973ea31a80ae18e1.png"
         }
     },
     "untrusted": [
