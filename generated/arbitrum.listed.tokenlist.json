@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-13T00:00:00.000Z",
+    "timestamp": "2023-02-16T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 17,
+        "minor": 18,
         "patch": 0
     },
     "tokens": [
@@ -147,6 +147,14 @@
             "symbol": "GMX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.png"
+        },
+        {
+            "address": "0xd85E038593d7A098614721EaE955EC2022B9B91B",
+            "chainId": 42161,
+            "name": "Gains Network DAI",
+            "symbol": "gDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd85e038593d7a098614721eae955ec2022b9b91b.png"
         },
         {
             "address": "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1",
