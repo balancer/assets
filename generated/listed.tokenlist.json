@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-13T00:00:00.000Z",
+    "timestamp": "2023-02-15T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1150,8 +1150,8 @@
         {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
             "chainId": 1,
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
         },
@@ -1202,6 +1202,14 @@
             "symbol": "bb-t-stkAPE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
+        },
+        {
+            "address": "0x057acee6DF29EcC20e87A77783838d90858c5E83",
+            "chainId": 1,
+            "name": "Wrapped Pirate Chain",
+            "symbol": "wARRR",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x057acee6df29ecc20e87a77783838d90858c5e83.png"
         }
     ]
 }
