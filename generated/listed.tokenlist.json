@@ -1280,7 +1280,8 @@
             "chainId": 1,
             "name": "Staked Apecoin",
             "symbol": "sAPE",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7966c5bae631294d7cffcea5430b78c2f76db6fa.png"
         },
         {
             "address": "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA",
