@@ -1150,8 +1150,8 @@
         {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
             "chainId": 1,
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
         },
@@ -1274,6 +1274,37 @@
             "symbol": "bb-a-TUSD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3bb22fc9033b802f2ac47c18885f63476f158afc.png"
+        },
+        {
+            "address": "0x7966C5BAe631294D7cFFcEA5430b78C2F76DB6Fa",
+            "chainId": 1,
+            "name": "Staked Apecoin",
+            "symbol": "sAPE",
+            "decimals": 18
+        },
+        {
+            "address": "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA",
+            "chainId": 1,
+            "name": "IdleDAI Junior4626Adapter",
+            "symbol": "idleDAIJunior4626",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0c80f31b840c6564e6c5e18f386fad96b63514ca.png"
+        },
+        {
+            "address": "0xc3dA79e0De523eEf7AC1e4ca9aBFE3aAc9973133",
+            "chainId": 1,
+            "name": "IdleUSDC Junior4626Adapter",
+            "symbol": "idleUSDCJunior4626",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc3da79e0de523eef7ac1e4ca9abfe3aac9973133.png"
+        },
+        {
+            "address": "0x544897A3B944fdEB1f94A0ed973eA31A80ae18E1",
+            "chainId": 1,
+            "name": "IdleUSDT Junior4626Adapter",
+            "symbol": "idleUSDTJunior4626",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544897a3b944fdeb1f94a0ed973ea31a80ae18e1.png"
         }
     ]
 }
