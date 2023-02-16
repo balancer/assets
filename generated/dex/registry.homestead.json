@@ -1438,7 +1438,7 @@
             "decimals": 18,
             "precision": 3,
             "hasIcon": false,
-            "logoUrl": ""
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7966c5bae631294d7cffcea5430b78c2f76db6fa.png"
         },
         "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA": {
             "address": "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA",
