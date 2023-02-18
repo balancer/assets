@@ -1268,6 +1268,204 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9559aaa82d9649c7a7b220e7c461d2e74c9a3593.png"
+        },
+        "0xfd0205066521550D7d7AB19DA8F72bb004b4C341": {
+            "address": "0xfd0205066521550D7d7AB19DA8F72bb004b4C341",
+            "name": "Liquidity Incentive Token",
+            "symbol": "LIT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfd0205066521550d7d7ab19da8f72bb004b4c341.png"
+        },
+        "0x3C640f0d3036Ad85Afa2D5A9E32bE651657B874F": {
+            "address": "0x3C640f0d3036Ad85Afa2D5A9E32bE651657B874F",
+            "name": "Balancer Euler Boosted Pool (USDT)",
+            "symbol": "bb-e-USDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3c640f0d3036ad85afa2d5a9e32be651657b874f.png"
+        },
+        "0x50Cf90B954958480b8DF7958A9E965752F627124": {
+            "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
+        },
+        "0xD4e7C1F3DA1144c9E2CfD1b015eDA7652b4a4399": {
+            "address": "0xD4e7C1F3DA1144c9E2CfD1b015eDA7652b4a4399",
+            "name": "Balancer Euler Boosted Pool (USDC)",
+            "symbol": "bb-e-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd4e7c1f3da1144c9e2cfd1b015eda7652b4a4399.png"
+        },
+        "0xD5a14081a34d256711B02BbEf17E567da48E80b5": {
+            "address": "0xD5a14081a34d256711B02BbEf17E567da48E80b5",
+            "name": "Wrapped USDR",
+            "symbol": "wUSDR",
+            "decimals": 9,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd5a14081a34d256711b02bbef17e567da48e80b5.png"
+        },
+        "0xeB486AF868AeB3b6e53066abc9623b1041b42bc0": {
+            "address": "0xeB486AF868AeB3b6e53066abc9623b1041b42bc0",
+            "name": "Balancer Euler Boosted Pool (DAI)",
+            "symbol": "bb-e-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xeb486af868aeb3b6e53066abc9623b1041b42bc0.png"
+        },
+        "0xF71d0774B214c4cf51E33Eb3d30Ef98132e4DBaA": {
+            "address": "0xF71d0774B214c4cf51E33Eb3d30Ef98132e4DBaA",
+            "name": "Balancer Euler Boosted Pool (FRAX)",
+            "symbol": "bb-e-FRAX",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf71d0774b214c4cf51e33eb3d30ef98132e4dbaa.png"
+        },
+        "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA": {
+            "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
+            "name": "Z.com USD",
+            "symbol": "ZUSD",
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc56c2b7e71b54d38aab6d52e94a04cbfa8f604fa.png"
+        },
+        "0x126e7643235ec0ab9c103c507642dC3F4cA23C66": {
+            "address": "0x126e7643235ec0ab9c103c507642dC3F4cA23C66",
+            "name": "Balancer Tessera Boosted APE Pool",
+            "symbol": "bb-t-stkAPE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x126e7643235ec0ab9c103c507642dc3f4ca23c66.png"
+        },
+        "0x057acee6DF29EcC20e87A77783838d90858c5E83": {
+            "address": "0x057acee6DF29EcC20e87A77783838d90858c5E83",
+            "name": "Wrapped Pirate Chain",
+            "symbol": "wARRR",
+            "decimals": 8,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x057acee6df29ecc20e87a77783838d90858c5e83.png"
+        },
+        "0xe025E3ca2bE02316033184551D4d3Aa22024D9DC": {
+            "address": "0xe025E3ca2bE02316033184551D4d3Aa22024D9DC",
+            "name": "Euler Pool: Dai Stablecoin",
+            "symbol": "eDAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe025e3ca2be02316033184551d4d3aa22024d9dc.png"
+        },
+        "0xEb91861f8A4e1C12333F42DCE8fB0Ecdc28dA716": {
+            "address": "0xEb91861f8A4e1C12333F42DCE8fB0Ecdc28dA716",
+            "name": "Euler Pool: USD Coin",
+            "symbol": "eUSDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716.png"
+        },
+        "0x4d19F33948b99800B6113Ff3e83beC9b537C85d2": {
+            "address": "0x4d19F33948b99800B6113Ff3e83beC9b537C85d2",
+            "name": "Euler Pool: Tether USD",
+            "symbol": "eUSDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4d19f33948b99800b6113ff3e83bec9b537c85d2.png"
+        },
+        "0x60683B05e9a39E3509D8fdb9C959f23170f8A0fa": {
+            "address": "0x60683B05e9a39E3509D8fdb9C959f23170f8A0fa",
+            "name": "Balancer Idle Boosted StablePool",
+            "symbol": "bb-i-USD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x60683b05e9a39e3509d8fdb9c959f23170f8a0fa.png"
+        },
+        "0xDbA274B4D04097b90A72b62467d828cEFD708037": {
+            "address": "0xDbA274B4D04097b90A72b62467d828cEFD708037",
+            "name": "Balancer Idle Boosted Pool (DAI)",
+            "symbol": "bb-i-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdba274b4d04097b90a72b62467d828cefd708037.png"
+        },
+        "0xbc0F2372008005471874e426e86CCFae7B4De79d": {
+            "address": "0xbc0F2372008005471874e426e86CCFae7B4De79d",
+            "name": "Balancer Idle Boosted Pool (USDC)",
+            "symbol": "bb-i-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbc0f2372008005471874e426e86ccfae7b4de79d.png"
+        },
+        "0x2FF1A9Dbdacd55297452cFD8a4d94724Bc22a5F7": {
+            "address": "0x2FF1A9Dbdacd55297452cFD8a4d94724Bc22a5F7",
+            "name": "Balancer Idle Boosted Pool (USDT)",
+            "symbol": "bb-i-USDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2ff1a9dbdacd55297452cfd8a4d94724bc22a5f7.png"
+        },
+        "0x3BB22Fc9033b802F2AC47c18885F63476F158aFC": {
+            "address": "0x3BB22Fc9033b802F2AC47c18885F63476F158aFC",
+            "name": "Balancer Aave Boosted Pool (TUSD)",
+            "symbol": "bb-a-TUSD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3bb22fc9033b802f2ac47c18885f63476f158afc.png"
+        },
+        "0x7966C5BAe631294D7cFFcEA5430b78C2F76DB6Fa": {
+            "address": "0x7966C5BAe631294D7cFFcEA5430b78C2F76DB6Fa",
+            "name": "Staked Apecoin",
+            "symbol": "sAPE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7966c5bae631294d7cffcea5430b78c2f76db6fa.png"
+        },
+        "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA": {
+            "address": "0x0c80F31B840C6564e6c5E18f386FaD96b63514cA",
+            "name": "IdleDAI Junior4626Adapter",
+            "symbol": "idleDAIJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0c80f31b840c6564e6c5e18f386fad96b63514ca.png"
+        },
+        "0xc3dA79e0De523eEf7AC1e4ca9aBFE3aAc9973133": {
+            "address": "0xc3dA79e0De523eEf7AC1e4ca9aBFE3aAc9973133",
+            "name": "IdleUSDC Junior4626Adapter",
+            "symbol": "idleUSDCJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc3da79e0de523eef7ac1e4ca9abfe3aac9973133.png"
+        },
+        "0x544897A3B944fdEB1f94A0ed973eA31A80ae18E1": {
+            "address": "0x544897A3B944fdEB1f94A0ed973eA31A80ae18E1",
+            "name": "IdleUSDT Junior4626Adapter",
+            "symbol": "idleUSDTJunior4626",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544897a3b944fdeb1f94a0ed973ea31a80ae18e1.png"
         }
     },
     "untrusted": [
