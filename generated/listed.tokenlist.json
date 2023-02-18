@@ -1306,6 +1306,14 @@
             "symbol": "idleUSDTJunior4626",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x544897a3b944fdeb1f94a0ed973ea31a80ae18e1.png"
+        },
+        {
+            "address": "0xA36FDBBAE3c9d55a1d67EE5821d53B50B63A1aB9",
+            "chainId": 1,
+            "name": "Tempus",
+            "symbol": "TEMP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9.png"
         }
     ]
 }
