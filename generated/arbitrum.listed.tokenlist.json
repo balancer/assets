@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-16T00:00:00.000Z",
+    "timestamp": "2023-02-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 18,
+        "minor": 19,
         "patch": 0
     },
     "tokens": [
@@ -91,6 +91,14 @@
             "symbol": "CRV",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
+        },
+        {
+            "address": "0x12f256109E744081F633a827BE80E06d97ff7447",
+            "chainId": 42161,
+            "name": "DAI Granary Vault",
+            "symbol": "rf-grainDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x12f256109e744081f633a827be80e06d97ff7447.png"
         },
         {
             "address": "0xdeBa25AF35e4097146d7629055E0EC3C71706324",
@@ -299,6 +307,22 @@
             "symbol": "USDC",
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "address": "0xaEACF641A0342330EC681b57C0A6af0b71d5cbFF",
+            "chainId": 42161,
+            "name": "USDC Granary Vault",
+            "symbol": "rf-grainUSDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xaeacf641a0342330ec681b57c0a6af0b71d5cbff.png"
+        },
+        {
+            "address": "0x0179baC7493a92AC812730a4C64A0b41B7eA0ecf",
+            "chainId": 42161,
+            "name": "USDT Granary Vault",
+            "symbol": "rf-grainUSDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0179bac7493a92ac812730a4c64a0b41b7ea0ecf.png"
         },
         {
             "address": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
