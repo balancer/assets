@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-18T00:00:00.000Z",
+    "timestamp": "2023-02-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -9,7 +9,7 @@
     "version": {
         "major": 1,
         "minor": 19,
-        "patch": 0
+        "patch": 1
     },
     "tokens": [
         {
@@ -239,7 +239,7 @@
         {
             "address": "0xef888bcA6AB6B1d26dbeC977C455388ecd794794",
             "chainId": 42161,
-            "name": "Rari Governance Token",
+            "name": "Rari Governance",
             "symbol": "RGT",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/12900/large/Rari_Logo_Transparent.png?1613978014"
