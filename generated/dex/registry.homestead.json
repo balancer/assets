@@ -1475,6 +1475,33 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9.png"
+        },
+        "0x808507121B80c02388fAd14726482e061B8da827": {
+            "address": "0x808507121B80c02388fAd14726482e061B8da827",
+            "name": "Pendle",
+            "symbol": "PENDLE",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x808507121b80c02388fad14726482e061b8da827.png"
+        },
+        "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc": {
+            "address": "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc",
+            "name": "MIMO Parallel Governance Token",
+            "symbol": "MIMO",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc.png"
+        },
+        "0x68037790A0229e9Ce6EaA8A99ea92964106C4703": {
+            "address": "0x68037790A0229e9Ce6EaA8A99ea92964106C4703",
+            "name": "PAR Stablecoin",
+            "symbol": "PAR",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": true,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png"
         }
     },
     "untrusted": [
