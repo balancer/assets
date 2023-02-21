@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-18T00:00:00.000Z",
+    "timestamp": "2023-02-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1314,6 +1314,30 @@
             "symbol": "TEMP",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9.png"
+        },
+        {
+            "address": "0x808507121B80c02388fAd14726482e061B8da827",
+            "chainId": 1,
+            "name": "Pendle",
+            "symbol": "PENDLE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x808507121b80c02388fad14726482e061b8da827.png"
+        },
+        {
+            "address": "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc",
+            "chainId": 1,
+            "name": "MIMO Parallel Governance Token",
+            "symbol": "MIMO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc.png"
+        },
+        {
+            "address": "0x68037790A0229e9Ce6EaA8A99ea92964106C4703",
+            "chainId": 1,
+            "name": "PAR Stablecoin",
+            "symbol": "PAR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png"
         }
     ]
 }
