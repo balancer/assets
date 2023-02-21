@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-07T00:00:00.000Z",
+    "timestamp": "2023-02-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 26,
+        "minor": 27,
         "patch": 0
     },
     "tokens": [
@@ -819,6 +819,14 @@
             "symbol": "UNI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+        },
+        {
+            "address": "0xE3627374Ac4baf5375e79251B0af23aFc450FC0E",
+            "chainId": 137,
+            "name": "Waru Token",
+            "symbol": "WARU",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe3627374ac4baf5375e79251b0af23afc450fc0e.png"
         },
         {
             "address": "0x87ff96aba480f1813aF5c780387d8De7cf7D8261",
