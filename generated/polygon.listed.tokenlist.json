@@ -573,6 +573,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6f7c932e7684666c9fd1d44527765433e01ff61d.png"
         },
         {
+            "address": "0xADAC33f543267c4D59a8c299cF804c303BC3e4aC",
+            "chainId": 137,
+            "name": "MIMO Parallel Governance Token (PoS)",
+            "symbol": "MIMO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xadac33f543267c4d59a8c299cf804c303bc3e4ac.png"
+        },
+        {
             "address": "0xF501dd45a1198C2E1b5aEF5314A68B9006D842E0",
             "chainId": 137,
             "name": "Meta",
