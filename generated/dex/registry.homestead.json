@@ -1502,6 +1502,96 @@
             "precision": 3,
             "hasIcon": true,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png"
+        },
+        "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5": {
+            "address": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+            "name": "Threshold Network Token",
+            "symbol": "T",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcdf7028ceab81fa0c6971208e83fa7872994bee5.png"
+        },
+        "0x99c88AD7dc566616548adde8ED3eFfa730eB6C34": {
+            "address": "0x99c88AD7dc566616548adde8ED3eFfa730eB6C34",
+            "name": "Balancer Gearboox Boosted StablePool",
+            "symbol": "bb-g-USD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x99c88ad7dc566616548adde8ed3effa730eb6c34.png"
+        },
+        "0x6CFaF95457d7688022FC53e7AbE052ef8DFBbdBA": {
+            "address": "0x6CFaF95457d7688022FC53e7AbE052ef8DFBbdBA",
+            "name": "diesel Dai Stablecoin",
+            "symbol": "dDAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6cfaf95457d7688022fc53e7abe052ef8dfbbdba.png"
+        },
+        "0xc411dB5f5Eb3f7d552F9B8454B2D74097ccdE6E3": {
+            "address": "0xc411dB5f5Eb3f7d552F9B8454B2D74097ccdE6E3",
+            "name": "diesel USD Coin",
+            "symbol": "dUSDC",
+            "decimals": 6,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc411db5f5eb3f7d552f9b8454b2d74097ccde6e3.png"
+        },
+        "0xe03aF00faBe8401560c1FF7d242d622a5b601573": {
+            "address": "0xe03aF00faBe8401560c1FF7d242d622a5b601573",
+            "name": "Balancer Gearbox Boosted Pool (DAI)",
+            "symbol": "bb-g-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe03af00fabe8401560c1ff7d242d622a5b601573.png"
+        },
+        "0x4A82b580365Cff9B146281Ab72500957a849ABDC": {
+            "address": "0x4A82b580365Cff9B146281Ab72500957a849ABDC",
+            "name": "Balancer Gearbox Boosted Pool (USDC)",
+            "symbol": "bb-g-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4a82b580365cff9b146281ab72500957a849abdc.png"
+        },
+        "0x20b156776114E8a801e9767D90c6ccCCc8Adf398": {
+            "address": "0x20b156776114E8a801e9767D90c6ccCCc8Adf398",
+            "name": "Balancer Yearn Boosted StablePool",
+            "symbol": "bb-yv-USD",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x20b156776114e8a801e9767d90c6ccccc8adf398.png"
+        },
+        "0xD6E355036f41dC261B3f1ed3Bbc6003E87AAdB4f": {
+            "address": "0xD6E355036f41dC261B3f1ed3Bbc6003E87AAdB4f",
+            "name": "Balancer Yearn Boosted Pool (USDT)",
+            "symbol": "bb-yv-USDT",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xd6e355036f41dc261b3f1ed3bbc6003e87aadb4f.png"
+        },
+        "0x9B1c8407a360443A9E5ECA004713E4088FAB8AC0": {
+            "address": "0x9B1c8407a360443A9E5ECA004713E4088FAB8AC0",
+            "name": "Balancer Yearn Boosted Pool (USDC)",
+            "symbol": "bb-yv-USDC",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x9b1c8407a360443a9e5eca004713e4088fab8ac0.png"
+        },
+        "0x8E6eC57A822c2F527F2Df7C7D7D361dF3E7530a1": {
+            "address": "0x8E6eC57A822c2F527F2Df7C7D7D361dF3E7530a1",
+            "name": "Balancer Yearn Boosted Pool (DAI)",
+            "symbol": "bb-yv-DAI",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8e6ec57a822c2f527f2df7c7d7d361df3e7530a1.png"
         }
     },
     "untrusted": [
