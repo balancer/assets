@@ -1592,6 +1592,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8e6ec57a822c2f527f2df7c7d7d361df3e7530a1.png"
+        },
+        "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF": {
+            "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+            "name": "Alchemix",
+            "symbol": "ALCX",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png"
         }
     },
     "untrusted": [

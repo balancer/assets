@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-24T00:00:00.000Z",
+    "timestamp": "2023-03-04T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1418,6 +1418,14 @@
             "symbol": "bb-yv-DAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8e6ec57a822c2f527f2df7c7d7d361df3e7530a1.png"
+        },
+        {
+            "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+            "chainId": 1,
+            "name": "Alchemix",
+            "symbol": "ALCX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png"
         }
     ]
 }
