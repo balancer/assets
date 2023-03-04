@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-02-22T00:00:00.000Z",
+    "timestamp": "2023-03-04T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 19,
-        "patch": 2
+        "minor": 20,
+        "patch": 0
     },
     "tokens": [
         {
@@ -19,6 +19,22 @@
             "symbol": "BAL",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+        },
+        {
+            "address": "0x117a3d474976274B37B7b94aF5DcAde5c90C6e85",
+            "chainId": 42161,
+            "name": "Balancer Boosted DAI+",
+            "symbol": "bb-DAI+",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x117a3d474976274b37b7b94af5dcade5c90c6e85.png"
+        },
+        {
+            "address": "0x284EB68520C8fA83361C1A3a5910aEC7f873C18b",
+            "chainId": 42161,
+            "name": "Balancer Boosted USD+",
+            "symbol": "bb-USD+",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x284eb68520c8fa83361c1a3a5910aec7f873c18b.png"
         },
         {
             "address": "0xe1Fb90D0d3b47E551d494d7eBe8f209753526B01",
