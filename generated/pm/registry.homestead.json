@@ -5423,236 +5423,27 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png"
     },
-    "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01": {
-      "address": "0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01",
-      "id": "prochain",
-      "name": "ProToken",
-      "symbol": "PRO",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9a9a97",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01/logo.png"
-    },
-    "0x1985365e9f78359a9B6AD760e32412f4a445E862": {
-      "address": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "id": "",
-      "name": "Reputation",
-      "symbol": "REP",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#be955c",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42": {
+      "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
+      "id": "",
+      "name": "Balancer USD Stable Pool",
+      "symbol": "staBAL3",
       "decimals": 18,
       "precision": 3,
-      "color": "#6e6962",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1985365e9f78359a9B6AD760e32412f4a445E862/logo.png"
-    },
-    "0x0000852600CEB001E08e00bC008be620d60031F2": {
-      "address": "0x0000852600CEB001E08e00bC008be620d60031F2",
-      "id": "truehkd",
-      "name": "TrueHKD",
-      "symbol": "THKD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#416aa3",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000852600CEB001E08e00bC008be620d60031F2/logo.png"
-    },
-    "0x00000100F2A2bd000715001920eB70D229700085": {
-      "address": "0x00000100F2A2bd000715001920eB70D229700085",
-      "id": "truecad",
-      "name": "TrueCAD",
-      "symbol": "TCAD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9a9a97",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000100F2A2bd000715001920eB70D229700085/logo.png"
-    },
-    "0x00006100F7090010005F1bd7aE6122c3C2CF0090": {
-      "address": "0x00006100F7090010005F1bd7aE6122c3C2CF0090",
-      "id": "trueaud",
-      "name": "TrueAUD",
-      "symbol": "TAUD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#9d9f7f",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00006100F7090010005F1bd7aE6122c3C2CF0090/logo.png"
-    },
-    "0x00000000441378008EA67F4284A57932B1c000a5": {
-      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
-      "id": "truegbp",
-      "name": "TrueGBP",
-      "symbol": "TGBP",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#666092",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00000000441378008EA67F4284A57932B1c000a5/logo.png"
-    },
-    "0x705C71b262C511B66bAA4791cC2BE61B971bD784": {
-      "address": "0x705C71b262C511B66bAA4791cC2BE61B971bD784",
-      "id": "",
-      "name": "Bankless Season 0",
-      "symbol": "BAP0",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#3c0605",
+      "color": "#220730",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x705c71b262c511b66baa4791cc2be61b971bd784.png"
-    },
-    "0xa0afAA285Ce85974c3C881256cB7F225e3A1178a": {
-      "address": "0xa0afAA285Ce85974c3C881256cB7F225e3A1178a",
-      "id": "wrapped-crescofin",
-      "name": "Wrapped CRES",
-      "symbol": "wCRES",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7cb5d6",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa0afaa285ce85974c3c881256cb7f225e3a1178a.png"
-    },
-    "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A": {
-      "address": "0x67B66C99D3Eb37Fa76Aa3Ed1ff33E8e39F0b9c7A",
-      "id": "",
-      "name": "Interest Bearing ETH",
-      "symbol": "ibETH",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#68aca9",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C": {
-      "address": "0x4c327471C44B2dacD6E90525f9D629bd2e4f662C",
-      "id": "",
-      "name": "GHOST",
-      "symbol": "GHOST",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c327471C44B2dacD6E90525f9D629bd2e4f662C/logo.png"
-    },
-    "0xBD6467a31899590474cE1e84F70594c53D628e46": {
-      "address": "0xBD6467a31899590474cE1e84F70594c53D628e46",
-      "id": "",
-      "name": "KardiaChain Token",
-      "symbol": "KAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xa645264C5603E96c3b0B078cdab68733794B0A71": {
-      "address": "0xa645264C5603E96c3b0B078cdab68733794B0A71",
-      "id": "",
-      "name": "Mysterium",
-      "symbol": "MYST",
-      "decimals": 8,
-      "precision": 2,
-      "color": "#5d2e9a",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0": {
-      "address": "0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0",
-      "id": "",
-      "name": "Redeemable DAI",
-      "symbol": "rDAI",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#68aca9",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x261b45D85cCFeAbb11F022eBa346ee8D1cd488c0/logo.png"
-    },
-    "0xE5F166c0D8872B68790061317BB6CcA04582C912": {
-      "address": "0xE5F166c0D8872B68790061317BB6CcA04582C912",
-      "id": "",
-      "name": "TE-FOOD",
-      "symbol": "TFD",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#557064",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38": {
-      "address": "0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38",
-      "id": "",
-      "name": "UTRUST Token",
-      "symbol": "UTK",
-      "decimals": 18,
-      "precision": 2,
-      "color": "#8d6268",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15": {
-      "address": "0x46bFA3Bb807B5c3b3Ce7F7e0E667397020B6dc15",
-      "id": "",
-      "name": "DefiStarter",
-      "symbol": "DFST",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#387080",
-      "hasIcon": false,
-      "logoUrl": ""
-    },
-    "0xF938424F7210f31dF2Aee3011291b658f872e91e": {
-      "address": "0xF938424F7210f31dF2Aee3011291b658f872e91e",
-      "id": "",
-      "name": "VISOR",
-      "symbol": "VISR",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#a593a5",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf938424f7210f31df2aee3011291b658f872e91e.png"
-    },
-    "0x178c820f862B14f316509ec36b13123DA19A6054": {
-      "address": "0x178c820f862B14f316509ec36b13123DA19A6054",
-      "id": "",
-      "name": "Energy Web Token Bridged",
-      "symbol": "EWTB",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#9a9a97",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x178c820f862B14f316509ec36b13123DA19A6054/logo.png"
-    },
-    "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0": {
-      "address": "0xbD9908b0Cdd50386F92efCC8e1d71766C2782Df0",
-      "id": "",
-      "name": "DAOSquare Governance Token",
-      "symbol": "RICE",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7ca1c0",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbd9908b0cdd50386f92efcc8e1d71766c2782df0.png"
-    },
-    "0x5AA7C403c7dE4B3bb0cc07079a03e389671a4771": {
-      "address": "0x5AA7C403c7dE4B3bb0cc07079a03e389671a4771",
-      "id": "",
-      "name": "IBIZA Token",
-      "symbol": "IBZ",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#a593a5",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5aa7c403c7de4b3bb0cc07079a03e389671a4771.png"
-    },
-    "0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6": {
-      "address": "0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6",
-      "id": "akita-inu",
-      "name": "Akita Inu",
-      "symbol": "AKITA",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#9a4f50",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6/logo.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
     },
     "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
@@ -5664,17 +5455,6 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png"
-    },
-    "0x1e83916Ea2EF2D7a6064775662E163b2D4C330a7": {
-      "address": "0x1e83916Ea2EF2D7a6064775662E163b2D4C330a7",
-      "id": "ethereum-eagle-project",
-      "name": "EthereumGasLimit",
-      "symbol": "EGL",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#433455",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x1e83916ea2ef2d7a6064775662e163b2d4c330a7.png"
     },
     "0x123151402076fc819B7564510989e475c9cD93CA": {
       "address": "0x123151402076fc819B7564510989e475c9cD93CA",
@@ -5698,27 +5478,93 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7.png"
     },
-    "0x332E824e46FcEeB9E59ba9491B80d3e6d42B0B59": {
-      "address": "0x332E824e46FcEeB9E59ba9491B80d3e6d42B0B59",
+    "0x956F47F50A910163D8BF957Cf5846D573E7f87CA": {
+      "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
       "id": "",
-      "name": "CheeseFry",
-      "symbol": "CHEESE",
+      "name": "Fei USD",
+      "symbol": "FEI",
       "decimals": 18,
       "precision": 3,
-      "color": "#8b5580",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x332e824e46fceeb9e59ba9491b80d3e6d42b0b59.png"
+      "color": "#666092",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x956F47F50A910163D8BF957Cf5846D573E7f87CA/logo.png"
     },
-    "0xe93a27d4ED64F44a2B356d78C06115e5C9D97DA0": {
-      "address": "0xe93a27d4ED64F44a2B356d78C06115e5C9D97DA0",
+    "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5": {
+      "address": "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
       "id": "",
-      "name": "KNX",
-      "symbol": "KNX",
+      "name": "Notional",
+      "symbol": "NOTE",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#628b8d",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5.png"
+    },
+    "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
+      "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+      "id": "",
+      "name": "Nexo",
+      "symbol": "NEXO",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#9a4f50",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206/logo.png"
+    },
+    "0xA13a9247ea42D743238089903570127DdA72fE44": {
+      "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
+      "id": "",
+      "name": "Balancer Aave Boosted StablePool",
+      "symbol": "bb-a-USD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#c7bdf4",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
+    },
+    "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb": {
+      "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (USDT)",
+      "symbol": "bb-a-USDT",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
+    },
+    "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83": {
+      "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (USDC)",
+      "symbol": "bb-a-USDC",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#7e9e99",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
+    },
+    "0xae37D54Ae477268B9997d4161B96b8200755935c": {
+      "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
+      "id": "",
+      "name": "Balancer Aave Boosted Pool (DAI)",
+      "symbol": "bb-a-DAI",
       "decimals": 18,
       "precision": 3,
       "color": "#c28d75",
       "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe93a27d4ed64f44a2b356d78c06115e5c9d97da0.png"
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
+    },
+    "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
+      "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
+      "id": "",
+      "name": "Balancer Aave Boosted StablePool (USD)",
+      "symbol": "bb-a-USD (old)",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#666092",
+      "hasIcon": false,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
     },
     "0x804CdB9116a10bB78768D3252355a1b18067bF8f": {
       "address": "0x804CdB9116a10bB78768D3252355a1b18067bF8f",
@@ -5753,17 +5599,6 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c.png"
     },
-    "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2": {
-      "address": "0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2",
-      "id": "",
-      "name": "Balancer Aave Boosted StablePool (USD)",
-      "symbol": "bb-a-USD (old)",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#666092",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb2.png"
-    },
     "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad": {
       "address": "0x43D4A3cd90ddD2F8f4f693170C9c8098163502ad",
       "id": "",
@@ -5774,6 +5609,17 @@
       "color": "#5d2e9a",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad.png"
+    },
+    "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198": {
+      "address": "0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198",
+      "id": "",
+      "name": "Bankless Token",
+      "symbol": "BANK",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#416aa3",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198/logo.png"
     },
     "0x02d60b84491589974263d922D9cC7a3152618Ef6": {
       "address": "0x02d60b84491589974263d922D9cC7a3152618Ef6",
@@ -5873,17 +5719,6 @@
       "color": "#be955c",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8.png"
-    },
-    "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42": {
-      "address": "0x06Df3b2bbB68adc8B0e302443692037ED9f91b42",
-      "id": "",
-      "name": "Balancer USD Stable Pool",
-      "symbol": "staBAL3",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#220730",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x06df3b2bbb68adc8b0e302443692037ed9f91b42.png"
     },
     "0xf2051511B9b121394FA75B8F7d4E7424337af687": {
       "address": "0xf2051511B9b121394FA75B8F7d4E7424337af687",
@@ -6281,50 +6116,6 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
     },
-    "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb": {
-      "address": "0x2F4eb100552ef93840d5aDC30560E5513DFfFACb",
-      "id": "",
-      "name": "Balancer Aave Boosted Pool (USDT)",
-      "symbol": "bb-a-USDT",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7e9e99",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png"
-    },
-    "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83": {
-      "address": "0x82698aeCc9E28e9Bb27608Bd52cF57f704BD1B83",
-      "id": "",
-      "name": "Balancer Aave Boosted Pool (USDC)",
-      "symbol": "bb-a-USDC",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#7e9e99",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png"
-    },
-    "0xae37D54Ae477268B9997d4161B96b8200755935c": {
-      "address": "0xae37D54Ae477268B9997d4161B96b8200755935c",
-      "id": "",
-      "name": "Balancer Aave Boosted Pool (DAI)",
-      "symbol": "bb-a-DAI",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c28d75",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png"
-    },
-    "0xA13a9247ea42D743238089903570127DdA72fE44": {
-      "address": "0xA13a9247ea42D743238089903570127DdA72fE44",
-      "id": "",
-      "name": "Balancer Aave Boosted StablePool",
-      "symbol": "bb-a-USD",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#c7bdf4",
-      "hasIcon": false,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png"
-    },
     "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
       "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
       "id": "",
@@ -6468,17 +6259,6 @@
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png"
     },
-    "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb": {
-      "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
-      "id": "",
-      "name": "Ankr Staked ETH",
-      "symbol": "ankrETH",
-      "decimals": 18,
-      "precision": 3,
-      "color": "#557064",
-      "hasIcon": true,
-      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png"
-    },
     "0xC285B7E09A4584D027E5BC36571785B515898246": {
       "address": "0xC285B7E09A4584D027E5BC36571785B515898246",
       "id": "",
@@ -6489,6 +6269,17 @@
       "color": "#c5ccb8",
       "hasIcon": false,
       "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc285b7e09a4584d027e5bc36571785b515898246.png"
+    },
+    "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb": {
+      "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+      "id": "",
+      "name": "Ankr Staked ETH",
+      "symbol": "ankrETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#557064",
+      "hasIcon": true,
+      "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png"
     },
     "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593": {
       "address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
