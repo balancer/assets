@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 31,
+        "minor": 32,
         "patch": 0
     },
     "tokens": [
@@ -555,6 +555,14 @@
             "symbol": "LUCHA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6749441fdc8650b5b5a854ed255c82ef361f1596.png"
+        },
+        {
+            "address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+            "chainId": 137,
+            "name": "Lido DAO Token (PoS)",
+            "symbol": "LDO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc3c7d422809852031b44ab29eec9f1eff2a58756.png"
         },
         {
             "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
