@@ -75,6 +75,62 @@
         "decimals": 18,
         "chainId": 100,
         "logoURI": "https://raw.githubusercontent.com/1Hive/default-token-list/master/src/assets/xdai/0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9/logo.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (wxDAI)",
+        "address": "0x41211BBa6d37F5a74b22e667533F080C7C7f3F13",
+        "symbol": "bb-ag-WXDAI",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x41211bba6d37f5a74b22e667533f080c7c7f3f13.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (USDT)",
+        "address": "0xd16f72b02dA5f51231fDe542A8B9E2777a478c88",
+        "symbol": "bb-ag-USDT",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd16f72b02da5f51231fde542a8b9e2777a478c88.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (USDC)",
+        "address": "0xE7f88d7d4EF2eb18FCF9Dd7216BA7Da1c46f3dD6",
+        "symbol": "bb-ag-USDC",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xe7f88d7d4ef2eb18fcf9dd7216ba7da1c46f3dd6.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (GNO)",
+        "address": "0xFFFf76A3280e95dC855696111C2562Da09db2Ac0",
+        "symbol": "bb-ag-GNO",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xffff76a3280e95dc855696111c2562da09db2ac0.png"
+      },
+      {
+        "name": "Balancer Agave Boosted StablePool",
+        "address": "0xFEdb19Ec000d38d92Af4B21436870F115db22725",
+        "symbol": "bb-ag-USD",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xfedb19ec000d38d92af4b21436870f115db22725.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (WETH)",
+        "address": "0xbb9Cd48d33033F5EfFBeDec9Dd700C7D7E1dCF50",
+        "symbol": "bb-ag-WETH",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xbb9cd48d33033f5effbedec9dd700c7d7e1dcf50.png"
+      },
+      {
+        "name": "Balancer Agave Boosted Pool (WBTC)",
+        "address": "0xd4015683b8153666190e0B2bEC352580EBC4CaCa",
+        "symbol": "bb-ag-WBTC",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xd4015683b8153666190e0b2bec352580ebc4caca.png"
       }
     ]
   }
