@@ -1385,6 +1385,15 @@
             "precision": 3,
             "hasIcon": false,
             "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png"
+        },
+        "0x326f5834d73a2dc02b3c492E9ef1b24399d430b3": {
+            "address": "0x326f5834d73a2dc02b3c492E9ef1b24399d430b3",
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18,
+            "precision": 3,
+            "hasIcon": false,
+            "logoUrl": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x326f5834d73a2dc02b3c492e9ef1b24399d430b3.png"
         }
     },
     "untrusted": [
