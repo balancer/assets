@@ -567,7 +567,7 @@
             "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
             "chainId": 1,
             "name": "StargateToken",
-            "symbol": "STG",
+            "symbol": "STG (old)",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png"
         },
@@ -958,8 +958,8 @@
         {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
             "chainId": 1,
-            "name": "bb-euler-USD",
-            "symbol": "bb-euler-USD-BPT",
+            "name": "bb-e-USD",
+            "symbol": "bb-e-USD",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
         },
