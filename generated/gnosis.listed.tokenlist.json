@@ -171,6 +171,14 @@
         "decimals": 18,
         "chainId": 100,
         "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x6d9dc1282b9e25a91b266b6b61ef65a38f949f22.png"
+      },
+      {
+        "name": "Compounding agGNO",
+        "address": "0xC1593302979e5e8e16E53C3303bf99fFa319D314",
+        "symbol": "cagGNO",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc1593302979e5e8e16e53c3303bf99ffa319d314.png"
       }
     ]
   }
