@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-06T00:00:00.000Z",
+    "timestamp": "2023-03-10T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 30,
+        "minor": 31,
         "patch": 0
     },
     "tokens": [
@@ -555,6 +555,14 @@
             "symbol": "LDO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc3c7d422809852031b44ab29eec9f1eff2a58756.png"
+        },
+        {
+            "address": "0x858bCEE0E62dd0c961611ddDDB908767B0ce801C",
+            "chainId": 137,
+            "name": "Liquid Staked MATIC Index",
+            "symbol": "lsMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x858bcee0e62dd0c961611ddddb908767b0ce801c.png"
         },
         {
             "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
