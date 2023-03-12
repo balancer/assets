@@ -958,8 +958,8 @@
         {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
             "chainId": 1,
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
         },
