@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-13T00:00:00.000Z",
+    "timestamp": "2023-03-14T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 34,
+        "minor": 35,
         "patch": 0
     },
     "tokens": [
@@ -243,6 +243,14 @@
             "symbol": "DATA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1/logo.png"
+        },
+        {
+            "address": "0xEC38621e72D86775a89C7422746de1f52bbA5320",
+            "chainId": 137,
+            "name": "Davos",
+            "symbol": "DAVOS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xec38621e72d86775a89c7422746de1f52bba5320.png"
         },
         {
             "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
