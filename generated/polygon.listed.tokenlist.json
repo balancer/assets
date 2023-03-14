@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-10T00:00:00.000Z",
+    "timestamp": "2023-03-14T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 31,
+        "minor": 33,
         "patch": 0
     },
     "tokens": [
@@ -235,6 +235,14 @@
             "symbol": "DATA",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1/logo.png"
+        },
+        {
+            "address": "0xEC38621e72D86775a89C7422746de1f52bbA5320",
+            "chainId": 137,
+            "name": "Davos",
+            "symbol": "DAVOS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xec38621e72d86775a89c7422746de1f52bba5320.png"
         },
         {
             "address": "0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369",
@@ -675,6 +683,14 @@
             "symbol": "QUICK",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/13970/large/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+        },
+        {
+            "address": "0x5dD175A4242afE19e5c1051d8cd13Fc8979f2329",
+            "chainId": 137,
+            "name": "REVERSE",
+            "symbol": "RVRS",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x5dd175a4242afe19e5c1051d8cd13fc8979f2329.png"
         },
         {
             "address": "0x00e5646f60AC6Fb446f621d146B6E1886f002905",

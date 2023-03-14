@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-04T00:00:00.000Z",
+    "timestamp": "2023-03-14T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -9,7 +9,7 @@
     "version": {
         "major": 1,
         "minor": 20,
-        "patch": 0
+        "patch": 2
     },
     "tokens": [
         {
