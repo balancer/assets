@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-14T00:00:00.000Z",
+    "timestamp": "2023-03-16T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 35,
+        "minor": 36,
         "patch": 0
     },
     "tokens": [
@@ -667,6 +667,14 @@
             "symbol": "PAR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7b367a058f370c0057762280547d0b974cf3ac10.png"
+        },
+        {
+            "address": "0x430EF9263E76DAE63c84292C3409D61c598E9682",
+            "chainId": 137,
+            "name": "PYR Token",
+            "symbol": "PYR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x430ef9263e76dae63c84292c3409d61c598e9682.png"
         },
         {
             "address": "0xE2Aa7db6dA1dAE97C5f5C6914d285fBfCC32A128",
