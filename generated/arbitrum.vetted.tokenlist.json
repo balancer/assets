@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-14T00:00:00.000Z",
+    "timestamp": "2023-03-18T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,8 +8,8 @@
     ],
     "version": {
         "major": 1,
-        "minor": 20,
-        "patch": 2
+        "minor": 21,
+        "patch": 0
     },
     "tokens": [
         {
@@ -251,6 +251,14 @@
             "symbol": "PICKLE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png"
+        },
+        {
+            "address": "0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017",
+            "chainId": 42161,
+            "name": "Radiant",
+            "symbol": "RDNT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017.png"
         },
         {
             "address": "0xef888bcA6AB6B1d26dbeC977C455388ecd794794",
