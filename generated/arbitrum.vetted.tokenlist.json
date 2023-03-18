@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 21,
+        "minor": 22,
         "patch": 0
     },
     "tokens": [
@@ -251,6 +251,14 @@
             "symbol": "PICKLE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png"
+        },
+        {
+            "address": "0x3082CC23568eA640225c2467653dB90e9250AaA0",
+            "chainId": 42161,
+            "name": "Radiant",
+            "symbol": "RDNT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3082cc23568ea640225c2467653db90e9250aaa0.png"
         },
         {
             "address": "0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017",
