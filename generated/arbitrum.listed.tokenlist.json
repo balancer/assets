@@ -258,7 +258,7 @@
             "name": "Radiant",
             "symbol": "RDNT",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/mastrefactor-for-multichainer/assets/0x3082cc23568ea640225c2467653db90e9250aaa0.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x3082cc23568ea640225c2467653db90e9250aaa0.png"
         },
         {
             "address": "0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017",
