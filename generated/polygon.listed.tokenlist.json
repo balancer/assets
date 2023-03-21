@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-16T00:00:00.000Z",
+    "timestamp": "2023-03-21T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 35,
+        "minor": 36,
         "patch": 0
     },
     "tokens": [
@@ -157,6 +157,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x48e6b98ef6329f8f0a30ebb8c7c960330d648085.png"
         },
         {
+            "address": "0x10B040038F87219D9B42e025E3bd9b8095C87dD9",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted MATIC Pool",
+            "symbol": "bb-t-MATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x10b040038f87219d9b42e025e3bd9b8095c87dd9.png"
+        },
+        {
             "address": "0xDa1CD1711743e57Dd57102E9e61b75f3587703da",
             "chainId": 137,
             "name": "Balancer Tetu Boosted Pool (DAI)",
@@ -179,6 +187,22 @@
             "symbol": "bb-t-USDT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x7c82a23b4c48d796dee36a9ca215b641c6a8709d.png"
+        },
+        {
+            "address": "0x52Cc8389C6B93d740325729Cc7c958066CEE4262",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (WMATIC)",
+            "symbol": "bb-t-WMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x52cc8389c6b93d740325729cc7c958066cee4262.png"
+        },
+        {
+            "address": "0x4739E50B59B552D490d3FDc60D200977A38510c0",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (stMATIC)",
+            "symbol": "bb-t-stMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4739e50b59b552d490d3fdc60d200977a38510c0.png"
         },
         {
             "address": "0xb3d658d5b95BF04E2932370DD1FF976fe18dd66A",
@@ -1045,12 +1069,28 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x236975da9f0761e9cf3c2b0f705d705e22829886.png"
         },
         {
+            "address": "0x45F376811B00922b06f1498A68A1CFd50122DD71",
+            "chainId": 137,
+            "name": "tWMATIC",
+            "symbol": "tWMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x45f376811b00922b06f1498a68a1cfd50122dd71.png"
+        },
+        {
             "address": "0x4Cd44ced63d9a6FEF595f6AD3F7CED13fCEAc768",
             "chainId": 137,
             "name": "tetuQi",
             "symbol": "tetuQi",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x4cd44ced63d9a6fef595f6ad3f7ced13fceac768.png"
+        },
+        {
+            "address": "0xF813a454C975ad418e8dB18764a2191D182478F4",
+            "chainId": 137,
+            "name": "tstMATIC",
+            "symbol": "tstMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf813a454c975ad418e8db18764a2191d182478f4.png"
         },
         {
             "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
