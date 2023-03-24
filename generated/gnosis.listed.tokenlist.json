@@ -179,6 +179,22 @@
         "decimals": 18,
         "chainId": 100,
         "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xc1593302979e5e8e16e53c3303bf99ffa319d314.png"
+      },
+      {
+        "name": "COW",
+        "address": "0x177127622c4A00F3d409B75571e12cB3c8973d3c",
+        "symbol": "COW",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x177127622c4a00f3d409b75571e12cb3c8973d3c.png"
+      },
+      {
+        "name": "GNO",
+        "address": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+        "symbol": "GNO",
+        "decimals": 18,
+        "chainId": 100,
+        "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9c58bacc331c9aa871afd802db6379a98e80cedb.png"
       }
     ]
   }
