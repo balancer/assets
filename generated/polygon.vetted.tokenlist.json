@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-16T00:00:00.000Z",
+    "timestamp": "2023-03-25T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 36,
+        "minor": 37,
         "patch": 0
     },
     "tokens": [
@@ -155,6 +155,62 @@
             "symbol": "bb-am-usd",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x48e6b98ef6329f8f0a30ebb8c7c960330d648085.png"
+        },
+        {
+            "address": "0xF22a66046B5307842F21B311ECB4C462c24C0635",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted MATIC Pool",
+            "symbol": "bb-t-MATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf22a66046b5307842f21b311ecb4c462c24c0635.png"
+        },
+        {
+            "address": "0xDa1CD1711743e57Dd57102E9e61b75f3587703da",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (DAI)",
+            "symbol": "bb-t-DAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xda1cd1711743e57dd57102e9e61b75f3587703da.png"
+        },
+        {
+            "address": "0xae646817e458C0bE890b81e8d880206710E3c44e",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (USDC)",
+            "symbol": "bb-t-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae646817e458c0be890b81e8d880206710e3c44e.png"
+        },
+        {
+            "address": "0x7c82A23B4C48D796dee36A9cA215b641C6a8709d",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (USDT)",
+            "symbol": "bb-t-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7c82a23b4c48d796dee36a9ca215b641c6a8709d.png"
+        },
+        {
+            "address": "0x52Cc8389C6B93d740325729Cc7c958066CEE4262",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (WMATIC)",
+            "symbol": "bb-t-WMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x52cc8389c6b93d740325729cc7c958066cee4262.png"
+        },
+        {
+            "address": "0x4739E50B59B552D490d3FDc60D200977A38510c0",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted Pool (stMATIC)",
+            "symbol": "bb-t-stMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4739e50b59b552d490d3fdc60d200977a38510c0.png"
+        },
+        {
+            "address": "0xb3d658d5b95BF04E2932370DD1FF976fe18dd66A",
+            "chainId": 137,
+            "name": "Balancer Tetu Boosted StablePool",
+            "symbol": "bb-t-USD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xb3d658d5b95bf04e2932370dd1ff976fe18dd66a.png"
         },
         {
             "address": "0xDB7Cb471dd0b49b29CAB4a1C14d070f27216a0Ab",
@@ -757,6 +813,14 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x62f594339830b90ae4c084ae7d223ffafd9658a7.png"
         },
         {
+            "address": "0x9f28e2455f9FFcFac9EBD6084853417362bc5dBb",
+            "chainId": 137,
+            "name": "StaFi rMATIC (PoS)",
+            "symbol": "rMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9f28e2455f9ffcfac9ebd6084853417362bc5dbb.png"
+        },
+        {
             "address": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
             "chainId": 137,
             "name": "Stader",
@@ -1019,6 +1083,46 @@
             "symbol": "renBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png"
+        },
+        {
+            "address": "0xacE2aC58E1E5A7BFE274916c4d82914D490Ed4a5",
+            "chainId": 137,
+            "name": "tDAI",
+            "symbol": "tDAI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xace2ac58e1e5a7bfe274916c4d82914d490ed4a5.png"
+        },
+        {
+            "address": "0x113f3D54C31EBC71510FD664c8303B34fBc2B355",
+            "chainId": 137,
+            "name": "tUSDC",
+            "symbol": "tUSDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x113f3d54c31ebc71510fd664c8303b34fbc2b355.png"
+        },
+        {
+            "address": "0x236975DA9f0761e9CF3c2B0F705d705e22829886",
+            "chainId": 137,
+            "name": "tUSDT",
+            "symbol": "tUSDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x236975da9f0761e9cf3c2b0f705d705e22829886.png"
+        },
+        {
+            "address": "0x45F376811B00922b06f1498A68A1CFd50122DD71",
+            "chainId": 137,
+            "name": "tWMATIC",
+            "symbol": "tWMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x45f376811b00922b06f1498a68a1cfd50122dd71.png"
+        },
+        {
+            "address": "0xF813a454C975ad418e8dB18764a2191D182478F4",
+            "chainId": 137,
+            "name": "tstMATIC",
+            "symbol": "tstMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xf813a454c975ad418e8db18764a2191d182478f4.png"
         },
         {
             "address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
