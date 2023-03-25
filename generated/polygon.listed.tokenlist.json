@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-16T00:00:00.000Z",
+    "timestamp": "2023-03-25T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -8,7 +8,7 @@
     ],
     "version": {
         "major": 1,
-        "minor": 34,
+        "minor": 35,
         "patch": 0
     },
     "tokens": [
@@ -739,6 +739,14 @@
             "symbol": "SPHERE",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x62f594339830b90ae4c084ae7d223ffafd9658a7.png"
+        },
+        {
+            "address": "0x9f28e2455f9FFcFac9EBD6084853417362bc5dBb",
+            "chainId": 137,
+            "name": "StaFi rMATIC (PoS)",
+            "symbol": "rMATIC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x9f28e2455f9ffcfac9ebd6084853417362bc5dbb.png"
         },
         {
             "address": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
