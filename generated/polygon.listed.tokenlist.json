@@ -157,12 +157,12 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x48e6b98ef6329f8f0a30ebb8c7c960330d648085.png"
         },
         {
-            "address": "0x10B040038F87219D9B42e025E3bd9b8095C87dD9",
+            "address": "0xF22a66046B5307842F21B311ECB4C462c24C0635",
             "chainId": 137,
             "name": "Balancer Tetu Boosted MATIC Pool",
             "symbol": "bb-t-MATIC",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0x10b040038f87219d9b42e025e3bd9b8095c87dd9.png"
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/refactor-for-multichain/assets/0xf22a66046b5307842f21b311ecb4c462c24c0635.png"
         },
         {
             "address": "0xDa1CD1711743e57Dd57102E9e61b75f3587703da",
