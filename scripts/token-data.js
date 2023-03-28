@@ -23,6 +23,11 @@ async function getTokenMetadata(network, tokens, overwrite) {
 	const tokenMetadata = {};
 	const erc20Contract = new ethers.utils.Interface(erc20.abi);
   for (const address of tokens) {
+    if (address in overwrite) {
+      tokenMetadata[address] = overwrite[address];
+      continue;
+    }
+
     const calls = [
       [address, erc20Contract.encodeFunctionData('decimals', [])],
       [address, erc20Contract.encodeFunctionData('symbol', [])],
@@ -30,10 +35,6 @@ async function getTokenMetadata(network, tokens, overwrite) {
     ]
     const [, response] = await multi.aggregate(calls);
 
-    if (address in overwrite) {
-      tokenMetadata[address] = overwrite[address];
-      continue;
-    }
     const [decimals] = erc20Contract.decodeFunctionResult('decimals', response[0]);
     const [symbol] = erc20Contract.decodeFunctionResult('symbol', response[1]);
     const [name] = erc20Contract.decodeFunctionResult('name', response[2]);
