@@ -55,6 +55,26 @@
 			"decimals": 18,
 			"symbol": "bb-a-USD (old)",
 			"name": "Balancer Aave Boosted StablePool (USD)"
+		},
+		"0xeB486AF868AeB3b6e53066abc9623b1041b42bc0": {
+			"decimals": 18,
+			"symbol": "bb-e-USDT",
+			"name": "Balancer Euler Boosted USDT"
+		},
+		"0xD4e7C1F3DA1144c9E2CfD1b015eDA7652b4a4399": {
+			"decimals": 18,
+			"symbol": "bb-e-USDC",
+			"name": "Balancer Euler Boosted USDC"
+		},
+		"0xeB486AF868AeB3b6e53066abc9623b1041b42bc0": {
+			"decimals": 18,
+			"symbol": "bb-e-DAI",
+			"name": "Balancer Euler Boosted DAI"
+		},
+		"0x50Cf90B954958480b8DF7958A9E965752F627124": {
+			"decimals": 18,
+			"symbol": "bb-e-USD",
+			"name": "Balancer Euler Boosted USD"
 		}
 	}
 }
