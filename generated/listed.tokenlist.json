@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-12T00:00:00.000Z",
+    "timestamp": "2023-03-28T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -958,8 +958,8 @@
         {
             "address": "0x50Cf90B954958480b8DF7958A9E965752F627124",
             "chainId": 1,
-            "name": "bb-e-USD",
-            "symbol": "bb-e-USD",
+            "name": "bb-euler-USD",
+            "symbol": "bb-euler-USD-BPT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x50cf90b954958480b8df7958a9e965752f627124.png"
         },
@@ -1022,7 +1022,7 @@
         {
             "address": "0xe025E3ca2bE02316033184551D4d3Aa22024D9DC",
             "chainId": 1,
-            "name": "Euler Pool: Dai Stablecoin",
+            "name": "Euler DAI",
             "symbol": "eDAI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xe025e3ca2be02316033184551d4d3aa22024d9dc.png"
@@ -1030,7 +1030,7 @@
         {
             "address": "0xEb91861f8A4e1C12333F42DCE8fB0Ecdc28dA716",
             "chainId": 1,
-            "name": "Euler Pool: USD Coin",
+            "name": "Euler USDC",
             "symbol": "eUSDC",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716.png"
@@ -1038,7 +1038,7 @@
         {
             "address": "0x4d19F33948b99800B6113Ff3e83beC9b537C85d2",
             "chainId": 1,
-            "name": "Euler Pool: Tether USD",
+            "name": "Euler USDT",
             "symbol": "eUSDT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x4d19f33948b99800b6113ff3e83bec9b537c85d2.png"
@@ -1228,12 +1228,58 @@
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x8e6ec57a822c2f527f2df7c7d7d361df3e7530a1.png"
         },
         {
+            "address": "0x326f5834d73a2dc02b3c492E9ef1b24399d430b3",
+            "chainId": 1,
+            "name": "StargateToken",
+            "symbol": "STG",
+            "decimals": 18
+        },
+        {
+            "address": "0x779d01F939D78a918A3de18cC236ee89221dfd4E",
+            "chainId": 1,
+            "name": "Balancer Sturdy Boosted StablePool",
+            "symbol": "bb-s-USD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x779d01f939d78a918a3de18cc236ee89221dfd4e.png"
+        },
+        {
+            "address": "0xFD11CCdBdb7AB91Cb9427A6d6BF570C95876d195",
+            "chainId": 1,
+            "name": "Balancer Sturdy Boosted Pool (DAI)",
+            "symbol": "bb-s-DAI",
+            "decimals": 18
+        },
+        {
+            "address": "0xDc063deAfcE952160eC112FA382ac206305657e6",
+            "chainId": 1,
+            "name": "Balancer Sturdy Boosted Pool (USDT)",
+            "symbol": "bb-s-USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdc063deafce952160ec112fa382ac206305657e6.png"
+        },
+        {
+            "address": "0xbFA413A2ff0F20456d57B643746133F54bFE0cd2",
+            "chainId": 1,
+            "name": "Balancer Sturdy Boosted Pool (USDC)",
+            "symbol": "bb-s-USDC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbfa413a2ff0f20456d57b643746133f54bfe0cd2.png"
+        },
+        {
             "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
             "chainId": 1,
             "name": "Alchemix",
             "symbol": "ALCX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png"
+        },
+        {
+            "address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29",
+            "chainId": 1,
+            "name": "Synapse",
+            "symbol": "SYN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x0f2d719407fdbeff09d87557abb7232601fd9f29.png"
         }
     ]
 }
