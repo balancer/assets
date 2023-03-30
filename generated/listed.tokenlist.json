@@ -1,6 +1,6 @@
 {
     "name": "Balancer",
-    "timestamp": "2023-03-28T00:00:00.000Z",
+    "timestamp": "2023-03-30T00:00:00.000Z",
     "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
     "keywords": [
         "balancer",
@@ -1247,7 +1247,8 @@
             "chainId": 1,
             "name": "Balancer Sturdy Boosted Pool (DAI)",
             "symbol": "bb-s-DAI",
-            "decimals": 18
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xfd11ccdbdb7ab91cb9427a6d6bf570c95876d195.png"
         },
         {
             "address": "0xDc063deAfcE952160eC112FA382ac206305657e6",
